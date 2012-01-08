@@ -1,0 +1,29 @@
+---
+layout: default
+title: Categories
+header: Posts By Category
+group: example-page
+---
+
+<p>Click on a unit title to see the topics.</p>
+<hr>
+{% for category in site.categories %} 
+<div class="unitDiv" onClick="expandDiv({{ forloop.index0 }})" id="{{ forloop.index0 }}" style="height: 35px; overflow-x: hidden; overflow-y: hidden;">
+  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
+
+    {% assign pages_list = category[1] %}  
+    {% include helpers/pages_list.html %}
+</div>
+<hr>
+{% endfor %}
+
+<div id="IEWarning">
+			<!--[if IE 9]>
+			<p>Hey! It looks like you're using Internet Explorer 9, that's great and all but you're going to miss out on some of the nice "eye candy" on this website using it. Maybe you should try <a href="https://www.google.com/chrome">Chrome</a> or <a href="http://www.apple.com/safari/">Safari?</a> They work nicer on this website.</p></br>
+			<![endif]-->
+			<!--[if IE 6]>
+			<p>Ouch! Looks like you're using Internet Explorer 6! You should really move to a more modern browser like <a href="https://www.google.com/chrome">Chrome</a> or <a href="http://www.apple.com/safari/">Safari?</a>, otherwise, most of this website probably wont work for you. Did you know <a href="http://www.ie6countdown.com/">Microsoft's even trying to kill Internet Explorer 6!</a></p></br>
+			<![endif]--><!--[if (gt IE 6)&(lt IE 9)]>
+			<p>You're using an old version of Internet Explorer. You should probably upgrade to a more recent version or, better yet, <a href="https://www.google.com/chrome">Google Chrome</a> or <a href="http://www.apple.com/safari/">Safari</a> in order to ensure that you're safe & secure on the internet and that this website works properly!</p></br>
+			<![endif]-->
+</div>

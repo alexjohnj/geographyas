@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="/style.css" type="text/css">
+		<title></title>
+		<script>
+		function expandDiv(index){
+		
+		var eles = document.getElementsByClassName("unitDiv");
+		var i = 0;
+		var originalHeight = '35px';
+		var expandedHeight = '350px';
+		
+		if(eles[index].style.height == originalHeight){
+			eles[index].style.height = expandedHeight;
+			eles[index].style.overflow = 'scroll';
+		}
+		
+		else if(eles[index].style.height != originalHeight){
+			eles[index].style.height = originalHeight;
+			eles[index].scrollTop = 0;
+			eles[index].style.overflow = 'hidden';
+		}
+		
+		while(i < eles.length){
+			if(i != index){
+			if(eles[i].style.height != originalHeight){
+				eles[i].style.height = originalHeight;
+				eles[i].scrollTop = 0;
+				eles[i].style.overflow = 'hidden';
+				}
+			}
+			i++;
+		}
+}
+</script>
+	</head>
+	<body>
+		<div class="title">
+			<h1>
+				<a href="/">{{ site.title }}</a>
+			</h1>
+		</div>
+		<div class="content">
+		<p>
+			{{ content }}
+		</p>
+		</div>
+	</body>
+</html>
