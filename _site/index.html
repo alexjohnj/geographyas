@@ -14,12 +14,16 @@
 		
 		if(eles[index].style.height == originalHeight){
 			eles[index].style.height = expandedHeight;
+			eles[index].style.overflowX = "auto";
+			eles[index].style.overflowY = "auto";
 			eles[index].style.overflow = "auto";
 		}
 		
 		else if(eles[index].style.height != originalHeight){
 			eles[index].style.height = originalHeight;
 			eles[index].scrollTop = 0;
+			eles[index].style.overflowX = "hidden";
+			eles[index].style.overflowY = "hidden";
 			eles[index].style.overflow = "hidden";
 		}
 		
@@ -28,6 +32,8 @@
 			if(eles[i].style.height != originalHeight){
 				eles[i].style.height = originalHeight;
 				eles[i].scrollTop = 0;
+				eles[i].style.overflowX = "hidden";
+				eles[i].style.overflowY = "hidden";
 				eles[i].style.overflow = "hidden";
 				}
 			}
@@ -60,7 +66,7 @@
 			<p>Click on a unit title to see the topics.</p>
 <hr>
  
-<div class="unitDiv" onClick="expandDiv(0)" id="0" style="height: 35px; overflow-x: hidden; overflow-y: hidden;">
+<div class="unitDiv" onClick="expandDiv(0)" id="0" style="height: 35px; overflow-x: hidden; overflow-y: hidden; overflow: hidden;">
   <h2 id="Rivers & Flooding-ref">Rivers & Flooding</h2>
 
       
@@ -171,7 +177,7 @@
 </div>
 <hr>
  
-<div class="unitDiv" onClick="expandDiv(1)" id="1" style="height: 35px; overflow-x: hidden; overflow-y: hidden;">
+<div class="unitDiv" onClick="expandDiv(1)" id="1" style="height: 35px; overflow-x: hidden; overflow-y: hidden; overflow: hidden;">
   <h2 id="Population Change-ref">Population Change</h2>
 
       
