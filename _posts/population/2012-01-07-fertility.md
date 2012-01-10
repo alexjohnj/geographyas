@@ -4,9 +4,6 @@ category: 'Population Change'
 layout: page
 ---
 
-Fertility
----------
-
 ### Key Terms
 
 - _Crude Birth Rate_ - The total number of births in a single year per 1000 of the population. This doesn't include the age and sex structure of a population.

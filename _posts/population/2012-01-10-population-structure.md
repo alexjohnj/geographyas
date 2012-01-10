@@ -4,9 +4,6 @@ category: 'Population Change'
 layout: page
 ---
 
-Population Structure
---------------------
-
 Population can be measure according to:
 
 - Age

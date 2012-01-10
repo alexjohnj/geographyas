@@ -2,8 +2,16 @@
 title: 11 - Population & Resources
 category: 'Population Change'
 layout: page
-published: false
+published: true
 ---
+
+## Key Terms
+
+- *Resources* - Any part of the environment that can be used to meet human needs.
+- *Overpopulation* - When too many people in an area relative to the amount of resources available and the level of technology available to maintain a high standard of living. 
+- *Underpopulation* - When there are too few people in an area to use the resources available efficiently for a given level of technology.
+- *Optimum Population* - The theoretical population which, working with all the available resources, will produce the highest standard of living for the people of that area. 
+- *Carrying Capacity* - The number of individuals who can be supported in a given area with in natural resource limits and without degrading the natural, social, cultural and economic environment for present and future generations.
 
 ## The Balance Between Population and Resources
 
@@ -13,7 +21,7 @@ The ratio of people aged 65+ to the number of people aged 20-64 will rise from 2
 
 ### Ageing & Health
 
-Aging populations increase pressure on healthcare systems. Average health costs rise with age but the costs of this trend could be offset by people becoming healthier. Health care costs tend to be compressed[^2] in the last years or months of life. 
+Ageing populations increase pressure on healthcare systems. Average health costs rise with age but the costs of this trend could be offset by people becoming healthier. Health care costs tend to be compressed[^2] in the last years or months of life. 
 
 ### Ageing & Pensions
 
@@ -47,7 +55,11 @@ Economic purchasing power is also increasing and is beneficial to companies prov
 
 ### Youthful Populations
 
----
+Population pyramids of youthful populations have wide bases indicating a high fertility rate and a large proportion of youthful people. The pyramid has a tapering top indicating either, a) a high mortality rate or b) a large amount of outwards migration. The pyramid has a narrow apex showing that there is a small proportion of elderly people.
+
+### How Does Iran Reflect This?  
+
+Iran has a narrowing apex, with few people living in the country being older than 80, suggesting a high death rate or high outwards migration rate. Iran's population pyramid also has a wide base showing that there is a large number of youths however this has narrowed over the years showing a reduction in the number of youths. This could potentially be due to the outwards migration of young, fertile couples, due to changes in the social perception of large families or due to changes in health care in Iran. 
 
 [^1]: In 2011
 

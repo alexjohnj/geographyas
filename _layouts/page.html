@@ -21,6 +21,7 @@
 	
 	<div class="title">
 	<h1><a href="/">{{ site.title }}</a></h1>
+	<h2><b>{{ page.title }}</b></h2>
 </div>
 {{ content }}
 <div class="backFwd">
@@ -40,7 +41,7 @@
 	{% endif %}
 	{% endfor %}
 			<p>
-				Navigation:&nbsp;{% if prev_post%}<a class="navButton" href="{{ prev_post }}">Previous</a>{% endif %} {% if next_post %} <a class="navButton" href="{{ next_post }}">Next</a>&nbsp;{% endif %}<a class="navButton" href="/">Home</a>
+				Navigation:&nbsp;{% if prev_post%}<a class="navButton" href="{{ prev_post }}">Previous</a>{% endif %} {% if next_post %} <a class="navButton" href="{{ next_post }}">Next</a>&nbsp;{% endif %}<a class="navButton" href="/">Home</a>&nbsp;Copyright Alex Jackson, 2011-2012.
 			</p>
 		</div>
 	</body>

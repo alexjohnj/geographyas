@@ -4,9 +4,6 @@ category: 'Population Change'
 layout: page
 ---
 
-World Population Growth 
------------------------
-
 ### World Population Facts
 
 - The current world population is approximately <del>6.9</del> 7 billion people.

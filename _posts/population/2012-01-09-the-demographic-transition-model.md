@@ -4,9 +4,6 @@ category: 'Population Change'
 layout: page
 ---
 
-The Demographic Transition Model
---------------------------------
-
 The DTM describes how the population of a country changes over time. It shows changes in the birth rate and death rate of a country. The original model showed that countries passed through 4 stages however more recent versions of the model use 5 stages.
 
 ### Advantages

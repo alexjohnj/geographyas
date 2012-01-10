@@ -4,9 +4,6 @@ category: 'Population Change'
 layout: page
 ---
 
-Population Distribution & Population Density
---------------------------------------------
-
 ### Distribution & Density
 
 - Population distribution describes the way that people are spread out across the Earth's surface.

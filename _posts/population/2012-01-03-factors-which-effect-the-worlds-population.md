@@ -4,9 +4,6 @@ category: 'Population Change'
 layout: page
 ---
 
-Factors Which Effect the World's Population
--------------------------------------------
-
 ### Health
 
 - A high standard of health care in a country will help to lower infant mortality, reducing the birth rate as people don't need to have as many children in order to ensure some survive.

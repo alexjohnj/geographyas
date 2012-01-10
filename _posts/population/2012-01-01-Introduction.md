@@ -4,9 +4,6 @@ category: 'Population Change'
 layout: page
 ---
 
-Introduction
-------------
-
 - Populations are dynamic, their numbers, distribution and structures constantly changing over time and space.
 
 ### Why Study Population Change?

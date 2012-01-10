@@ -4,16 +4,13 @@ category: 'Population Change'
 layout: page
 ---
 
-Population Distribution & Density in the UK
--------------------------------------------
-
 ### The Population Of The UK Compared To Other Countries
 
-The population density of the UK is 246 people per km^2. This makes the UK the third densest country in the EU with the Netherlands taking the number one spot with a density of 395 people per km^2. The UK is nine time denser than the US, which has a density of just 27 people per km^2. Compared with Bangladesh however (density 1,002 people per km^2), the UK appears fairly sparsely populated.
+The population density of the UK is 246 people per km<sup>2</sup>. This makes the UK the third densest country in the EU with the Netherlands taking the number one spot with a density of 395 people per km<sup>2</sup>. The UK is nine time denser than the US, which has a density of just 27 people per km<sup>2</sup>. Compared with Bangladesh however (density 1,002 people per km<sup>2</sup>), the UK appears fairly sparsely populated.
 
 ### Patterns Of Population Distribution In The UK
 
-The population of the UK is incredibly dense near major cities such as London, Portsmouth and Liverpool. The density is at least 200 people per km^2 near these cities. Outside these areas the density generally varies between 11 to 100 people per km^2. In central Wales and most of Scotland the population density is incredibly low though, with a density of 1-10 people per km^2. 
+The population of the UK is incredibly dense near major cities such as London, Portsmouth and Liverpool. The density is at least 200 people per km<sup>2</sup> near these cities. Outside these areas the density generally varies between 11 to 100 people per km<sup>2</sup>. In central Wales and most of Scotland the population density is incredibly low though, with a density of 1-10 people per km<sup>2</sup>. 
 
 ### Disadvantages of A Dense Population
 

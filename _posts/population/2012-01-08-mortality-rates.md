@@ -4,9 +4,6 @@ category: 'Population Change'
 layout: page
 ---
 
-Mortality Rates
----------------
-
 - _Crude death rate_ - The average annual number of deaths a year per 1000 of the population.
 - _Age specific death rate_ - This shows death rates per 1000 population by sex for age groups e.g under 1, 1 - 4, 5 - 15 e.t.c.
 - _Life Expectancy_ - The average number of years to be lived by a group of people born in the same year, if mortality at each age remains constant in the future. 
