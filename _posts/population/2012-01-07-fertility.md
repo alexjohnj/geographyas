@@ -2,6 +2,7 @@
 title: 7 - Fertility
 category: 'Population Change'
 layout: page
+keywords: "fertility rate, birth rate, population change, natural increase"
 ---
 
 ### Key Terms

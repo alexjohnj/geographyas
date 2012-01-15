@@ -2,6 +2,7 @@
 title: 10 - Population Strucutre
 category: 'Population Change'
 layout: page
+keywords: "population pyramids, structure, population change, natural increase, birth rate, death rate, fertility rate"
 ---
 
 Population can be measure according to:

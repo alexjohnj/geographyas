@@ -2,6 +2,7 @@
 title: 5 - Population Distribution & Density of the UK
 category: 'Population Change'
 layout: page
+keywords: "population distribution, population density, uk population"
 ---
 
 ### The Population Of The UK Compared To Other Countries

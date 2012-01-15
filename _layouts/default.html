@@ -2,57 +2,14 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="/style.css" type="text/css">
-		<title></title>
+		<link rel="stylesheet" href="/style.min.css" type="text/css">
+		<title>{{ page.title }}</title>
+		{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}">{% endif %}
 		<script type="text/javascript">
-		function expandDiv(index){
-		
-		var eles = document.getElementsByClassName("unitDiv");
-		var i = 0;
-		var originalHeight = "35px";
-		var expandedHeight = "350px";
-		
-		if(eles[index].style.height == originalHeight){
-			eles[index].style.height = expandedHeight;
-			eles[index].style.overflowX = "auto";
-			eles[index].style.overflowY = "auto";
-			eles[index].style.overflow = "auto";
-		}
-		
-		else if(eles[index].style.height != originalHeight){
-			eles[index].style.height = originalHeight;
-			eles[index].scrollTop = 0;
-			eles[index].style.overflowX = "hidden";
-			eles[index].style.overflowY = "hidden";
-			eles[index].style.overflow = "hidden";
-		}
-		
-		while(i < eles.length){
-			if(i != index){
-			if(eles[i].style.height != originalHeight){
-				eles[i].style.height = originalHeight;
-				eles[i].scrollTop = 0;
-				eles[i].style.overflowX = "hidden";
-				eles[i].style.overflowY = "hidden";
-				eles[i].style.overflow = "hidden";
-				}
-			}
-			i++;
-		}
-}
+function expandDiv(a){var b=document.getElementsByClassName("unitDiv");var c=0;var d="35px";var e="350px";if(b[a].style.height==d){b[a].style.height=e;b[a].style.overflowX="auto";b[a].style.overflowY="auto";b[a].style.overflow="auto"}else if(b[a].style.height!=d){b[a].style.height=d;b[a].scrollTop=0;b[a].style.overflowX="hidden";b[a].style.overflowY="hidden";b[a].style.overflow="hidden"}while(c<b.length){if(c!=a){if(b[c].style.height!=d){b[c].style.height=d;b[c].scrollTop=0;b[c].style.overflowX="hidden";b[c].style.overflowY="hidden";b[c].style.overflow="hidden"}}c++}}
 </script>
-		<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-28196489-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
+<script type="text/javascript">
+var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28196489-1"]);_gaq.push(["_trackPageview"]);(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();
 </script>
 	</head>
 	<body>

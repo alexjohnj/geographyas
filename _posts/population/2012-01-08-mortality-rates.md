@@ -2,6 +2,7 @@
 title: 8 - Moratality Rates
 category: 'Population Change'
 layout: page
+keywords: "crude death rate, life expectancy, infant mortality rate, IMR, death rate, birth rate, fertility rate, population change"
 ---
 
 - _Crude death rate_ - The average annual number of deaths a year per 1000 of the population.

@@ -2,6 +2,7 @@
 title: 2 - The Glen Rosa & The River Arran
 category: 'Rivers & Flooding'
 layout: page
+keywords: "geln rosa, river, arran, case study"
 ---
 
 Glen Rosa River, Arran

@@ -1,20 +1,51 @@
-# This is the default format. 
-# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink: /:categories/:year/:month/:day/:title 
-auto: true
-pygments: true
-var:
-  archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
+title: Geography AS Notes
+production_url : http://geographyas.info
+description: A collection of geography notes and revision aids for the AQA AS Geography course. 
+keywords: geography, as, aqa, a2, uk, course, notes, revision aid, geography exam
 
-production_url : http://geographyas.info # or your custom domain name
-title : Geography AS Notes
+author: 
+  name: Alex Jackson
+  email: 
+  github: alexjohnj
+  twitter: alexjohnj
 
-baseurl: /
+safe:        false
+auto:        true
+server:      false
+server_port: 4000
+baseurl:    /
 
-author :
-  name : Alex Jackson
-  email : 
-  github : alexjohnj
-  twitter : alexjohnj
+source:      .
+destination: /_site
+plugins:     ./_plugins
+
+future:      true
+lsi:         false
+pygments:    false
+markdown:    maruku
+permalink:   pretty
+
+maruku:
+  use_tex:    false
+  use_divs:   false
+  png_engine: blahtex
+  png_dir:    images/latex
+  png_url:    /images/latex
+
+rdiscount:
+  extensions: []
+
+kramdown:
+  auto_ids: true,
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+  
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: inline
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: style

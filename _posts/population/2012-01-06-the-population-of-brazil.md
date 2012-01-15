@@ -2,6 +2,7 @@
 title: 6 - The Population Of Brazil
 category: 'Population Change'
 layout: page
+keywords: "brazil population, population density, population distribution"
 ---
 
 ### Why are some areas of Brazil Densely Populated?

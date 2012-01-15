@@ -2,6 +2,7 @@
 title: 11 - Rejuvenation
 category: 'Rivers & Flooding'
 layout: page
+keywords: "rejuvenation, ice age, erosion, incised meanders, meanders, river terraces"
 ---
 
 Rejuvenation

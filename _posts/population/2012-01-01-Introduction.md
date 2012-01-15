@@ -2,6 +2,7 @@
 title: 1 - Introduction To Population
 category: 'Population Change'
 layout: page
+keywords: "population, change, world population"
 ---
 
 - Populations are dynamic, their numbers, distribution and structures constantly changing over time and space.

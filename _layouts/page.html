@@ -1,26 +1,8 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" type="text/css" href="/style.css" />
-				<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-28196489-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-	</head>
-	<body>
+---
+layout: default
+---
 	
 	<div class="title">
-	<h1><a href="/">{{ site.title }}</a></h1>
 	<h2><b>{{ page.title }}</b></h2>
 </div>
 {{ content }}
@@ -43,6 +25,4 @@
 			<p>
 				Navigation:&nbsp;{% if prev_post%}<a class="navButton" href="{{ prev_post }}">Previous</a>{% endif %} {% if next_post %} <a class="navButton" href="{{ next_post }}">Next</a>&nbsp;{% endif %}<a class="navButton" href="/">Home</a>&nbsp;Copyright Alex Jackson, 2011-2012.
 			</p>
-		</div>
-	</body>
-</html>
+</div>

@@ -2,6 +2,7 @@
 title: 5 - The Hjulstrom Curve
 category: 'Rivers & Flooding'
 layout: page
+keywords: "hjulstrom, curve, deposition, transportaion, erosion"
 ---
 
 The Hjulström Curve

@@ -2,7 +2,7 @@
 title: 12 - France, A Pro Natalist Country
 category: 'Population Change'
 layout: page
-published: true
+keywords: "pro natalism, france, france's population, population change, birth rate, death rate, ageing population, dependancy ratio, support ratio"
 ---
 
 - *Pro Natalist Policy* - A policy which aims to encourage more births through the use of incentives. 

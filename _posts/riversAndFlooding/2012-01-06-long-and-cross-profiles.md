@@ -2,6 +2,7 @@
 title: 6 - Long & Cross Profiles
 category: 'Rivers & Flooding'
 layout: page
+keywords: "cross profiles, long profiles, channel, width, height, hydraulic radius, middle course, lower course, velocity, thalweg"
 ---
 
 River Long Profile

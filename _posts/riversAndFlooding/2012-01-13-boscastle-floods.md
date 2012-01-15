@@ -2,6 +2,7 @@
 title: 13 - Boscastle Floods
 category: 'Rivers & Flooding'
 layout: page
+keywords: "boscastle, flood, flooding, flood prevention, river valency, river jordan"
 ---
 
 Boscastle, located in the southwest of England, on the west coast of Cornwall, experienced torrential rain and flash floods on August the 16<sup>th</sup>, 2004 at midday. Thunderclouds developed over the southwest of England, the remnants of Hurricane Alex and the intense heating of the surface in the summer heat, evaporating massive amounts of water. The rain began to fall minutes later in a localised storm over high ground located inland of Boscastle. Soon after the rain started, a flood warning was issued. The rain continued for hours. At its peak, 24.1mm of rain fell in just 15 minutes at Lesnweth and 89mm was recorded in an hour in Boscastle. At 15:30, over two hours since the storm began, the River Valency burst its banks after rising 2m in height. This caused water to start pooling behind debris caught under a bridge. When the bridge collapsed, a 3m wave, that travelled at 4ms<sup>-1</sup> was unleashed, causing extensive structural damage. At 5pm, the flood had reached its peak level and extensive damage had been inflicted upon properties and vehicles. A helicopter rescue operation launched just a few hours earlier continued until 2:30am. The operation rescued 150 people.  

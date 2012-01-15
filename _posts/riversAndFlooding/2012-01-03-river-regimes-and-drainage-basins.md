@@ -2,6 +2,7 @@
 title: 3 - River Regimes & Drainage Basins
 category: 'Rivers & Flooding'
 layout: page
+keywords: "river regimes, drainage basin, discharge, relief, drainage basin controls"
 ---
 
 River Regimes & Drainage Basins
