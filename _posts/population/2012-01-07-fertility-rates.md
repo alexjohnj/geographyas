@@ -1,5 +1,5 @@
 ---
-title: 7 - Fertility
+title: 7 - Fertility Rates
 category: 'Population Change'
 layout: page
 keywords: "fertility rate, birth rate, population change, natural increase"
