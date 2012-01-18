@@ -9,9 +9,7 @@ function expandDiv(index) {
         eles[index].style.overflowX = "auto";
         eles[index].style.overflowY = "auto";
         eles[index].style.overflow = "auto";
-    }
-
-    else if (eles[index].style.height !== originalHeight) {
+    } else if (eles[index].style.height !== originalHeight) {
         eles[index].style.height = originalHeight;
         eles[index].scrollTop = 0;
         eles[index].style.overflowX = "hidden";
