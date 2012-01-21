@@ -31,15 +31,15 @@ Cross Profiles
 
 #### Middle Course
 
-- The channel is slightly wider in the middle course (10m) and the valley is substantially wider (3-4Km). The channel is also slightly deeper.
+- The channel is slightly wider in the middle course (10m) and the valley is substantially wider (3-4km). The channel is also slightly deeper.
 
 #### Lower Course
 
-- The channel is wider again, around 1Km now. The valley is also wider, around 10km. The channel is deeper again. 
+- The channel is wider again, around 1km now. The valley is also wider, around 10km. The channel is deeper again. 
 
 ### Channel Efficiency
 
-> Hydraulic Radius = Cross Sectional Area (m^2) / Wetted perimeter(m)
+> Hydraulic Radius = Cross Sectional Area (m<sup>2</sup>) / Wetted perimeter(m)
 
 >This can be represented as: R = A/Pw
 
