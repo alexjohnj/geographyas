@@ -1,5 +1,5 @@
 ---
-title: 10 - Population Strucutre
+title: Population Strucutre
 category: 'Population Change'
 layout: page
 keywords: "population pyramids, structure, population change, natural increase, birth rate, death rate, fertility rate"

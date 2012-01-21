@@ -1,5 +1,5 @@
 ---
-title: 9 - The Demographic Transition Model
+title: The Demographic Transition Model
 category: 'Population Change'
 layout: page
 keywords: "demographic transition model, dtm, stage 1, stage 2, stage 3, stage 4, stage 5, birth rate, death rate, natural increase"

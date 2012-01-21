@@ -23,11 +23,12 @@ Usage:
 
 {% for node in pages_list reversed %}
   {% if group == null or group == node.group %}
+  {% assign post_number = forloop.index %}
   
   	{% if page.url == node.url %}
-  	<p><a href="{{node.url}}" class="active">{{node.title}}</a><p>
+  	<p><a href="{{node.url}}" class="active">{{ post_number }} - {{node.title}}</a><p>
   	{% else %}
-  	<p><a href="{{node.url}}">{{node.title}}</a><p>
+  	<p><a href="{{node.url}}">{{ post_number }} - {{node.title}}</a><p>
   	{% endif %}
  
   {% endif %}

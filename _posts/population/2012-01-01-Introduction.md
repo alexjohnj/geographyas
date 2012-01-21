@@ -1,5 +1,5 @@
 ---
-title: 1 - Introduction To Population
+title: Introduction To Population
 category: 'Population Change'
 layout: page
 keywords: "population, change, world population"

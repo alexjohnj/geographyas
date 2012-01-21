@@ -1,5 +1,5 @@
 ---
-title: 11 - Population & Resources
+title: Population & Resources
 category: 'Population Change'
 layout: page
 keywords: "resources, population, carrying capacity, overpopulation, optimum population, birth rate, fertility rate, death rate"

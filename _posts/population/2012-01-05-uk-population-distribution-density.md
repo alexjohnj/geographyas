@@ -1,5 +1,5 @@
 ---
-title: 5 - Population Distribution & Density of the UK
+title: Population Distribution & Density of the UK
 category: 'Population Change'
 layout: page
 keywords: "population distribution, population density, uk population"

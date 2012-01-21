@@ -1,5 +1,5 @@
 ---
-title: 13 - China, An Anti Natalist Country
+title: China, An Anti Natalist Country
 category: 'Population Change'
 layout: page
 keywords: "one child policy, anti natalism, china, population control, birth control, overpopulation, fertility rate"
