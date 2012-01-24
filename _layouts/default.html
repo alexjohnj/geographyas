@@ -5,10 +5,12 @@
 		<link rel="stylesheet" href="/style.min.css" type="text/css">
 		<title>{{ page.title }}</title>
 		{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}">{% endif %}
-		<script type="text/javascript" src="/scripts/jquery.js"></script>	
-		<script type="text/javascript">
-		function expandDiv(a){var b=$(".unitDiv");var c=0;var d="35px";var e="350px";if(b[a].style.height===d){b[a].style.height=e;b[a].style.overflowX="auto";b[a].style.overflowY="auto";b[a].style.overflow="auto"}else if(b[a].style.height!==d){b[a].style.height=d;b[a].scrollTop=0;b[a].style.overflowX="hidden";b[a].style.overflowY="hidden";b[a].style.overflow="hidden"}while(c<b.length){if(c!=a){if(b[c].style.height!==d){b[c].style.height=d;b[c].scrollTop=0;b[c].style.overflowX="hidden";b[c].style.overflowY="hidden";b[c].style.overflow="hidden"}}c++}}
-		</script>
+		
+		{% if page.script %}	
+		<script src="{{ site.baseurl }}scripts/{{ page.script }}.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="/scripts/jquery.js"></script>
+		{% endif %}
+		
 <script type="text/javascript">
 var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28196489-1"]);_gaq.push(["_trackPageview"]);(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();
 </script>
