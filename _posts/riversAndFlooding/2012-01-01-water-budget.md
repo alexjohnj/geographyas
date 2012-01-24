@@ -5,9 +5,6 @@ layout: page
 keywords: "water budget, evapotranspiration, percipitation"
 ---
 
-The Water Budget
-----------------
-
 > Budget = Precipitation - evapotranspiration + Run Off ±Changes in the store.
 
 > Budget = P - (E + Q ±S)

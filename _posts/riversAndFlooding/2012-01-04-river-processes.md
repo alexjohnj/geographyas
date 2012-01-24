@@ -5,9 +5,6 @@ layout: page
 keywords: "river processes, erosion, deposition, trasportaion, saltation, solution, suspension, traction" 
 ---
 
-River Processes
----------------
-
 _Erosion_ - The break up and removal of rocks by the action of rock particles being moved over the surface by water, wind or ice.
 
 _The Weight Of The Water_ - The greater the mass of the water the more energy it will possess due to the influence of gravity on its movement. 

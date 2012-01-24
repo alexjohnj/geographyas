@@ -5,9 +5,6 @@ layout: page
 keywords: "rejuvenation, ice age, erosion, incised meanders, meanders, river terraces"
 ---
 
-Rejuvenation
-------------
-
 Rejuvenation occurs when the river's base level falls (i.e when sea level falls). This can be a consequence of either a fall in the amount of sea water or the land rising. Both are the result of the comings and goings of ice ages. The effect on rivers is to produce features called “knick points” (which can be seen as waterfalls and rapids), river terraces and incised meanders. 
 
 Features Of Rejuvenation

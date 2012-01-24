@@ -5,9 +5,6 @@ layout: page
 keywords: "hjulstrom, curve, deposition, transportaion, erosion"
 ---
 
-The Hjulström Curve
--------------------
-
 ![](/Images/rivers/hjulstronCurve.png)
 
 1. Large particles need a high velocity to be eroded.

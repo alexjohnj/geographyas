@@ -5,9 +5,6 @@ layout: page
 keywords: "river regimes, drainage basin, discharge, relief, drainage basin controls"
 ---
 
-River Regimes & Drainage Basins
--------------------------------
-
 ### Key Terms
 
 - _Regime_ - The regime is the variation in the discharge of water carried by the river at different times of year. 
