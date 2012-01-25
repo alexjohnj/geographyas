@@ -139,7 +139,7 @@ figcaption
   border-radius:5px;
   border:1px solid #b3b3b3;
   display:inline-block;
-  font-size:12px;
+  font-size: 0.86em;
   font-weight:400;
   text-decoration:none;
   text-shadow:1px 0 0 #fff;
@@ -168,7 +168,7 @@ figcaption
 
 .footnote
 {
-  font-size:10px;
+  font-size: 0.71em;
 }
 
 ul,p,li
@@ -186,7 +186,7 @@ ul,p,li
 #IEWarning
 {
   color:red;
-  font-size:18px;
+  font-size:1.29em;
 }
 
 .essayDiv{
