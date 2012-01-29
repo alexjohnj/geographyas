@@ -188,3 +188,34 @@ ul,p,li
   color:red;
   font-size:1.29em;
 }
+
+/* This is from Twitter Bootsrap http://twitter.github.com/bootstrap/#tables*/
+
+table {
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 0;
+  font-size: 13px;
+  border-collapse: collapse;
+}
+table th, table td {
+  padding: 10px 10px 9px;
+  line-height: 18px;
+  text-align: left;
+}
+table th {
+  padding-top: 9px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+table td {
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+table tbody th {
+  border-top: 1px solid #ddd;
+  vertical-align: top;
+}
+.condensed-table th, .condensed-table td {
+  padding: 5px 5px 4px;
+}
