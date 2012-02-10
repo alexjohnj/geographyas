@@ -106,17 +106,30 @@ body:before {
   height:100%;
   float:left;
   width:0;
-  margin-top:-32767px;/
+  margin-top:-32767px;
 }
 
-
 .pageFooter{
-    position: relative;
-    margin-top: -50px; /* negative value of footer height */
-    height: 50px;
+    opacity: 0.5;
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+    margin-top: -14px; /* negative value of footer height */
+    height: 14px;
     clear:both;
     background-color: #170505;
     color: white;
+    -webkit-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    -ms-transition:all .3s ease-in-out;
+}
+
+.pageFooter:hover{
+  margin-top: -50px;
+  height: 50px;
+  opacity: 0.9;
 }
 
 .footerLeft{
@@ -180,8 +193,6 @@ ul,p,li
   color:red;
   font-size:1.29em;
 }
-
-
 
 /* This is from Twitter Bootsrap http://twitter.github.com/bootstrap/#tables*/
 
