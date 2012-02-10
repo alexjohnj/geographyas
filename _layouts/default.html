@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="/style.min.css" type="text/css">
+		<link rel="stylesheet" href="/style.css" type="text/css">
 		<title>{{ page.title }}</title>
 		{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}">
 		{% elsif page.keywords == null %}	
@@ -27,15 +27,42 @@ var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28196489-1"]);_gaq.push(["_trackP
 </script>
 	</head>
 	<body>
-		<div class="title">
+		<div class="siteTitle">
+		<div class="titleSubDiv">
 			<h1>
-				<a href="/">{{ site.title }}</a>
+				<a id="siteTitleLink" href="/">{{ site.title }}</a>
 			</h1>
 		</div>
+		</div>
+		<div class="wrap">
 		<div class="content">
 		<p>
 			{{ content }}
 		</p>
+		</div>	
+	</div>
+		<div class="pageFooter">
+		
+			{% for post in site.categories.[page.categories.first] %}
+			{% if post.url == page.url %}
+			{% assign post_index0 = forloop.index0 %}
+			{% assign post_index1 = forloop.index %}
+			{% endif %}
+			{% endfor %}
+			{% for post in site.categories.[page.categories.first] %}
+			{% if post_index0 == forloop.index %}
+			{% assign next_post = post.url %}
+			{% endif %}
+			{% if post_index1 == forloop.index0 %}
+			{% assign prev_post = post.url %}
+			{% endif %}
+			{% endfor %}
+			<div class="footerLeft">
+			<p>By Alex Jackson</p>
 		</div>
+		<div class="footerRight">
+			<p>{% if prev_post%}<a href="{{ prev_post }}">Previous</a>{% endif %} {% if next_post %} <a href="{{ next_post }}">Next</a>&nbsp;{% endif %}<a href="/">Home</a></p>
+	</div>
+	</div>
 	</body>
 </html>

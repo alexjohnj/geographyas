@@ -2,27 +2,7 @@
 layout: default
 ---
 	
-	<div class="title">
+<div class="title">
 	<h2><b>{{ page.title }}</b></h2>
 </div>
 {{ content }}
-<div class="backFwd">
-	
-	{% for post in site.categories.[page.categories.first] %}
-	{% if post.url == page.url %}
-	{% assign post_index0 = forloop.index0 %}
-	{% assign post_index1 = forloop.index %}
-	{% endif %}
-	{% endfor %}
-	{% for post in site.categories.[page.categories.first] %}
-	{% if post_index0 == forloop.index %}
-	{% assign next_post = post.url %}
-	{% endif %}
-	{% if post_index1 == forloop.index0 %}
-	{% assign prev_post = post.url %}
-	{% endif %}
-	{% endfor %}
-			<p>
-				Navigation:&nbsp;{% if prev_post%}<a class="navButton" href="{{ prev_post }}">Previous</a>{% endif %} {% if next_post %} <a class="navButton" href="{{ next_post }}">Next</a>&nbsp;{% endif %}<a class="navButton" href="/">Home</a>&nbsp;Copyright Alex Jackson, 2011-2012.
-			</p>
-</div>
