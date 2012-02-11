@@ -1,12 +1,12 @@
 ---
-title: 2008 Bahir Floods
+title: 2008 Bihar Floods
 category: 'rivers'
 layout: page
-keywords: "bahir, flooding, rivers, River Kosi, Ganges, LEDC, india, flood effects, management, 2008 floods, monsoon, climate change, himalayas"
+keywords: "bihar, flooding, rivers, River Kosi, Ganges, LEDC, india, flood effects, management, 2008 floods, monsoon, climate change, himalayas"
 ---
 ## Location & Causes
 
-Bahir is located in the north east of India, to the south of the Himalayas. During the months of August and September 2008 there was a long period of heavy rainfall on the foothills of the Himalayas. The rainfall was due to the seasonal reversal of winds in the area, leading to monsoons. The rainfall in the foothills entered the River Kosi, a tributary to the Ganges, and rapidly increased its volume, forcing it to flow into an old course that it hadn't flown through in over 100 years. The area surrounding the river had also been deforested, reducing interception and absorption and hence increasing the volume of water entering the river, causing it to flood. 
+Bihar is located in the north east of India, to the south of the Himalayas. During the months of August and September 2008 there was a long period of heavy rainfall on the foothills of the Himalayas. The rainfall was due to the seasonal reversal of winds in the area, leading to monsoons. The rainfall in the foothills entered the River Kosi, a tributary to the Ganges, and rapidly increased its volume, forcing it to flow into an old course that it hadn't flown through in over 100 years. The area surrounding the river had also been deforested, reducing interception and absorption and hence increasing the volume of water entering the river, causing it to flood. 
 
 ## Effects
 
@@ -20,4 +20,4 @@ Bahir is located in the north east of India, to the south of the Himalayas. Duri
 - Charities such as the Red Cross helped build shelters; supply food, fresh water and medicines; and rebuild embankments on the River Kosi. 
 - The Indian government gave £115 million in aid and released 125 tonnes of emergency grain. 
 - The Indian airforce airlifted 400,000 people to safety. 
-- Impacts on the economy of both Bahir and India as a whole. 
+- Impacts on the economy of both Bihar and India as a whole. 
