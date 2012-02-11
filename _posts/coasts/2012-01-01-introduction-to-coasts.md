@@ -1,7 +1,7 @@
 ---
 title: An Introduction To Coasts
 layout: page
-category: 'Coasts'
+category: 'coasts'
 description: "Coasts is the second physical topic studied at AS Level. This post outlines the basics of coasts and what can effect them."
 keywords: "sea, ocean, coast, coasts, waves, erosion, deposition, fish, factors effecting coasts, erosion of coasts, deposition on coasts, diagram of coast"
 ---

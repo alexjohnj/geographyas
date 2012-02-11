@@ -1,6 +1,6 @@
 ---
 title: Features Of Erosion
-category: 'Rivers & Flooding'
+category: 'rivers'
 layout: page
 keywords: "potholes, v shaped valleys, waterfalls, valley, rapids, rejuvenation, erosion"
 ---

@@ -1,6 +1,6 @@
 ---
 title: Boscastle Floods
-category: 'Rivers & Flooding'
+category: 'rivers'
 layout: page
 keywords: "boscastle, flood, flooding, flood prevention, river valency, river jordan"
 ---

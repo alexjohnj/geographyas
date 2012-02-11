@@ -1,6 +1,6 @@
 ---
 title: 2008 Bahir Floods
-category: 'Rivers & Flooding'
+category: 'rivers'
 layout: page
 keywords: "bahir, flooding, rivers, River Kosi, Ganges, LEDC, india, flood effects, management, 2008 floods, monsoon, climate change, himalayas"
 ---

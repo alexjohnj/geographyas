@@ -1,6 +1,6 @@
 ---
 title: Population Distribution & Density
-category: 'Population Change'
+category: 'population'
 layout: page
 keywords: "population distribution, population density, dot maps"
 ---

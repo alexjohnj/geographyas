@@ -1,7 +1,7 @@
 ---
 title: Population Change & Sustainable Development
 layout: page
-category: 'Population Change'
+category: 'population'
 keywords: "sustainable development, sustainable development definition, sustainable countries, sustainable cities, sustainability, sustainable population, sustainable earth"
 description: "Sustainability is development that meets the needs of the present without compromising the ability of future generations to meet the needs of their own. Sustainability is essential in order to maintain future generations of humans."
 published: true

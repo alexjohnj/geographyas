@@ -1,6 +1,6 @@
 ---
 title: Flood Management
-category: 'Rivers & Flooding'
+category: 'rivers'
 layout: page
 keywords: "flood management, hard engineering, soft engineering, three gorges dam, mississippi"
 ---

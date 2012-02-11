@@ -1,6 +1,6 @@
 ---
 title: River Processes
-category: 'Rivers & Flooding'
+category: 'rivers'
 layout: page
 keywords: "river processes, erosion, deposition, trasportaion, saltation, solution, suspension, traction" 
 ---

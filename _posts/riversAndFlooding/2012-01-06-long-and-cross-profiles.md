@@ -1,6 +1,6 @@
 ---
 title: Long & Cross Profiles
-category: 'Rivers & Flooding'
+category: 'rivers'
 layout: page
 keywords: "cross profiles, long profiles, channel, width, height, hydraulic radius, middle course, lower course, velocity, thalweg"
 ---

@@ -1,6 +1,6 @@
 ---
 title: France, A Pro Natalist Country
-category: 'Population Change'
+category: 'population'
 layout: page
 keywords: "pro natalism, france, france's population, population change, birth rate, death rate, ageing population, dependancy ratio, support ratio"
 ---

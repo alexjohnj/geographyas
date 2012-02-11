@@ -1,6 +1,6 @@
 ---
 title: The Water Budget
-category: 'Rivers & Flooding'
+category: 'rivers'
 layout: page
 keywords: "water budget, evapotranspiration, percipitation"
 ---

@@ -1,6 +1,6 @@
 ---
 title: The Population Of Brazil
-category: 'Population Change'
+category: 'population'
 layout: page
 keywords: "brazil population, population density, population distribution"
 ---

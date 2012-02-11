@@ -8,8 +8,7 @@ script: clickScript
 <hr>
 {% for category in site.categories %} 
 <div class="unitDiv" onClick="expandDiv({{ forloop.index0 }})" id="{{ forloop.index0 }}" style="height: 35px; overflow-x: hidden; overflow-y: hidden; overflow: hidden;">
-  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" }}</h2>
-
+  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" | capitalize | replace:"-", " " }}</h2>
     {% assign pages_list = category[1] %}  
     {% include helpers/pages_list.html %}
 </div>

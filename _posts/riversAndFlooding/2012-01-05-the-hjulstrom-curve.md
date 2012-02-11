@@ -1,6 +1,6 @@
 ---
 title: The Hjulstrom Curve
-category: 'Rivers & Flooding'
+category: 'rivers'
 layout: page
 keywords: "hjulstrom, curve, deposition, transportaion, erosion"
 ---

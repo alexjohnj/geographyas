@@ -1,6 +1,6 @@
 ---
 title: Depositional Features
-category: 'Rivers & Flooding'
+category: 'rivers'
 layout: page
 keywords: "deposition, braided channels, levees, flooding, erosion"
 ---

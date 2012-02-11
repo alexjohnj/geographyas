@@ -7,7 +7,7 @@ author: Alex Jackson
 twitter: alexjohnj
 github: alexjohnj
 
-permalink:   /:title/
+permalink:   /:categories/:title/
 
 safe:        false
 auto:        true

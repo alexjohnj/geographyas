@@ -1,6 +1,6 @@
 ---
 title: Introduction To Population
-category: 'Population Change'
+category: 'population'
 layout: page
 keywords: "population, change, world population"
 ---

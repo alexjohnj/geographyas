@@ -1,7 +1,7 @@
 ---
 title: Mexico To USA Migration
 layout: page
-category: 'Population Change'
+category: 'population'
 keywords: "mexico, usa, migration, immigration, reasons for migration, mexico to usa migration reasons, immigration, illegal immigration"
 description: "
 Migration from Mexico to the United States Of America primarily involves the movement of Mexicans from Mexico to the southern states of America which border Mexico. In order to gain access to America, Mexicans must cross the “Unites States-Mexico Border”, a border which spans four US states & six Mexican states. In America, it starts in California and ends in Texas (east to west)."

@@ -1,155 +1,157 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://www.geographyas.info/introduction/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/population/introduction/</loc>
+        <lastmod>2012-02-11T09:39:24+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/introduction-to-coasts/</loc>
-        <lastmod>2012-01-29T13:20:25+00:00</lastmod>
+        <loc>http://www.geographyas.info/coasts/introduction-to-coasts/</loc>
+        <lastmod>2012-02-11T09:36:12+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/water-budget/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/rivers/water-budget/</loc>
+        <lastmod>2012-02-11T09:42:29+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/glen-rosa/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/rivers/glen-rosa/</loc>
+        <lastmod>2012-02-11T09:42:29+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/waves/</loc>
-        <lastmod>2012-01-29T13:20:36+00:00</lastmod>
+        <loc>http://www.geographyas.info/coasts/waves/</loc>
+        <lastmod>2012-02-11T09:36:13+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/world-population-growth/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/population/world-population-growth/</loc>
+        <lastmod>2012-02-11T09:40:44+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/factors-effecting-world-population/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/population/factors-effecting-world-population/</loc>
+        <lastmod>2012-02-11T09:40:44+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/river-regimes-and-drainage-basins/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/rivers/river-regimes-and-drainage-basins/</loc>
+        <lastmod>2012-02-11T09:42:29+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/population-distribution-density/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/population/population-distribution-density/</loc>
+        <lastmod>2012-02-11T09:40:44+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/river-processes/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/rivers/river-processes/</loc>
+        <lastmod>2012-02-11T09:42:29+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/the-hjulstrom-curve/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/rivers/the-hjulstrom-curve/</loc>
+        <lastmod>2012-02-11T09:42:29+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/uk-population-distribution-density/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/population/uk-population-distribution-density/</loc>
+        <lastmod>2012-02-11T09:40:44+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/long-and-cross-profiles/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/rivers/long-and-cross-profiles/</loc>
+        <lastmod>2012-02-11T09:42:29+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/the-population-of-brazil/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/population/the-population-of-brazil/</loc>
+        <lastmod>2012-02-11T09:40:44+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/features-of-erosion/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/rivers/features-of-erosion/</loc>
+        <lastmod>2012-02-11T09:42:30+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/fertility-rates/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/population/fertility-rates/</loc>
+        <lastmod>2012-02-11T09:40:44+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/depositional-features/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/rivers/depositional-features/</loc>
+        <lastmod>2012-02-11T09:42:30+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/mortality-rates/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/population/mortality-rates/</loc>
+        <lastmod>2012-02-11T09:40:45+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/demographic-transition-model/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/population/demographic-transition-model/</loc>
+        <lastmod>2012-02-11T09:40:45+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/meanders/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/rivers/meanders/</loc>
+        <lastmod>2012-02-11T09:42:30+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/deltas/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/rivers/deltas/</loc>
+        <lastmod>2012-02-11T09:42:30+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/population-structure/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/population/population-structure/</loc>
+        <lastmod>2012-02-11T09:40:45+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/population-and-resources/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/population/population-and-resources/</loc>
+        <lastmod>2012-02-11T09:40:45+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/rejuvenation/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/rivers/rejuvenation/</loc>
+        <lastmod>2012-02-11T09:42:30+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/flooding/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/rivers/flooding/</loc>
+        <lastmod>2012-02-11T09:42:30+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/france-pro-natalism/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/population/france-pro-natalism/</loc>
+        <lastmod>2012-02-11T09:40:45+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/boscastle-floods/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/rivers/boscastle-floods/</loc>
+        <lastmod>2012-02-11T09:42:30+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/china-anti-natalism/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/population/china-anti-natalism/</loc>
+        <lastmod>2012-02-11T09:40:45+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/flood-management/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/rivers/flood-management/</loc>
+        <lastmod>2012-02-11T09:42:30+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/migration/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/population/migration/</loc>
+        <lastmod>2012-02-11T09:40:46+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/flooding-in-bahir/</loc>
-        <lastmod>2012-01-29T11:04:26+00:00</lastmod>
+        <loc>http://www.geographyas.info/rivers/flooding-in-bahir/</loc>
+        <lastmod>2012-02-11T09:42:31+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/mexico-to-usa-migration/</loc>
-        <lastmod>2012-02-05T10:24:36+00:00</lastmod>
+        <loc>http://www.geographyas.info/population/mexico-to-usa-migration/</loc>
+        <lastmod>2012-02-11T09:40:46+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/transmigration-in-indonesia/</loc>
-        <lastmod>2012-02-05T10:28:02+00:00</lastmod>
+        <loc>http://www.geographyas.info/population/transmigration-in-indonesia/</loc>
+        <lastmod>2012-02-11T09:40:46+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/comparison-of-inner-city-areas-and-suburbs-leeds/</loc>
-        <lastmod>2012-02-05T11:25:38+00:00</lastmod>
+        <loc>
+            http://www.geographyas.info/population/comparison-of-inner-city-areas-and-suburbs-leeds/
+        </loc>
+        <lastmod>2012-02-11T09:40:46+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/censuses/</loc>
-        <lastmod>2012-02-07T19:01:34+00:00</lastmod>
+        <loc>http://www.geographyas.info/population/censuses/</loc>
+        <lastmod>2012-02-11T09:40:46+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/sustainable-development-population/</loc>
-        <lastmod>2012-02-07T19:10:53+00:00</lastmod>
+        <loc>http://www.geographyas.info/population/sustainable-development-population/</loc>
+        <lastmod>2012-02-11T09:40:46+00:00</lastmod>
     </url>
     <url>
         <loc>http://www.geographyas.info/404.html</loc>
-        <lastmod>2012-01-22T21:18:52+00:00</lastmod>
+        <lastmod>2012-02-09T19:52:13+00:00</lastmod>
     </url>
     <url>
         <loc>http://www.geographyas.info/</loc>
-        <lastmod>2012-02-07T19:10:53+00:00</lastmod>
+        <lastmod>2012-02-11T09:42:31+00:00</lastmod>
     </url>
 </urlset>
