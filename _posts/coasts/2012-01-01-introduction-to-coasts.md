@@ -6,7 +6,14 @@ description: "Coasts is the second physical topic studied at AS Level. This post
 keywords: "sea, ocean, coast, coasts, waves, erosion, deposition, fish, factors effecting coasts, erosion of coasts, deposition on coasts, diagram of coast"
 ---
 
-A coast is a narrow zone where the land and sea overlap and directly interact. 
+A coast is a narrow strip of land where the sea meets the land. Coasts are divided into zones depending on what the conditions are like on different sections of a coast. 
+
+![Diagram of a coast showing how it is divided into sections](/Images/coasts/1introduction/coastOutlineDiagram.png)
+
+- *Backshore* - This is the area between the high water mark and the landward limit of marine activity. 
+- *Foreshore* - This is the area lying between the high water mark and the low water mark and is often seen as the most important area for marine activity. 
+- *Inshore* - The area between the low water mark and the point where the waves cease to have any influence on the land around them. 
+- *Offshore* - The area beyond the point where waves cease to impact the seabed and in which activity is limited to the deposition of sediments. 
 
 ## Factors Effecting Coasts
 
@@ -36,14 +43,14 @@ A coast is a narrow zone where the land and sea overlap and directly interact.
 - Biotic creatures such as Coral alter the shapes of coasts for the aforementioned reasons.
 - Waves, tides & salt spray all play their part in altering the shape of coasts. 
 
-## Open Systems
+## Coastal System
 
-Coasts are examples of open systems. They have inputs and outputs.
+Coasts are considered an example of an open system as they have inputs and outputs. 
 
 ### Inputs
 
 - Energy is inputted in the form of waves, wind currents and tides. These will vary spatially and temporally (space and time, no not [*that* space and time](http://en.wikipedia.org/wiki/Space_and_time)).
-- Sediment from other eroded coastlines, rivers and off-shore sub-aerial processes will be deposited along coasts. 
+- Sediment from other [eroded coastlines](/coasts/sub-aerial-processes), rivers and [sub-aerial processes](/coasts/coastal-weathering-and-mass-movement) will be deposited along coasts. 
 - Human activity will provide inputs for coastal systems. 
 
 ### Processes
@@ -53,5 +60,3 @@ Coasts are examples of open systems. They have inputs and outputs.
 ### Outputs
 
 - Landforms, sediment and the shape and position of the coastline are all examples of outputs. 
-
-![Diagram of a coast showing how it is divided into sections](/Images/coasts/coastOutlineDiagram.png)

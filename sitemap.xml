@@ -6,7 +6,7 @@
     </url>
     <url>
         <loc>http://www.geographyas.info/coasts/introduction-to-coasts/</loc>
-        <lastmod>2012-02-11T09:36:12+00:00</lastmod>
+        <lastmod>2012-02-11T14:08:23+00:00</lastmod>
     </url>
     <url>
         <loc>http://www.geographyas.info/rivers/water-budget/</loc>
@@ -18,11 +18,15 @@
     </url>
     <url>
         <loc>http://www.geographyas.info/coasts/waves/</loc>
-        <lastmod>2012-02-11T09:36:13+00:00</lastmod>
+        <lastmod>2012-02-11T14:04:59+00:00</lastmod>
     </url>
     <url>
         <loc>http://www.geographyas.info/population/world-population-growth/</loc>
         <lastmod>2012-02-11T09:40:44+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.geographyas.info/coasts/beaches/</loc>
+        <lastmod>2012-02-11T11:18:53+00:00</lastmod>
     </url>
     <url>
         <loc>http://www.geographyas.info/population/factors-effecting-world-population/</loc>
@@ -41,6 +45,14 @@
         <lastmod>2012-02-11T09:42:29+00:00</lastmod>
     </url>
     <url>
+        <loc>http://www.geographyas.info/coasts/tides/</loc>
+        <lastmod>2012-02-11T13:20:43+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.geographyas.info/coasts/coastal-erosion/</loc>
+        <lastmod>2012-02-11T13:39:36+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.geographyas.info/rivers/the-hjulstrom-curve/</loc>
         <lastmod>2012-02-11T09:42:29+00:00</lastmod>
     </url>
@@ -51,6 +63,10 @@
     <url>
         <loc>http://www.geographyas.info/rivers/long-and-cross-profiles/</loc>
         <lastmod>2012-02-11T09:42:29+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.geographyas.info/coasts/sub-aerial-processes/</loc>
+        <lastmod>2012-02-11T14:32:06+00:00</lastmod>
     </url>
     <url>
         <loc>http://www.geographyas.info/population/the-population-of-brazil/</loc>
@@ -121,8 +137,8 @@
         <lastmod>2012-02-11T09:40:46+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/rivers/flooding-in-bahir/</loc>
-        <lastmod>2012-02-11T09:42:31+00:00</lastmod>
+        <loc>http://www.geographyas.info/rivers/flooding-in-bihar/</loc>
+        <lastmod>2012-02-11T09:48:49+00:00</lastmod>
     </url>
     <url>
         <loc>http://www.geographyas.info/population/mexico-to-usa-migration/</loc>
@@ -152,6 +168,6 @@
     </url>
     <url>
         <loc>http://www.geographyas.info/</loc>
-        <lastmod>2012-02-11T09:42:31+00:00</lastmod>
+        <lastmod>2012-02-11T14:32:06+00:00</lastmod>
     </url>
 </urlset>
