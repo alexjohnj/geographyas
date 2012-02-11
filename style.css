@@ -6,11 +6,11 @@ html{
 
 body
 {
-  -webkit-font-smoothing:antialiased;
+  -webkit-font-smoothing: antialiased;
   font-family: "Helvetica", "Arial", sans-serif;
   font-size:15px;
   background-color: #f3f2ec;
-  color:#4c4c4c;
+  color: black;
   margin: 0; !important
   padding: 0; !imporant
   width: 100%;
@@ -84,8 +84,7 @@ a:hover
 
 blockquote
 {
-  background:#f9f9f9;
-  border-left:10px solid #ccc;
+  border-left:10px solid #8a6f53;
   quotes:\201C\201D\2018\2019;
   box-shadow:-2px -2px 5px gray;
   margin:1.5em 10px;
@@ -177,7 +176,13 @@ ul,p,li
   padding-top: 5px;
   padding-left: 10px;
   height: 60px;
-  background-color: #170505;
+  background: #2c1c1c;
+  background:-moz-linear-gradient(top, #2c1c1c, #170505);
+  background:-webkit-linear-gradient(top, #2c1c1c, #170505);
+  background:-o-linear-gradient(top, #2c1c1c, #170505);
+  background:-ms-linear-gradient(top, #2c1c1c, #170505);
+  background:linear-gradient(top, #2c1c1c, #170505);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#2c1c1c', endColorstr='#170505',GradientType=0);
   color: white;
   box-shadow: 0px 3px 5px rgb(183, 183, 183);
   display: block;
@@ -200,7 +205,6 @@ table {
   width: 100%;
   margin-bottom: 18px;
   padding: 0;
-  font-size: 13px;
   border-collapse: collapse;
 }
 table th, table td {

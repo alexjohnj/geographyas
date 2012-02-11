@@ -80,11 +80,11 @@ The River Cole is located in South England, to the west of Oxford and the north-
 
 ## Soft Engineering vs Hard Engineering
 
-Below is an essay I wrote which discusses the advantages and disadvantages of hard (and briefly soft) engineering, referring to several of the case studies from above. It's actually an answer to a [past paper question](store.aqa.org.uk/qual/gce/pdf/AQA-GEOG1-W-QP-JAN10.PDF): 
+Below is an essay I wrote which discusses the advantages and disadvantages of hard (and briefly soft) engineering, referring to several of the case studies from above. It's actually an answer to a [past paper question](http://store.aqa.org.uk/qual/gce/pdf/AQA-GEOG1-W-QP-JAN10.PDF): 
 
 > Discuss the advantages and disadvantages of hard engineering as a flood management strategy. - 15 Marks
 
-The answer I wrote got full marks but was *way* too long for a 15 mark answer. The first few and last few paragraphs probably would have been sufficient for 13 marks +. **Remember, don't copy this answer! IT'S PLAGIARISM.** You can use this answer to *help* you answer the question though (citation would be nice :P).  
+The answer I wrote got full marks but was *way* too long for a 15 mark answer. Don't copy this answer. Just use it to help. 
 
 ---
 
