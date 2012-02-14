@@ -42,4 +42,4 @@ Agenda 21 is a UN sustainable development programme. It states that governments 
 ### Developed Countries
 
 - Train sufficient personal to care for the elderly. 
-- Consider the issues arising from [falling birth ages, fewer children and a reduced workforce](/france-pro-natalism). 
+- Consider the issues arising from [falling birth ages, fewer children and a reduced workforce](/population/france-pro-natalism). 

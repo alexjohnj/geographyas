@@ -7,7 +7,7 @@ keywords: "flood management, hard engineering, soft engineering, three gorges da
 
 ## Hard Engineering Techniques
 
-- Artificial [Levées](/depositional-features/) (e.g The Mississippi) - built using soil & rubble all down the Mississippi. 
+- Artificial [Levées](/rivers/depositional-features/) (e.g The Mississippi) - built using soil & rubble all down the Mississippi. 
 - Wing Dykes - Dykes narrow the channel of the river, increasing its efficiency and hence its velocity. This has the knock on effect of deepening the channel, increasing its capacity. 
 - Cut Offs (e.g San Gabriel) 
 - Deepening (e.g San Gabriel)
