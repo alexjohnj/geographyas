@@ -120,6 +120,7 @@ body:before {
     clear:both;
     background-color: #170505;
     color: white;
+    z-index: 0;
     -webkit-transition:all .3s ease-in-out;
     -moz-transition:all .3s ease-in-out;
     -o-transition:all .3s ease-in-out;
@@ -150,6 +151,7 @@ body:before {
   height:35px;
   overflow:hidden;
   border-radius:5px;
+  z-index: 0;
   -webkit-transition:all .3s linear;
   -moz-transition:all .3s linear;
   -o-transition:all .3s linear;
