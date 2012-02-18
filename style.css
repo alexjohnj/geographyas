@@ -6,6 +6,7 @@ html{
 
 body
 {
+  text-rendering: optimizelegibility
   -webkit-font-smoothing: antialiased;
   font-family: "Helvetica", "Arial", sans-serif;
   font-size:15px;
