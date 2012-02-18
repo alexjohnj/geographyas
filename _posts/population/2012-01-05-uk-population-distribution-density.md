@@ -2,7 +2,7 @@
 title: Population Distribution & Density of the UK
 category: 'population'
 layout: page
-keywords: "population distribution, population density, uk population"
+keywords: "population distribution, population density, UK population"
 ---
 
 ### The Population Of The UK Compared To Other Countries
@@ -21,11 +21,11 @@ Very dense populations put a strain on resources such as food and water. They al
 
 A dense population ensures that 100% of available resources are used by a  city. As a result, the efficiency in which these resources are used tends to increase to reduce costs which can ultimately end up benefiting the environment since people become less wasteful with resources. 
 
-### Why Are Some Areas Of The Uk Densely Populated?
+### Why Are Some Areas Of The UK Densely Populated?
 
 Liverpool is very densely populated largely due to its use as a port. Since it's a port it makes the area favourable as a place for immigrants. It also means that industry will build close to the port and, as a result, workers will move closer to the industry increasing Liverpool's density. Access to good infrastructure in the area makes it an attractive place to live and work and the construction of the Liverpool One shopping centre increased the commercial industry in the area providing jobs and making it more attractive for people to live there.
 
-### Why Are Some Areas Of The Uk Sparsely Populated?
+### Why Are Some Areas Of The UK Sparsely Populated?
 
 Most of Scotland is sparsely populated sans a few major cities. This is likely due to the high relief in the area which makes development of good infrastructure hard and so discourages the development of industry in the area making the area unattractive due to a shortage of jobs. In addition, the cold climate would make living in the area hard and, combined with a poor infrastructure, receiving supplies in the winter challenging making it dangerous to live in the area and so reducing the population density.
 

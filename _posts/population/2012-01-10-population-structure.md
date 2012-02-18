@@ -21,25 +21,25 @@ Population can be measure according to:
 
 ### Population Pyramids
 
-#### Stage 1
+#### Stage 1 Of The [DTM](/population/demographic-transition-model)
 
 ![](/Images/population/10/stage1.png)
 
 High birth rate, rapid fall in each upward age group due to high death rate resulting in a low life expectancy. 
 
-#### Stage 2
+#### Stage 2 Of The [DTM](/population/demographic-transition-model)
 
 ![](/Images/population/10/stage2.png) 
 
 High birth rate, declining death rate, slightly longer life expectancy.
 
-#### Stage 3
+#### Stage 3 Of The [DTM](/population/demographic-transition-model)
 
 ![](/Images/population/10/stage3.png)
 
 Declining birth rate, low death rate, more old people.
 
-#### Stage 4
+#### Stage 4 Of The [DTM](/population/demographic-transition-model)
 
 ![](/Images/population/10/stage4.png)
 
