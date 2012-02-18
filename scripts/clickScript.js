@@ -18,7 +18,7 @@ function expandDiv(index) {
     }
 
     while (i < eles.length) {
-        if (i != index) {
+        if (i !== index) {
             if (eles[i].style.height !== originalHeight) {
                 eles[i].style.height = originalHeight;
                 eles[i].scrollTop = 0;
