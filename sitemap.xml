@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://www.geographyas.info/health-issues/assessing-health/</loc>
+        <lastmod>2012-02-22T18:02:40+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.geographyas.info/population/introduction/</loc>
         <lastmod>2012-02-18T12:10:23+00:00</lastmod>
     </url>
@@ -15,6 +19,10 @@
     <url>
         <loc>http://www.geographyas.info/rivers/glen-rosa/</loc>
         <lastmod>2012-02-18T12:10:23+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.geographyas.info/health-issues/global-health-patterns/</loc>
+        <lastmod>2012-02-22T18:34:52+00:00</lastmod>
     </url>
     <url>
         <loc>http://www.geographyas.info/coasts/waves/</loc>
@@ -146,7 +154,7 @@
     </url>
     <url>
         <loc>http://www.geographyas.info/population/transmigration-in-indonesia/</loc>
-        <lastmod>2012-02-18T12:10:23+00:00</lastmod>
+        <lastmod>2012-02-21T20:03:30+00:00</lastmod>
     </url>
     <url>
         <loc>
@@ -172,6 +180,6 @@
     </url>
     <url>
         <loc>http://www.geographyas.info/</loc>
-        <lastmod>2012-02-19T21:09:11+00:00</lastmod>
+        <lastmod>2012-02-22T18:34:52+00:00</lastmod>
     </url>
 </urlset>
