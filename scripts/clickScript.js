@@ -1,7 +1,7 @@
 function expandDiv(index) {
     var eles = $(".unitDiv");
     var i = 0;
-    var originalHeight = "35px";
+    var originalHeight = "40px";
     var expandedHeight = "350px";
 
     if (eles[index].style.height === originalHeight) {
