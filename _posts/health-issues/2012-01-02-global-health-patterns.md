@@ -34,3 +34,13 @@ Morbidity, the incidence of disease, is measured by the World Health Organisatio
 ## Risk Factors
 
 Morbidity is effected by certain risk factors. In LEDCs, these factors are malnutrition, social diseases (i.e AIDS), unsanitary hygiene & living conditions, a lack of clean water and poor living standards. In MEDCs, these factors are blood pressure, a lack of physical activity and lifestyle choices such as alcohol, tobacco and poor diets. 
+
+## Global Patterns Of Life Expectancy 
+
+In general, the life expectancy of individuals in MEDCs is higher than those in LEDCs. In addition most of the world's women's life expectancy is higher than men's, with the average life expectancy of a woman being 66 years and a man's being 62.7 years. This variation in life expectancy varies from country to country with a difference of 13 years between men and women in Russia, for example. Within countries, the better educated professionals generally have a longer life expectancy, while the poorer, working class generally have a lower life expectancy. 
+
+AIDS has played a major role in lowering the life expectancy of individuals in both LEDCs and MEDCs, though more so in LEDCs. In sub-saharan Africa, AIDS has lowered the life expectancy from 62 to 47 years. Nutrition, more specifically malnutrition, can lead to lowered life expectancies. A lack of nutritious food in both LEDCs and MEDCs can severely lower life expectancy. The quality and availability of health care is a significant factor in life expectancy too. In African countries and many other LEDCs, a very small percentage of the world's health care workers are actually situated in the country. In Africa, 3% of the world's health workers are present. The situation is far better in MEDCs, contributing towards MEDCs' higher life expectancy. In the Americas, 42% of the world's health workers are situated there. 
+
+The number of health workers in a country is directly tied to the quality and availability of education in a country. Poor education means fewer doctors, nurses and other medical staff can be trained, reducing life expectancy and increasing the reliance on other countries for health care. This situated is alleviated by the provision of aid, doctors and education to LEDCs through programs such as Doctors Without Borders.
+
+The quality of life in a country can be a significant in people's life expectancy as well. Poverty leads to malnutrition, a shortage of health care and depression. Depression itself, leads to many depression related diseases and, ultimately, suicide, significantly lowering a country's life expectancy.  
