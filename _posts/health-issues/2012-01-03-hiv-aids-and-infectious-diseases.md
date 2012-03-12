@@ -24,6 +24,14 @@ AIDS is transferred between humans primarily when bodily fluids are exchanged (b
 
 The disease is currently considered incurable and a vaccine doesn't exist (largely due to the rapidly changing nature of the virus). Antiretroviral treatments are available and can help prolong the life of individuals, but people's life expectancy still falls substantially once infected with the disease. The actual effects of HIV/AIDS can take many years to appear after infection. 
 
+## Management Of HIV/AIDS
+
+Given that a vaccine to the disease is many years away and potentially impossible, controlling the spread of the disease and caring for those that are ill is the only way to combat it and alleviate its effects. The use of antiretroviral drugs can help to alleviate some of the effects of the disease and increase the lifespan of an infected individual. These drugs are widely available but are very expensive and, despite costs falling over the past ten years, are not widely available in LEDCS, the countries which most need them. 
+
+Predicting the spread of the disease is important as it can allow us to allocate resources in specific areas which are at a high risk of infection. If predictions are combined with an aggressive prevention programme, the disease could potentially be wiped out without the need for a vaccine. 
+
+Education is, and will continue to be, the most powerful method for controlling and reducing the spread of the disease. The issue with education is how available it is. In many LEDCs, people can not afford education. In some countries, developed or not, it is difficult for certain groups of people to access education such as women, or homosexuals, who are particularly vulnerable to the disease. The provision of free tools such as condoms also help to reduce the spread of the disease. A somewhat controversial programme in the UK was to offer free, clean needles to drug users in order to help prevent the spread of the disease. 
+
 ## The Spread of HIV/AIDS
 
 ### 1985
