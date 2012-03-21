@@ -9,7 +9,7 @@ published: true
 
 Headlands and bays, such as Swanage Bay, form on discordant coastlines, where hard and soft rock run in layers at 90˚ to the water. Alternating layers of hard and soft rock allow the sea to erode the soft rock faster, forming a bay but leaving hard rock sticking out, known as a headland. The altering rate of erosion of hard and soft rock is known as differential erosion.s As the bay develops, wave refraction around the headlands begins to occur, increasing erosion of the headlands but reducing the erosion and development of the bay due to a loss of wave energy. Headlands and bays can form on concordant coastlines too, as has happened with Lulworth Cove, but this requires the rock to have already been weekend, possibly during an ice age. Irrespective of whether the coastline is concordant or discordant, as wave refraction takes place around the headlands and erosion of the bay is reduced, sub-aerial weathering such as corrosion and corrasion begins to weather the bay, furthering its development. 
 
-<img height="75%" src="/Images/coasts/7featuresOfErosion/formationOfBay.png" alt="Diagram of bay formation" />
+<img src="/Images/coasts/7featuresOfErosion/formationOfBay.png" alt="Diagram of bay formation" />
 
 ## Wave Cut Notches & Platforms
 
