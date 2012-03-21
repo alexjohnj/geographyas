@@ -1,56 +1,12 @@
 ---
-layout: nil
+layout: default
 ---
+<p style="text-align:center; font-size:3em;">404, </p>
+<p style="text-align:center; font-size:2em;">The page you were looking for,</p>
+<p style="text-align:center; font-size:2em;">Is not through this door.</p>
+<p style="text-align:center; font-size:2em;">	Maybe someone buried it under the floor,</p>
+<p style="text-align:center; font-size:2em;">	Or maybe it never existed before. </p>
 
-<!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>404</title>
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<style>
-body{background-color:rgb(0,0,0);color:white;font-family:"Helvetica","Arial",sans-serif;}#sol{position:absolute;left:0;top:0;-webkit-transition:all 2s ease-in-out;-moz-transition:all 2s ease-in-out;-o-transition:all 2s ease-in-out;transition:all 2s ease-in-out;}#earth{width:545px;position:absolute;left:50%;right:50%;top:50%;bottom:50%;-webkit-transition:all 2s ease-in-out;-moz-transition:all 2s ease-in-out;-o-transition:all 2s ease-in-out;transition:all 2s ease-in-out;}#text{position:absolute;right:10px;top:0;font-family:"Helvetica","Arial",sans-serif;-webkit-transition:all 2s ease-in-out;-moz-transition:all 2s ease-in-out;-o-transition:all 2s ease-in-out;transition:all 2s ease-in-out;}a,a:link,a:hover,a:visited{color:white;}#carlQuote{opacity:0;position:absolute;top:93%;height:0px;overflow-y:scroll;-webkit-transition:all 2s ease-in-out;-moz-transition:all 2s ease-in-out;-o-transition:all 2s ease-in-out;transition:all 2s ease-in-out;}.quoteMark{font-size:1.8em;}#redStripe{opacity:0;background-color:red;position:absolute;height:100%;width:30px;left:20%;top:0;bottom:0;-webkit-transition:all 2s ease-in-out;-moz-transition:all 2s ease-in-out;-o-transition:all 2s ease-in-out;transition:all 2s ease-in-out;}#orangeStripe{opacity:0;background-color:orange;position:absolute;height:100%;width:30px;left:49%;top:0;-webkit-transition:all 2s ease-in-out;-moz-transition:all 2s ease-in-out;-o-transition:all 2s ease-in-out;transition:all 2s ease-in-out;}#greenStripe{opacity:0;background-color:green;position:absolute;height:100%;width:30px;left:35%;top:0;-webkit-transition:all 2s ease-in-out;-moz-transition:all 2s ease-in-out;-o-transition:all 2s ease-in-out;transition:all 2s ease-in-out;}#resetButton{-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;box-shadow:inset 0px 1px 0px 0px #ffffff;background:-webkit-gradient( linear,left top,left bottom,color-stop(0.05,#ededed),color-stop(1,#dfdfdf) );background:-moz-linear-gradient( center top,#ededed 5%,#dfdfdf 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed',endColorstr='#dfdfdf');background-color:#ededed;-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px;border:1px solid #dcdcdc;display:inline-block;color:#777777;font-family:arial;font-size:15px;font-weight:bold;padding:6px 24px;text-decoration:none;text-shadow:1px 1px 0px #ffffff;}#resetButton:hover{background:-webkit-gradient( linear,left top,left bottom,color-stop(0.05,#dfdfdf),color-stop(1,#ededed) );background:-moz-linear-gradient( center top,#dfdfdf 5%,#ededed 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf',endColorstr='#ededed');background-color:#dfdfdf;}#resetButton:active{position:relative;top:1px;}
-		</style>
-		<script type="text/javascript">
-		function quoteClicked(){var a=$("#carlQuote"),b=$("#text"),c=$("#earth"),d=$("#sol"),e=$("#redStripe"),f=$("#orangeStripe"),g=$("#greenStripe");b[0].style.opacity="0";d[0].style.opacity="0";c[0].style.width="10px";a[0].style.top="0";a[0].style.marginLeft="20%";a[0].style.height="100%";a[0].style.width="60%";a[0].style.opacity="0.7";g[0].style.opacity="0.1";e[0].style.opacity="0.2";f[0].style.opacity="0.25"}function closeQuote(){var a=$("#carlQuote"),b=$("#text"),c=$("#earth"),d=$("#sol"),e=$("#redStripe"),f=$("#orangeStripe"),g=$("#greenStripe");a[0].style.top="93%";a[0].style.height="0px";a[0].style.width="0%";a[0].style.opacity="0";g[0].style.opacity="0";e[0].style.opacity="0";f[0].style.opacity="0";b[0].style.opacity="1";d[0].style.opacity="1";c[0].style.width="545px"};</script>
-		<script type="text/javascript">
-		var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28196489-1"]);_gaq.push(["_trackPageview"]);(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();
-		</script>
-	</head>
-	<body>
-	
-	<div id="sol">
-	<img src="/Images/geogAS404Sun.png" height="512" alt="The Sun"/>
-	</div>
-	
-	<div id="earth" onClick="quoteClicked()">
-	<img src="/Images/404Earth.png" alt="The Sun" style="width: 50%;"/>
-	</div>
-	
-	<div id="text">
-	<h1>404 - File not found!</h1>
-	<h2>Where on Earth is that webpage?</h2>
-	<h3><a href="{{ site.baseurl }}"> Head home!</a></h3>
-	</div>
-	
-	<div id="carlQuote">
-	<p><span class="quoteMark">&ldquo;</span>Consider again that dot. That's here. That's home. That's us. On it everyone you love, everyone you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager, every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love, every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every "superstar", every "supreme leader", every saint and sinner in the history of our species lived there - on a mote of dust suspended in a sunbeam.</p>
-<p>The Earth is a very small stage in a vast cosmic arena. Think of the rivers of blood spilled by all those generals and emperors so that, in glory and triumph, they could become the momentary masters of a fraction of a dot. Think of the endless cruelties visited by the inhabitants of one corner of this pixel on the scarcely distinguishable inhabitants of some other corner, how frequent their misunderstandings, how eager they are to kill one another, how fervent their hatreds.</p>
-<p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
-<p>
-The Earth is the only world known so far to harbor life. There is nowhere else, at least in the near future, to which our species could migrate. Visit, yes. Settle, not yet. Like it or not, for the moment the Earth is where we make our stand.
-It has been said that astronomy is a humbling and character-building experience. There is perhaps no better demonstration of the folly of human conceits than this distant image of our tiny world. To me, it underscores our responsibility to deal more kindly with one another, and to preserve and cherish the pale blue dot, the only home we've ever known.<span class="quoteMark">&rdquo;</span></p> 
-<p><span id="carlsName"> - <em> Carl Sagan </em></span></p>
-
-<button id="resetButton" onClick="closeQuote()">Close</button>
-	</div>
-	<div id="redStripe">	
-	</div>
-	
-	<div id="greenStripe">
-		</div>
-	
-	<div id="orangeStripe">
-		</div>
-	</body>
-</html>
+<p style="text-align:center; font-size:2em;"> Whatever the case, </p>
+<p style="text-align:center; font-size:2em;">	You know the best place, </p>
+<p style="text-align:center; font-size:2em;">	Is <a href="{{site.baseurl}}">home</a></p>
