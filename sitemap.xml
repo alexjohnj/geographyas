@@ -69,6 +69,10 @@
         <lastmod>2012-03-10T11:29:55+00:00</lastmod>
     </url>
     <url>
+        <loc>http://www.geographyas.info/health-issues/health-and-food/</loc>
+        <lastmod>2012-03-24T09:44:37+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.geographyas.info/rivers/the-hjulstrom-curve/</loc>
         <lastmod>2012-03-10T11:29:55+00:00</lastmod>
     </url>
@@ -89,12 +93,12 @@
         <lastmod>2012-03-10T11:29:55+00:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/rivers/features-of-erosion/</loc>
-        <lastmod>2012-03-10T11:29:55+00:00</lastmod>
-    </url>
-    <url>
         <loc>http://www.geographyas.info/coasts/features-of-erosion/</loc>
         <lastmod>2012-03-21T20:39:03+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.geographyas.info/rivers/features-of-erosion/</loc>
+        <lastmod>2012-03-10T11:29:55+00:00</lastmod>
     </url>
     <url>
         <loc>http://www.geographyas.info/population/fertility-rates/</loc>
@@ -192,6 +196,6 @@
     </url>
     <url>
         <loc>http://www.geographyas.info/</loc>
-        <lastmod>2012-03-24T09:08:13+00:00</lastmod>
+        <lastmod>2012-03-24T09:44:37+00:00</lastmod>
     </url>
 </urlset>
