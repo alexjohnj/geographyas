@@ -35,8 +35,7 @@ body
 {
   text-rendering: optimizelegibility
   -webkit-font-smoothing: antialiased;
-  /*font-family: "Helvetica", "Arial", sans-serif;*/
-  font-family: 'Merriweather', serif;
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
   font-size:15px;
   line-height: 1.2;
   background-color: #f3f2ec;
