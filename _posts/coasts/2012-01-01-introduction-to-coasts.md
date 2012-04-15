@@ -8,7 +8,7 @@ keywords: "features of coastlines, features of coasts, coastal features, inputs 
 
 A coast is a narrow strip of land where the sea meets the land. Coasts are divided into zones depending on what the conditions are like on different sections of a coast. 
 
-![Diagram of a coast showing how it is divided into sections](/Images/coasts/1introduction/coastOutlineDiagram.png)
+![Diagram of a coast showing how it is divided into the below sections.](/Images/coasts/1introduction/coastOutlineDiagram.png)
 
 - *Backshore* - This is the area between the high water mark and the landward limit of marine activity. 
 - *Foreshore* - This is the area lying between the high water mark and the low water mark and is often seen as the most important area for marine activity. 
@@ -19,18 +19,18 @@ A coast is a narrow strip of land where the sea meets the land. Coasts are divid
 
 ### Terrestrial 
 
-- Rock type on the coast. If it's soft rock it will be eroded far more easily than if it's hard rock. 
-- Deltas form where rivers meat the sea, which will alter the shape of coasts. 
-- Composition of rock layers on coasts will affect the shape of coasts.
-- Tectonics in the area will effect coasts. Earthquakes can move rock and trigger tsunamis, which can destroy entire coasts.
-- Mangroves and coral reefs can alter the shape of the shape of coasts as they slow down incoming waves, slowing erosion of coasts. 
+- Rock type of the coast. If the coast is made from soft rock, it will be eroded far more quickly than if it is made of hard rock. 
+- Deltas form where rivers meet the sea, which will alter the shape of coasts. 
+- Composition of rock layers on coasts will affect their shapes.
+- Tectonics in the area will effect coasts. Earthquakes can move rock and trigger tsunamis, which can destroy entire coastlines.
+- Mangroves and coral reefs can alter the shape of coasts as they slow down incoming waves, decreasing the rate at which a coast is eroded. 
 
 ### Human
 
-- Ports, docks and transport can be constructed and used on coasts, thus altering the shape of coasts. Boats can destroy coral reefs and hence increase the erosion of the coasts. 
-- Coasts can be used for recreation and tourism. The increased foot traffic and demand for certain attractions on coasts can alter their shape substantially. 
-- Humans can settle on coasts. Often, settlements on coasts will thrive due to their proximity to the sea for trade. 
-- Global warming is altering the shape of coasts due to the rising sea levels resulting from it. 
+- Ports, docks and transport can be constructed and/or used on coasts, thus altering the shape of coasts. Boats can destroy coral reefs and hence increase the erosion of the coastline. 
+- Coasts can be used for recreation and tourism. The increased foot traffic and demand for certain attractions on coastlines can alter their shape substantially. 
+- Humans can settle on coastlines. Often, settlements on coastlines will thrive due to their proximity to the sea for trade and tourism. 
+- Global warming is altering the shape of coastlines due to the rising sea levels resulting from it. 
 
 ### Atmospheric
 
@@ -40,7 +40,7 @@ A coast is a narrow strip of land where the sea meets the land. Coasts are divid
 
 ### Marine
 
-- Biotic creatures such as Coral alter the shapes of coasts for the aforementioned reasons.
+- Biotic creatures such as Coral alter the shapes of coasts for the aforementioned reasons relating to the rate of erosion.
 - Waves, tides & salt spray all play their part in altering the shape of coasts. 
 
 ## Coastal System

@@ -42,4 +42,4 @@ We can look at:
 
 [^2]: The number of cases of a disease diagnosed in an area divided by the total population over a period of time in an epidemic. 
 
-[^3]: The number of people dying from a disease divided by the number of people contracting a disease. 
+[^3]: The number of people dying from a specific disease divided by the number of people contracting a disease. 

@@ -16,7 +16,7 @@ Freeze thaw weathering involves water entering cracks in rocks and freezing. Whe
 
 ### Exfoliation
 
-The repeated action of heating and cooling rocks causing them to “shed” of layers. 
+The repeated action of heating and cooling rocks causing them to “shed” off layers. 
 
 ### Biological Weathering
 
@@ -24,7 +24,7 @@ Plant seeds get into cracks in rocks and begin growing. As they grow, they exert
 
 ### Chemical Weathering
 
-[Corrosion](/coasts/coastal-erosion/#corrosion) is *technically* a form of weathering. Processes such as hydrolysis and oxidation can weather away rocks. Hydrolysis involves the splitting of minerals due to their reactivity with water. Oxidation is, basically, rusting. Elements such as iron are susceptible to oxidation and can be found within minerals. 
+[Corrosion](/coasts/coastal-erosion/#corrosion) is *technically* a form of weathering and not erosion. Processes such as hydrolysis and oxidation can weather away rocks. Hydrolysis involves the splitting of minerals due to their reactivity with water. Oxidation is, basically, rusting. Elements such as iron are susceptible to oxidation and can be found within minerals on coastlines. 
 
 ## Mass Movement
 
@@ -48,4 +48,4 @@ Slumping happens for similar reasons to landslides. Heavy rainfall makes the roc
 
 ### Mudflow
 
-Mudflow is a very dangerous form of mass movement which occurs on steep slopes with saturated soil and little vegetation. The lack of vegetation means that there is nothing to bind the soil together, promoting mass wasting. The saturated soil becomes heavier and is lubricated, leading to the rapid movement of a lot of mud. 
+Mudflow is a very dangerous form of mass movement which occurs on steep slopes with saturated soil and little vegetation. The lack of vegetation means that there is nothing to bind the soil together, promoting mass wasting. The saturated soil becomes heavier and is lubricated, leading to the rapid movement of a lot of mud downhill. 
