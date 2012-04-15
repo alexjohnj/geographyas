@@ -17,13 +17,13 @@ The death rate in the area (in general) was 11.9 per thousand and the birth rate
 
 Ethnic diversity in the Isle of Purbeck is minimal. 98.8% of the population is white, versus 90.9% in the rest of England. According to the 2001 census, the ethnic groups where distributed as follows in the Isle of Purbeck:
 
-| --------------------|------------|  
-| Group               | Percentage |  
-| White               | 98.8%      |  
-| Mixed               | 0.4%       |  
-| Asian/Asian British | 0.1%       |  
-| Black/Black British | 0.1%       |  
-| Chinese/Other       | 0.6%       |  
+|        Group        | Percentage |  
+| :-----------------: | :--------: |  
+|        White        |    98.8%   |  
+|        Mixed        |    0.4%    |  
+| Asian/Asian British |    0.1%    |  
+| Black/Black British |    0.1%    |  
+|    Chinese/Other    |    0.6%    |  
 
 ## Housing Problems
 
