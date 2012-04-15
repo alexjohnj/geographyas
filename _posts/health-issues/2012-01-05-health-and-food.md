@@ -110,12 +110,12 @@ That's mass in kilograms divided by a person's height in metres squared.
 
 ## Categorisation
 
-| BMI | Weight Category|
-| -- | --- | 
-| < 18.5 | Underweight |
-| 18.5 - 25 | Normal | 
-| 25 - 30 | Overweight | 
-| 30 + | Obese | 
+| BMI       | Weight Category |  
+| --------- | --------------- |  
+| < 18.5    | Underweight     |  
+| 18.5 - 25 | Normal          |  
+| 25 - 30   | Overweight      |  
+| 30 +      | Obese           |  
 
 These BMI categories are not applicable for children. 
 

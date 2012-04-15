@@ -3,7 +3,7 @@ title: An Introduction To Coasts
 layout: page
 category: 'coasts'
 description: "Coasts is the second physical topic studied at AS Level. This post outlines the basics of coasts and what can effect them."
-keywords: "features of coastlines, features of coasts, coastal features, inputs into coasts, outputs in coastals systems, coastal systems, sections of a caostal system, human impacts on coasts"
+keywords: "features of coastlines, features of coasts, coastal features, inputs into coasts, outputs in coastal systems, coastal systems, sections of a coastal system, human impacts on coasts"
 ---
 
 A coast is a narrow strip of land where the sea meets the land. Coasts are divided into zones depending on what the conditions are like on different sections of a coast. 
