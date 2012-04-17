@@ -206,9 +206,10 @@ ul,p,li
   text-align:center;
 }
 
-.siteTitle{
+.siteHeader{
   padding-top: 5px;
   padding-left: 10px;
+  padding-right: 15px;
   height: 60px;
   background: #3a2f23;
   background:-moz-linear-gradient(top, #3a2f23, #2c1c1c);
@@ -222,9 +223,18 @@ ul,p,li
   display: block;
 }
 
-#siteTitleLink, #siteTitleLink:hover{
+.siteHeaderLink, .siteHeaderLink:hover{
   color: white;
   text-decoration: none;
+}
+
+#titleSubDiv{
+  float: left;
+}
+
+#aboutLinkSubDiv{
+  padding-top: 26px;
+  float: right;
 }
 
 .pageTitle{
