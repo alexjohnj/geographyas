@@ -1,5 +1,5 @@
 ---
-title: Population Strucutre
+title: Population Structure
 category: 'population'
 layout: page
 keywords: "population pyramids, structure, population change, natural increase, birth rate, death rate, fertility rate"
@@ -43,19 +43,19 @@ Declining birth rate, low death rate, more old people.
 
 ![](/Images/population/10/stage4.png)
 
-Low birth rate, low death rate, rising dependancy ratio. Long life expectancy. 
+Low birth rate, low death rate, rising dependency ratio. Long life expectancy. 
 
 ### The Dependency Ratio
 
 The dependency ratio is the relationship between the working (economically active) population and the non-economically active population (dependant). It's calculated using:
 
-> Dependency Ratio = Population (0 - 14) + Population (65+) / Population (15-64)
+> Dependency Ratio = Young Population (0 - 14) + Old Population (65+) / Population Aged 15-64
 
 ### The Support Ratio
 
 The support ratio is the inverse of the dependency ratio:
 
-> Support Ratio = Population (15 - 64) / Population (65+)
+> Support Ratio = Population (15 - 64) / Population (65+) + Population (0 - 14)
 
 ### Juvenile Index
 
