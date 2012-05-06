@@ -20,7 +20,7 @@ Quite simply, the population doubling time is the time it takes for the populati
 ### Components of  Population Change
 
 - *Life Expectancy* - The average number of years a person from a specific country is expected to live. 
-- *Birth Rate* - The number of (live) people born per 1000 of the population per year (normally per km<sup2</sup>).
+- *Birth Rate* - The number of (live) people born per 1000 of the population per year (normally per km<sup>2</sup>).
 - *Death Rate* - The number of people who die per 1000 of the population per year. 
 - *Natural Change* - The change in the size of a population caused by the interrelationship between birth and death rates. If the birth rate exceeds the death rate then the population will increase. If the death rate exceeds the birth rate then the population will decrease.
 - *Annual Population Change* - The cumulative change to the size of a population after both natural change and migration have been accounted for.
