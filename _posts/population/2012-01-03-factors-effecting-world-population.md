@@ -22,7 +22,7 @@ keywords: "health, education, social provisions, cultural factors, factors, popu
 
 - If proper social care is provided to the elderly and they are well looked after, death rate will be reduced since they are able to live longer.
 - If clean water is available, death rate is reduced as water born diseases such as cholera aren't prevalent. In addition, people are able to wash themselves and clothing properly (rather than in a river, where they also obtain their drinking water) again reducing the death rate thanks to an improved hygiene standard. 
-- The availability of media makes it easier to educate people and raise awareness about outbreaks of diseases potentially reducing death rate. The availability of media is also important for educating people about hygiene, avoiding disease e.t.c if they were unable to attend school. 
+- The availability of media makes it easier to educate people and raise awareness about outbreaks of diseases potentially reducing death rate. The availability of media is also important for educating people about hygiene, avoiding disease etc. if they were unable to attend school. 
 
 ### Cultural Factors
 
@@ -34,7 +34,7 @@ keywords: "health, education, social provisions, cultural factors, factors, popu
 
 ### Political Factors
 
-- Some countries provide benefits to people who have many children to encourage people to give birth (e.g France) as a result of an aging population and a natural decrease. This has the desired effect of increasing birth rate.
+- Some countries provide benefits to people who have many children to encourage people to give birth (e.g. France) as a result of an aging population and a natural decrease. This has the desired effect of increasing birth rate.
 - Alternatively some countries offer rewards to couples who have fewer children in order to encourage people to have less children resulting in a lowered birth rate.
 - If taxes in a country are high, people may not have children as they can't afford to, decreasing the birth rate. In addition, young people may migrate away from the country if they can afford to in order to escape the taxes reducing the countries (young, fertile) population and also resulting in an increased death rate due to the knock on effects of an aging population. 
 - During times of warfare the birth rate will fall significantly (since people are occupied fighting) and the death rate will often rise substantially. After a war however, there is often a "baby boom" resulting in a massive increase in the birth rate of a country. 

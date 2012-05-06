@@ -31,12 +31,12 @@ keywords: "fertility rate, birth rate, population change, natural increase"
 
 #### Level Of Healthcare
 
-- Improvements in health care, sanitation & diet lead to a drop in infant mortality rate e.g The Demographic Republic of Congo has a total fertility rate of 6.91 and 0.088 doctors per 1000 people. 
-- Availability of contraceptives for couples with knowledge and desire to use it e.g Rwanda, where 10% of women practice modern methods of family planning and where the total fertility rate is 5.12. In Brazil, 70% of women practice modern methods of family planning and the total fertility rate is 2.21.
+- Improvements in health care, sanitation & diet lead to a drop in infant mortality rate e.g. The Demographic Republic of Congo has a total fertility rate of 6.91 and 0.088 doctors per 1000 people. 
+- Availability of contraceptives for couples with knowledge and desire to use it e.g. Rwanda, where 10% of women practice modern methods of family planning and where the total fertility rate is 5.12. In Brazil, 70% of women practice modern methods of family planning and the total fertility rate is 2.21.
 
 #### Level Of Education
 
-- In some countries, access to healthcare and education may be limited e.g Afghanistan, total fertility rate of 7.7 with 0.17 doctors per 1000 & a female literacy rate of 13%. 
+- In some countries, access to healthcare and education may be limited e.g. Afghanistan, total fertility rate of 7.7 with 0.17 doctors per 1000 & a female literacy rate of 13%. 
 - Higher female literacy rates lead to improved knowledge of birth control, more opportunities for employment and more choice. This may lead to lower fertility rates. 
 
 ---
@@ -50,7 +50,7 @@ keywords: "fertility rate, birth rate, population change, natural increase"
 
 #### The Status of Women
 
-- Women in some countries are obliged to produce as many children as possible e.g Nigeria, total fertility rate 4.9.
+- Women in some countries are obliged to produce as many children as possible e.g. Nigeria, total fertility rate 4.9.
 
 #### Machismo
 
@@ -62,7 +62,7 @@ keywords: "fertility rate, birth rate, population change, natural increase"
 
 #### Employment Opportunities
 
-- With the prospect of a career, women may have less children and marry later. E.g the average marital age in the UK is 30. 
+- With the prospect of a career, women may have less children and marry later. e.g. the average marital age in the UK is 30. 
 
 - Reduced access to formal employment and other income earning opportunities means women are forced to devote most of their time and energy to child bearing.
 
@@ -77,7 +77,7 @@ keywords: "fertility rate, birth rate, population change, natural increase"
 
 #### Pressure from the Government
 
-- Some governments will try to influence the rate of population growth e.g The chinese attempting to reduce the birth rate or Japan attempting to increase it. 
+- Some governments will try to influence the rate of population growth e.g. The chinese attempting to reduce the birth rate or Japan attempting to increase it. 
 
 ---
 
@@ -85,12 +85,12 @@ keywords: "fertility rate, birth rate, population change, natural increase"
 
 #### Infant Mortality Rates
 
-- High birth rates to compensate a high infant mortality rate e.g Nigeria with a birth rate of 51.6.
-- Reduced infant mortality rate reduces the need for lots of children for security. E.g Japan's birth rate of 7.64 with an infant mortality rate of 2.79.
+- High birth rates to compensate a high infant mortality rate e.g. Nigeria with a birth rate of 51.6.
+- Reduced infant mortality rate reduces the need for lots of children for security. e.g. Japan's birth rate of 7.64 with an infant mortality rate of 2.79.
 
 #### Age Structures
 
 - Countries with a large proportion of young people may continue to see a population increase due to population momentum.
-- Countries with a small proportion of youth face population decline even if birth rates per woman increase e.g Japan.
+- Countries with a small proportion of youth face population decline even if birth rates per woman increase e.g. Japan.
 
 ---

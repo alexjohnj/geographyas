@@ -34,7 +34,7 @@ State pension systems transfer resources from the current generation of workers 
 - The rate at which individuals save for retirement increases.
 - Increase the average retirement age. 
 
-#### The Pension Act Of 2007 (Uk)
+#### The Pension Act Of 2007 (UK)
 
 - Pension age will be equalised at 65 for both men and women between 2010 and 2020. 
 - It will be raised to 68 between 2024 and 2046.

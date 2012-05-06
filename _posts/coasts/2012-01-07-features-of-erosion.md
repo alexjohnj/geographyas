@@ -5,7 +5,7 @@ category: 'coasts'
 keywords: "formation of headlands, formation of bays, swanage bay, formation of wave cut notches, wave cut notch formation, wave cut platform formation, stack formation, stump formation, formation of arches, arches on hilbre island, barton on sea cliff management, cliff collapse barton on sea, cliff collapse"
 published: true
 ---
-## Headlands & Bays (e.g Swanage Bay)
+## Headlands & Bays (e.g. Swanage Bay)
 
 Headlands and bays, such as Swanage Bay, form on discordant coastlines, where hard and soft rock run in layers at 90˚ to the water. Alternating layers of hard and soft rock allow the sea to erode the soft rock faster, forming a bay but leaving hard rock sticking out, known as a headland. The altering rate of erosion of hard and soft rock is known as differential erosion. As the bay develops, wave refraction around the headlands begins to occur, increasing erosion of the headlands but reducing the erosion and development of the bay due to a loss of wave energy. Headlands and bays can form on concordant coastlines too, as has happened with Lulworth Cove, but this requires the rock to have already been weakened, possibly during an ice age. Irrespective of whether the coastline is concordant or discordant, as wave refraction takes place around the headlands and erosion of the bay is reduced, sub-aerial weathering such as corrosion and corrasion begins to weather the bay, furthering its development. 
 

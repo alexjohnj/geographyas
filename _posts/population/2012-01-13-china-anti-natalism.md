@@ -49,7 +49,7 @@ keywords: "one child policy, anti natalism, china, population control, birth con
 
 #### Civil Unrest
 
-- Opposition in rural areas, where stronger requirements for sons to work in fields, continue family name and look after parents in their old age, exist
+- Opposition in rural areas, where stronger requirements for sons to work in fields, continue family name and look after parents in their old age, exist.
 - Reports of gender selective abortions, hidden children, abandoned girls and, in rare cases, female infanticide. 
 
 #### Little Emperor Syndrome 

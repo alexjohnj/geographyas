@@ -31,7 +31,7 @@ Incentives offered in the policy included:
 - Full tax benefits to parents until the youngest child reaches 18. 
 - 30% fare reduction on all public transport for three child families. 
 - Pension schemes for mothers/housewives.
-- Child-orientated development policies e.g provisioning of creches, day nurseries e.t.c.
+- Child-orientated development policies e.g. provisioning of creches, day nurseries etc.
 - Depending on the family's income, childcare costs from virtually nothing to around €500 a month for the most well off of families. 
 - Nursing mothers are encourage to work part-time or take a weakly day off work. 
 

@@ -6,7 +6,7 @@ keywords: "crude death rate, life expectancy, infant mortality rate, IMR, death 
 ---
 
 - _Crude death rate_ - The average annual number of deaths a year per 1000 of the population.
-- _Age specific death rate_ - This shows death rates per 1000 population by sex for age groups e.g under 1, 1 - 4, 5 - 15 e.t.c.
+- _Age specific death rate_ - This shows death rates per 1000 population by sex for age groups e.g. under 1, 1 - 4, 5 - 15 etc.
 - _Life Expectancy_ - The average number of years to be lived by a group of people born in the same year, if mortality at each age remains constant in the future. 
 - _Infant Mortality rate_ - The number of deaths of children under the age of 1 per 1000 live births per year.
 
@@ -20,7 +20,7 @@ North America, Canada and South America show relatively low death rates. Mexico 
 
 - _Gender_ - Women generally have a higher life expectancy than men, possibly due to the lifestyle or biological differences preventing certain diseases. 
 
-- _Occupation_ - In some countries people may be employed in dangerous occupations increasing the death rate e.g Timber cutters in America with 105 deaths in 2000. 
+- _Occupation_ - In some countries people may be employed in dangerous occupations increasing the death rate e.g. Timber cutters in America with 105 deaths in 2000. 
 
 - _Income_ - Low income levels correlate to a low life expectancy whilst high income levels correlate with a high life expectancy. This is because a high income allows people to afford medical care, higher standards of living and healthier foods, prolonging their life. 
 
@@ -62,4 +62,4 @@ Equatorial areas with hot climates have higher IMRs due to droughts causing a sh
 
 #### Geographical Location
 
-The location of an area results in varying cultures, income levels e.t.c which alternates the IMR. 
+The location of an area results in varying cultures, income levels etc. which alternates the IMR. 

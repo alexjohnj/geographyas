@@ -14,7 +14,7 @@ keywords: "cross profiles, long profiles, channel, width, height, hydraulic radi
 - _Knick Point_ - Products of rejuvenation. 
 - _Graded Profile_ - Smooth concave shape.
 - _Profile of dynamic equilibrium_ - Balance between erosion and deposition.
-- _Potential Energy_ - Stored energy (e.g GPE).
+- _Potential Energy_ - Stored energy (e.g. GPE).
 - _Kinetic Energy_ - Energy due to movement. 
 
 Cross Profiles

@@ -17,7 +17,7 @@ Many Mexicans from rural communities migrate to America, the majority being male
 
 ### Push Factors
 
-- There are incredibly high crime rates in Mexico, especially in the capital. Homicide rates come in at around 10-14 per 100,000 people (world average 10.9 per 100,000) and drug related crimes are a major concern. It is thought that in the past five years, 47,500 people have been killed in crimes relating to drugs. Many Mexicans will move out of fear of their lives and hopes that America is a more stable place to live, with lower crime rates. 
+- There are incredibly high crime rates in Mexico, especially in the capital. Homicide rates come in at around 10-14 per 100,000 people (world average 10.9 per 100,000) and drug related crimes are a major concern. It is thought that in the past five years, 47,500 people have been killed in crimes relating to drugs. Many Mexicans will move out of fear for their lives and hope that America is a more stable place to live, with lower crime rates. 
 
 - Unemployment and poverty is a major problem in Mexico and has risen exponentially in recent years. In 2000, unemployment rates in Mexico were at 2.2, however, in 2009, they rose by 34.43%, leaving them standing at 5.37 in 2010. A large portion of the Mexican population are farmers, living in rural areas where extreme temperatures and poor quality land make it difficult to actually farm. This is causing many Mexican families to struggle, with 47% of the population living under the poverty line. With these high unemployment and poverty rates, people are forced to move to America, where they have better prospects, in order to be able to support their families and maintain a reasonable standard of living. 
 

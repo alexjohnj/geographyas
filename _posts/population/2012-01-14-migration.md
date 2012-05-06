@@ -12,8 +12,8 @@ The United Nations describes migration as the movement of a person or persons fr
 - For economical, environmental, sociocultural or political reasons. 
 - Migration can be voluntary or forced, temporary or permanent, national or international. 
 - Population movements are driven and sustained by potential push and pull forces due to an imbalance in economic activities and opportunities. 
-- Push factors are features of the home area which creates pressure and so causes people to move away. E.g persecution, unemployment & poverty.
-- Pull factors operate at places outside of the migrant's home area to attract individuals to a new location. E.g political asylum, a promotion, high living standards in another area.
+- Push factors are features of the home area which creates pressure and so causes people to move away. e.g. persecution, unemployment & poverty.
+- Pull factors operate at places outside of the migrant's home area to attract individuals to a new location. e.g. political asylum, a promotion, high living standards in another area.
 
 ## Consequences Of Migration On The Country Of Origin
 
@@ -75,14 +75,14 @@ The United Nations describes migration as the movement of a person or persons fr
 #### Positive 
 
 - The creation of a multiethnic society increases understanding and tolerance of other cultures. 
-- There is an influx of new or revitalised services e.g Kebab shops & Turkish baths. 
+- There is an influx of new or revitalised services e.g. Kebab shops & Turkish baths. 
 - People from other countries can encourage the learning of new languages, helping people develop skills for working internationally. 
 
 #### Negatives
 
 - The dominance of males is reinforced (due to the large number of male migrants), especially in cultures where women already have a low status. 
 - Aspects of cultural identity are lost, especially in second generation children. 
-- Segregated ethnic areas are created e.g China Town. Schools become dominated by migrant children. 
+- Segregated ethnic areas are created e.g. China Town. Schools become dominated by migrant children. 
 
 ### Political Impacts
 
@@ -102,6 +102,6 @@ The United Nations describes migration as the movement of a person or persons fr
 
 - Limiting the number of migrant workers at the source.
 - Insisting on boundary arrangements. 
-- Preventing illegal crossings e.g Sea patrols between Florida and Cuba. 
+- Preventing illegal crossings e.g. Sea patrols between Florida and Cuba. 
 - Returning ineligible asylum seekers. 
 - Use of holding bases for visa checks. 
