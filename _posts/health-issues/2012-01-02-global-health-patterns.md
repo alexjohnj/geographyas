@@ -1,4 +1,3 @@
-
 ---
 title: "Global Health Patterns"
 layout: page
