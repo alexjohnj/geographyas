@@ -20,7 +20,7 @@ HIV and AIDS are not the same thing! AIDS is a disease that results from the HIV
 
 AIDS wasn't actually recognised as a medical condition until 1981 and its cause (HIV) wasn't recognised until 1983. HIV/AIDS has spread rapidly since its initial discovery and is currently considered a global pandemic by the WHO. 
 
-AIDS is transferred between humans primarily when bodily fluids are exchanged (blood, during sex e.t.c). This can be due to using infected needles, either due to drug abuse or due to poor quality health care. Blood transfusions were, but no longer are, a source of HIV/AIDS (transfusions are now screened). HIV/AIDS can also be transferred during pregnancy. 
+AIDS is transferred between humans primarily when bodily fluids are exchanged (blood, during sex etc.). This can be due to using infected needles, either due to drug abuse or due to poor quality health care. Blood transfusions were, but no longer are, a source of HIV/AIDS (transfusions are now screened). HIV/AIDS can also be transferred during pregnancy. 
 
 The disease is currently considered incurable and a vaccine doesn't exist (largely due to the rapidly changing nature of the virus). Antiretroviral treatments are available and can help prolong the life of individuals, but people's life expectancy still falls substantially once infected with the disease. The actual effects of HIV/AIDS can take many years to appear after infection. 
 

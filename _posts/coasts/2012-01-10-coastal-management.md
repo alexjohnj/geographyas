@@ -73,7 +73,7 @@ The goal of beach stabilisation is the same as beach nourishment's goal, to wide
 
 ### Location
 
-The Wirral is located in the north west of England, to the south of Liverpool. The Wirral is a *peninsular* meaning that three sides of the Wirral are surrounded by water while the fourth side is attached to the land. To the west of the Wirral is the Irish sea, to the north is the River Mersey and to the south is the River Dee. The Wirral did, and continues to in some areas, serve as an important port for the United Kingdom and today, sections of the Wirral's coastline are used as reasonably popular tourist destinations. On differing sections of the Wirral's coastline, different types of coastal defences have been employed in an attempt to reduce the impacts of coastal erosion on the coast. A combination of both hard engineering and soft engineering techniques have been employed. 
+The Wirral is located in the north west of England, to the south of Liverpool. The Wirral is a *peninsula* meaning that three sides of the Wirral are surrounded by water while the fourth side is attached to the land. To the west of the Wirral is the Irish sea, to the north is the River Mersey and to the south is the River Dee. The Wirral did, and continues to in some areas, serve as an important port for the United Kingdom and today, sections of the Wirral's coastline are used as reasonably popular tourist destinations. On differing sections of the Wirral's coastline, different types of coastal defences have been employed in an attempt to reduce the impacts of coastal erosion on the coast. A combination of both hard engineering and soft engineering techniques have been employed. 
 
 ### Hard Engineering In New Brighton
 

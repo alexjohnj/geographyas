@@ -32,7 +32,7 @@ Morbidity, the incidence of disease, is measured by the World Health Organisatio
 
 ## Risk Factors
 
-Morbidity is effected by certain risk factors. In LEDCs, these factors are malnutrition, social diseases (i.e AIDS), unsanitary hygiene & living conditions, a lack of clean water and poor living standards. In MEDCs, these factors are blood pressure, a lack of physical activity and lifestyle choices such as alcohol, tobacco and poor diets. 
+Morbidity is effected by certain risk factors. In LEDCs, these factors are malnutrition, social diseases (i.e. AIDS), unsanitary hygiene & living conditions, a lack of clean water and poor living standards. In MEDCs, these factors are blood pressure, a lack of physical activity and lifestyle choices such as alcohol, tobacco and poor diets. 
 
 ## Global Patterns Of Life Expectancy 
 

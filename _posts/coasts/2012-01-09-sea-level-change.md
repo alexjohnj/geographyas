@@ -36,7 +36,7 @@ Sea level change can produce many features along coastlines. Again, we can categ
 
 Emergent landforms begin to appear towards the end of an ice age and they occur when isostatic rebound takes place faster than a eustatic rise in sea level. Put more simply, the land's height rises faster than the sea's. Emergent features are features of coastal erosion that appear to have developed well above the current sea level. Really, they developed when the sea *was* at that level and then the sea level changed during and ice age and now they're above sea level.
 
-One such emergent landform is a *raised beach*. Raised beaches are wave-cut platforms & beaches that are above the current sea level. You can normally find some old cliffs (relic cliffs) too behind these raised beaches with wave-cut notches, arches, stacks e.t.c along them. 
+One such emergent landform is a *raised beach*. Raised beaches are wave-cut platforms & beaches that are above the current sea level. You can normally find some old cliffs (relic cliffs) too behind these raised beaches with wave-cut notches, arches, stacks etc. along them. 
 
 These emergent features no longer experience coastal erosion but they are still weathered, often being weathered biologically, chemically and via freeze-thaw weathering. 
 
