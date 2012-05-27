@@ -73,12 +73,16 @@
         <lastmod>2012-05-24T21:17:41+01:00</lastmod>
     </url>
     <url>
+        <loc>http://www.geographyas.info/rivers/long-and-cross-profiles/</loc>
+        <lastmod>2012-05-27T15:41:54+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.geographyas.info/population/uk-population-distribution-density/</loc>
         <lastmod>2012-05-24T21:17:41+01:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/rivers/long-and-cross-profiles/</loc>
-        <lastmod>2012-05-27T15:41:54+01:00</lastmod>
+        <loc>http://www.geographyas.info/rivers/features-of-erosion/</loc>
+        <lastmod>2012-05-27T15:41:42+01:00</lastmod>
     </url>
     <url>
         <loc>http://www.geographyas.info/coasts/sub-aerial-processes/</loc>
@@ -93,12 +97,12 @@
         <lastmod>2012-05-24T21:17:41+01:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/coasts/features-of-erosion/</loc>
-        <lastmod>2012-05-24T21:17:41+01:00</lastmod>
+        <loc>http://www.geographyas.info/rivers/depositional-features/</loc>
+        <lastmod>2012-05-27T15:41:28+01:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/rivers/features-of-erosion/</loc>
-        <lastmod>2012-05-27T15:41:42+01:00</lastmod>
+        <loc>http://www.geographyas.info/coasts/features-of-erosion/</loc>
+        <lastmod>2012-05-24T21:17:41+01:00</lastmod>
     </url>
     <url>
         <loc>http://www.geographyas.info/population/fertility-rates/</loc>
@@ -113,10 +117,6 @@
         <lastmod>2012-05-24T21:17:41+01:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/rivers/depositional-features/</loc>
-        <lastmod>2012-05-27T15:41:28+01:00</lastmod>
-    </url>
-    <url>
         <loc>http://www.geographyas.info/coasts/features-of-deposition/</loc>
         <lastmod>2012-05-24T21:17:41+01:00</lastmod>
     </url>
@@ -125,8 +125,16 @@
         <lastmod>2012-05-24T21:17:41+01:00</lastmod>
     </url>
     <url>
+        <loc>http://www.geographyas.info/rivers/rejuvenation/</loc>
+        <lastmod>2012-05-27T15:42:50+01:00</lastmod>
+    </url>
+    <url>
         <loc>http://www.geographyas.info/population/demographic-transition-model/</loc>
         <lastmod>2012-05-24T21:17:41+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.geographyas.info/rivers/flooding-and-river-management/</loc>
+        <lastmod>2012-05-27T16:10:50+01:00</lastmod>
     </url>
     <url>
         <loc>http://www.geographyas.info/coasts/sea-level-change/</loc>
@@ -145,19 +153,7 @@
         <lastmod>2012-05-24T21:17:41+01:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/rivers/rejuvenation/</loc>
-        <lastmod>2012-05-27T15:42:50+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.geographyas.info/rivers/flooding/</loc>
-        <lastmod>2012-05-27T15:44:00+01:00</lastmod>
-    </url>
-    <url>
         <loc>http://www.geographyas.info/population/france-pro-natalism/</loc>
-        <lastmod>2012-05-24T21:17:41+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.geographyas.info/rivers/boscastle-floods/</loc>
         <lastmod>2012-05-24T21:17:41+01:00</lastmod>
     </url>
     <url>
@@ -165,15 +161,7 @@
         <lastmod>2012-05-24T21:17:41+01:00</lastmod>
     </url>
     <url>
-        <loc>http://www.geographyas.info/rivers/flood-management/</loc>
-        <lastmod>2012-05-24T21:17:41+01:00</lastmod>
-    </url>
-    <url>
         <loc>http://www.geographyas.info/population/migration/</loc>
-        <lastmod>2012-05-24T21:17:41+01:00</lastmod>
-    </url>
-    <url>
-        <loc>http://www.geographyas.info/rivers/flooding-in-bihar/</loc>
         <lastmod>2012-05-24T21:17:41+01:00</lastmod>
     </url>
     <url>
@@ -208,7 +196,7 @@
     </url>
     <url>
         <loc>http://www.geographyas.info/</loc>
-        <lastmod>2012-05-27T15:44:12+01:00</lastmod>
+        <lastmod>2012-05-27T16:10:50+01:00</lastmod>
     </url>
     <url>
         <loc>http://www.geographyas.info/pages/about/</loc>
