@@ -35,7 +35,7 @@ body
 {
   text-rendering: optimizelegibility
   -webkit-font-smoothing: antialiased;
-  font-family: 'Open Sans', 'Helvetica', sans-serif;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size:15px;
   line-height: 1.2;
   background-color: #f3f2ec;
@@ -51,7 +51,6 @@ body
 
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 700;
 }
 
 h1

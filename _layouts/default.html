@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="/style.min.css" type="text/css">
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 		<title>{{ page.title }}</title>
 		{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}">
 		{% elsif page.keywords == null %}	
@@ -18,15 +17,11 @@
 		{% elsif page.author == null %}
 		<meta name="author" content="{{ site.author }}">
 		{% endif %}
-		{% if page.script %}	
-		<script src="{{ site.baseurl }}scripts/{{ page.script }}.min.js" type="text/javascript"></script>
-		{% endif %}
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		
 <script type="text/javascript">
 var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28196489-1"]);_gaq.push(["_trackPageview"]);(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();
 </script>
-<script src="{{ site.baseurl }}scripts/navigationBarScript.min.js" type="text/javascript"></script>
 	</head>
 	<body>
 		<div class="siteHeader">
@@ -69,5 +64,9 @@ var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28196489-1"]);_gaq.push(["_trackP
 			<p>{% if prev_post%}<a href="{{ prev_post }}">Previous</a>{% endif %} {% if next_post %} <a href="{{ next_post }}">Next</a>&nbsp;{% endif %}<a href="/">Home</a></p>
 	</div>
 	</div>
+	<script src="{{ site.baseurl }}scripts/navigationBarScript.min.js" type="text/javascript"></script>
+	{% if page.script %}	
+	<script src="{{ site.baseurl }}scripts/{{ page.script }}.min.js" type="text/javascript"></script>
+	{% endif %}
 	</body>
 </html>
