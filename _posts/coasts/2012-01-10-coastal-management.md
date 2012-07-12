@@ -6,7 +6,7 @@ keywords: "coastal management, managed retreat, coastal erosion, coastal deposit
 published: true
 ---
 
-It's becoming increasingly important for councils and governments to start managing coastlines in order to protect them from increasing [coastal erosion](/coasts/coastal-erosion) and flooding due to altering [sea levels](/coasts/sea-level-change). The reason for coastal management is obvious, to protect homes and businesses from being damaged and even destroyed by coastal erosion or flooding. Failure to do so can have severe economic and social effects, especially along coastlines which are used for tourism and industry (pretty much all of them).
+It's becoming increasingly important for councils and governments to start managing coastlines in order to protect them from increasing [coastal erosion](/coasts/coastal-erosion/) and flooding due to altering [sea levels](/coasts/sea-level-change/). The reason for coastal management is obvious, to protect homes and businesses from being damaged and even destroyed by coastal erosion or flooding. Failure to do so can have severe economic and social effects, especially along coastlines which are used for tourism and industry (pretty much all of them).
 
 Management of coastlines is also important to help protect natural habitats, however governments generally don't engage in coastal management where it there isn't an economic risk as effective coastal management is *very* expensive.
 

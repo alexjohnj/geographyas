@@ -6,7 +6,7 @@ keywords: "healthcare differences in the UK, healthcare in the wirral, healthcar
 published: true
 ---
 
-It's necessary to look at the differences in healthcare [globally](/health-issues/global-health-patterns), within a [country](/health-issues/coronary-heart-disease/#chd-in-the-uk) & within a region. The best way to do any of these is using a case study so below is a case study about the healthcare services in the Wirral, who provides them and how healthcare differs within the Wirral. 
+It's necessary to look at the differences in healthcare [globally](/health-issues/global-health-patterns/), within a [country](/health-issues/coronary-heart-disease/#chd-in-the-uk) & within a region. The best way to do any of these is using a case study so below is a case study about the healthcare services in the Wirral, who provides them and how healthcare differs within the Wirral. 
 
 A quick bit of background information. [The Wirral][googleMapsWirral] is located in the north west of England. It's a peninsula and is separated from the city of Liverpool by the River Mersey and from Wales by the River Dee (or, more specifically, their estuaries). To the north of the Wirral is the Irish Sea. The Wirral itself has several large(ish) towns including Caldy, Hoylake & West Kirby in the west and Wallasey & Birkenhead in the north and east respectively. 
 

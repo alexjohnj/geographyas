@@ -7,7 +7,7 @@ keywords: "population, growth, world population, natural change, annual populati
 
 Currently, the world's population is <del>6.9</del> 7 billion and is expected to reach 10 billion by 2080 and then stabilise. The population has been growing exponentially in the past two centuries, going from just 0.75 billion in 1750 to 7 billion today. The population increase peaked in the 1960s, when the natural increase of the world's population was 2.2%. Today, the natural increase has and is falling but it isn't expected to level off until 2100. 
 
-The growth of the world's population is not evenly distributed throughout the world. Depending on the economic development, the culture and [many other factors](/population/factors-effecting-world-population), the population of different countries can vary quite significantly. Asia, for example, has experienced rapid population growth and the country of China now accounts for nearly 15% of the world's population. Conversely, western countries such as the USA are experiencing a slow down in population growth and are expected to enter population decline fairly soon. 
+The growth of the world's population is not evenly distributed throughout the world. Depending on the economic development, the culture and [many other factors](/population/factors-effecting-world-population/), the population of different countries can vary quite significantly. Asia, for example, has experienced rapid population growth and the country of China now accounts for nearly 15% of the world's population. Conversely, western countries such as the USA are experiencing a slow down in population growth and are expected to enter population decline fairly soon. 
 
 ### Population Doubling Time
 

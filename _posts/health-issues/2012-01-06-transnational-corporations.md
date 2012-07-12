@@ -33,7 +33,7 @@ This list of essential drugs is widely regarded as an important tool in increasi
 ### Drug Development
 
 - The largest profits in the pharmaceutical industry come from the sale of branded drugs in developed countries. 
-- The most research money is spent on drugs to control [diseases of affluence](/health-issues/coronary-heart-disease). 
+- The most research money is spent on drugs to control [diseases of affluence](/health-issues/coronary-heart-disease/). 
 - Research into tropical diseases affecting hundreds of millions of people in less developed countries receives only a small proportion of the sum spent on cancer research.
 - Many new drugs regarded by WHO as essential are not yet available in generic form. 
 

@@ -6,7 +6,7 @@ keywords: "isostatic sea level change, eustatic sea level change, ocean level ch
 published: true
 ---
 
-The sea level has and continues to fluctuate greatly throughout time. On a day to day basis, the sea level changes according to the [tide](/coasts/tides) but the sea level also changes on a much grander time scale too. These changes in sea level are normally caused by ice ages or other major global events.
+The sea level has and continues to fluctuate greatly throughout time. On a day to day basis, the sea level changes according to the [tide](/coasts/tides/) but the sea level also changes on a much grander time scale too. These changes in sea level are normally caused by ice ages or other major global events.
 
 The sea level changes for a variety of reasons. These reasons can be put into two categories, eustatic and isostatic change, depending on if they have a global effect on sea level or a local effect on the sea level.
 
