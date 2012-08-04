@@ -101,6 +101,9 @@ blockquote
     position: absolute;
     visibility: hidden;
   }
+  h1, h2, h3{
+    line-height: normal;
+  }
   body{
     font-size: 13px;
     line-height: 1.3em;
