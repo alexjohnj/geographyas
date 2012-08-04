@@ -79,7 +79,6 @@ hr{
 }
 
 .siteHeader{
-  padding-top: 5px;
   padding-left: 10px;
   padding-right: 15px;
   margin-bottom: 20px;
@@ -94,14 +93,18 @@ hr{
   color: $site-header-font-colour;
   box-shadow: 0px 3px 5px rgb(183, 183, 183);
   display: block;
+  vertical-align: baseline;
 }
 
 #titleSubDiv{
+  padding-top: 14px;
+  display: block;
   float: left;
 }
 
 #aboutLinkSubDiv{
-  padding-top: 26px;
+  padding-top: 25px;
+  display: block;
   float: right;
 }
 
