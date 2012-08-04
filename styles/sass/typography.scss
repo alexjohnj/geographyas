@@ -5,7 +5,7 @@ body
   text-rendering: optimizeLegibility;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   font-size:15px;
-  line-height: 1.2;
+  line-height: 1.5em;
   background-color: #f3f2ec;
   color: black;
   width: 100%;
@@ -83,13 +83,6 @@ blockquote
 .footnote
 {
   font-size: 0.71em;
-}
-
-ul,p,li
-{
-  font-weight:inherit;
-  line-height:17px;
-  margin:1em;
 }
 
 .siteHeader{

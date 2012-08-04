@@ -14,7 +14,6 @@ hr{
 }
 
 .content{
-  overflow: auto;
   padding-bottom: $page-footer-hover-height;
 }
 
@@ -34,6 +33,12 @@ hr{
 	-moz-transition:all .3s ease-in-out;
 	-o-transition:all .3s ease-in-out;
 	-ms-transition:all .3s ease-in-out;
+	
+	p{
+  	margin-left: 1em;
+  	margin-right: 1em;
+	}
+	
 }
 
 .pageFooter:hover{
@@ -77,6 +82,7 @@ hr{
   padding-top: 5px;
   padding-left: 10px;
   padding-right: 15px;
+  margin-bottom: 20px;
   height: $site-header-height;
   background: $site-header-colour;
   background:-moz-linear-gradient(top, $site-header-colour, $site-header-gradient-highlight);
