@@ -34,6 +34,10 @@ h2
   margin-top:.5em;
 }
 
+.unitDiv h2{
+  font-size: 1.7em;
+}
+
 h3
 {
   font-weight: inherit;
@@ -89,5 +93,16 @@ blockquote
    a, a:hover{
     color: $site-header-font-colour;
     text-decoration: none;
+  }
+}
+
+@media handheld, only screen and (max-width: 480px){
+  #aboutLinkSubDiv{
+    position: absolute;
+    visibility: hidden;
+  }
+  body{
+    font-size: 13px;
+    line-height: 1.3em;
   }
 }
