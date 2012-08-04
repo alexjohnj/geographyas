@@ -1,0 +1,136 @@
+@import "variables";
+
+.pageTitle{
+  border-bottom: 1px dashed black;
+}
+
+hr{
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #626262;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.content{
+  overflow: auto;
+  padding-bottom: $page-footer-hover-height;
+}
+
+.pageFooter{
+	opacity: $page-footer-opacity;
+	position: fixed;
+	bottom:0;
+	left:0;
+	width: 100%;
+	margin-top: -$page-footer-height; /* negative value of footer height */
+	height: $page-footer-height;
+	clear:both;
+	background-color: $page-footer-colour;
+	color: white;
+	z-index: 0;
+	-webkit-transition:all .3s ease-in-out;
+	-moz-transition:all .3s ease-in-out;
+	-o-transition:all .3s ease-in-out;
+	-ms-transition:all .3s ease-in-out;
+}
+
+.pageFooter:hover{
+  margin-top: -$page-footer-hover-height;
+  height: $page-footer-hover-height;
+  opacity: $page-footer-opacity-hover;
+}
+
+.footerLeft{
+  position: absolute;
+  left:0;
+}
+
+.footerRight{
+  position: absolute;
+  right: 0;
+}
+
+.unitDiv
+{
+  cursor:pointer;
+  text-align:center;
+  width:100%;
+  height:$unit-div-height;
+  overflow:hidden;
+  border-radius:5px;
+  z-index: 0;
+  -webkit-transition:all .3s linear;
+  -moz-transition:all .3s linear;
+  -o-transition:all .3s linear;
+  -ms-transition:all .3s linear;
+}
+
+
+.listHeader,.pageHeader
+{
+  text-align:center;
+}
+
+.siteHeader{
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 15px;
+  height: $site-header-height;
+  background: $site-header-colour;
+  background:-moz-linear-gradient(top, $site-header-colour, $site-header-gradient-highlight);
+  background:-webkit-linear-gradient(top, $site-header-colour, $site-header-gradient-highlight);
+  background:-o-linear-gradient(top, $site-header-colour, $site-header-gradient-highlight);
+  background:-ms-linear-gradient(top, $site-header-colour, $site-header-gradient-highlight);
+  background:linear-gradient(top, $site-header-colour, $site-header-gradient-highlight);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$site-header-colour', endColorstr='$site-header-gradient-highlight',GradientType=0);
+  color: $site-header-font-colour;
+  box-shadow: 0px 3px 5px rgb(183, 183, 183);
+  display: block;
+}
+
+#titleSubDiv{
+  float: left;
+}
+
+#aboutLinkSubDiv{
+  padding-top: 26px;
+  float: right;
+}
+
+#somesortofwarning
+{
+  color:red;
+  font-size:1.29em;
+}
+
+/* This is from Twitter Bootsrap http://twitter.github.com/bootstrap/#tables*/
+
+table {
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 0;
+  border-collapse: collapse;
+}
+table th, table td {
+  padding: 10px 10px 9px;
+  line-height: 18px;
+  text-align: left;
+}
+table th {
+  padding-top: 9px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+table td {
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+table tbody th {
+  border-top: 1px solid #ddd;
+  vertical-align: top;
+}
+.condensed-table th, .condensed-table td {
+  padding: 5px 5px 4px;
+}
