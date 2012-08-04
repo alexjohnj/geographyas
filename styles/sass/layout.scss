@@ -79,9 +79,9 @@ hr{
 }
 
 .siteHeader{
-  padding-left: 10px;
-  padding-right: 15px;
-  margin-bottom: 20px;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 1em;
   height: $site-header-height;
   background: $site-header-colour;
   background:-moz-linear-gradient(top, $site-header-colour, $site-header-gradient-highlight);
@@ -97,13 +97,13 @@ hr{
 }
 
 #titleSubDiv{
-  padding-top: 14px;
+  padding-top: 0.9em;
   display: block;
   float: left;
 }
 
 #aboutLinkSubDiv{
-  padding-top: 25px;
+  padding-top: 1.7em;
   display: block;
   float: right;
 }
