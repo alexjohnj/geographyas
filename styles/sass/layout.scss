@@ -143,3 +143,10 @@ table tbody th {
 .condensed-table th, .condensed-table td {
   padding: 5px 5px 4px;
 }
+
+@media handheld, only screen and (max-width: 480px){
+	#aboutLinkSubDiv{
+		position: absolute;
+		visibility: hidden;
+	}
+}
