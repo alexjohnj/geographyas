@@ -1,5 +1,5 @@
 $(window).scroll(function () {
-	var pageFooter = $('.pageFooter');
+	var pageFooter = $('.page-footer');
 	if ($(window).scrollTop() + $(window).height() === $(document).height()) {
 		pageFooter[0].style.marginTop = "-3.3em";
 		pageFooter[0].style.height = "3.3em";

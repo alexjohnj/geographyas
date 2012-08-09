@@ -1,5 +1,5 @@
 function expandDiv(index) {
-    var eles = $(".unitDiv");
+    var eles = $(".unit-div");
     var i = 0;
     var originalHeight = "3em";
     var expandedHeight = "23.3em";

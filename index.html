@@ -7,7 +7,7 @@ script: clickScript
 <p>Click on a unit title to see the topics.</p>
 <hr>
 {% for category in site.categories %} 
-<div class="unitDiv" onClick="expandDiv({{ forloop.index0 }})" id="{{ forloop.index0 }}" style="height: 3em; overflow-x: hidden; overflow-y: hidden; overflow: hidden;">
+<div class="unit-div" onClick="expandDiv({{ forloop.index0 }})" id="{{ forloop.index0 }}" style="height: 3em; overflow-x: hidden; overflow-y: hidden; overflow: hidden;">
   <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" | capitalize | replace:"-", " " }}</h2>
     {% assign pages_list = category[1] %}  
     {% include helpers/pages_list.html %}
@@ -17,7 +17,7 @@ script: clickScript
 
 <noscript>
 
-<div id="somesortofwarning">
+<div id="warning-box">
 	<p>Hmmm. Looks like your browser either hasn't got JavaScript enabled or it doesn't support it. That means the above menu wont work for selecting pages. You should really enable JavaScript, but here's a list of all the pages in the menu.<p>
 </div>
 
@@ -31,7 +31,7 @@ script: clickScript
 	
 </noscript>
 
-<div id="somesortofwarning">
+<div id="warning-box">
 			<!--[if IE 9]>
 			<p>Hey! It looks like you're using Internet Explorer 9, that's great and all but you're going to miss out on some of the nice "eye candy" on this website using it. Maybe you should try <a href="https://www.google.com/chrome">Chrome</a> or <a href="http://www.apple.com/safari/">Safari?</a> They work nicer on this website.</p></br>
 			<![endif]-->
