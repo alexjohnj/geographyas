@@ -34,8 +34,11 @@ h2
   margin-top:.5em;
 }
 
-.unitDiv h2{
-  font-size: 1.7em;
+.unitDiv{
+  h2{
+    font-size: 1.7em;
+    text-transform: capitalize;
+  }
 }
 
 h3
