@@ -155,8 +155,7 @@ table tbody th {
 
 @media handheld, only screen and (max-width: 480px) {
   #about-link-sub-div {
-    position: absolute;
-    visibility: hidden; 
+    display: none;
   }
   
   .page-footer {

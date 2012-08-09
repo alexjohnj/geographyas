@@ -90,11 +90,6 @@ blockquote {
 }
 
 @media handheld, only screen and (max-width: 480px) {
-  #about-link-sub-div {
-    position: absolute;
-    visibility: hidden; 
-  }
-  
   h1, h2, h3 {
     line-height: normal; 
   }
