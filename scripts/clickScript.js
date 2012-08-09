@@ -1,22 +1,31 @@
 function expandDiv(index) {
     var eles = $(".unit-div");
-    var i = 0;
+    var unitDiv = eles[index];
     var originalHeight = "3em";
     var expandedHeight = "23.3em";
-
-    if (eles[index].style.height === originalHeight) {
-        eles[index].style.height = expandedHeight;
-        eles[index].style.overflowX = "auto";
-        eles[index].style.overflowY = "auto";
-        eles[index].style.overflow = "auto";
-    } else if (eles[index].style.height !== originalHeight) {
-        eles[index].style.height = originalHeight;
-        eles[index].scrollTop = 0;
-        eles[index].style.overflowX = "hidden";
-        eles[index].style.overflowY = "hidden";
-        eles[index].style.overflow = "hidden";
+    
+    
+    /* The first if statement is a hack to get styling to work. Since JQuery applies the styles to an element's style attribute and I don't do that when building websites, I need to check for the first time a div is clicked, otherwise nothing will happen when it's clicked. There's probably a really easy way to fix this but CBA reading the JQuery docs. Honestly, I wish I could get rid of JQuery, but IE doesn't have a getElementsByClassName method, so I can't. */
+    
+    if (unitDiv.style.height === "") {
+        unitDiv.style.height = expandedHeight;
+        unitDiv.style.overflowX = "auto";
+        unitDiv.style.overflowY = "auto";
+        unitDiv.style.overflow = "auto";
+    } else if (unitDiv.style.height === originalHeight) {
+        unitDiv.style.height = expandedHeight;
+        unitDiv.style.overflowX = "auto";
+        unitDiv.style.overflowY = "auto";
+        unitDiv.style.overflow = "auto";
+    } else if (unitDiv.style.height !== originalHeight) {
+        unitDiv.style.height = originalHeight;
+        unitDiv.scrollTop = 0;
+        unitDiv.style.overflowX = "hidden";
+        unitDiv.style.overflowY = "hidden";
+        unitDiv.style.overflow = "hidden";
     }
-
+    
+    var i = 0;
     while (i < eles.length) {
         if (i !== index) {
             if (eles[i].style.height !== originalHeight) {
