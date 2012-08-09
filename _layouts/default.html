@@ -25,50 +25,49 @@ var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28196489-1"]);_gaq.push(["_trackP
 </script>
 	</head>
 	<body>
-		<div class="siteHeader">
-			<div id="titleSubDiv">
-				<h1><a href="/">{{ site.title }}</a></h1>
-			</div>
-			<div id="aboutLinkSubDiv">
-				<a href="/pages/about">About</a>
-			</div>
-		</div> <!-- end site header -->
-		<div class="container">
-			<div class="row">
-				<div class="twelvecol last">
-					<div class="content">
+		<div class="wrap">
+			<div class="siteHeader">
+				<div id="titleSubDiv">
+					<h1><a href="/">{{ site.title }}</a></h1>
+				</div>
+				<div id="aboutLinkSubDiv">
+					<a href="/pages/about">About</a>
+				</div>
+			</div> <!-- end site header -->
+			<div class="content">
+				<div class="container">
+					<div class="row">
+						<div class="twelvecol last">
 						{{ content }}
-					</div>
-				</div><!-- end twelvecol -->
-			</div> <!-- end row -->
+						</div><!-- end twelvecol -->
+					</div> <!-- end row -->
+				</div><!-- end container -->
+			</div><!-- end content -->
+		</div> <!--end wrap-->
+		
+		<div class="pageFooter">
+			{% for post in site.categories.[page.categories.first] %}
+			{% if post.url == page.url %}
+			{% assign post_index0 = forloop.index0 %}
+			{% assign post_index1 = forloop.index %}
+			{% endif %}
+			{% endfor %}
+			{% for post in site.categories.[page.categories.first] %}
+			{% if post_index0 == forloop.index %}
+			{% assign next_post = post.url %}
+			{% endif %}
+			{% if post_index1 == forloop.index0 %}
+			{% assign prev_post = post.url %}
+			{% endif %}
+			{% endfor %}
+			<div class="footerLeft">
+				<p>By Alex Jackson</p>
+			</div><!-- end footerLeft -->
+			<div class="footerRight">
+				<p>{% if prev_post%}<a href="{{ prev_post }}">Previous</a>{% endif %} {% if next_post %} <a href="{{ next_post }}">Next</a>&nbsp;{% endif %}<a href="/">Home</a></p>
+			</div> <!-- end footerRight -->
+		</div> <!-- end page footer -->
 			
-			<div class="pageFooter">
-				{% for post in site.categories.[page.categories.first] %}
-				{% if post.url == page.url %}
-				{% assign post_index0 = forloop.index0 %}
-				{% assign post_index1 = forloop.index %}
-				{% endif %}
-				{% endfor %}
-				{% for post in site.categories.[page.categories.first] %}
-				{% if post_index0 == forloop.index %}
-				{% assign next_post = post.url %}
-				{% endif %}
-				{% if post_index1 == forloop.index0 %}
-				{% assign prev_post = post.url %}
-				{% endif %}
-				{% endfor %}
-				
-				<div class="footerLeft">
-					<p>By Alex Jackson</p>
-				</div>
-				
-				<div class="footerRight">
-						<p>{% if prev_post%}<a href="{{ prev_post }}">Previous</a>{% endif %} {% if next_post %} <a href="{{ next_post }}">Next</a>&nbsp;{% endif %}<a href="/">Home</a></p>
-				</div>
-				
-			</div> <!-- end page footer -->
-			
-		</div> <!-- end container -->
 	<script type="text/javascript">
 		$(window).scroll(function(){var e=$(".pageFooter");if($(window).scrollTop()+$(window).height()===$(document).height()){e[0].style.marginTop="-3.3em";e[0].style.height="3.3em";e[0].style.opacity="0.9"}$(window).scrollTop()+$(window).height()!==$(document).height()&&e[0].style.marginTop==="-3.3em"&&(e[0].style.cssText="")});
 	</script>

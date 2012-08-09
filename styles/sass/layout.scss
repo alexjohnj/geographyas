@@ -13,7 +13,16 @@ hr{
   padding: 0;
 }
 
+html, body{
+	height: 100%;
+}
+
+.wrap{
+  min-height: 100%;
+}
+
 .content{
+  overflow: auto;
   padding-bottom: $page-footer-hover-height;
 }
 
@@ -148,5 +157,13 @@ table tbody th {
 	#aboutLinkSubDiv{
 		position: absolute;
 		visibility: hidden;
+	}
+	
+	.pageFooter{
+	  margin-top: -$page-footer-hover-height;
+	  height: $page-footer-hover-height;
+	  opacity: $page-footer-opacity-hover;
+	  position: relative;
+	  clear: both;
 	}
 }
