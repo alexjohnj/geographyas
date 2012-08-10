@@ -3,33 +3,20 @@ layout: default
 title: Geography AS Notes
 script: clickScript
 ---
+<div class="warning-box">
+<noscript>Ack! You haven't got Javascript enabled. I'd recommend enabling it to get the best experience using this website but I've tried to adapt the site to you anyway. <small>(I'm so kind)</small></noscript>
+</div>
 
 <p>Click on a unit title to see the topics.</p>
 <hr>
 {% for category in site.categories %} 
 <div class="unit-div" onClick="expandDiv({{ forloop.index0 }})" id="{{ forloop.index0 }}">
-  <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" | capitalize | replace:"-", " " }}</h2>
-    {% assign pages_list = category[1] %}  
-    {% include helpers/pages_list.html %}
+    <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" | capitalize | replace:"-", " " }}</h2>
+      {% assign pages_list = category[1] %}  
+      {% include helpers/pages_list.html %}
 </div>
 <hr>
 {% endfor %}
-
-<noscript>
-
-<div id="warning-box">
-	<p>Hmmm. Looks like your browser either hasn't got JavaScript enabled or it doesn't support it. That means the above menu wont work for selecting pages. You should really enable JavaScript, but here's a list of all the pages in the menu.<p>
-</div>
-
-{% for category in site.categories %} 
-<div>
-	<h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" | capitalize | replace:"-", " " }}</h2>
-	{% assign pages_list = category[1] %}  
-	{% include helpers/pages_list.html %}
-</div>
-{% endfor %}
-	
-</noscript>
 
 <div id="warning-box">
 			<!--[if IE 9]>
