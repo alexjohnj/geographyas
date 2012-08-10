@@ -43,16 +43,17 @@ html, body {
   -moz-transition: all .3s ease-in-out;
   -o-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out;
+  
+  &:hover{
+    margin-top: -$page-footer-hover-height;
+    height: $page-footer-hover-height;
+    opacity: $page-footer-opacity-hover; 
+  }
+  
   p {
     margin-left: 1em;
     margin-right: 1em; 
   } 
-}
-
-.page-footer:hover {
-  margin-top: -$page-footer-hover-height;
-  height: $page-footer-hover-height;
-  opacity: $page-footer-opacity-hover; 
 }
 
 .footer-left {
