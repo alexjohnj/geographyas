@@ -7,12 +7,7 @@ function expandDiv(index) {
     
     /* The first if statement is a hack to get styling to work. Since JQuery applies the styles to an element's style attribute and I don't do that when building websites, I need to check for the first time a div is clicked, otherwise nothing will happen when it's clicked. There's probably a really easy way to fix this but CBA reading the JQuery docs. Honestly, I wish I could get rid of JQuery, but IE doesn't have a getElementsByClassName method, so I can't. */
     
-    if (unitDiv.style.height === "") {
-        unitDiv.style.height = expandedHeight;
-        unitDiv.style.overflowX = "auto";
-        unitDiv.style.overflowY = "auto";
-        unitDiv.style.overflow = "auto";
-    } else if (unitDiv.style.height === originalHeight) {
+    if (unitDiv.style.height === originalHeight || unitDiv.style.height === "") {
         unitDiv.style.height = expandedHeight;
         unitDiv.style.overflowX = "auto";
         unitDiv.style.overflowY = "auto";
