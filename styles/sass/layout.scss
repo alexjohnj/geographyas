@@ -94,7 +94,7 @@ html, body {
   background: -o-linear-gradient(top, $site-header-colour, $site-header-gradient-highlight);
   background: -ms-linear-gradient(top, $site-header-colour, $site-header-gradient-highlight);
   background: linear-gradient(top, $site-header-colour, $site-header-gradient-highlight);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$site-header-colour', endColorstr='$site-header-gradient-highlight',GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3a2f23', endColorstr='#2c1c1c',GradientType=0);
   color: $site-header-font-colour;
   box-shadow: 0px 3px 5px rgb(183, 183, 183);
   display: block;
