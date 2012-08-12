@@ -17,6 +17,17 @@ body {
     width: 0;
     margin-top: -32767px; 
   }
+
+  @media handheld, only screen and (max-width: 480px) {
+    font-size: 13px;
+    line-height: 1.3em;
+  }
+}
+
+h1, h2, h3, h4{
+  @media handheld, only screen and (max-width: 480px) {
+    line-height: normal;
+  } 
 }
 
 h1 {
@@ -84,16 +95,5 @@ blockquote {
   a, a:hover {
     color: $site-header-font-colour;
     text-decoration: none; 
-  }
-}
-
-@media handheld, only screen and (max-width: 480px) {
-  h1, h2, h3 {
-    line-height: normal; 
-  }
-  
-  body {
-    font-size: 13px;
-    line-height: 1.3em;
   }
 }

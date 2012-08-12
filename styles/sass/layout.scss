@@ -54,6 +54,14 @@ html, body {
     margin-left: 1em;
     margin-right: 1em; 
   } 
+
+  @media handheld, only screen and (max-width: 480px) {
+    margin-top: -$page-footer-hover-height;
+    height: $page-footer-hover-height;
+    opacity: $page-footer-opacity-hover;
+    position: relative;
+    clear: both; 
+  }
 }
 
 .footer-left {
@@ -112,6 +120,10 @@ html, body {
   padding-top: 1.7em;
   display: block;
   float: right;
+
+  @media handheld, only screen and (max-width: 480px) {
+    display: none;
+  }
 }
 
 .warning-box {
@@ -152,18 +164,4 @@ table tbody th {
 
 .condensed-table th, .condensed-table td {
   padding: 5px 5px 4px; 
-}
-
-@media handheld, only screen and (max-width: 480px) {
-  #about-link-sub-div {
-    display: none;
-  }
-  
-  .page-footer {
-    margin-top: -$page-footer-hover-height;
-    height: $page-footer-hover-height;
-    opacity: $page-footer-opacity-hover;
-    position: relative;
-    clear: both; 
-  } 
 }
