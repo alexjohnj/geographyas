@@ -7,7 +7,7 @@ keywords: "potholes, v shaped valleys, waterfalls, valley, rapids, rejuvenation,
 
 ## Potholes
 
-Potholes are cylindrical holes drilled into the bed (the bed must consist of hard rock) of the river. Pebbles are trapped in small hollows and vertical eddies (a circular movement of water, counter to the flow of the river, causing a miniature whirl pool) in the water are strong enough to allow the sediment to grind a hole into the bed through abrasion. Potholes vary in size from a few centimetres to several metres. They are generally found in the upper or early middle course. This is where the river lies well above base level and so has the most potential energy for downcutting. This is also where the river bed is more likely to be rocky in nature. Examples of potholes include the Strid on the River Wharf and in the Afon Glaslyn, Snowdonia. 
+Potholes are cylindrical holes drilled into the bed (the bed must consist of hard rock) of the river. Pebbles are trapped in small hollows and vertical eddies (a circular movement of water, counter to the flow of the river, causing a miniature whirl pool) in the water are strong enough to allow the sediment to grind a hole into the bed through abrasion. Potholes vary in size from a few centimetres to several metres. They are generally found in the upper or early middle course. This is where the river lies well above base level and so has the most potential energy for downcutting. This is also where the river bed is more likely to be rocky in nature. Examples of potholes include the Strid on the River Wharfe and in the Afon Glaslyn, Snowdonia. 
 
 ## V Shaped Valleys
 
