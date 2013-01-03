@@ -19,6 +19,11 @@
 		{% elsif page.author == null %}
 		<meta name="author" content="{{ site.author }}">
 		{% endif %}
+		{% if page.math %}
+		<script type="text/javascript"
+			 src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		</script>
+		{% endif %}
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 		
 <script type="text/javascript">
