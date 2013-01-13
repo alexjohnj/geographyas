@@ -63,5 +63,5 @@ You can graph the water balance if you want. If you plot evapotranspiration and 
 
 [^5]: Obviously this doesn’t happen in real life and is nothing more than a rough model. Just look at the UK. We have a ground water surplus all year. OK, we don’t, but The Daily Mail would like you to believe we do. They probably say it’s all the immigrant’s fault too. I hate that newspaper. It’s like the Fox News of the UK.
 
-[channel-efficiency]: /rivers/river-courses-and-channels/
+[channel-efficiency]: /rivers/long-and-cross-profiles/#channel-efficiency--velocity
 [water-balance-graph]:/Images/rivers/water-balance-graph.png
