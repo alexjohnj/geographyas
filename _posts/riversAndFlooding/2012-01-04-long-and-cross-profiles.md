@@ -97,7 +97,7 @@ The velocity at different points in a channel’s cross section can be illustrat
 
 [rejuvenation-page]: /rivers/rejuvenation/
 [river-processes-page]: /rivers/river-processes/
-[erosion-features-page-meanders]: /rivers/features-of-erosion/#meanders
+[erosion-features-page-meanders]: /rivers/river-landforms/#meanders
 
 [river-long-profile]: /Images/rivers/long-profile-diagram.png
 [river-graded-profile]: /Images/rivers/graded-profile-diagram.png
