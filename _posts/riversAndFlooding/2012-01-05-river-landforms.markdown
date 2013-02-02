@@ -91,9 +91,15 @@ Deltas can take on many different shapes. The three primary shapes of delta are 
 
 Arcuate deltas (e.g. The Nile Delta, Egypt) are shaped like a triangle (which is where the term delta comes from, the Greek letter delta Δ) and form when a river meets a sea with alternating current directions that shape the delta so that it looks like a triangle.
 
-Cuspate deltas (e.g. The Tiber Delta, Italy) are vaguely shaped like a V with curved sides. Cuspate deltas form when a river flows into a sea with waves that hit it head on, spreading the deposited sediment out. 
+![The Nile Delta][nile-delta-gmaps]
+
+Cuspate deltas (e.g. Ebro Delta, Spain) are vaguely shaped like a V with curved sides. Cuspate deltas form when a river flows into a sea with waves that hit it head on, spreading the deposited sediment out.
+
+![The Ebro Delta][ebro-delta-gmaps]
 
 Bird’s foot deltas (e.g. The Mississippi Delta) are shaped like (as the name suggests) a bird’s foot. They extend reasonably far into a body of water and form when the river’s current is stronger than the sea’s waves. Bird’s foot deltas are uncommon because there are very few areas where a sea’s waves are weaker than a river’s current. 
+
+![The Mississippi Delta][mississippi-delta-gmaps]
 
 ---
 
@@ -105,3 +111,6 @@ Bird’s foot deltas (e.g. The Mississippi Delta) are shaped like (as the name s
 [levee-diagram]: /Images/rivers/levee-diagram.png
 [oxbow-lakes-formation-diagram]: /Images/rivers/oxbow-lake-formation-diagram.png
 [delta-bedding-layers]: /Images/rivers/delta-bedding-layers.png
+[nile-delta-gmaps]: http://maps.google.com/maps/api/staticmap?center=31.052934,31.041870&zoom=8&maptype=satellite&size=1140x300&sensor=true
+[ebro-delta-gmaps]: http://maps.google.com/maps/api/staticmap?center=40.685845,0.708618&zoom=10&maptype=satellite&size=1140x300&sensor=true
+[mississippi-delta-gmaps]: http://maps.google.com/maps/api/staticmap?center=29.192931,-89.329834&zoom=9&markers=32.325702,-90.927050&maptype=satellite&size=1140x300&sensor=true
