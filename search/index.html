@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div id="search-title">
+<h2>Search Results</h2>
+</div>
+
+<form action="/search/" method="get">
+	<input class="search-field" type="search" name="query" placeholder="Search"></input>
+</form>
+<div id="search-results">
+</div>
+
+<script src="/site-search-index.js"></script>
+<script src="/scripts/site-search.js"></script>
+<script>
+performSearch("");
+$('input').keyup(function(){
+  performSearch($('input').val());
+});
+</script>
