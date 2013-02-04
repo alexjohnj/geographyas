@@ -90,6 +90,6 @@ function performSearch(input){
   $('#search-title').append('<h2>Search Results for: ' + searchTerm + '</h2>')
   matchedItems = search(searchTerm);
   for(i=0;i<matchedItems.length;i++){
-    $('#search-results').append('<h3><a href="'+matchedItems[i].href+'">'+matchedItems[i].highlighted+'</a></h3>');
+    $('#search-results').append('<h3><a href="'+matchedItems[i].href+'">'+matchedItems[i].highlighted+'</a><small> ('+matchedItems[i].category+')</small></h3>');
   }
 }
