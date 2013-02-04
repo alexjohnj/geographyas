@@ -119,7 +119,7 @@ html, body {
   padding-top: 1.7em;
   display: block;
   float: right;
-
+  
   @media handheld, only screen and (max-width: 480px) {
     display: none;
   }
@@ -128,6 +128,22 @@ html, body {
 .warning-box {
   color: red;
   font-size: 1.29em; 
+}
+
+#site-search-container {
+  display: block;
+  width: 10%;
+  margin: 0 auto;
+  padding-top: 1.7em;
+}
+
+input[type="search"] {
+  -webkit-appearance: searchfield; /* 1 */
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: searchfield-cancel-button;
 }
 
 /* This is from Twitter Bootsrap http://twitter.github.com/bootstrap/#tables*/
