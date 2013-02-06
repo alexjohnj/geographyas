@@ -1,12 +1,15 @@
-// Heavily based on Daominic Watson's Work here: http://fusion.dominicwatson.co.uk/2013/01/client-side-site-search-for-jekyll.html
-
-function getSearchIndex(){
-  $.getJSON('/site-search-index.json', function(data){
-    for(i=0;i<data.pages.length-1;i++){
-      searchIndex.push(data.pages[i]);
-    }
-  });
+function stringIsEmpty(str){
+  if(!str)
+    return true
+  
+  for(i=0;i<str.length;i++){
+    if(str[i] !== " ")
+      return false;
+  }
+  return true;
 }
+
+// Heavily based on Daominic Watson's Work here: http://fusion.dominicwatson.co.uk/2013/01/client-side-site-search-for-jekyll.html
 
 function generateRegexForInput( input ){
   var inputLetters = input.replace(/\W/, '').split('')
@@ -77,18 +80,12 @@ function search(input){
 function performSearch(input){
   $('#search-title').empty();
   $('#search-results').empty();
-  searchTerm = "";
-  if(input.length <= 0){
-    query = new RegExp('[\\?&]' + 'query' + '=([^&#]*)').exec(window.location.href);
-    if(query === null)
-      return;
-    else
-      searchTerm = decodeURIComponent(query[1].replace(/[+]/g, ' '));
+  if(stringIsEmpty(input)){
+    $('#search-results').append('<h3><i>Enter something to search for...</i></h3>');
+    return;
   }
-  else
-    searchTerm = input;
-  $('#search-title').append('<h2>Search Results for: ' + searchTerm + '</h2>')
-  matchedItems = search(searchTerm);
+  $('#search-title').append('<h2>Showing results for &ldquo;' + input + '&rdquo;:</h2>');
+  matchedItems = search(input);
   for(i=0;i<matchedItems.length;i++){
     $('#search-results').append('<h3><a href="'+matchedItems[i].href+'">'+matchedItems[i].highlighted+'</a><small> ('+matchedItems[i].category+')</small></h3>');
   }

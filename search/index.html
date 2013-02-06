@@ -1,18 +1,35 @@
 ---
 layout: default
+title: Search Results
 ---
-<h2>Search</h2>
+
+<noscript>
+	<style>
+	#search-title, #search-results{display: none;}
+	</style>
+</noscript>
+
+<h1>Search</h1>
+
+<div class="warning-box">
+<noscript>No JavaScript? Aww, that's a shame. To use search you'll need to enable JavaScript. If you're wondering why, it's because search is done client side rather than server side as this is a totally static website.</noscript>
+</div>
+
 <div id="search-title">
 </div>
 
 <div id="search-results">
+	<h3><i>Enter something to search for...</i></h3>
 </div>
 
 <script src="/site-search-index.js"></script>
 <script src="/scripts/site-search.js"></script>
 <script>
-performSearch("");
-$('input').keyup(function(){
-  performSearch($('input').val());
+$('input[type="search"]').keyup(function(){
+  performSearch($('input[type="search"]').val());
 });
+
+query = new RegExp('[\\?&]' + 'query' + '=([^&#]*)').exec(window.location.href);
+if(query !== null)
+	performSearch(decodeURIComponent(query[1].replace(/[+]/g, ' ')));
 </script>
