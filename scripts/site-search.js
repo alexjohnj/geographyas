@@ -83,7 +83,7 @@ function performSearch(input){
     if(query === null)
       return;
     else
-      searchTerm = query[1];
+      searchTerm = query[1].replace('+', ' ');
   }
   else
     searchTerm = input;
