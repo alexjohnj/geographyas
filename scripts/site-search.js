@@ -83,7 +83,7 @@ function performSearch(input){
     if(query === null)
       return;
     else
-      searchTerm = query[1].replace('+', ' ');
+      searchTerm = decodeURIComponent(query[1].replace(/[+]/g, ' '));
   }
   else
     searchTerm = input;
