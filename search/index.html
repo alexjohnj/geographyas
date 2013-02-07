@@ -9,13 +9,12 @@ title: Search Results
 	</style>
 </noscript>
 
-<h1>Search</h1>
+<div id="search-page-header">
+	<h1>Search</h1>
+</div>
 
 <div class="warning-box">
 <noscript>No JavaScript? Aww, that's a shame. To use search you'll need to enable JavaScript. If you're wondering why, it's because search is done client side rather than server side as this is a totally static website.</noscript>
-</div>
-
-<div id="search-title">
 </div>
 
 <div id="search-results">
@@ -26,6 +25,7 @@ title: Search Results
 <script src="/scripts/site-search.js"></script>
 <script>
 $('#search-query').keyup(function(e){
+	console.log(e);
 	performSearch($('#search-query').val());
 });
 

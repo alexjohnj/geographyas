@@ -1,3 +1,13 @@
+String.prototype.capitalize = function() {
+    var pieces = this.split(" ");
+    for ( var i = 0; i < pieces.length; i++ )
+    {
+        var j = pieces[i].charAt(0).toUpperCase();
+        pieces[i] = j + pieces[i].substr(1);
+    }
+    return pieces.join(" ");
+}
+
 function stringIsEmpty(str){
   "use strict";
 
@@ -90,18 +100,38 @@ function search(input){
 function performSearch(input){
   "use strict";
 
-  $('#search-title').empty();
   $('#search-results').empty();
 
   if(stringIsEmpty(input)){
     $('#search-results').append('<h3><i>Enter something to search for...</i></h3>');
     return;
   }
-  $('#search-title').append('<h2>Showing results for &ldquo;' + input + '&rdquo;:</h2>');
 
   var matchedItems = search(input);
 
+  var posts = {};
   for(var i=0; i<matchedItems.length; i++){
-    $('#search-results').append('<h3><a href="'+matchedItems[i].href+'">'+matchedItems[i].highlighted+'</a><small> ('+matchedItems[i].category+')</small></h3>');
+    if(matchedItems[i].category in posts == false){
+      posts[matchedItems[i].category] = [matchedItems[i]];
+    }
+    else{
+      posts[matchedItems[i].category].push(matchedItems[i]);
+    }
+  }
+
+  if(matchedItems.length != 1){
+    $('#search-results').append('<h3><i>' + matchedItems.length + ' results found for &ldquo;' + input + '&rdquo;</i></h3>');
+  } 
+  else{
+    $('#search-results').append('<h3><i>' + matchedItems.length + ' result found for &ldquo;' + input + '&rdquo;</i></h3>');
+  }
+  // for(var i=0; i<matchedItems.length; i++){
+  //   $('#search-results').append('<h3><a href="'+matchedItems[i].href+'">'+matchedItems[i].highlighted+'</a><small> ('+matchedItems[i].category+')</small></h3>');
+  // }
+  for(var key in posts){
+    $('#search-results').append('<h2>' + key.replace(/\W/, ' ').capitalize() + '</h2>');
+    for(var j = 0; j < posts[key].length; j++){
+      $('#search-results').append('<h3><a href="'+posts[key][j].href+'">'+posts[key][j].title+'</a></h3>');
+    }
   }
 }
