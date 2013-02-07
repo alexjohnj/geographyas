@@ -1,10 +1,14 @@
 function stringIsEmpty(str){
-  if(!str)
-    return true
-  
-  for(i=0;i<str.length;i++){
-    if(str[i] !== " ")
+  "use strict";
+
+  if(!str){
+    return true;
+  }
+
+  for(var i=0; i<str.length; i++){
+    if(str[i] !== " "){
       return false;
+    }
   }
   return true;
 }
@@ -12,7 +16,9 @@ function stringIsEmpty(str){
 // Heavily based on Daominic Watson's Work here: http://fusion.dominicwatson.co.uk/2013/01/client-side-site-search-for-jekyll.html
 
 function generateRegexForInput(input){
+  // This function has been modified quite a bit from the original. The original would replace any non word characters with ''. This version escapes them for use in the regular expression. 
   "use strict";
+
   var inputLetters = input.split(''); // Make an array out of the input string
 
   for(var j=0; j<inputLetters.length; j++){
@@ -31,29 +37,28 @@ function generateRegexForInput(input){
       reg.replace += '$' + (i*2+2);
     }
   }
-
   return reg;
 }
 
 function search(input){
-  var reg = generateRegexForInput( input )
-    , matches;
+  "use strict";
+
+  var reg = generateRegexForInput( input );
+  var matches;
 
   // searchIndex is an array of posts and pages
   // in the form [{title:"some title",href="/the-page.html"},...]
-  if(searchIndex.length <= 0){
-    getSearchIndex();
-  }
   matches = searchIndex.filter( function( item ) {
-    if (item === false)
+    if (item === false){
       return false;
-    var titleLen = item.title.length
-      , match, nextMatch, i, highlighted;
+    }
+    var titleLen = item.title.length;
+    var match, nextMatch, highlighted;
 
     // attempt a regex match for ever decreasing
     // substrings of the search term and keep the
     // narrow-most match
-    for( i=0; i < titleLen; i++ ){
+    for(var i=0; i < titleLen; i++ ){
       nextMatch = item.title.substr(i).match( reg.expr );
 
       if ( !nextMatch ) {
@@ -61,9 +66,7 @@ function search(input){
 
       } else if ( !match || nextMatch[0].length < match[0].length ) {
         match = nextMatch;
-        highlighted =
-              item.title.substr(0,i)
-            + item.title.substr(i).replace( reg.expr, reg.replace );
+        highlighted = item.title.substr(0,i) + item.title.substr(i).replace( reg.expr, reg.replace );
       }
     }
 
@@ -71,7 +74,7 @@ function search(input){
     // and highlighted title - then tell the filter() method
     // that we wish to keep this item (return true)
     if ( match ) {
-      item.score       = match[0].length - input.length;
+      item.score = match[0].length - input.length;
       item.highlighted = highlighted;
 
       return true;
@@ -85,15 +88,20 @@ function search(input){
 }
 
 function performSearch(input){
+  "use strict";
+
   $('#search-title').empty();
   $('#search-results').empty();
+
   if(stringIsEmpty(input)){
     $('#search-results').append('<h3><i>Enter something to search for...</i></h3>');
     return;
   }
   $('#search-title').append('<h2>Showing results for &ldquo;' + input + '&rdquo;:</h2>');
-  matchedItems = search(input);
-  for(i=0;i<matchedItems.length;i++){
+
+  var matchedItems = search(input);
+
+  for(var i=0; i<matchedItems.length; i++){
     $('#search-results').append('<h3><a href="'+matchedItems[i].href+'">'+matchedItems[i].highlighted+'</a><small> ('+matchedItems[i].category+')</small></h3>');
   }
 }

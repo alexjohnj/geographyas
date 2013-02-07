@@ -1,7 +1,7 @@
 ---
 layout: nil
 ---
-searchIndex = [
+var searchIndex = [
 {% for post in site.posts %}
 {
 "title": "{{ post.title }}",
