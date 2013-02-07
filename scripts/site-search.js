@@ -11,21 +11,28 @@ function stringIsEmpty(str){
 
 // Heavily based on Daominic Watson's Work here: http://fusion.dominicwatson.co.uk/2013/01/client-side-site-search-for-jekyll.html
 
-function generateRegexForInput( input ){
-  var inputLetters = input.replace(/\W/, '').split('')
-    , reg = {}, i;
+function generateRegexForInput(input){
+  "use strict";
+  var inputLetters = input.split(''); // Make an array out of the input string
 
+  for(var j=0; j<inputLetters.length; j++){
+    if(/\W/.test(inputLetters[j])){ // check to see if an element of the array is a non word character (i.e. !, £, $, . etc.)
+      inputLetters[j] = '\\' + inputLetters[j]; // If it is, escape it so it doesn't mess up the regular expression.
+    }
+  }
+
+  var reg = {};
   reg.expr = new RegExp('(' + inputLetters.join( ')(.*?)(' ) + ')', 'i');
-  reg.replace = ""
+  reg.replace = "";
 
-  for( i=0; i < inputLetters.length; i++ ) {
+  for(var i=0; i < inputLetters.length; i++ ) {
     reg.replace += ( '<b>$' + (i*2+1) + '</b>' );
     if ( i + 1 < inputLetters.length ) {
       reg.replace += '$' + (i*2+2);
     }
   }
 
-  return reg
+  return reg;
 }
 
 function search(input){
