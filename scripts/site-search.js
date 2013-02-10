@@ -8,6 +8,22 @@ String.prototype.capitalize = function() {
     return pieces.join(" ");
 }
 
+Array.prototype.unique = function() {
+  var tmpArray = [];
+  var arrayLength = this.length;
+  for(var i = 0; i < arrayLength; i++){
+    var tmpArrayLength = tmpArray.length;
+    var tmpArrayContainsItem = false;
+    for(var j = 0; j < tmpArrayLength; j++){
+      if(tmpArray[j] === this[i])
+        tmpArrayContainsItem = true;
+    }
+    if(tmpArrayContainsItem === false)
+      tmpArray.push(this[i]);
+  }
+  return tmpArray;
+}
+
 function stringIsEmpty(str){
   "use strict";
 
@@ -23,10 +39,9 @@ function stringIsEmpty(str){
   return true;
 }
 
-// Heavily based on Daominic Watson's Work here: http://fusion.dominicwatson.co.uk/2013/01/client-side-site-search-for-jekyll.html
-
+// This function is based Dominic Watson's work here: http://fusion.dominicwatson.co.uk/2013/01/client-side-site-search-for-jekyll.html
+// I have modified it quite a bit from the original though. 
 function generateRegexForInput(input){
-  // This function has been modified quite a bit from the original. The original would replace any non word characters with ''. This version escapes them for use in the regular expression. 
   "use strict";
 
   var inputLetters = input.split(''); // Make an array out of the input string
@@ -50,51 +65,40 @@ function generateRegexForInput(input){
   return reg;
 }
 
-function search(input){
-  "use strict";
+// Again, this function is based Dominic Watson's work here: http://fusion.dominicwatson.co.uk/2013/01/client-side-site-search-for-jekyll.html
+// Again, it's been modified. Notably, this will search in arrays other than the one called "searchIndex" and will also search for keys other than the title.
 
-  var reg = generateRegexForInput( input );
-  var matches;
+function searchForKey(searchTerm, key, items){
+  var reg = generateRegexForInput(searchTerm);
 
-  // searchIndex is an array of posts and pages
-  // in the form [{title:"some title",href="/the-page.html"},...]
-  matches = searchIndex.filter( function( item ) {
-    if (item === false){
+  var matches = items.filter(function(item){
+    if(item === false)
       return false;
-    }
-    var titleLen = item.title.length;
+    var keyValueLength = item[key].length;
     var match, nextMatch, highlighted;
 
-    // attempt a regex match for ever decreasing
-    // substrings of the search term and keep the
-    // narrow-most match
-    for(var i=0; i < titleLen; i++ ){
-      nextMatch = item.title.substr(i).match( reg.expr );
-
-      if ( !nextMatch ) {
+    for(var i = 0; i < keyValueLength; i++){
+      nextMatch = item[key].substr(i).match(reg.expr);
+      if(!nextMatch){
         break;
-
-      } else if ( !match || nextMatch[0].length < match[0].length ) {
+      }
+      else if(!match || nextMatch[0].length < match[0].length){
         match = nextMatch;
-        highlighted = item.title.substr(0,i) + item.title.substr(i).replace( reg.expr, reg.replace );
+        highlighted = item[key].substr(0, i) + item.title.substr(i).replace(reg.expr, reg.replace);
       }
     }
 
-    // if we have match, decorate the result with a score
-    // and highlighted title - then tell the filter() method
-    // that we wish to keep this item (return true)
-    if ( match ) {
-      item.score = match[0].length - input.length;
+    if(match){
+      item.score = match[0].length - searchTerm.length;
       item.highlighted = highlighted;
 
       return true;
     }
   });
 
-  // sort results by score, using length of title as a tie-breaker
-  return matches.sort( function( a, b ){
-    return ( a.score - b.score ) || a.title.length - b.title.length;
-  } );
+  return matches.sort(function(a, b){
+    return (a.score - b.score) || a[key].length - b[key].length;
+  });
 }
 
 function performSearch(input){
@@ -107,7 +111,13 @@ function performSearch(input){
     return;
   }
 
-  var matchedItems = search(input);
+  var matchedTitleItems = searchForKey(input, "title", searchIndex);
+  var matchedCategoryItems = searchForKey(input, "category", searchIndex);
+  var matchedItems = matchedTitleItems.concat(matchedCategoryItems);
+
+  matchedItems = matchedItems.sort(function(a,b){
+    return (a.score - b.score);
+  }).unique();
 
   var posts = {};
   for(var i=0; i<matchedItems.length; i++){
@@ -125,9 +135,7 @@ function performSearch(input){
   else{
     $('#search-results').append('<h3><i>' + matchedItems.length + ' result found for &ldquo;' + input + '&rdquo;</i></h3>');
   }
-  // for(var i=0; i<matchedItems.length; i++){
-  //   $('#search-results').append('<h3><a href="'+matchedItems[i].href+'">'+matchedItems[i].highlighted+'</a><small> ('+matchedItems[i].category+')</small></h3>');
-  // }
+
   for(var key in posts){
     $('#search-results').append('<h2>' + key.replace(/\W/, ' ').capitalize() + '</h2>');
     for(var j = 0; j < posts[key].length; j++){
