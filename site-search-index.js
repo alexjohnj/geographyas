@@ -6,7 +6,7 @@ var searchIndex = [
 {
 "title": "{{ post.title }}",
 "href": "{{ post.url }}",
-"category": "{{ post.category }}"
+"category": "{{ post.category | replace: '-', ' ' }}"
 },
 {% endfor %}
 false
