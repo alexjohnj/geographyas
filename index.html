@@ -10,7 +10,7 @@ script: clickScript
 <p>Click on a unit title to see the topics.</p>
 <hr>
 {% for category in site.categories %} 
-<div class="unit-div" onClick="expandDiv({{ forloop.index0 }})" id="{{ forloop.index0 }}">
+<div class="unit-div" id="{{ forloop.index0 }}">
     <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" | capitalize | replace:"-", " " }}</h2>
       {% assign pages_list = category[1] %}  
       {% include helpers/pages_list.html %}
