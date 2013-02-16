@@ -1,0 +1,25 @@
+fs = require 'fs'
+path = require 'path'
+
+{exec} = require 'child_process'
+
+option '-n', '--no-uglify', 'Don\'t uglify compiled JavaScript'
+
+task 'build', 'Compile files in src/ to lib/ and compress them', (options) ->
+	buildFiles(options)
+
+task 'minify', 'Minify all files in src/ using uglify-js', (options) ->
+  minifyFiles(options)
+
+buildFiles = (options) ->
+  exec 'coffee --compile --output lib/ src/', (err, stdout, stderr) ->
+    throw err if err
+    console.log stdout + stderr
+    minifyFiles(options)
+
+minifyFiles = (options) ->
+  if options['no-uglify']
+    return
+  files = fs.readdirSync 'lib'
+  for file in files
+    if path.extname(file) is '.js' then exec "uglifyjs lib/#{file} -o lib/#{file}"
