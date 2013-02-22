@@ -1,0 +1,5 @@
+@import "print";
+
+@media print {
+	@include print-styles;	
+}

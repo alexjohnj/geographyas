@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<!--[if lte IE 9]><link rel="stylesheet" href="/styles/css/ie.css" type="text/css"/><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" media="print" href="/styles/css/print-ie.css" type="text/css"><![endif]-->
 		<link rel="stylesheet" href="/styles/css/style.css" type="text/css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ page.title }}</title>
@@ -24,7 +25,7 @@
 			 src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 		</script>
 		{% endif %}
-		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<!--		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>-->
 		
 <script type="text/javascript">
 var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28196489-1"]);_gaq.push(["_trackPageview"]);(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();
@@ -53,6 +54,13 @@ var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28196489-1"]);_gaq.push(["_trackP
 						<div class="twelvecol last">
 						{{ content }}
 						</div><!-- end twelvecol -->
+						<div class="print-page-footer">
+							{% if page.author %}
+							<p>By {{ page.author }}</p>
+							{% else %}
+							<p>By {{ site.author }}</p>
+							{% endif %}
+						</div>
 					</div> <!-- end row -->
 				</div><!-- end container -->
 			</div><!-- end content -->
