@@ -154,6 +154,22 @@ input[type="search"]::-webkit-search-decoration {
   }
 }
 
+.search-result {
+  border: 1px solid black;
+  margin-bottom: 20px;
+  .title {
+
+  }
+
+  .category {
+
+  }
+
+  .description {
+
+  }
+}
+
 /* This is from Twitter Bootsrap http://twitter.github.com/bootstrap/#tables*/
 
 table {

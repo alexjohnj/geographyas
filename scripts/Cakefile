@@ -12,7 +12,7 @@ task 'minify', 'Minify all files in src/ using uglify-js', (options) ->
   minifyFiles(options)
 
 buildFiles = (options) ->
-  exec 'coffee --compile --output lib/ src/', (err, stdout, stderr) ->
+  exec 'coffee --compile -b --output lib/ src/', (err, stdout, stderr) ->
     throw err if err
     console.log stdout + stderr
     minifyFiles(options)
