@@ -4,7 +4,7 @@ $(document).ready ->
   $('#search-query').on 'keyup', (e) ->
     performSearch $(@).val()
 
-performSearch = (query) ->
+window.performSearch = (query) ->
   $('#search-results').empty()
   if query.isEmpty() is true
     $('#search-results').append 'Enter something to search for'
