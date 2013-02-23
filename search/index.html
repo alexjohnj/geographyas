@@ -23,12 +23,3 @@ title: Search Results
 
 <script src="/scripts/lib/port-stemmer.js"></script>
 <script src="/scripts/lib/site-search.js"></script>
-<script>
-$('#search-query').keyup(function(e){
-	performSearch($('#search-query').val());
-});
-
-query = new RegExp('[\\?&]' + 'query' + '=([^&#]*)').exec(window.location.href);
-if(query !== null)
-	performSearch(decodeURIComponent(query[1].replace(/[+]/g, ' ')));
-</script>

@@ -7,6 +7,11 @@
   window.searchTimeout = null;
 
   $(document).ready(function() {
+    var query;
+    query = new RegExp('[\\?&]' + 'query' + '=([^&#]*)').exec(window.location.href);
+    if (query !== null) {
+      performSearch(decodeURIComponent(query[1].replace(/[+]/gi, ' ')));
+    }
     return $('#search-query').on('keyup', function(e) {
       return performSearch($(this).val());
     });
@@ -86,15 +91,17 @@
     };
 
     SearchResult.prototype.getPostIDs = function(data) {
-      var id, postData, postID, sortable, term;
+      var id, postData, postID, sortable, term, _i, _len, _ref;
       postData = {};
       for (term in data) {
         if ($.inArray(term, this.stemmedWords) !== -1) {
-          for (id in data[term]) {
-            if (!postData[data[term][id]]) {
-              postData[data[term][id]] = 1;
+          _ref = data[term];
+          for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+            id = _ref[_i];
+            if (typeof postData[id] === 'undefined') {
+              postData[id] = 1;
             } else {
-              postData[data[term[id]]]++;
+              postData[id]++;
             }
           }
         }
@@ -110,24 +117,12 @@
     };
 
     SearchResult.prototype.getPosts = function() {
-      var post, unique_posts, _i, _j, _len, _len1, _ref, _ref1, _results;
-      unique_posts = [];
-      _ref = this.posts;
-      for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-        post = _ref[_i];
-        if (post[0] === "undefined") {
-          continue;
-        }
-        if (__indexOf.call(unique_posts, post) < 0) {
-          unique_posts.push(post);
-        }
-      }
-      this.posts = unique_posts;
+      var post, _i, _len, _ref, _results;
       if (this.posts.length > 0) {
-        _ref1 = this.posts;
+        _ref = this.posts;
         _results = [];
-        for (_j = 0, _len1 = _ref1.length; _j < _len1; _j++) {
-          post = _ref1[_j];
+        for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+          post = _ref[_i];
           _results.push($.get("/search/posts/" + post[0] + ".html", this.renderResult));
         }
         return _results;
