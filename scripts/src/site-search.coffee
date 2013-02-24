@@ -1,3 +1,14 @@
+# This will insert the porter-stemmer.coffee file into this file if the script is compiled with CodeKit.
+# You can do the same with the `coffee` tool by using the `-j` flag. 
+# @codekit-prepend "porter-stemmer.coffee"
+# - @alexjohnj
+
+# OK, here's my stuff!
+# Although, to be fair, this is based on the work of Keith Marran detailed here: http://marran.com/tech/jquery-full-text-indexing-on-jekyll/
+# I ported it into CoffeeScript and also made a few modifications that makes it work a little bit better.
+# I commented the getPostIDs() method so that I know WTF is going on there too. 
+# - @alexjohnj
+
 window.searchTimeout = null # Yucky global variable
 
 $(document).ready ->
