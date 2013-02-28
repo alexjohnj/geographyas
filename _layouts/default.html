@@ -30,7 +30,6 @@ var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28196489-1"]);_gaq.push(["_trackP
 		height: auto;
 	}
 	</style></noscript>
-
 	</head>
 	<body>
 		<div class="wrap">
@@ -82,7 +81,7 @@ var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28196489-1"]);_gaq.push(["_trackP
 				<p>{% if prev_post%}<a href="{{ prev_post }}">Previous</a>{% endif %} {% if next_post %} <a href="{{ next_post }}">Next</a>&nbsp;{% endif %}<a href="/">Home</a></p>
 			</div> <!-- end footer-right -->
 		</div> <!-- end page-footer -->
-			
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>	
 	<script type="text/javascript">
 	(function(){$(window).scroll(function(){if($(window).scrollTop()+$(window).height()===$(document).height()){$(".page-footer").css({"margin-top":"-3.3em",height:"3.3em",opacity:"0.9"})}if($(window).scrollTop()+$(window).height()!==$(document).height()){if($(".page-footer")[0].style.height==="3.3em"){return $(".page-footer").css({"margin-top":"",height:"",opacity:""})}}})}).call(this);
 	</script>
@@ -92,6 +91,5 @@ var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28196489-1"]);_gaq.push(["_trackP
 	{% if page.math %}
 	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 	{% endif %}
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	</body>
 </html>
