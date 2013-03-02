@@ -53,21 +53,27 @@ class SearchResult
     return indexURLs
 
   loadIndexes: (indexURLs) =>
-    $.getJSON file, @getPostIDs for file of indexURLs
+    json_calls = []
+    json_data = []
+    for file of indexURLs
+      json_calls.push $.getJSON(file, (data) -> json_data.push data)
+
+    $.when.apply($, json_calls).then(=> @getPostIDs json_data)
 
   getPostIDs: (data) =>
-    # JSON comes back in this sort of format: {'stemmed_term':[1, 2, 2, 2, 2, 2,], 'stemmed_term_2':[2, 3,3,3,3]}
+    # data is an array with each element being the contents of a JSON file
+    # JSON comes back in this sort of format: {'stemmed_term':[1, 2, 2, 2, 2, 2,], 'stemmed_term_2':[2, 3, 3, 3, 3]}
     # The numbers indicate a match on a certain page (1.html, 2.html etc.). The more times the number appears, the more matches on that page.
 
     postData = {}
-
-    for term of data
-      if $.inArray(term, @stemmedWords) isnt -1 # Iterate through each term in the JSON file, ignoring the ones that don't match our search term. 
-        for id in data[term] # Now go through each ID in the term's array giving creating a key-value pair in postData
-          if typeof postData[id] is 'undefined' # The KVP is the ID of the post and its score 
-            postData[id] = 1 # i.e. the number of times the search term occurs on the page. 
-          else
-            postData[id]++
+    for item in data
+      for term of item
+        if $.inArray(term, @stemmedWords) isnt -1 # Iterate through each term in the JSON file, ignoring the ones that don't match our search term. 
+          for id in item[term] # Now go through each ID in the term's array giving creating a key-value pair in postData
+            if typeof postData[id] is 'undefined' # The KVP is the ID of the post and its score 
+              postData[id] = 1 # i.e. the number of times the search term occurs on the page. 
+            else
+              postData[id]++
 
     sortable = []
     sortable.push [postID, postData[postID]] for postID of postData
