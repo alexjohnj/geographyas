@@ -36,6 +36,7 @@ class SearchResult
 
   constructor: (@searchTerm) -> 
     @stemmedWords = @parseWords searchTerm
+    @posts = []
 
   parseWords: (query) =>
     words = query.toLowerCase().match /\w{2,}/gi
@@ -75,19 +76,30 @@ class SearchResult
             else
               postData[id]++
 
-    sortable = []
-    sortable.push [postID, postData[postID]] for postID of postData
-    @posts = sortable.sort (a, b) -> b[1] - a[1]
+    @posts.push [postID, postData[postID]] for postID of postData
     @getPosts()
 
   getPosts: =>
-    if @posts.length > 0
-      $.get "/search/posts/#{post[0]}.html", @renderResult for post in @posts
-    else
-      @renderResult '<p>No results found</p>'
+    if @posts.length <= 0
+      $('#search-results').append('<p>No results found</p>')
+      return
 
-  renderResult: (data) => 
-    $('#search-results').append(data)
+    get_requests = []
+    @search_results = []
+
+    for post in @posts
+      get_requests.push $.get "/search/posts/#{post[0]}.html", @processPostResult(post[1])
+
+    $.when.apply($, get_requests).then(=> @renderResult())
+
+  # A small closure so that I can pass the post's score into the $.get callback
+  processPostResult: (postScore) => 
+    return (data) => @search_results.push [postScore, data]
+
+  renderResult: => 
+    @search_results = @search_results.sort (a, b) -> b[0] - a[0]
+    for search_result in @search_results
+      $('#search-results').append(search_result[1])
 
   search: => 
     @loadIndexes @getIndexURLs()
