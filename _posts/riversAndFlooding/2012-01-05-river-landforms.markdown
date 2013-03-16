@@ -11,7 +11,13 @@ Potholes are cylindrical holes drilled into the bed of a river. They vary in dia
 
 Potholes are features found mainly in the upper course of the river as this is where the river has the most gravitational potential energy and so the greatest ability to erode vertically. In addition, the river is more turbulent in the upper course so it is more likely to create the eddies needed to drill the pebbles into the bed.
 
-Examples of potholes can be found along the Strid in the River Wharfe. 
+<figure>
+<img src="/Images/rivers/river-clyde-pothole-jim-ness.jpg" />
+<figcaption>
+    <p>A pothole that has formed along the River Clyde.</p>
+    <p>Copyright <a href="http://www.geograph.org.uk/profile/11145">Jim Ness</a>. Licensed under the Creative Commons 2.0 license.</p>
+</figcaption>
+</figure>
 
 ## V-Shaped Valleys
 
@@ -69,6 +75,14 @@ A cross section of a meander would show that on the outside bend, the channel is
 ## Braided Channels
 
 A braided channel is a type of channel that is divided into smaller sub-channels by small, temporary islands called _eyots_. Braided channels develop in rivers with a lot of sedimentary load, a steep gradient and where the discharge of the river changes regularly. When the volume of load exceeds the river’s capacity or the discharge of the river drops, the river is forced to deposit its load in the channel and islands of sediment (eyots) form.
+
+<figure>
+    <img src="/Images/rivers/tagliamento-braided-channel-diego-cruciat.jpg" />
+    <figcaption>
+        <p>A heavily braided section of the Tagliamento's channel in Italy.</p>
+        <p>Copyright <a href="http://commons.wikimedia.org/wiki/User:Diego_Cruciat">Diego Cruciat</a>. Licensed under the Creative Commons 3.0 license.</p> 
+    </figcaption>
+</figure>
 
 ## Floodplains
 
