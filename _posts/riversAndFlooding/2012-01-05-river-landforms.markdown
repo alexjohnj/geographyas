@@ -51,6 +51,21 @@ A cross section of a meander would show that on the outside bend, the channel is
 
 ![][meander-cross-section]
 
+<figure>
+    <img src="/Images/rivers/river-cliff.jpg" alt="A picture of a river cliff"/>
+    <figcaption>
+        A river cliff on a meander that has had rocks placed near it to slow down erosion.
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="/Images/rivers/slip-off-slope.jpg" alt="A picture of a slip-off slope" />
+    <figcaption>
+        A slip-off slope on a river's meander.
+    </figcaption>
+</figure>
+
+
 ## Braided Channels
 
 A braided channel is a type of channel that is divided into smaller sub-channels by small, temporary islands called _eyots_. Braided channels develop in rivers with a lot of sedimentary load, a steep gradient and where the discharge of the river changes regularly. When the volume of load exceeds the river’s capacity or the discharge of the river drops, the river is forced to deposit its load in the channel and islands of sediment (eyots) form.
@@ -111,6 +126,6 @@ Bird’s foot deltas (e.g. The Mississippi Delta) are shaped like (as the name s
 [levee-diagram]: /Images/rivers/levee-diagram.png
 [oxbow-lakes-formation-diagram]: /Images/rivers/oxbow-lake-formation-diagram.png
 [delta-bedding-layers]: /Images/rivers/delta-bedding-layers.png
-[nile-delta-gmaps]: http://maps.google.com/maps/api/staticmap?center=31.052934,31.041870&zoom=8&maptype=satellite&size=1140x300&sensor=true
-[ebro-delta-gmaps]: http://maps.google.com/maps/api/staticmap?center=40.685845,0.708618&zoom=10&maptype=satellite&size=1140x300&sensor=true
-[mississippi-delta-gmaps]: http://maps.google.com/maps/api/staticmap?center=29.192931,-89.329834&zoom=9&markers=32.325702,-90.927050&maptype=satellite&size=1140x300&sensor=true
+[nile-delta-gmaps]: /Images/rivers/nile-delta-gmap.png
+[ebro-delta-gmaps]: /Images/rivers/ebro-delta-gmap.png
+[mississippi-delta-gmaps]: /Images/rivers/mississippi-delta-gmap.png
