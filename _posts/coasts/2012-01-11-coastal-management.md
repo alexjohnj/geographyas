@@ -81,9 +81,9 @@ New Brighton was a very important coastal tourist destination on the Wirral howe
 
 New Brighton is at particular risk of coastal flooding and erosion due to its location. Located on the North West tip of Wirral, New Brighton receives a pounding from the sea. Waves that impact New Brighton are very energetic as they've got a strong fetch from the approximately 200km of water (the Irish Sea) that the New Brighton coast faces. In addition, a low pressure system around New Brighton means that storm surges are a common occurrence making the area particularly susceptible to flooding. This is worsened by the fact that most of New Brighton is only a few metres above sea level so only a relatively small storm surge would be needed to flood a large section of New Brighton. 
 
-In order to protect New Brighton, several sea defences have been employed. In order to protect against both coastal erosion and flooding, a large sea wall was constructed in the 1930s, known as the King's Parade Sea Wall. The wall is 4m tall and stretches along 2.3km of coastline. It was constructed using leftover material from the construction of the Queensway tunnel. The wall is specially designed in order to reduce the impact of waves as much as possible and increase its lifespan at the same time. The top of the wall is curved slightly in order to reflect back waves that impact it and dissipate their energy. This helps reduce the rate at which the sea wall is worn down since it is, slowly, being worn away. This is one of the main issues with the wall, it requires a lot of attention and is expensive. 
+In order to protect New Brighton, several sea defences have been employed. In order to protect against both coastal erosion and flooding, a large sea wall was constructed in the 1930s, known as the King's Parade Sea Wall. The wall is 4m tall and stretches along 2.3km of coastline. It was constructed using leftover material from the construction of the Queensway tunnel. The wall is specially designed in order to reduce the impact of waves as much as possible and increase its lifespan at the same time. The top of the wall is curved slightly in order to reflect back waves that impact it and dissipate their energy. This helps reduce the rate at which the sea wall is worn down since it is, slowly, being worn away. This is one of the main issues with the wall, it requires a lot of attention and is expensive.
 
-<img src="/Images/coasts/10coastalManagement/kingsParadeSeaWall.jpeg" alt="The King's Parade sea wall." width="800px" />
+![The King's Parade Sea Wall](/Images/coasts/10coastalManagement/kingsParadeSeaWall.jpeg)
 
 The King's Parade Sea Wall.
 
@@ -103,7 +103,7 @@ Gabions were placed around the bases of the cliffs and can still be found there 
 
 Another soft engineering technique that was employed was the introduction of drainage pipes into the cliffs. Given that the cliffs are made of boulder clay, if they became saturated with water they'd become lubricated quickly and mass movements would begin to take place. The drainage pipe was supposed to remove water from the cliffs stopping them from becoming saturated but it has proved to be totally ineffective. This is evident from the fact that a severed pipe bound in concrete can be found just lying on the beach. The cliff collapsed and the pipe fell out and was left on the beach. This is a testimony to both the effectiveness of the pipe and how much the council cares about the cliffs. 
 
-<img src="/Images/coasts/10coastalManagement/failPipe.jpeg" alt="The failure of a pipe" width="800px">
+![The Failure of a pipe](/Images/coasts/10coastalManagement/failPipe.jpeg)
 
 The 'fail pipe'.
 

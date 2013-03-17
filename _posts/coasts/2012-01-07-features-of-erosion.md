@@ -9,13 +9,13 @@ published: true
 
 Headlands and bays, such as Swanage Bay, form on discordant coastlines, where hard and soft rock run in layers at 90˚ to the water. Alternating layers of hard and soft rock allow the sea to erode the soft rock faster, forming a bay but leaving hard rock sticking out, known as a headland. The altering rate of erosion of hard and soft rock is known as differential erosion. As the bay develops, wave refraction around the headlands begins to occur, increasing erosion of the headlands but reducing the erosion and development of the bay due to a loss of wave energy. Headlands and bays can form on concordant coastlines too, as has happened with Lulworth Cove, but this requires the rock to have already been weakened, possibly during an ice age. Irrespective of whether the coastline is concordant or discordant, as wave refraction takes place around the headlands and erosion of the bay is reduced, sub-aerial weathering such as corrosion and corrasion begins to weather the bay, furthering its development. 
 
-<img src="/Images/coasts/7featuresOfErosion/formationOfBay.png" alt="A diagram showing the formation of a bay." />
+![A diagram showing the formation of a bay](/Images/coasts/7featuresOfErosion/formationOfBay.png)
 
 ## Wave Cut Notches & Platforms
 
 A wave cut notch is simply a small indent at the base of a cliff formed when a cliff is undercut by the sea. When a wave breaks on a cliff, all of the wave's energy is concentrated on one specific point and this section of the cliff experiences more rapid erosion via corrasion. This eventually leads to the formation of a wave cut notch, when the cliff has been undercut. As the cliff has been undercut, the section of the cliff above the notch (the overhanging rock) no longer has any support and will, eventually, collapse. The repeated process of the collapse of the cliff and then the undercutting of the cliff is often referred to as the “retreat” of the cliff. As the cliff retreats, a gentle platform (with a gradient less than 5˚), referred to as a wave cut platform, is left behind. This platform is heavily scarred by erosion from the transportation of rock across it. As the platform grows, the waves have to travel further to reach the cliff and they'll lose more and more of their energy. Once the platform reaches a certain size, the waves will have too little energy by the time they reach the cliff to undercut it and so there is a physical limit on the size a wave cut platform can be.
 
-<img width = "800px" alt="An image of a wave cut notch taken on Hilbre Island." src="/Images/coasts/7featuresOfErosion/waveCutNotchHilbre.jpeg" />
+![An image of a wave cut notch taken on Hilbre Island](/Images/coasts/7featuresOfErosion/waveCutNotchHilbre.jpeg)
 
 A wave cut notch on Hilbre Island.
 
@@ -25,11 +25,11 @@ Stacks, caves and arches are all iconic features of coastlines. They are also al
 
 A blowhole forms in a cave. As a cave moves inland, the roof above it is weakened and as waves crash into the cave, they can be reflected upwards, eroding the roof of the cave. At the same time, weathering on the roof of the cave will help weaken it further and eventually water will be able to break through it, leaving a blowhole.
 
-<img width="800px" alt="An arch on Hilbre Island." src="/Images/coasts/7featuresOfErosion/hilbreArchExample.jpeg" />
+![An arch on Hilbre Island](/Images/coasts/7featuresOfErosion/hilbreArchExample.jpeg)
 
 An example of an arch on Hilbre Island.
 
-<img width="800px" alt="A geo on Hilbre Island." src="/Images/coasts/7featuresOfErosion/hilbreGeoExample.jpeg" />
+![A geo on Hilbre Island](/Images/coasts/7featuresOfErosion/hilbreGeoExample.jpeg)
 
 An example of a geo on Hilbre Island.
 

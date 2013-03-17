@@ -109,6 +109,6 @@ Educating tourists is a particularly effective way of reducing damage to sand du
 
 In order to stabilise sand dunes, dead fern trees can be planted in the sand to help trap the sand and build up new sand dunes. These trees will also bind the sand very well, making the sand dunes stable for many years. 
 
-<img width="800px" alt="An image showing trees that have been planted at Formby Sand Dunes to help rebuild the dunes." src="/Images/coasts/8depositionalFeatures/sandDunePineBuildUpFormby.jpg" />
+![An image showing trees that have been planted at Formby Sand Dunes to help rebuild the dunes](/Images/coasts/8depositionalFeatures/sandDunePineBuildUpFormby.jpg)
 
 The above image, taken at Formby Sand Dunes, shows the amazing result of planting dead trees to help build up sand dunes. The more recent trees can be seen close to the surface but the entire sand dune system visible is the result of soft engineering techniques. The area photographed is also an “out of bounds” area and has a sign stating that unauthorised access is not allowed. 

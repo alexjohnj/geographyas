@@ -1,5 +1,18 @@
 @import "variables";
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  color: #626262;
+  margin: 10px auto;
+}
+
 html, body {
   height: 100%;
 }
