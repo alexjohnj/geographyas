@@ -1,1 +1,0 @@
-This website makes use of plugins. As it's hosted on GitHub pages though, these plugins can't be deployed with the website. Instead, they're kept in a folder called `plugins-disabled/` and can be copied into this directory when they're needed.
