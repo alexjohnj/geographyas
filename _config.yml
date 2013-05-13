@@ -10,15 +10,14 @@ github: alexjohnj
 permalink:   /:categories/:title/
 
 safe:        false
-auto:        true
-server:      false
-server_port: 4000
+port: 4000
 baseurl:    /
 
 source:      .
 destination: ./_site
 plugins:     ./_plugins
-exclude: sass
+
+exclude: [sass]
 
 future:      true
 lsi:         false
