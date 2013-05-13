@@ -83,7 +83,10 @@ New Brighton is at particular risk of coastal flooding and erosion due to its lo
 
 In order to protect New Brighton, several sea defences have been employed. In order to protect against both coastal erosion and flooding, a large sea wall was constructed in the 1930s, known as the King's Parade Sea Wall. The wall is 4m tall and stretches along 2.3km of coastline. It was constructed using leftover material from the construction of the Queensway tunnel. The wall is specially designed in order to reduce the impact of waves as much as possible and increase its lifespan at the same time. The top of the wall is curved slightly in order to reflect back waves that impact it and dissipate their energy. This helps reduce the rate at which the sea wall is worn down since it is, slowly, being worn away. This is one of the main issues with the wall, it requires a lot of attention and is expensive.
 
-![The King's Parade Sea Wall](/Images/coasts/10coastalManagement/kingsParadeSeaWall.jpeg)
+<figcaption>
+	<img src="/Images/coasts/10coastalManagement/kingsParadeSeaWall.jpeg" alt="The King's Parade Sea Wall" />
+	<p>The King's Parade Sea Wall</p>
+</figcaption>
 
 The King's Parade Sea Wall.
 
@@ -101,10 +104,11 @@ Given the low-value land that lies behind these cliffs, the local council and en
 
 Gabions were placed around the bases of the cliffs and can still be found there today. The idea was to reduce undercutting of the cliffs by the sea but they haven't been all too successful since the cliffs are still collapsing today. Now days, the main benefit of the gabions is that they provide a (small) habitat for several species of plant and insect, that's about it. The plants that have colonised the gabions help to make the gabions appear to blend into the environment a bit better too. 
 
-Another soft engineering technique that was employed was the introduction of drainage pipes into the cliffs. Given that the cliffs are made of boulder clay, if they became saturated with water they'd become lubricated quickly and mass movements would begin to take place. The drainage pipe was supposed to remove water from the cliffs stopping them from becoming saturated but it has proved to be totally ineffective. This is evident from the fact that a severed pipe bound in concrete can be found just lying on the beach. The cliff collapsed and the pipe fell out and was left on the beach. This is a testimony to both the effectiveness of the pipe and how much the council cares about the cliffs. 
+Another soft engineering technique that was employed was the introduction of drainage pipes into the cliffs. Given that the cliffs are made of boulder clay, if they became saturated with water they'd become lubricated quickly and mass movements would begin to take place. The drainage pipe was supposed to remove water from the cliffs stopping them from becoming saturated but it has proved to be totally ineffective. This is evident from the fact that a severed pipe bound in concrete can be found just lying on the beach. The cliff collapsed and the pipe fell out and was left on the beach. This is a testimony to both the effectiveness of the pipe and how much the council cares about the cliffs.
 
-![The Failure of a pipe](/Images/coasts/10coastalManagement/failPipe.jpeg)
+<figcaption>
+	<img src="/Images/coasts/10coastalManagement/failPipe.jpeg" alt="A drainage pip that has been unsuscesful in preventing cliff collapse."/>
+	<p>The 'Fail Pipe'</p>
+</figcaption>
 
-The 'fail pipe'.
-
-The cliffs are likely to continue collapsing at Thursaston however there is one thing that may save them. A salt marsh appears to be developing before the cliffs and, with a little help from some humans, could be enough to stop the cliffs from collapsing. Unfortunately nobody is helping the marsh to develop and people are going around and removing many of the plants that are growing there as if a salt marsh was to develop, it would prove to be a problem for the sailing groups located nearby. 
+The cliffs are likely to continue collapsing at Thursaston however there is one thing that may save them. A salt marsh appears to be developing before the cliffs and, with a little help from some humans, could be enough to stop the cliffs from collapsing. Unfortunately nobody is helping the marsh to develop and people are going around and removing many of the plants that are growing there as if a salt marsh was to develop, it would prove to be a problem for the sailing groups located nearby.

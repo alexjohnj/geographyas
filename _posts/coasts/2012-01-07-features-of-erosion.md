@@ -15,9 +15,10 @@ Headlands and bays, such as Swanage Bay, form on discordant coastlines, where ha
 
 A wave cut notch is simply a small indent at the base of a cliff formed when a cliff is undercut by the sea. When a wave breaks on a cliff, all of the wave's energy is concentrated on one specific point and this section of the cliff experiences more rapid erosion via corrasion. This eventually leads to the formation of a wave cut notch, when the cliff has been undercut. As the cliff has been undercut, the section of the cliff above the notch (the overhanging rock) no longer has any support and will, eventually, collapse. The repeated process of the collapse of the cliff and then the undercutting of the cliff is often referred to as the “retreat” of the cliff. As the cliff retreats, a gentle platform (with a gradient less than 5˚), referred to as a wave cut platform, is left behind. This platform is heavily scarred by erosion from the transportation of rock across it. As the platform grows, the waves have to travel further to reach the cliff and they'll lose more and more of their energy. Once the platform reaches a certain size, the waves will have too little energy by the time they reach the cliff to undercut it and so there is a physical limit on the size a wave cut platform can be.
 
-![An image of a wave cut notch taken on Hilbre Island](/Images/coasts/7featuresOfErosion/waveCutNotchHilbre.jpeg)
-
-A wave cut notch on Hilbre Island.
+<figcaption>
+	<img src="/Images/coasts/7featuresOfErosion/waveCutNotchHilbre.jpeg" alt="An image of a wave cut notch taken on Hilbre Island" />
+	<p>A wave cut notch on Hilbre Island.</p>
+</figcaption>
 
 ## Formation of Caves, Stacks, Stumps, Arches, Blowholes & Geos
 
@@ -25,13 +26,15 @@ Stacks, caves and arches are all iconic features of coastlines. They are also al
 
 A blowhole forms in a cave. As a cave moves inland, the roof above it is weakened and as waves crash into the cave, they can be reflected upwards, eroding the roof of the cave. At the same time, weathering on the roof of the cave will help weaken it further and eventually water will be able to break through it, leaving a blowhole.
 
-![An arch on Hilbre Island](/Images/coasts/7featuresOfErosion/hilbreArchExample.jpeg)
+<figcaption>
+	<img src="/Images/coasts/7featuresOfErosion/hilbreArchExample.jpeg" alt="An arch on Hilbre Island" />
+	<p>An arch on Hilbre Island.</p>
+</figcaption>
 
-An example of an arch on Hilbre Island.
-
-![A geo on Hilbre Island](/Images/coasts/7featuresOfErosion/hilbreGeoExample.jpeg)
-
-An example of a geo on Hilbre Island.
+<figcaption>
+	<img src="/Images/coasts/7featuresOfErosion/hilbreGeoExample.jpeg" alt="A geo on Hilbre Island" />
+	<p>An example of a geo on Hilbre Island.</p>
+</figcaption>
 
 ## Barton-on-Sea
 

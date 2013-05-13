@@ -50,8 +50,8 @@ While this isn't strictly a form of erosion, the pressure of sea salt on rocks c
 
 ## Dip
 
-The stability and steepness of coastal cliffs is dependent on the “dip” of the bedding layers. Layers which are dipped towards the sea produce gentle cliffs which are not incredibly stable. Layers which are horizontal or dipped away from the sea produce steep cliffs that are very stable. 
+The stability and steepness of a cliff is dependent on the _dip_ of its bedding layers. Beds which dip towards the sea produce gentle cliffs which are unstable. Beds which dip away from the sea or are horizontal produce steep, stable cliffs. 
 
 ![A cliff with horizontal bedding layers.](/Images/coasts/5coastalErosion/horizontalBeddingLayersDiagram.png)
 
-The above cliff has horizontal bedding layers with no dip. This causes the cliff to be steep and stable. The same sort of cliff would be produced if the bed layers dipped away from the sea. 
+The above cliff has horizontal bedding layers with no dip. This causes the cliff to be steep and stable. The same sort of cliff would be produced if the bed layers dipped away from the sea.
