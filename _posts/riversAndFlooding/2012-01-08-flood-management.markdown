@@ -26,7 +26,7 @@ Despite these benefits, dams have some damn big (so sorry) problems. Dams are am
 
 Dams pose a huge risk too. They store thousands of litres of water behind them so if they were to fail, they’d cause widespread death and damage downstream as all the water is released at once.
 
-### (Artificiel) Levées
+### (Artificial) Levées
 
 Artificial levées are, well, artificial versions of their [natural counterparts][levee-page]. They act as embankments, essentially extending the channel’s height and increasing its bankfull discharge. Unlike natural levées, artificial levées are significantly larger and are generally constructed out of a material like concrete that is resistant to erosion. The main advantage of an artificial levée is that it allows the floodplain to be built on. This is their downfall though as they *encourage* the development of the floodplain which can increase the risk of flooding. Furthermore, if they did fail, like the embankments along the Mississippi did in 1927[^1], the damage from the flood would be far worse than if the embankments didn’t exist.
 
