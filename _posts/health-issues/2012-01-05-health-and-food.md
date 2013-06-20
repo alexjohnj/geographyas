@@ -123,7 +123,7 @@ Obesity is a global issue and is especially prevalent in MEDCs, more so in women
 
 ## Obesity Statistics
 
-- 1.6 million people in the world are overweight, of which 400 million are obese. 
+- 1.4 billion people in the world are overweight of which over 500 million are obese.
 - In the USA, 35% of children are obese. 
 
 Within the UK, obesity is becoming a major problem. In 2010, nearly 70% of the population was overweight or obese and the National Health Service predicts that 27,000 deaths per year are caused by complications relating to the prevalence of diabetes, a disease commonly associated with obesity. The most common group of people effected by obesity are the poor, working class as they can't afford healthy food which is more expensive than processed food and has a far shorter shelf life. 
