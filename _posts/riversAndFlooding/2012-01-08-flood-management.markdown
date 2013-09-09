@@ -18,7 +18,7 @@ Soft engineering projects are more sustainable than their hard engineering count
 
 ### Dams
 
-Dams are the classic hard engineering solution to flooding problems. A dam is a giant wall built across a river’s channel to impede its flow. Water builds up behind the damn and forms a reservoir which can then be steadily drained at a controlled rate over time. This helps keep discharge downstream of the dam low even during prolonged heavy rainfall. 
+Dams are the classic hard engineering solution to flooding problems. A dam is a giant wall built across a river’s channel to impede its flow. Water builds up behind the dam and forms a reservoir which can then be steadily drained at a controlled rate over time. This helps keep discharge downstream of the dam low even during prolonged heavy rainfall. 
 
 Besides being highly effective at reducing the risk of flooding, dams can also be used to generate hydroelectric power that can bring economic benefits to an area by attracting manufacturing factories or being exported to other countries. The reservoir that develops behind a dam can be used as a drinking source or for leisure activities. 
 
