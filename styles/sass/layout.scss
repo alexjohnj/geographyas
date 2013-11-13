@@ -148,6 +148,14 @@ hr {
   transition-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000); // easeInOutExpo
 }
 
+.unit-div-clicked {
+  height: 25em;
+  overflow: auto;
+  overflow-x: auto;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
 .list-header, .page-header {
   text-align: center; 
 }
