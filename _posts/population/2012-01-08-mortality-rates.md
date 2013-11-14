@@ -1,5 +1,5 @@
 ---
-title: Moratality Rates
+title: Mortality Rates
 category: 'population'
 layout: page
 keywords: "crude death rate, life expectancy, infant mortality rate, IMR, death rate, birth rate, fertility rate, population change"
