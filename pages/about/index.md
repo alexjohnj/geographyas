@@ -13,7 +13,3 @@ I need to point out that while I write all the content on this website and maint
 Good news, this website is open source (so anyone can make contributions to it)! If you're a developer you can help improve the website by filing issues and making pull requests on the [GitHub repository](https://github.com/alexjohnj/geographyas). 
 
 I'm going to guess that the majority of people using this site aren't developers though. If you want to contribute some information, or if you find a mistake, *please* get in touch and let me know. You can contact me via <mailto:alex@geographyas.info>. Any contributions are greatly appreciated and you will be credited for your help.
-
-## Is there a Geography A2 Website?
-
-Stay tuned...
