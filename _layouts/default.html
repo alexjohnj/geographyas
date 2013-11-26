@@ -81,7 +81,9 @@ var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28196489-1"]);_gaq.push(["_trackP
 				<p>{% if prev_post%}<a href="{{ prev_post }}">Previous</a>{% endif %} {% if next_post %} <a href="{{ next_post }}">Next</a>&nbsp;{% endif %}<a href="/">Home</a></p>
 			</div> <!-- end footer-right -->
 		</div> <!-- end page-footer -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<!--SVGeezy JS https://github.com/benhowdle89/svgeezy-->
+	<script type="text/javascript">var svgeezy=function(){return{init:function(a,b){this.avoid=a||!1,this.filetype=b||"png",this.svgSupport=this.supportsSvg(),this.svgSupport||(this.images=document.getElementsByTagName("img"),this.imgL=this.images.length,this.fallbacks())},fallbacks:function(){for(;this.imgL--;)if(!this.hasClass(this.images[this.imgL],this.avoid)||!this.avoid){var a=this.images[this.imgL].getAttribute("src");if(null===a)continue;if("svg"==this.getFileExt(a)){var b=a.replace(".svg","."+this.filetype);this.images[this.imgL].setAttribute("src",b)}}},getFileExt:function(a){var b=a.split(".").pop();return-1!==b.indexOf("?")&&(b=b.split("?")[0]),b},hasClass:function(a,b){return(" "+a.className+" ").indexOf(" "+b+" ")>-1},supportsSvg:function(){return document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")}}}();svgeezy.init(false, 'png');</script>
 	<script type="text/javascript">
 	(function(){$(window).scroll(function(){if($(window).scrollTop()+$(window).height()===$(document).height()){$(".page-footer").css({"margin-top":"-3.3em",height:"3.3em",opacity:"0.9"})}if($(window).scrollTop()+$(window).height()!==$(document).height()){if($(".page-footer")[0].style.height==="3.3em"){return $(".page-footer").css({"margin-top":"",height:"",opacity:""})}}})}).call(this);
 	</script>
