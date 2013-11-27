@@ -8,7 +8,12 @@ keywords: "features of coastlines, features of coasts, coastal features, inputs 
 
 A coast is a narrow strip of land where the sea meets the land. Coasts are divided into zones depending on what the conditions are like on different sections of a coast. 
 
-![Diagram of a coast showing how it is divided into the below sections.](/Images/coasts/1introduction/coastOutlineDiagram.png)
+<figure>
+<img src="/Images/coasts/1introduction/coastOutlineDiagram.svg" alt="A diagram of the coastal zones">
+<figcaption>
+The zones of a coast. 
+</figcaption>
+</figure>
 
 - *Backshore* - This is the area between the high water mark and the landward limit of marine activity. 
 - *Foreshore* - This is the area lying between the high water mark and the low water mark and is often seen as the most important area for marine activity. 
