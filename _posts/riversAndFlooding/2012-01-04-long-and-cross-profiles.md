@@ -101,9 +101,9 @@ The velocity at different points in a channel’s cross section can be illustrat
 
 [river-long-profile]: /Images/rivers/long-profile-diagram.png
 [river-graded-profile]: /Images/rivers/graded-profile-diagram.png
-[upper-course-x-section]: /Images/rivers/upper-course-cross-section.png
-[middle-course-x-section]: /Images/rivers/middle-course-cross-section.png
-[lower-course-x-section]: /Images/rivers/lower-course-cross-section.png
+[upper-course-x-section]: /Images/rivers/upper-course-cross-section.svg
+[middle-course-x-section]: /Images/rivers/middle-course-cross-section.svg
+[lower-course-x-section]: /Images/rivers/lower-course-cross-section.svg
 [channel-efficiency-example-diagram]: /Images/rivers/channel-efficiency-example-diagram.svg
 [channel-velocity-cross-section]: /Images/rivers/channel-velocity-cross-section.png
 
