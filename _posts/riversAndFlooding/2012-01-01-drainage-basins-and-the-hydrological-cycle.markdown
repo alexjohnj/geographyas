@@ -62,4 +62,4 @@ You can graph the water budget if you want. If you plot evapotranspiration and p
 [^4]: OK, maybe the UK was a bad example. 
 
 [channel-efficiency]: /rivers/long-and-cross-profiles/#channel-efficiency--velocity
-[water-budget-graph]:/Images/rivers/water-balance-graph.png
+[water-budget-graph]:/Images/rivers/water-balance-graph.svg
