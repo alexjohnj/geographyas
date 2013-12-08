@@ -136,7 +136,7 @@ Bird’s foot deltas (e.g. The Mississippi Delta) are shaped like (as the name s
 
 [waterfall-diagram]: /Images/rivers/waterfall-diagram.png
 [meander-cross-section]: /Images/rivers/meander-cross-section.png
-[riffles-and-pools-diagram]: /Images/rivers/riffles-and-pools.png
+[riffles-and-pools-diagram]: /Images/rivers/riffles-and-pools.svg
 [levee-diagram]: /Images/rivers/levee-diagram.png
 [oxbow-lakes-formation-diagram]: /Images/rivers/oxbow-lake-formation-diagram.png
 [delta-bedding-layers]: /Images/rivers/delta-bedding-layers.svg
