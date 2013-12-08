@@ -7,9 +7,16 @@ math: true
 
 ## Potholes
 
-Potholes are cylindrical holes drilled into the bed of a river. They vary in diameter from just a few centimetres to several metres and the largest potholes are several metres deep. Potholes form when pebbles become trapped in small hollows and vertical eddies (a circular current of water counter to the flow of the river) develop, drilling the pebble into the bed and eroding the bed by corrasion, producing a hole that grows as the pebble erodes it. In order for the pebble to erode the bed the pebble needs to be _at least_ as hard as the rock that makes up the river bed, if not harder otherwise it won’t have any effect and instead the pebble will be eroded. 
+Potholes are cylindrical holes drilled into the bed of a river that vary in depth & diameter from a few centimetres to several metres. They're found in the [upper course][river-long-cross-profile-link] of a river where it has enough potential energy to erode vertically and its flow is turbulent. In the upper course of a river, its load is large and mainly transported by traction along the river bed. When flowing water encounters bedload, it is forced over it and downcuts behind the bedload in swirling _eddie currents_. These currents erode the river's bed and create small depressions in it.
 
-Potholes are features found mainly in the upper course of the river as this is where the river has the most gravitational potential energy and so the greatest ability to erode vertically. In addition, the river is more turbulent in the upper course so it is more likely to create the eddies needed to drill the pebbles into the bed.
+<figure>
+<img src="/Images/rivers/pothole-eddie-currents.svg" />
+<figcaption>
+  <p>The creation of eddie currents as a result of bedload in a river.</p>
+</figcaption>
+</figure>
+
+As these depressions deepen, pebbles can become trapped in them. As a result of the eddie currents, the pebbles drill into the depressions making them more circular, wider & deeper. Pebbles will only be able to erode a river's bed though if the rock the pebble's made of is stronger than the rock the river bed is made of.
 
 <figure>
 <img src="/Images/rivers/river-clyde-pothole-jim-ness.jpg" />
@@ -106,13 +113,13 @@ Oxbow lakes develop from meanders that have undergone extensive deposition. The 
 
 ## Deltas
 
-Deltas are depositional landforms found at the mouth of a river where the river meets a body of water with a lower velocity than the river (e.g. a lake or the sea). The body of water must be relatively quiet and stable with a low tidal range so that deposited sediment isn’t washed away and can instead build up. 
+Deltas are depositional landforms found at the mouth of a river where the river meets a body of water with a lower velocity than the river (e.g. a lake or the sea). For a delta to develop, the body of water needs to be relatively quiet with a low tidal range so that deposited sediment isn't washed away and has time to accumulate. 
 
-When a river meets a stationary body of water, its velocity falls causing any material being transported by the river to be deposited. Deltas are made up of three sediment beds that have been sorted by the size of the sediment. The bottom most bed, the _bottomset_ bed, is composed primarily of clay and fine grained sediments because when clay meets salt water a process called flocculation takes place where clay & salt particles clump together (flocculate) due to an electrostatic charge developing between the particles. This makes the clay particles sink due to their increased weight producing the bottomset bed. The bottomset bed stretches a fair distance from the mouth of the river as the fine sediments can be transported a reasonable distance from the river’s mouth.
+When a river meets a stationary body of water, its velocity falls causing any material being transported by the river to be deposited. Deltas are made up of three sediment beds that have been sorted by the size of the sediment. The bottom most bed, the _bottomset_ bed, is composed primarily of clay and some other fine grained sediments. Clay is the main constituent because when clay meets salt water a process called flocculation takes place where clay & salt particles clump together (flocculate) due to an electrostatic charge developing between the particles. This makes the clay particles sink due to their increased weight producing the bottomset bed. The bottomset bed stretches a fair distance from the mouth of the river as the fine sediments can be transported a reasonable distance from the river’s mouth.
 
-The foreset bed is the next bed that develops on top of the bottomset bed. The foreset bed is composed of coarser sediments that are deposited due to a fall in the river’s velocity and aren’t transported very far into the stationary body of water that the river flows into. The foreset bed makes up the majority of the delta and is dipped towards deep water in the direction that the river is flowing in. 
+The foreset bed lies on top of the bottomset bed. The foreset bed is composed of coarser sediments that are deposited due to a fall in the river’s velocity and aren’t transported very far into the stationary body of water that the river flows into. The foreset bed makes up the majority of the delta and is dipped towards deep water in the direction that the river is flowing in. 
 
-The topset bed is the topmost bed of the delta. It is also composed of coarse sediment but, unlike the foreset bed, the topset bed isn’t dipped and is purely horizontal.
+The topset bed is, as the name suggests, the topmost bed of the delta. It too is composed of coarse sediment but, unlike the foreset bed, the topset bed doesn't dip, it's horizontally bedded.
 
 ![][delta-bedding-layers]
 
@@ -143,3 +150,5 @@ Bird’s foot deltas (e.g. The Mississippi Delta) are shaped like (as the name s
 [nile-delta-gmaps]: /Images/rivers/nile-delta-gmap.png
 [ebro-delta-gmaps]: /Images/rivers/ebro-delta-gmap.png
 [mississippi-delta-gmaps]: /Images/rivers/mississippi-delta-gmap.png
+
+[river-long-cross-profile-link]: /rivers/long-and-cross-profiles/
