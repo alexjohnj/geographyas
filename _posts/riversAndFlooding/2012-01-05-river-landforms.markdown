@@ -144,7 +144,7 @@ Bird’s foot deltas (e.g. The Mississippi Delta) are shaped like (as the name s
 [^1]: This is the maximum discharge of the river before it will overflow its banks and flood. 
 
 [waterfall-diagram]: /Images/rivers/waterfall-diagram.svg
-[meander-cross-section]: /Images/rivers/meander-cross-section.png
+[meander-cross-section]: /Images/rivers/meander-cross-section.svg
 [riffles-and-pools-diagram]: /Images/rivers/riffles-and-pools.svg
 [levee-diagram]: /Images/rivers/levee-diagram.png
 [oxbow-lakes-formation-diagram]: /Images/rivers/oxbow-lake-formation-diagram.png
