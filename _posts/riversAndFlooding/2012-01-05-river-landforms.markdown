@@ -34,7 +34,9 @@ As the channel and valley deepens the sides of the valley are exposed and become
 
 ## Waterfalls (Geological)
 
-Waterfalls develop when a change of lithology takes place in the river’s course resulting in differential erosion taking place. When the rock type of the river’s channel changes from hard rock to soft rock, the river erodes the soft rock faster than the hard rock (differential erosion) producing a sudden drop in the gradient of the river with the hard rock being higher up than the soft rock. As the river flows over the hard rock, it falls onto the soft rock with a considerable amount of force, eroding the soft rock and creating a greater height difference between the hard and soft rock, producing the waterfall. As the water flows over the waterfall, it carves out a _plunge pool_ via corrasion and erodes & undercuts the hard rock via a process called _splashback_. As the hard rock is undercut, a cap rock is produced. This is a chunk of hard rock that the river flows over before flowing over the waterfall that is unsupported as it has been undercut by splashback. The cap rock is unstable and will eventually collapse into the plunge pool causing the waterfall to retreat. Over thousands of years, the repeated process of the collapse of a cap rock and the retreat of the waterfall produces a _gorge of recession_.
+Waterfalls develop when a change of lithology (rock type) takes place along the river’s course resulting in differential erosion. When the rock type of the river’s channel changes from a resistant rock to a less resistant one (e.g. granite to limestone), the river erodes the less resistant rock faster producing a sudden drop in the gradient of the river with the resistant rock being higher up than the less resistant rock. As the river flows over the resistant rock, it falls onto the less resistant rock, eroding it and creating a greater height difference between the two rock types, producing the waterfall. 
+
+When water flows over the waterfall it creates a plunge pool at its base and the splashback from the falling water undercuts the resistant rock. The unsupported rock is known as the cap rock and it eventually collapses into the plunge pool causing the waterfall to retreat upstream. Over thousands of years, the repeated collapse of the cap rock and retreat of the waterfall produces a _gorge of recession_.
 
 ![][waterfall-diagram]
 
@@ -141,7 +143,7 @@ Bird’s foot deltas (e.g. The Mississippi Delta) are shaped like (as the name s
 
 [^1]: This is the maximum discharge of the river before it will overflow its banks and flood. 
 
-[waterfall-diagram]: /Images/rivers/waterfall-diagram.png
+[waterfall-diagram]: /Images/rivers/waterfall-diagram.svg
 [meander-cross-section]: /Images/rivers/meander-cross-section.png
 [riffles-and-pools-diagram]: /Images/rivers/riffles-and-pools.svg
 [levee-diagram]: /Images/rivers/levee-diagram.png
