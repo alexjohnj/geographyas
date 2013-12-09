@@ -100,7 +100,7 @@ The velocity at different points in a channel’s cross section can be illustrat
 [erosion-features-page-meanders]: /rivers/river-landforms/#meanders
 
 [river-long-profile]: /Images/rivers/long-profile-diagram.png
-[river-graded-profile]: /Images/rivers/graded-profile-diagram.png
+[river-graded-profile]: /Images/rivers/graded-profile-diagram.svg
 [upper-course-x-section]: /Images/rivers/upper-course-cross-section.svg
 [middle-course-x-section]: /Images/rivers/middle-course-cross-section.svg
 [lower-course-x-section]: /Images/rivers/lower-course-cross-section.svg
