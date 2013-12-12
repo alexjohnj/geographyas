@@ -136,4 +136,4 @@ The project did receive some backlash. The floodplain surrounding the river is u
 
 [delta-page]: /rivers/river-landforms/#deltas
 [levee-page]: /rivers/river-landforms/#levees
-[wing-dyke-diagram]: /Images/rivers/wing-dykes.png
+[wing-dyke-diagram]: /Images/rivers/wing-dykes.svg
