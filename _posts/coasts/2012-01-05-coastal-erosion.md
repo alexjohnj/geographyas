@@ -6,52 +6,91 @@ keywords: "erosion of coasts, destruction of coasts, erosion, hydraulic action o
 published: true
 ---
 
-### Hydraulic Action
+Coastal erosion involves the breaking down and removal of material along a coastline by the movement of wind & water. It leads to the formation of many [landforms][features-of-erosion-page] and, combined with deposition, plays an important role in shaping the coastline.
 
-Also known as *wave quarrying*, when a wave breaks onto a cliff, it traps a large amount of air behind it. The air is forced into cracks in the cliff with an immense amount of pressure. When the water retreats, the air is released from the cracks and a miniature explosive decompression takes place, weakening the cliff. Over time, the cliff can be weakened to the point at which a small storm will be enough to cause it to collapse. 
+[features-of-erosion-page]: /coasts/features-of-erosion/
 
-### Corrasion/Abrasion
+## Methods of Erosion
 
-Sand, shingle and boulders picked up by waves act as sandpaper on other rocks causing them to be ground away and eroded over time. The material that the waves pick up can also be thrown up against cliffs, causing extensive damage due to the force of the rocks impacting the cliff. 
+Hydraulic Action:
+:   When a wave impacts a cliff face, air is forced into cracks under high pressure, widening them. Over long periods of time, the growing cracks destabilise the cliff and fragments of rock break off of it. 
 
-### Attrition
+Corrasion/Abrasion:
+:   The repeated action of waves breaking on a cliff is enough to remove material from it over time. If sand & shingle are present in the water, it will act like sandpaper and erosion will take place faster.
 
-Beach material is eroded as a result of rocks and pebbles constantly hitting each other in the water. The material is worn down into more circular pieces. 
+Attrition:
+:   Beach material is knocked together in water reducing their size and increasing their roundness & smoothness. 
 
-### Corrosion
+Corrosion[^1]:
+:    Carbon dioxide in the atmosphere is dissolved into water turning it into a weak carbonic acid. Several rocks (e.g., Limestone) are vulnerable to this acidic water and will dissolve into it. The rate of dissolution is affected by the concentration of carbonates & other minerals in the water. As it increases, dissolution becomes slower.
 
-Many coastal rocks are susceptible to corrosion by salt water. Limestone coasts are susceptible to carbonation, where limestone is dissolved by carbonic acid in the sea. This process depends on the saturation of the sea however as if it contains too much calcium carbonate (CaCo<sub>3</sub>), carbonation won't occur. 
+## Factors Affecting the Rate of Erosion
 
-While this isn't strictly a form of erosion, the pressure of sea salt on rocks can also be considered a form of erosion. When sea water evaporates, the salt in it remains on the rocks and crystallises. The crystallisation causes the salt to expand and become heavier, straining the rocks and eventually causing them to fracture. 
+The biggest factor affecting coastal erosion is the strength of the waves breaking along the coastline. A wave's strength is controlled by its fetch and the wind speed. Longer fetches & stronger winds create bigger, more powerful waves that have more erosive power. As waves approach a coastline they lose energy though because friction with the seabed increases. This means that the _bathymetry_ (the underwater elevation) of the ocean or sea bed also impacts the strength of waves.
 
-## Factors Effecting The Rate Of Erosion
+Certain landforms further reduce wave's erosive power. _Beaches_ increase the distance a wave travels before it reaches the coastline's cliffs and so reduces its energy. _Headlands_ refract waves around them, reducing their erosive power at one location while increasing it at another.
 
-- The geology of the coast is very important. Limestone coasts will be more easily eroded, while coasts made from harder rock types will be eroded much more slowly. 
-- The size of the fetch will effect coastal erosion as a long fetch will produce stronger waves with more energy allowing them to do more damage via hydraulic action. 
-- The [wave type](/coasts/waves/#constructive--destructive-waves) effects the type of beach present and hence the erosion of the coast as different shaped beaches dissipate wave energy at different rates. 
-- The type of beach (sand or shingle), which itself effects the shape of the beach.
-- Beaches help to absorb the energy of waves and reduce the effect of erosion on the coast. Steep beaches dissipate the energy of waves well and more gradual beaches have the effect of spreading the energy out. 
-- Rock structure/geology/lithology.
-- Shape of the coastline.
-- Wave refraction.
-- Humans play an important role in the erosion of coasts. Humans often construct sea defences which can reduce erosion in a certain area. However, these defences can have the knock-on effect of increasing erosion in other areas. Humans can also remove natural defences, which can in turn increase erosion in an area. The removal or alteration of beaches can increase erosion of a coast.
+Weathering also plays a role in the rate of erosion by creating weaknesses in rocks that are exploited by the processes of erosion. Freeze-thaw weathering, for example, creates cracks in rocks, increasing the rock's susceptibility to hydraulic action.
+
+As always, humans have an impact on coastal erosion. Human activities have a variety of complex effects on coastal erosion but most commonly the activities increase the strength of waves. One activity, dredging, is commonly carried out to improve shipping capacities but it reduces the amount of energy dissipated from incoming waves and so increases erosion[^2].
 
 ## Lithology
 
-*Lithology* is a term used to describe the properties of a rock, such as it's resistance to erosion. A coast whose lithology is composed of granite will be eroded very slowly, while a coast whose lithology is composed of limestone will be eroded far more quickly. An important consideration regarding the lithology of a coast is how the different types of rocks are arranged. When different layers of rocks are arranged parallel to each other, a concordant coastline is formed whereas when the different layers are at right angles to the coastline, a discordant coastline is formed. 
+Lithology refers to the physical properties of a rock such as its resistance to erosion. The lithology of a coastline affects how quickly it's eroded. Hard rocks (e.g., Gabbro) are resistant to weathering & erosion so a coastline made of granite (e.g., Land's End) will change slowly. Soft rocks (e.g., Limestone) are more susceptible to weathering & erosion so a coastline made of chalk (e.g., Dorset) will change relatively quickly.
 
-### Concordant Coasts
+If you looked down on a coastline from above and saw the geology of the area, you'd be able to see that the rock type changes as you approach the coastline and that the different rocks are arranged in bands. The angle these bands make with the coastline makes it either a concordant or discordant coastline.
 
-![A diagram showing the arrangement of rock layers on a concordant coastline.](/Images/coasts/5coastalErosion/concordantCoastDiagram.png)
+_Concordant_ coasts have alternating layers of hard and soft rock that run parallel to the coast. The hard rock acts as a protective barrier to the softer rock behind it preventing erosion. If the hard rock is breached though, the softer rock is exposed and a cove can form (e.g., Lulworth Cove).
 
-### Discordant Coasts
+<figure>
+    <img src="/Images/coasts/5coastalErosion/concordant-coast-diaram.svg" />
+    <figcaption>
+        <p>A concordant coastline. The hard rock shields the soft rock from erosion.</p>
+    </figcaption>
+</figure>
 
-![A diagram showing rock layers that run at 90 degrees to the coastline as is the case on discordant coastlines.](/Images/coasts/5coastalErosion/discordantCoastDiagram.png)
+On a _discordant_ coastline, alternating layers of hard and soft rock are perpendicular to the coast. Because the soft rock is exposed, it is eroded faster than the hard rock. This differential erosion creates headlands and bays along discordant coastlines.
 
-## Dip
+<figure>
+    <img src="/Images/coasts/5coastalErosion/discordant-coast-diagram.svg" />
+    <figcaption>
+        <p>A discordant coastline. The soft rock is less resistant than the hard rock so it is eroded faster.</p>
+    </figcaption>
+</figure>
 
-The stability and steepness of a cliff is dependent on the _dip_ of its bedding layers. Beds which dip towards the sea produce gentle cliffs which are unstable. Beds which dip away from the sea or are horizontal produce steep, stable cliffs. 
+## Cliff Profiles & Bedding Layers
 
-![A cliff with horizontal bedding layers.](/Images/coasts/5coastalErosion/horizontalBeddingLayersDiagram.png)
+Rocks tend to form in layers of different rock types known as _beds_. These beds are subjected to tectonic forces that tilt and deform them so they dip at an angle. The angle the beds dip at affects how they are eroded and the profile of the resulting cliffs.
 
-The above cliff has horizontal bedding layers with no dip. This causes the cliff to be steep and stable. The same sort of cliff would be produced if the bed layers dipped away from the sea.
+Horizontal beds produce steep cliffs with notches where differential erosion has taken place. Near vertical beds (with a dip of ~90˚) also produce steep cliffs but differential erosion is less prevalent[^3] in these structures. Beds that dip seaward produce gentler cliffs but are less stable because loose material can slide down the bedding planes in [mass movements][mass-movement-link]. Landward dipping beds produce stabler & steeper cliffs.
+
+[mass-movement-link]: /coasts/sub-aerial-processes/#mass-movement
+
+<figure>
+    <img src="/Images/coasts/5coastalErosion/horizontal-bedding-layers.svg" />
+    <figcaption>
+        <p>An idealised horizontally bedded cliff. Its profile is steep but the softer (lighter in colour) rock has undergone differential erosion producing several notches.</p>
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="/Images/coasts/5coastalErosion/seaward-bedding-layers.svg" />
+    <figcaption>
+        <p>A cliff with seaward dipping bedding planes. Loose material can slide down the bedding planes making the cliff unstable & dangerous.</p>
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="/Images/coasts/5coastalErosion/landward-bedding-layers.svg" />
+    <figcaption>
+        <p>A cliff with landward dipping bedding planes. Compared to cliffs with seaward dipping bedding planes, it is relatively steep and stable.</p>
+    </figcaption>
+</figure>
+
+---
+
+[^1]: It is arguable that corrosion is a form of weathering rather than erosion as it only breaks down material. The counterargument is that the water the material is dissolved into moves, removing the material. The _Oxford Dictionary of Geology & Earth Sciences_ defines carbonation (the method of corrosion described) as a form of weathering but I disagree and think that, in the case of coastal systems, it is a form of erosion. I believe the definition in the _Oxford Dictionary of Earth Sciences_ is referring to carbonation from rain water.
+
+[^2]: Dredging can have devastating consequences for coastal towns because of the increased erosion. Hallsands, in Devon, UK, was destroyed as a result of a dredging operation carried out in the early 1900s. The bay in front of the town was dredged resulting in the beach all but disappearing over a year. With the beach gone, a storm during a high tide breached the coastal defences and destroyed the village.
+
+[^3]: In this arrangement, differential erosion will take place where weaknesses from weathering have formed.
