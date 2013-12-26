@@ -43,7 +43,7 @@ In the lower course, the river has next to no gravitational potential energy so 
 
 ## River Cross Profiles
 
-River cross profiles show you a cross section of a river’s channel **and** valley at certain points in the river’s course. The cross profile of a river changes as it moves from the upper to lower course as a result of changes in the river’s energy and the processes that the river carries out. 
+River cross profiles show you a cross-section of a river’s channel **and** valley at certain points in the river’s course. The cross profile of a river changes as it moves from the upper to lower course as a result of changes in the river’s energy and the processes that the river carries out. 
 
 In the upper course, the valley and channel are narrow and deep as a result of the large amount of vertical erosion and little lateral erosion. The sides of a river’s valley in the upper course are very steep earning these valleys the nickname _“V-Shaped Valley”_ since they look like a letter V. The river’s valley can be anything from a few meters to a few hundred metres in width depending on the lithology but the channel rarely more than 5m or 6m wide. 
 
@@ -67,15 +67,15 @@ The efficiency of a channel can be quantified as the channel’s _hydraulic radi
 
 \\[ R_h = \frac{A}{P} \\]
 
-Where \\(R_h\\) is the hydraulic radius, \\(A\\) is the cross sectional area of the channel and \\(P\\) is the wetted perimeter of the channel. The wetted perimeter is the length of the river’s bed and banks that is in contact with the water.
+Where \\(R_h\\) is the hydraulic radius, \\(A\\) is the cross-sectional area of the channel and \\(P\\) is the wetted perimeter of the channel. The wetted perimeter is the length of the river’s bed and banks that is in contact with the water.
 
 A large hydraulic radius is more efficient because it means that a smaller proportion of the river’s water is in contact with the bed & banks so there is less friction. The ideal channel shape for a large hydraulic radius would be a narrow and deep channel. Wide and shallow channels are less efficient and have a smaller hydraulic radius.
 
-Here’s an example of calculating the hydraulic radius. Consider the two channel cross sections below:
+Here’s an example of calculating the hydraulic radius. Consider the two channel cross-sections below:
 
 ![][channel-efficiency-example-diagram]
 
-The cross sectional area of channel A is 20m<sup>2</sup> and its wetted perimeter is 14m so its hydraulic radius is 1.4. For channel B, the cross sectional area is 16m<sup>2</sup> and its wetted perimeter is 12m meaning that its hydraulic radius is 1.3. Channel A has the larger hydraulic radius so it’s the more efficient channel. We could have guessed that channel A is the more efficient channel without working out the hydraulic radius because it’s deeper and narrower than channel B. 
+The cross-sectional area of channel A is 20m<sup>2</sup> and its wetted perimeter is 14m so its hydraulic radius is 1.4. For channel B, the cross-sectional area is 16m<sup>2</sup> and its wetted perimeter is 12m meaning that its hydraulic radius is 1.3. Channel A has the larger hydraulic radius so it’s the more efficient channel. We could have guessed that channel A is the more efficient channel without working out the hydraulic radius because it’s deeper and narrower than channel B. 
 
 ### Channel Roughness
 
@@ -85,11 +85,14 @@ The roughness of a river’s channel (and hence its efficiency) changes between 
 
 ## Channel Velocity
 
-The velocity of a river varies throughout the river’s course but the velocity of a river also varies within a specific cross section of the channel too. Close to the bed and banks friction is great so the river flows slower. In the centre of the channel, friction is lower so the river flows faster. The fastest point in a cross section of a channel is in the middle of the channel just beneath the surface so that friction with the bed, banks & air is minimal. This point is known as the _thalweg_.
+The average flow velocity of a river increases along its long profile. This makes sense; along the profile, more potential energy is converted to kinetic energy, increasing the velocity. This is only the average velocity however; a cross-section of a river shows that the velocity varies from one side to the other. The lowest velocities are found where the river is shallow and so friction is greatest. The maximum velocity is found near the river's surface where the channel is deep. At this point, friction with both the air and the channel is minimal. This point is often directly above the river's _thalweg_.
 
-The velocity at different points in a channel’s cross section can be illustrated on a channel’s cross section using isovels: 
+Thalweg:
+:   A line running along a river's profile linking its deepest points. A river's fastest flow normally runs along it.
 
-![][channel-velocity-cross-section]
+The velocity at different points along a channel's cross-section is shown using _isovels_. That's just a fancy name for contour lines that link areas of equal velocity.
+
+![An example cross-section of a river channel with isovels drawn on. The shape of the isovels will vary with the shape of the channel.][channel-velocity-cross-section] 
 
 ---
 
@@ -105,7 +108,7 @@ The velocity at different points in a channel’s cross section can be illustrat
 [middle-course-x-section]: /Images/rivers/middle-course-cross-section.svg
 [lower-course-x-section]: /Images/rivers/lower-course-cross-section.svg
 [channel-efficiency-example-diagram]: /Images/rivers/channel-efficiency-example-diagram.svg
-[channel-velocity-cross-section]: /Images/rivers/channel-velocity-cross-section.png
+[channel-velocity-cross-section]: /Images/rivers/channel-velocity-cross-section.svg
 
 
 
