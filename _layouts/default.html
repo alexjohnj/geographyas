@@ -36,26 +36,7 @@
 	</div><!-- end content -->
 	
 	<footer class="site-footer">
-		{% for post in site.categories.[page.categories.first] %}
-		{% if post.url == page.url %}
-		{% assign post_index0 = forloop.index0 %}
-		{% assign post_index1 = forloop.index %}
-		{% endif %}
-		{% endfor %}
-		{% for post in site.categories.[page.categories.first] %}
-		{% if post_index0 == forloop.index %}
-		{% assign next_post = post.url %}
-		{% endif %}
-		{% if post_index1 == forloop.index0 %}
-		{% assign prev_post = post.url %}
-		{% endif %}
-		{% endfor %}
-		<div class="footer-left">
-			<p>By Alex Jackson</p>
-		</div><!-- end footer-left -->
-		<div class="footer-right">
-			<p>{% if prev_post%}<a href="{{ prev_post }}">Previous</a>{% endif %} {% if next_post %} <a href="{{ next_post }}">Next</a>&nbsp;{% endif %}<a href="/">Home</a></p>
-		</div> <!-- end footer-right -->
+		<p>By Alex Jackson</p>
 	</footer> <!-- end page-footer -->
 
 	<!--Get jQuery-->

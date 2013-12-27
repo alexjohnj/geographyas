@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<article>
+	<header class="article-header">
+		<h1>{{ page.title }}</h1>
+		{% if page.author %}
+		<h2>By {{ page.author }}</h2>
+		{% else %}
+		<h2>By {{ site.author }}</h2>
+		{% endif %}
+	</header>
+
+	{{ content }}
+
+	<footer class="article-footer">
+		{% for post in site.categories.[page.categories.first] %}
+		{% if post.url == page.url %}
+		{% assign post_index0 = forloop.index0 %}
+		{% assign post_index1 = forloop.index %}
+		{% endif %}
+		{% endfor %}
+		{% for post in site.categories.[page.categories.first] %}
+		{% if post_index0 == forloop.index %}
+		{% assign next_post = post.url %}
+		{% endif %}
+		{% if post_index1 == forloop.index0 %}
+		{% assign prev_post = post.url %}
+		{% endif %}
+		{% endfor %}
+		<p>{% if prev_post%}<a href="{{ prev_post }}">Previous</a>{% endif %} {% if next_post %} <a href="{{ next_post }}">Next</a>&nbsp;{% endif %}<a href="/">Home</a></p>
+	</footer>
+</article>
