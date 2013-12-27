@@ -21,77 +21,66 @@
 		<meta name="author" content="{{ site.author }}">
 		{% endif %}
 		
-<script type="text/javascript">
-var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28196489-1"]);_gaq.push(["_trackPageview"]);(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();
-</script>
+	<script type="text/javascript">
+	var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28196489-1"]);_gaq.push(["_trackPageview"]);(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();
+	</script>
 
 	<noscript><style>
 	.unit-div{
 		height: auto;
 	}
 	</style></noscript>
-	</head>
-	<body>
-		<div class="wrap">
-			<div class="site-header">
-				<div id="title-sub-div">
-					<h1><a href="/">{{ site.title }}</a></h1>
-				</div>
-				<div id="about-link-sub-div">
-					<a href="/pages/about">About</a>
-				</div>
-			</div> <!-- end site-header -->
-			<div class="content">
-				<div class="container">
-					<div class="row">
-						<div class="twelvecol last">
-						{{ content }}
-						</div><!-- end twelvecol -->
-						<div class="print-page-footer">
-							{% if page.author %}
-							<p>By {{ page.author }}</p>
-							{% else %}
-							<p>By {{ site.author }}</p>
-							{% endif %}
-						</div>
-					</div> <!-- end row -->
-				</div><!-- end container -->
-			</div><!-- end content -->
-		</div> <!--end wrap-->
-		
-		<div class="page-footer">
-			{% for post in site.categories.[page.categories.first] %}
-			{% if post.url == page.url %}
-			{% assign post_index0 = forloop.index0 %}
-			{% assign post_index1 = forloop.index %}
-			{% endif %}
-			{% endfor %}
-			{% for post in site.categories.[page.categories.first] %}
-			{% if post_index0 == forloop.index %}
-			{% assign next_post = post.url %}
-			{% endif %}
-			{% if post_index1 == forloop.index0 %}
-			{% assign prev_post = post.url %}
-			{% endif %}
-			{% endfor %}
-			<div class="footer-left">
-				<p>By Alex Jackson</p>
-			</div><!-- end footer-left -->
-			<div class="footer-right">
-				<p>{% if prev_post%}<a href="{{ prev_post }}">Previous</a>{% endif %} {% if next_post %} <a href="{{ next_post }}">Next</a>&nbsp;{% endif %}<a href="/">Home</a></p>
-			</div> <!-- end footer-right -->
-		</div> <!-- end page-footer -->
+</head>
+<body>
+	<div class="wrap">
+		<header class="site-header">
+        	<h1><a href="/">{{ site.title }}</a></h1>
+            <nav>
+                <ul>
+                <li><a href="/pages/about">About</a></li>
+                </ul>
+            </nav>
+		</header>
+		<div class="content">
+            {{ content }}
+		</div><!-- end content -->
+	</div> <!--end wrap-->
+	
+	<footer>
+		{% for post in site.categories.[page.categories.first] %}
+		{% if post.url == page.url %}
+		{% assign post_index0 = forloop.index0 %}
+		{% assign post_index1 = forloop.index %}
+		{% endif %}
+		{% endfor %}
+		{% for post in site.categories.[page.categories.first] %}
+		{% if post_index0 == forloop.index %}
+		{% assign next_post = post.url %}
+		{% endif %}
+		{% if post_index1 == forloop.index0 %}
+		{% assign prev_post = post.url %}
+		{% endif %}
+		{% endfor %}
+		<div class="footer-left">
+			<p>By Alex Jackson</p>
+		</div><!-- end footer-left -->
+		<div class="footer-right">
+			<p>{% if prev_post%}<a href="{{ prev_post }}">Previous</a>{% endif %} {% if next_post %} <a href="{{ next_post }}">Next</a>&nbsp;{% endif %}<a href="/">Home</a></p>
+		</div> <!-- end footer-right -->
+	</footer> <!-- end page-footer -->
+
+	<!--Get jQuery-->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<!--SVGeezy JS https://github.com/benhowdle89/svgeezy-->
 	<script type="text/javascript">var svgeezy=function(){return{init:function(a,b){this.avoid=a||!1,this.filetype=b||"png",this.svgSupport=this.supportsSvg(),this.svgSupport||(this.images=document.getElementsByTagName("img"),this.imgL=this.images.length,this.fallbacks())},fallbacks:function(){for(;this.imgL--;)if(!this.hasClass(this.images[this.imgL],this.avoid)||!this.avoid){var a=this.images[this.imgL].getAttribute("src");if(null===a)continue;if("svg"==this.getFileExt(a)){var b=a.replace(".svg","."+this.filetype);this.images[this.imgL].setAttribute("src",b)}}},getFileExt:function(a){var b=a.split(".").pop();return-1!==b.indexOf("?")&&(b=b.split("?")[0]),b},hasClass:function(a,b){return(" "+a.className+" ").indexOf(" "+b+" ")>-1},supportsSvg:function(){return document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")}}}();svgeezy.init(false, 'png');</script>
-	<script type="text/javascript">
-	(function(){$(window).scroll(function(){if($(window).scrollTop()+$(window).height()===$(document).height()){$(".page-footer").css({"margin-top":"-3.3em",height:"3.3em",opacity:"0.9"})}if($(window).scrollTop()+$(window).height()!==$(document).height()){if($(".page-footer")[0].style.height==="3.3em"){return $(".page-footer").css({"margin-top":"",height:"",opacity:""})}}})}).call(this);
-	</script>
+	<!--Scrollbar Script-->
+	<script type="text/javascript">(function(){$(window).scroll(function(){if($(window).scrollTop()+$(window).height()===$(document).height()){$(".page-footer").css({"margin-top":"-3.3em",height:"3.3em",opacity:"0.9"})}if($(window).scrollTop()+$(window).height()!==$(document).height()){if($(".page-footer")[0].style.height==="3.3em"){return $(".page-footer").css({"margin-top":"",height:"",opacity:""})}}})}).call(this);</script>
+	<!--Load any additional scripts the page needs (e.g., MathJax)-->
 	{% if page.script %}	
 	<script src="{{ site.baseurl }}scripts/lib/{{ page.script }}.js" type="text/javascript"></script>
 	{% endif %}
 	{% if page.math %}
 	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 	{% endif %}
-	</body>
+</body>
 </html>
