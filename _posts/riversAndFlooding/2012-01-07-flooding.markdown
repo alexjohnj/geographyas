@@ -75,9 +75,11 @@ On the 16<sup>th</sup> of August, 2004, the small town of Boscastle was almost c
 
 ## Location
 
-![The location of boscastle on a map.][boscastle-map]
+Boscastle is located in southwest England less than a kilometre from the coastline. The River Valency flows directly through the town and meets the River Jordan at a confluence in the town. The river valleys are steep and composed of shale, an impermeable rock. 
 
-- Boscastle is located in southwest England less than a kilometre from the coastline. The River Valency flows directly through the town and meets the River Jordan at a confluence in the town. The river valleys are steep and composed of shale, an impermeable rock. 
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4793819.344304313!2d-4.133347673535226!3d54.0784941300803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486b83f9ccc49d2d%3A0x21db817d06b53030!2sBoscastle%2C+Cornwall%2C+UK!5e0!3m2!1sen!2s!4v1388103175661" width="600" height="400" frameborder="0" style="border:0"></iframe>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2527.630479323211!2d-4.693994495717113!3d50.6896837126951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1388102962024" width="1140" height="600" frameborder="0" style="border:0"></iframe>
 
 ## Causes
 
@@ -144,6 +146,8 @@ During the months of August and September in 2008 there was a long period of hea
 ### Location
 
 Bihar is located in the north east of India, to the south of the Himalayas bordering Nepal. It is one of the poorest states in India where the caste class system, despite its lack of legality, is still in widespread use. In Bihar, 42% of the population lives below the poverty line. Through Bihar flows the River Kosi, a tributary to the Ganges. 
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7322789.182436418!2d84.57329216664702!3d26.340075026160626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed5844f0bb6903%3A0x57ad3fed1bbae325!2sBihar%2C+India!5e0!3m2!1sen!2s!4v1388103512987" width="1140" height="600" frameborder="0" style="border:0"></iframe>
 
 ### Causes
 
