@@ -1,52 +1,39 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<!--[if lte IE 9]><link rel="stylesheet" href="/styles/css/ie.css" type="text/css"/><![endif]-->
-		<!--[if lte IE 8]><link rel="stylesheet" media="print" href="/styles/css/print-ie.css" type="text/css"><![endif]-->
-		<link rel="stylesheet" href="/styles/css/style.css" type="text/css">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>{{ page.title }}</title>
-		{% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}, {{ site.keywords }}">
-		{% elsif page.keywords == null %}	
-		<meta name="keywords" content="{{ site.keywords }}">
-		<meta name="description" content="{{ site.description }}">
-		{% endif %}
-		{% if page.description %}
-		<meta name="description" content="{{ page.description }}">
-		{% endif %}
-		{% if page.author %}
-		<meta name="author" content="{{ page.author }}">
-		{% elsif page.author == null %}
-		<meta name="author" content="{{ site.author }}">
-		{% endif %}
-		
-	<script type="text/javascript">
-	var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28196489-1"]);_gaq.push(["_trackPageview"]);(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();
-	</script>
-
-	<noscript><style>
-	.unit-div{
-		height: auto;
-	}
-	</style></noscript>
+<head>
+	<meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--[if lte IE 9]><link rel="stylesheet" href="/styles/css/ie.css" type="text/css"/><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" media="print" href="/styles/css/print-ie.css" type="text/css"><![endif]-->
+	<link rel="stylesheet" href="/styles/css/style.css" type="text/css">
+	{% if page.description %}
+	<meta name="description" content="{{ page.description }}">
+	{% endif %}
+	{% if page.author %}
+	<meta name="author" content="{{ page.author }}">
+	{% elsif page.author == null %}
+	<meta name="author" content="{{ site.author }}">
+	{% endif %}
+	    
+	<!--[if lt IE 9]><script src="/scripts/lib/html5shiv.js"><![endif]-->
+	<script type="text/javascript">var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28196489-1"]);_gaq.push(["_trackPageview"]);(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();</script>
+    <noscript><style>.unit-div{height: auto;}</style></noscript>
 </head>
 <body>
-	<div class="wrap">
-		<header class="site-header">
-        	<h1><a href="/">{{ site.title }}</a></h1>
-            <nav>
-                <ul>
-                <li><a href="/pages/about">About</a></li>
-                </ul>
-            </nav>
-		</header>
-		<div class="content">
-            {{ content }}
-		</div><!-- end content -->
-	</div> <!--end wrap-->
+	<header class="site-header">
+    	<h1><a href="/">{{ site.title }}</a></h1>
+        <nav>
+            <ul>
+            <li><a href="/pages/about">About</a></li>
+            </ul>
+        </nav>
+	</header>
+	<div class="content">
+        {{ content }}
+	</div><!-- end content -->
 	
-	<footer>
+	<footer class="site-footer">
 		{% for post in site.categories.[page.categories.first] %}
 		{% if post.url == page.url %}
 		{% assign post_index0 = forloop.index0 %}
