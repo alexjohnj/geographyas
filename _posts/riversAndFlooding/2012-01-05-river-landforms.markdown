@@ -80,6 +80,14 @@ A cross section of a meander would show that on the outside bend, the channel is
     </figcaption>
 </figure>
 
+## Oxbow Lakes
+
+Oxbow lakes are an evolution of meanders that undergo extensive deposition and erosion. As we've [just seen][meander-characteristics], strong erosion takes place on the outside bend of a meander while deposition takes place on the inisde bend. As a result, the neck of a meander narrows. During extremely high discharge (e.g., a flood), it's more efficient for a river to flow accross the neck of a meander rather than around it. When discharge returns to normal levels, the river continues follow this new course. The meander is left connected to the channel as a _cutoff_. Deposition eventually separates the cutoff from the main channel leaving behind an _oxbow lake_. With its main source of water disconnected, the lake eventually dries up leaving behind a _meander scar_.
+
+![][oxbow-lakes-formation-diagram]
+
+[meander-characteristics]: #characteristics
+
 
 ## Braided Channels
 
@@ -106,12 +114,6 @@ Levees are natural embankments produced, ironically, when a river floods. When a
 Levees aren’t permanent structures. Once the river’s discharge exceeds its bankfull discharge[^1], the levees can be burst by the high pressure of the water. Levees increase the height of the river’s channel though, so the bankfull discharge is increased and it becomes more difficult for the river to flood. 
 
 ![][levee-diagram]
-
-## Oxbow Lakes
-
-Oxbow lakes develop from meanders that have undergone extensive deposition. The neck of a meander gradually narrows as a result of deposition on the inside bend. During periods of high discharge, a river will break across a meander’s neck so that it can take the fastest route until discharge returns to normal levels. Over time, the neck of the meander will narrow until the meander is blocked off by deposition causing the river to assume a new, straighter course and leaving the remains of the meander as an oxbow lake. Ultimately, the lake will dry up and a _meander scar_ will be all that is left.
-
-![][oxbow-lakes-formation-diagram]
 
 ## Deltas
 
@@ -147,7 +149,7 @@ Bird’s foot deltas (e.g. The Mississippi Delta) are shaped like (as the name s
 [meander-cross-section]: /Images/rivers/meander-cross-section.svg
 [riffles-and-pools-diagram]: /Images/rivers/riffles-and-pools.svg
 [levee-diagram]: /Images/rivers/levee-diagram.svg
-[oxbow-lakes-formation-diagram]: /Images/rivers/oxbow-lake-formation-diagram.png
+[oxbow-lakes-formation-diagram]: /Images/rivers/oxbow-lake-formation-diagram.svg
 [delta-bedding-layers]: /Images/rivers/delta-bedding-layers.svg
 [nile-delta-gmaps]: /Images/rivers/nile-delta-gmap.png
 [ebro-delta-gmaps]: /Images/rivers/ebro-delta-gmap.png
