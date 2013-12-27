@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 This website is run by me, Alex. I'm a student studying Geography and I'm also a tech head. I make [apps](https://github.com/alexjohnj), [websites](http://alexj.me) (duh) and [tutorials](http://simplecode.me). I'm also a geography enthusiast (more specifically a geophysics enthusiast (more specifically an astrogeophysics enthusiast)). 
