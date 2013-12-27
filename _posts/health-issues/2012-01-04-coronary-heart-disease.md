@@ -1,6 +1,6 @@
 ---
 title: "A Disease Of Affluence: Coronary Heart Disease"
-layout: page
+layout: article
 category: 'health-issues'
 keywords: "disease of affluence, disease in medc, coronary heart disease, coronary heart disease in america, world wide obesity, coronary heart disease in the uk"
 published: true

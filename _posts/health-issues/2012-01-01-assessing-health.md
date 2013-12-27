@@ -1,6 +1,6 @@
 ---
 title: Assessing Health Care
-layout: page
+layout: article
 category: 'health-issues'
 keywords: 'world health, global health patterns, factors effecting morbidity, factors effecting mortality, factors effect death rate, factors effecting health'
 published: true

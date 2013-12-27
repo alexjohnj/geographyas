@@ -1,7 +1,7 @@
 ---
 title: Population Distribution & Density of the UK
 category: 'population'
-layout: page
+layout: article
 keywords: "population distribution, population density, UK population"
 ---
 

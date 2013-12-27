@@ -1,6 +1,6 @@
 ---
 title: "Comparing Healthcare Services"
-layout: page
+layout: article
 category: 'health-issues'
 keywords: "us healthcare, uk healthcare, france healthcare, comparing healthcare, us vs uk healthcare, socialist healthcare, obamacare, uk vs france healthcare"
 published: true

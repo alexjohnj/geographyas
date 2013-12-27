@@ -1,6 +1,6 @@
 ---
 title: "Health & Food"
-layout: page
+layout: article
 category: 'health-issues'
 keywords: "1984 Ethiopian famine, famine in ethiopia, live aid 1984, famine in the world, famine in ethiopia 2000, 2000 famine, obesity, obesity in the usa, obesity in brazil, obesity in the UK, causes of obesity, childhood obesity, bmi, calculate bmi"
 published: true

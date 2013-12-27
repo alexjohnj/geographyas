@@ -1,6 +1,6 @@
 ---
 title: "Sea Level Change"
-layout: page
+layout: article
 category: "coasts"
 keywords: "isostatic sea level change, eustatic sea level change, ocean level change, ocean basin change, effects of sea level change, coast of east UK"
 published: true

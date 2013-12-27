@@ -1,6 +1,6 @@
 ---
 title: An Introduction To Coasts
-layout: page
+layout: article
 category: 'coasts'
 description: "Coasts is the second physical topic studied at AS Level. This post outlines the basics of coasts and what can effect them."
 keywords: "features of coastlines, features of coasts, coastal features, inputs into coasts, outputs in coastal systems, coastal systems, sections of a coastal system, human impacts on coasts"

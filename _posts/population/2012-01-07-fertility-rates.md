@@ -1,7 +1,7 @@
 ---
 title: Fertility Rates
 category: 'population'
-layout: page
+layout: article
 keywords: "fertility rate, birth rate, population change, natural increase"
 ---
 

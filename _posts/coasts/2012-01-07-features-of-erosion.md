@@ -1,6 +1,6 @@
 ---
 title: "Features of Erosion"
-layout: page
+layout: article
 category: 'coasts'
 keywords: "formation of headlands, formation of bays, swanage bay, formation of wave cut notches, wave cut notch formation, wave cut platform formation, stack formation, stump formation, formation of arches, arches on hilbre island, barton on sea cliff management, cliff collapse barton on sea, cliff collapse"
 published: true

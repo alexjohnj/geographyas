@@ -1,6 +1,6 @@
 ---
 title: "HIV, AIDS & Infectious Diseases"
-layout: page
+layout: article
 category: 'health-issues'
 keywords: "hit, aids, cause of hiv, spread of hiv, origin of hiv, origin of aids, aids in uganda, hiv in uganda, spread of aids in uganda, spread of aids in ledcs"
 published: true

@@ -1,7 +1,7 @@
 ---
 title: Inner City Areas & Suburbs - Leeds
 category: 'population'
-layout: page
+layout: article
 keywords: "leeds, population distribution of leeds, leeds inner city, leeds suburbs, example of inner city area, example of suburb"
 ---
 

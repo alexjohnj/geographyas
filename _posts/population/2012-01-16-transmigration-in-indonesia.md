@@ -1,6 +1,6 @@
 ---
 title: Transmigration In Indonesia
-layout: page
+layout: article
 category: 'population'
 description: "During the 1980s, the Indonesian government introduced a new transmigration policy, in an attempt to ease overpopulation in the inner islands of Indonesia such as Java. The policy involved providing resources for those who voluntarily moved to the outer islands of Indonesia."
 keywords: "indonesia, oceania, java, bali, madura, overpopulation in java, overpopulation in indonesia, immigration, migration, voluntary resettlement, Kalimantan, Maluku"

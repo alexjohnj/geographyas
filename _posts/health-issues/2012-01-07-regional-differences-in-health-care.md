@@ -1,6 +1,6 @@
 ---
 title: "Regional Differences in Healthcare"
-layout: page
+layout: article
 category: 'health-issues'
 keywords: "healthcare differences in the UK, healthcare in the wirral, healthcare variations in the UK, UK healthcare, healthcare quality in england"
 published: true

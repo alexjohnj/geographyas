@@ -1,6 +1,6 @@
 ---
 title: Sub-Aerial Processes
-layout: page
+layout: article
 category: 'coasts'
 keywords: 'coastal weathering, coastal erosion, weathering, mass movement, rock falls, landslides, mudflows, rotational slumping'
 published: true

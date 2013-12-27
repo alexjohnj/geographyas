@@ -1,6 +1,6 @@
 ---
 title: Discharge & Hydrographs
-layout: page
+layout: article
 category: 'rivers'
 ---
 

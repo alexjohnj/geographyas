@@ -1,6 +1,6 @@
 ---
 title: "Transnational Corporations"
-layout: page	
+layout: article	
 category: "health-issues"
 keywords: "GlaxoSmithKline, pharmaceutical companies in medcs, drug availability in less developed countries, GlaxoSmithKline in ledcs, GlaxoSmithKline local programmes, GlaxoSmithKline effects on society, pharmaceutical company's effects on society, transnational corporations, British American Tobacco, Malawi, tobacco production in Malawi"
 published: true

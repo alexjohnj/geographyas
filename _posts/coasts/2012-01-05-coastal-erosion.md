@@ -1,6 +1,6 @@
 ---
 title: Coastal Erosion
-layout: page
+layout: article
 category: 'coasts'
 keywords: "erosion of coasts, destruction of coasts, erosion, hydraulic action on coasts, corrosion of coasts, acidic sea, carbonation of coast"
 published: true

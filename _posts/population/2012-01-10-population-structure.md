@@ -1,7 +1,7 @@
 ---
 title: Population Structure
 category: 'population'
-layout: page
+layout: article
 keywords: "population pyramids, structure, population change, natural increase, birth rate, death rate, fertility rate"
 ---
 

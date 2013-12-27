@@ -1,7 +1,7 @@
 ---
 title: World Population Growth
 category: 'population'
-layout: page
+layout: article
 keywords: "population, growth, world population, natural change, annual population change"
 ---
 

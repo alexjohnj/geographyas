@@ -1,7 +1,7 @@
 ---
 title: Mortality Rates
 category: 'population'
-layout: page
+layout: article
 keywords: "crude death rate, life expectancy, infant mortality rate, IMR, death rate, birth rate, fertility rate, population change"
 ---
 

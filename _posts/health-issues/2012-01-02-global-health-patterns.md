@@ -1,6 +1,6 @@
 ---
 title: "Global Health Patterns"
-layout: page
+layout: article
 category: 'health-issues'
 keywords: "global health patterns, global infant morality rate, death rates, africa death rate, medc vs ledc death rate, medc vs ledc infant mortality rate"
 published: true

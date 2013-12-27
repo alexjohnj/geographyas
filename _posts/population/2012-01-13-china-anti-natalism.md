@@ -1,7 +1,7 @@
 ---
 title: China, An Anti Natalist Country
 category: 'population'
-layout: page
+layout: article
 keywords: "one child policy, anti natalism, china, population control, birth control, overpopulation, fertility rate"
 ---
 

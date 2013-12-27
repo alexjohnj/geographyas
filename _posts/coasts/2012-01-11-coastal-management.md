@@ -1,6 +1,6 @@
 ---
 title: Coastal Management
-layout: page
+layout: article
 category: 'coasts'
 keywords: "coastal management, managed retreat, coastal erosion, coastal deposition, coastal destruction, wirral coastline, wirral coastal defences, coastal defences, king's parade sea wall"
 published: true

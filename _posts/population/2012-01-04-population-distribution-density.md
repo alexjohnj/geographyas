@@ -1,7 +1,7 @@
 ---
 title: Population Distribution & Density
 category: 'population'
-layout: page
+layout: article
 keywords: "population distribution, population density, dot maps"
 ---
 

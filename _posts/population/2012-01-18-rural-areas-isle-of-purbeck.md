@@ -1,6 +1,6 @@
 ---
 title: Rural Areas Case Study - Isle Of Purbeck
-layout: page
+layout: article
 category: 'population'
 published: true
 ---

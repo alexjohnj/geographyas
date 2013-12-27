@@ -1,6 +1,6 @@
 ---
 title: Flood Management
-layout: page
+layout: article
 category: 'rivers'
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Factors Which Effect The World's Population
 category: 'population'
-layout: page
+layout: article
 keywords: "health, education, social provisions, cultural factors, factors, population, world population, natural increase, birth rate, death rate"
 ---
 

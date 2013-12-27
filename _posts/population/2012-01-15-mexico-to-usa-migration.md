@@ -1,6 +1,6 @@
 ---
 title: Mexico To USA Migration
-layout: page
+layout: article
 category: 'population'
 keywords: "mexico, usa, migration, immigration, reasons for migration, mexico to usa migration reasons, immigration, illegal immigration"
 description: "

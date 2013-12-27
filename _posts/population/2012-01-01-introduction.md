@@ -1,7 +1,7 @@
 ---
 title: Introduction To Population
 category: 'population'
-layout: page
+layout: article
 keywords: "population, change, world population"
 ---
 

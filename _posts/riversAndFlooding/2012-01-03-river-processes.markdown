@@ -1,6 +1,6 @@
 ---
 title: River Processes
-layout: page
+layout: article
 category: rivers
 ---
 

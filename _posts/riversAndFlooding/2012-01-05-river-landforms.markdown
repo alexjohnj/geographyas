@@ -1,6 +1,6 @@
 ---
 title: River Landforms
-layout: page
+layout: article
 category: rivers
 math: true
 ---

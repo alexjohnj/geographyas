@@ -1,7 +1,7 @@
 ---
 title: Migration
 category: 'population'
-layout: page
+layout: article
 keywords: "migration, population change, immigration, migrants, immigrants, unemployment, country of origin, host country, destination country, impacts of migration, consequences of migration"
 ---
 

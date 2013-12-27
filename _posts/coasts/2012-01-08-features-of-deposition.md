@@ -1,6 +1,6 @@
 ---
 title: "Features of Deposition"
-layout: page
+layout: article
 category: "coasts"
 keywords: "features of deposition on coasts, features of coastal deposition, formation of spits, formation of spits on coasts, formation of bars, formation of tombolos, formation of sand dunes, features of sand dunes, how sand dunes change inland, protection of sand dunes, destruction of sand dunes, sand dune blowouts, formation of blowouts, plants on sand dune, sand dune systems, what is a Psammoseres, formation of Psammoseres, features of Psammoseres"
 description: "There are a variety of features along coastlines that form due to the low energy nature of certain sections of the coast. These features and their formation is discussed in this post. Features discussed include spits, bars, tombolos and sand dune systems."

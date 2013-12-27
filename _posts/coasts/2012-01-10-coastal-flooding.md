@@ -1,6 +1,6 @@
 ---
 title: "Coastal Flooding"
-layout: page
+layout: article
 category: 'coasts'
 published: true
 ---
