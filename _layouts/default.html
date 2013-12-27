@@ -20,9 +20,6 @@
 	
 	<!--Load html5shiv if IE<9. In my (limited) testing, this MUST be loaded before any other script-->
 	<!--[if lt IE 9]><script src="/scripts/lib/html5shiv.js"><![endif]-->
-	<script>
-	var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-28196489-1"]);_gaq.push(["_trackPageview"]);(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b)})();
-	</script>
     <noscript><style>.unit-div{height: auto;}</style></noscript>
 </head>
 <body>
@@ -63,14 +60,27 @@
 
 	<!--Get jQuery-->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	
 	<!--SVGeezy JS https://github.com/benhowdle89/svgeezy-->
 	<script>
 	var svgeezy=function(){return{init:function(a,b){this.avoid=a||!1,this.filetype=b||"png",this.svgSupport=this.supportsSvg(),this.svgSupport||(this.images=document.getElementsByTagName("img"),this.imgL=this.images.length,this.fallbacks())},fallbacks:function(){for(;this.imgL--;)if(!this.hasClass(this.images[this.imgL],this.avoid)||!this.avoid){var a=this.images[this.imgL].getAttribute("src");if(null===a)continue;if("svg"==this.getFileExt(a)){var b=a.replace(".svg","."+this.filetype);this.images[this.imgL].setAttribute("src",b)}}},getFileExt:function(a){var b=a.split(".").pop();return-1!==b.indexOf("?")&&(b=b.split("?")[0]),b},hasClass:function(a,b){return(" "+a.className+" ").indexOf(" "+b+" ")>-1},supportsSvg:function(){return document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")}}}();svgeezy.init(false, 'png');
 	</script>
+	
 	<!--Scrollbar Script-->
 	<script>
 	(function(){$(window).scroll(function(){if($(window).scrollTop()+$(window).height()===$(document).height()){$(".page-footer").css({"margin-top":"-3.3em",height:"3.3em",opacity:"0.9"})}if($(window).scrollTop()+$(window).height()!==$(document).height()){if($(".page-footer")[0].style.height==="3.3em"){return $(".page-footer").css({"margin-top":"",height:"",opacity:""})}}})}).call(this);
 	</script>
+
+	<!--Optimised GA script ripped from HTML5Boilerplate-->
+	<script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-28196489-1');ga('send','pageview');
+    </script>
+
 	<!--Load any additional scripts the page needs (e.g., MathJax)-->
 	{% if page.script %}	
 	<script src="{{ site.baseurl }}scripts/lib/{{ page.script }}.js"></script>
