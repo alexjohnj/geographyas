@@ -72,3 +72,20 @@ header#article-header {
   margin: 0 auto;
 }
 
+// Article content styles
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  margin: 10px auto;
+
+  color: #443e3a;
+  font-size: 0.875em;
+  text-align: center;
+  font-style: italic;
+}
+
