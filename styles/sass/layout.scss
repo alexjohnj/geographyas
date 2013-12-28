@@ -31,6 +31,10 @@ header#site-header {
 }
 
 nav#site-navigation {
+  ul {
+    padding: 0;
+  }
+  
   li {
     list-style: none;
     display: inline-block;
