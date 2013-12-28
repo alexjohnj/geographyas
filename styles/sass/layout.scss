@@ -44,7 +44,7 @@ nav#site-navigation {
 }
 
 div#content {
-  padding: 90px 0 10px 0;
+  padding: 110px 0 10px 0;
 }
 
 footer#site-footer {
@@ -68,5 +68,11 @@ header#article-header {
   text-align: center;
 
   padding: 5px 0 10px 0;
+}
+
+.content-margin-wrap {
+  width: 92%;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
