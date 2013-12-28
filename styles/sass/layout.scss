@@ -7,10 +7,13 @@ body {
   margin: 0 0 100px;
 }
 
+// Default template styles
+
 header#site-header {
   position: absolute;
   top: 0;
   bottom: 0;
+  padding-bottom: 10px;
 
   height: 100px;
   width: 100%;
@@ -41,7 +44,7 @@ nav#site-navigation {
 }
 
 div#content {
-  padding: 100px 0 10px 0;
+  padding: 90px 0 10px 0;
 }
 
 footer#site-footer {
@@ -54,3 +57,16 @@ footer#site-footer {
 
   background-color: black;
 }
+
+// Article Styles
+
+header#article-header {
+  width: 100%;
+  background-color: #262626;
+  color: white;
+  height: 170px;
+  text-align: center;
+
+  padding: 5px 0 0 0;
+}
+
