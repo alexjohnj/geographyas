@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article>
-	<header class="article-header">
+	<header id="article-header">
 		<h1>{{ page.title }}</h1>
 		{% if page.author %}
 		<h2>By {{ page.author }}</h2>
@@ -14,7 +14,7 @@ layout: default
 
 	{{ content }}
 
-	<footer class="article-footer">
+	<footer id="article-footer">
 		{% for post in site.categories.[page.categories.first] %}
 		{% if post.url == page.url %}
 		{% assign post_index0 = forloop.index0 %}
