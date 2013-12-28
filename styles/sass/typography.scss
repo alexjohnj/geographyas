@@ -18,6 +18,9 @@ header#site-header {
 nav#site-navigation {
 	font-family: "Raleway", "Helvetica Neue", "Arial", sans-serif;
 	font-weight: 100;
+	a:visited {
+		color: #f2783c;
+	}
 }
 
 header#article-header {
@@ -27,5 +30,24 @@ header#article-header {
 	h2 {
 		font-size: 1.3em;
 		font-style: italic;
+	}
+}
+
+a {
+	color: #f2783c;
+	text-decoration: none;
+
+	// Generated from http://matthewlein.com/ceaser/
+	-webkit-transition: all 250ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+   	-moz-transition: all 250ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+    -o-transition: all 250ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+    transition: all 250ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
+
+	&:visited {
+		color: #0e92d3;
+	}
+
+	&:hover {
+		color: #d34f0e;
 	}
 }
