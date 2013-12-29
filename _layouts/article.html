@@ -30,9 +30,12 @@ layout: default
 			{% endif %}
 			{% endfor %}
 			<div class="content-margin-wrap">
-				{% if next_post %}<p>Next you should read about &ldquo;<a href="{{ next_post.url }}">{{ next_post.title }}</a>&rdquo;.</p>{% endif %}
-				{% if prev_post %}<p>Or, if you haven't already, check out &ldquo;<a href="{{ prev_post.url }}">{{ prev_post.title }}</a>&rdquo;.</p>{% endif %}
-				<p>Better yet, read <a href="/{{ page.categories.first}}">everything there is on the {{ page.categories.first | replace: "-", " " }} topic</a>.</p><!--TODO: Make category pages-->
+				<div id="article-footer-right">
+					{% if next_post %}<p><a href="{{ next_post.url }}">{{ next_post.title }} &raquo;</a></p>{% endif %}
+				</div>
+				<div id="article-footer-left">
+					{% if prev_post %}<p><a href="{{ prev_post.url }}">&laquo; {{ prev_post.title }}</a></p>{% endif %}
+				</div>
 			</div>
 	</footer>
 </article>

@@ -89,6 +89,18 @@ footer#article-footer {
   color: white;
   padding: 10px 0;
   margin: 0 0 -10px 0;
+  overflow: hidden;
+}
+
+div#article-footer-left {
+  width: 50%;
+  float: left;
+}
+
+div#article-footer-right {
+  width: 50%;
+  float: right;
+  text-align: right;
 }
 
 // Article content styles
