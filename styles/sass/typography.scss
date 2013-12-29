@@ -1,69 +1,69 @@
 body {
-	font-size: 16px;
-	font-family: "Arvo", "Georgia", serif;
-	font-weight: 400;
+  font-size: 16px;
+  font-family: "Arvo", "Georgia", serif;
+  font-weight: 400;
 }
 
 ::selection {
-	background-color: #f2783c;
+  background-color: #f2783c;
 }
 
 ::-moz-selection {
-	background-color: #f2783c;
+  background-color: #f2783c;
 }
 
 a::selection {
-	color: white;
+  color: white;
 }
 
 a::-moz-selection {
-	color: white;
+  color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Raleway", "Helvetica Neue", "Arial", sans-serif;
-	font-weight: 200;
+  font-family: "Raleway", "Helvetica Neue", "Arial", sans-serif;
+  font-weight: 200;
 }
 
 header#site-header {
-	h1 {
-		font-weight: 200;
-	}
+  h1 {
+    font-weight: 200;
+  }
 }
 
 nav#site-navigation {
-	font-family: "Raleway", "Helvetica Neue", "Arial", sans-serif;
-	font-weight: 200;
-	a:visited {
-		color: #f2783c;
-	}
+  font-family: "Raleway", "Helvetica Neue", "Arial", sans-serif;
+  font-weight: 200;
+  a:visited {
+    color: #f2783c;
+  }
 }
 
 header#article-header {
-	h1 {
-		font-size: 3em;
-	}
-	h2 {
-		font-size: 1.3em;
-		font-style: italic;
-	}
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 1.3em;
+    font-style: italic;
+  }
 }
 
 a {
-	color: #f2783c;
-	text-decoration: none;
+  color: #f2783c;
+  text-decoration: none;
 
-	// Generated from http://matthewlein.com/ceaser/
-	-webkit-transition: all 250ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-   	-moz-transition: all 250ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+  // Generated from http://matthewlein.com/ceaser/
+  -webkit-transition: all 250ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+    -moz-transition: all 250ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
     -o-transition: all 250ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
     transition: all 250ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
 
-	&:visited {
-		color: #0e92d3;
-	}
+  &:visited {
+    color: #0e92d3;
+  }
 
-	&:hover {
-		color: #d34f0e;
-	}
+  &:hover {
+    color: #d34f0e;
+  }
 }
