@@ -1,7 +1,6 @@
 title: Geography AS Notes
 production_url : http://geographyas.info
 description: A collection of geography notes and revision aids for the AQA AS Geography course. 
-keywords: geography, as, aqa, a2, geography course, notes, revision aid, geography exam, school
 
 author: Alex Jackson
 twitter: alexjohnj
@@ -22,29 +21,10 @@ exclude: [sass]
 future:      true
 lsi:         false
 pygments:    false
-markdown:    kramdown
-
-maruku:
-  use_tex:    false
-  use_divs:   false
-  png_engine: blahtex
-  png_dir:    images/latex
-  png_url:    /images/latex
+markdown:    rdiscount
 
 rdiscount:
-  extensions: []
-
-kramdown:
-  auto_ids: true,
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-
-  coderay:
-    coderay_wrap: div
-    coderay_line_numbers: inline
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: style
+  extensions:
+    - footnotes
+    - smart
+    - autolink
