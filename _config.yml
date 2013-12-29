@@ -23,6 +23,9 @@ lsi:         false
 pygments:    false
 markdown:    rdiscount
 
+category_dir: /
+category_title_prefix: ""
+
 rdiscount:
   extensions:
     - footnotes
