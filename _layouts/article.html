@@ -13,8 +13,8 @@ layout: default
 	</header>
 	<div class="content-margin-wrap">
 		{{ content }}
-
-		<footer id="article-footer">
+	</div>
+	<footer id="article-footer">
 			{% for post in site.categories.[page.categories.first] %}
 			{% if post.url == page.url %}
 			{% assign post_index0 = forloop.index0 %}
@@ -23,13 +23,16 @@ layout: default
 			{% endfor %}
 			{% for post in site.categories.[page.categories.first] %}
 			{% if post_index0 == forloop.index %}
-			{% assign next_post = post.url %}
+			{% assign next_post = post %}
 			{% endif %}
 			{% if post_index1 == forloop.index0 %}
-			{% assign prev_post = post.url %}
+			{% assign prev_post = post %}
 			{% endif %}
 			{% endfor %}
-			<p>{% if prev_post%}<a href="{{ prev_post }}">Previous</a>{% endif %} {% if next_post %} <a href="{{ next_post }}">Next</a>&nbsp;{% endif %}<a href="/">Home</a></p>
-		</footer>
-	</div>
+			<div class="content-margin-wrap">
+				{% if next_post %}<p>Next you should read about &ldquo;<a href="{{ next_post.url }}">{{ next_post.title }}</a>&rdquo;.</p>{% endif %}
+				{% if prev_post %}<p>Or, if you haven't already, check out &ldquo;<a href="{{ prev_post.url }}">{{ prev_post.title }}</a>&rdquo;.</p>{% endif %}
+				<p>Better yet, read <a href="/{{ page.categories.first}}">everything there is on the {{ page.categories.first | replace: "-", " " }} topic</a>.</p><!--TODO: Make category pages-->
+			</div>
+	</footer>
 </article>
