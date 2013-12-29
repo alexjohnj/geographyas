@@ -12,6 +12,14 @@ body {
 	background-color: #f2783c;
 }
 
+a::selection {
+	color: white;
+}
+
+a::-moz-selection {
+	color: white;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Raleway", "Helvetica Neue", "Arial", sans-serif;
 	font-weight: 200;
