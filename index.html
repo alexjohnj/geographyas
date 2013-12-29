@@ -11,14 +11,14 @@ script: click-script
 		<noscript>Ack! You haven't got Javascript enabled. I'd recommend enabling it to get the best experience using this website but I've tried to adapt the site to you anyway. <small>(I'm so kind)</small></noscript>
 	</div>
 
-	<p>Click on a unit title to see the topics.</p>
 	<hr>
+
 	{% for category in site.categories %} 
-	<div class="unit-div">
-	    <h2 id="{{ category[0] }}-ref">{{ category[0] | join: "/" | capitalize | replace:"-", " " }}</h2>
+	<section id="unit-section">
+	    <h1 id="{{ category[0] }}-ref"><span style="text-transform:capitalize">{{ category[0] | join: "/" | capitalize | replace:"-", " " }}</span><a href="/{{ category[0] }}"> &infin;</a></h1>
 	      {% assign pages_list = category[1] %}  
 	      {% include helpers/pages_list.html %}
-	</div>
+	</section>
 	<hr>
 	{% endfor %}
 </div>

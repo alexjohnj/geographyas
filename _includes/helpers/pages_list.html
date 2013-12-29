@@ -20,15 +20,15 @@ Usage:
   This helper can be seen in use at: ../_layouts/default.html
 -->{% endcomment %}
 
-
+<ol>
 {% for node in pages_list reversed %}
   {% if group == null or group == node.group %}
   {% assign post_number = forloop.index %}
   
   	{% if page.url == node.url %}
-  	<p><a href="{{node.url}}" class="active">{{ post_number }} - {{node.title}}</a></p>
+  	<li><a href="{{node.url}}">{{node.title}}</a></li>
   	{% else %}
-  	<p><a href="{{node.url}}">{{ post_number }} - {{node.title}}</a></p>
+  	<li><a href="{{node.url}}">{{node.title}}</a></li>
   	{% endif %}
  
   {% endif %}
@@ -36,3 +36,4 @@ Usage:
 
 {% assign pages_list = null %}
 {% assign group = null %}
+</ol>
