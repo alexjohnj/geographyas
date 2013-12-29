@@ -57,17 +57,13 @@ a {
   color: #f2783c;
   text-decoration: none;
 
-  // Generated from http://matthewlein.com/ceaser/
-  -webkit-transition: all 250ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-    -moz-transition: all 250ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-    -o-transition: all 250ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-    transition: all 250ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
-
-  &:visited {
+  &:hover {
     color: #0e92d3;
   }
 
-  &:hover {
-    color: #d34f0e;
-  }
+  // Generated from http://matthewlein.com/ceaser/
+  -webkit-transition: all 250ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+  -moz-transition: all 250ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+  -o-transition: all 250ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+  transition: all 250ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
 }
