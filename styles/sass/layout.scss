@@ -93,3 +93,34 @@ figcaption {
   font-style: italic;
 }
 
+dl {
+  &::before {
+    content: "Definitions:";
+    font-family: "Raleway", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 200;
+    font-size: 1.5em;
+  }
+
+  background-color: #262626;
+  color: white;
+  padding: 15px;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+
+  dt {
+    font-style: italic;
+    &:first-child {
+      padding-top: 10px;
+    }
+  }
+
+  dd {
+    padding-bottom: 10px;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+}
