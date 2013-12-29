@@ -43,7 +43,7 @@ nav#site-navigation {
 }
 
 div#content {
-  padding: 120px 0 0 0;
+  padding: 120px 0 10px 0;
 }
 
 footer#site-footer {
@@ -79,6 +79,7 @@ footer#article-footer {
   background-color: #262626;
   color: white;
   padding: 10px 0;
+  margin: 0 0 -10px 0;
 }
 
 // Article content styles
