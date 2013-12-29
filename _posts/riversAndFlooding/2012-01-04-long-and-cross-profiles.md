@@ -94,8 +94,6 @@ The velocity at different points along a channel's cross-section is shown using 
 
 ![An example cross-section of a river channel with isovels drawn on. The shape of the isovels will vary with the shape of the channel.][channel-velocity-cross-section] 
 
----
-
 [^1]: Nine times out of ten, this will be sea level.
 
 [rejuvenation-page]: /rivers/rejuvenation/

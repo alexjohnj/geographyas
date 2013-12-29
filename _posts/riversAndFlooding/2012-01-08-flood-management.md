@@ -126,9 +126,7 @@ In order to restore the original course of the River Cole, old maps of the chann
 
 The project appears to have been successful. It has recreated wetlands which will help reduce the risk of flooding and has also allowed the river to flood naturally, which will improve the fertility of the surrounding land and prevent floods further downstream. New wildlife and plants have started to inhabit the area surrounding the river and the surrounding environment is much more pleasant. 
 
-The project did receive some backlash. The floodplain surrounding the river is used as agricultural land and many farmers were unhappy to have marshland developing nearby. They also weren’t happy with the land that they would lose because of the new course the river would take and the fact that the river would meander and start to take up more land. Finally, they were unhappy with allowing the river to flood naturally as while it would deposit fertile alluvium, it would also inundate and damage anything they were growing at the time. 
-
----
+The project did receive some backlash. The floodplain surrounding the river is used as agricultural land and many farmers were unhappy to have marshland developing nearby. They also weren’t happy with the land that they would lose because of the new course the river would take and the fact that the river would meander and start to take up more land. Finally, they were unhappy with allowing the river to flood naturally as while it would deposit fertile alluvium, it would also inundate and damage anything they were growing at the time.
 
 [^1]: There’s an awesome song about “The Great Mississippi Flood” by Led Zeppelin which I’m listening to while writing this. [When the Levee Breaks (YouTube)](http://www.youtube.com/watch?v=WbrjRKB586s)
 

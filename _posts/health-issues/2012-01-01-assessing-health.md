@@ -36,8 +36,6 @@ We can look at:
 - *Culture*: Attitudes towards women and the elderly can effect health care. In Afghanistan, for example, women can not be seen by male doctors and could not be educated to become nurses, totally eliminating any health care available for them. Traditional foods eaten in many mediterranean countries can help to increase life expectancy. 
 - *Lifestyle*: Whether/how much people drink, smoke, exercise or eat healthy foods can effect mortality and morbidity. 
 
----
-
 [^1]: The number of incidences of disease, not death
 
 [^2]: The number of cases of a disease diagnosed in an area divided by the total population over a period of time in an epidemic. 

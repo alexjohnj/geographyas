@@ -51,8 +51,6 @@ You can graph the water budget if you want. If you plot evapotranspiration and p
 
 ![][water-budget-graph]
 
----
-
 [^1]: Technically this is not true. The Earth gets water from space when comets impact the Earth and loses water to space too. Water in the upper atmosphere is slowly lost to space as it “evaporates” away. Huge meteorite impacts will throw lots of debris into space which contains a fair bit of water as well. 
 
 [^2]: Yet still not particularly fast. At top speed we’re talking less than 0.5mh<sup>-1</sup>.

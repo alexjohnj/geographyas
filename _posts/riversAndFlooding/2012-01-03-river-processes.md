@@ -56,8 +56,6 @@ The easiest way to read the curve is to draw a horizontal line from the velocity
 
 There’s a few interesting things to note about the Hjusltröm Curve. The first is that clay sized particles don’t appear to have a mean settling velocity. This is because these particles are so fine that a river would have to be almost perfectly stationary in order for them to fall out of solution. In addition, the small particles seem to have an erosive velocity that’s the same as the velocity for larger particles. This is because smaller particles are cohesive, they stick together, making them harder to dislodge and erode without high velocities. 
 
----
-
 [^1]: You may have heard this called abrasion. 
 
 [^2]: The acidity is caused by carbon dioxide in the atmosphere dissolving into the water. Pure water is neutral (and basically non-existent in nature). 

@@ -66,8 +66,6 @@ On March 11<sup>th</sup> 2011, a magnitude[^1] 9.0 earthquake occurred with an e
 - In the months following the disaster, the government set about rebuilding the many sea walls that had been destroyed by the tsunami and also increased the height of the sea walls still standing[^4].
 - Efforts were made to understand why the earthquake and resulting tsunami had been so powerful so that future earthquakes of a similar scale could be prepared for.
 
----
-
 [^1]: That's using the moment magnitude scale, not the richter scale.   
 [^2]: The Tōhoku region is located in the north east of Honshu, the biggest island that makes up Japan.   
 [^3]: That’s the highest level you can get. The only other accident to get this level was Chernobyl in 1986.   

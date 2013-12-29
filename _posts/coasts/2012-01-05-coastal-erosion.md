@@ -87,8 +87,6 @@ Horizontal beds produce steep cliffs with notches where differential erosion has
     </figcaption>
 </figure>
 
----
-
 [^1]: It is arguable that corrosion is a form of weathering rather than erosion as it only breaks down material. The counterargument is that the water the material is dissolved into moves, removing the material. The _Oxford Dictionary of Geology & Earth Sciences_ defines carbonation (the method of corrosion described) as a form of weathering but I disagree and think that, in the case of coastal systems, it is a form of erosion. I believe the definition in the _Oxford Dictionary of Earth Sciences_ is referring to carbonation from rain water.
 
 [^2]: Dredging can have devastating consequences for coastal towns because of the increased erosion. Hallsands, in Devon, UK, was destroyed as a result of a dredging operation carried out in the early 1900s. The bay in front of the town was dredged resulting in the beach all but disappearing over a year. With the beach gone, a storm during a high tide breached the coastal defences and destroyed the village.
