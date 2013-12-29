@@ -169,3 +169,26 @@ hr {
   background-color: #262626;
   border: none;
 }
+
+table {
+  margin: 0 auto;
+  text-align: center;
+
+  thead {
+    border-bottom: 1px solid #f2783c;
+  }
+
+  th {
+    background-color: #262626;
+    padding: 10px 10px;
+  }
+
+  tbody {
+    background-color: #333333;
+  }
+
+  td {
+    padding: 10px 10px;
+    border-bottom: 1px solid #f2783c;
+  }
+}
