@@ -31,3 +31,4 @@ rdiscount:
     - footnotes
     - smart
     - autolink
+    - generate_toc
