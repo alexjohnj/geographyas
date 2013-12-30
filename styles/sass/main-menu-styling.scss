@@ -17,24 +17,24 @@ section.unit-section {
   visibility: visible;
   display: block;
 
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 250ms ease;
+  animation: fadeIn 250ms ease;
 }
 
 section.unit-section.disabled {
   visibility: hidden;
   display: none;
   
-  -webkit-animation: fadeOut 1s;
-  animation: fadeOut 1s;
+  -webkit-animation: fadeOut 250ms ease;
+  animation: fadeOut 250ms ease;
 }
 
-@-webkit-keyframes fadeIn {
+@keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
 }
 
-@keyframes fadeIn {
+@-webkit-keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
 }
