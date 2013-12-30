@@ -20,7 +20,7 @@ Usage:
   This helper can be seen in use at: ../_layouts/default.html
 -->{% endcomment %}
 
-<ol>
+<ol class="topic-list">
 {% for node in pages_list reversed %}
   {% if group == null or group == node.group %}
   {% assign post_number = forloop.index %}

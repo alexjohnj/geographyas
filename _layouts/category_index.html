@@ -4,8 +4,10 @@ layout: default
 <section>
 	<div class="content-margin-wrap">
 		<h1><span style="text-transform:capitalize;">{{ page.title | replace: "-", " " | capitalize }}</span></h1>
-		{% for post in site.categories[page.category] reversed %}
-		<h2>{{ forloop.index }} &ndash; <a href="{{ post.url }}">{{ post.title }}</a></h2>
-		{% endfor %}
+		<ol class="topic-list">
+			{% for post in site.categories[page.category] reversed %}
+			<li><a href="{{ post.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+		</ol>
 	</div>
 </section>
