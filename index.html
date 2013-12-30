@@ -11,14 +11,20 @@ script: click-script
 		<noscript>Ack! You haven't got Javascript enabled. I'd recommend enabling it to get the best experience using this website but I've tried to adapt the site to you anyway. <small>(I'm so kind)</small></noscript>
 	</div>
 
-	<hr>
+	<p>Select a unit to see the available topics.</p>
+	<div id="controls">
+		<ul id="segmented-control">
+			{% for category in site.categories %}
+			<li id="{{ category[0] }}-segment" class="segment">{{ category[0] | join "/" | capitalize | replace: "-", " " }}</li>
+			{% endfor %}
+		</ul>
+	</div>
 
 	{% for category in site.categories %} 
-	<section class="unit-section">
-	    <h1 id="{{ category[0] }}-ref"><span style="text-transform:capitalize">{{ category[0] | join: "/" | capitalize | replace:"-", " " }}</span><a href="/{{ category[0] }}"> &infin;</a></h1>
+	<section id="{{ category[0] }}-segment-box" class="unit-section disabled">
+	    <h1 ><span style="text-transform:capitalize">{{ category[0] | join: "/" | capitalize | replace:"-", " " }}</span><a href="/{{ category[0] }}"> &infin;</a></h1>
 	      {% assign pages_list = category[1] %}  
 	      {% include helpers/pages_list.html %}
 	</section>
-	<hr>
 	{% endfor %}
 </div>
