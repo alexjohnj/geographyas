@@ -36,6 +36,10 @@ nav#site-navigation {
     list-style: none;
     display: inline-block;
     padding-left: 10px;
+
+    &:first-child {
+      padding: 0;
+    }
   }
 }
 
