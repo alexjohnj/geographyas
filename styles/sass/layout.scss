@@ -10,13 +10,10 @@ body {
 // Default template styles
 
 header#site-header {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  padding-bottom: 10px;
-
-  height: 120px;
+  position: relative;
   width: 100%;
+  padding: 10px 0;
+
   text-align: center;
 
   background-color: #333333;
@@ -40,10 +37,6 @@ nav#site-navigation {
     display: inline-block;
     padding-left: 10px;
   }
-}
-
-div#content {
-  padding: 140px 0 10px 0;
 }
 
 footer#site-footer {
@@ -74,21 +67,20 @@ header#article-header {
   height: auto;
   text-align: center;
 
-  padding: 5px 0 10px 0;
-  margin: -20px 0 0 0;
+  padding: 15px 0;
 }
 
 .content-margin-wrap {
   width: 92%;
   max-width: 1140px;
   margin: 0 auto;
+  padding-bottom: 10px;
 }
 
 footer#article-footer {
   background-color: #262626;
   color: white;
   padding: 10px 0;
-  margin: 0 0 -10px 0;
   overflow: hidden;
 }
 

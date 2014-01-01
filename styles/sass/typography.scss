@@ -33,6 +33,13 @@ h3 {
 header#site-header {
   h1 {
     font-weight: 200;
+    margin: 0.1em 0;
+  }
+}
+
+nav#site-navigation {
+  ul {
+    margin: 0;
   }
 }
 
@@ -47,7 +54,7 @@ nav#site-navigation {
 header#article-header {
   h1 {
     font-size: 3em;
-    margin: 0.5em;
+    margin: 0.2em 0;
   }
 
   h2 {
