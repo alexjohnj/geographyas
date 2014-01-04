@@ -1,15 +1,10 @@
-$('.segment').on 'click', (e) ->
-	boxID = "#" + $(this).attr("id") + "-box"
+$('.segment').on 'click', ->
+	boxID = "##{$(this).attr "id"}-box"
 
-	for element in $('li.segment')
-		if $(element).hasClass("selected")
-			$(element).toggleClass("selected")
+	# Remove styling from previous selection
+	$(element).toggleClass "selected" for element in $('li.segment') when $(element).hasClass "selected" 
+	$(element).toggleClass 'disabled' for element in $('.unit-section') when $(element).hasClass('disabled') is false
 
-	$(this).toggleClass("selected")
-
-	for element in $('.unit-section')
-		if $(element)[0] isnt $(boxID)[0] and $(element).hasClass("disabled") is false
-			$(element).toggleClass("disabled")
-
-	if $(boxID).hasClass("disabled")
-		$(boxID).toggleClass("disabled")
+	# Apply styling to new selection
+	$(this).toggleClass "selected" 
+	$(boxID).toggleClass 'disabled'
