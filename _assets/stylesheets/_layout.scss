@@ -43,6 +43,32 @@ nav#site-navigation {
   }
 }
 
+form#search {
+  padding: 10px 0;
+
+  input#search-box {
+    padding-left: 10px;
+
+    border: 2px solid #443e3a;
+    border-radius: 10px;
+    moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    
+    background-color: #262626;
+    color: white;
+    outline: none; 
+
+    -webkit-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+    -moz-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+    -o-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+    transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+
+    &:focus {
+      border: 2px solid #f2783c;
+    }
+  }
+}
+
 footer#site-footer {
   position: absolute;
   left: 0;
