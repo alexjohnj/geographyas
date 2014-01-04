@@ -5,9 +5,7 @@
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic|Raleway:200' rel='stylesheet' type='text/css'>
-    <!--[if lte IE 9]><link rel="stylesheet" href="/styles/css/ie.css"><![endif]-->
-    <!--[if lte IE 8]><link rel="stylesheet" media="print" href="/styles/css/print-ie.css"><![endif]-->
-	<link rel="stylesheet" href="/styles/css/style.css">
+	{% stylesheet style %}
 
 	{% if page.description %}
 	<meta name="description" content="{{ page.description }}">
@@ -18,9 +16,9 @@
 	<meta name="author" content="{{ site.author }}">
 	{% endif %}
 	
-	<!--Load html5shiv if IE<9. In my (limited) testing, this MUST be loaded before any other script-->
+	<!--Load html5shiv for old IE versions. In my (limited) testing, this MUST be loaded before any other script-->
 	<!--[if lt IE 9]>
-		<script src="/scripts/lib/html5shiv.js"></script>
+		{% javascript vendor/html5shiv %}
 	<![endif]-->
 	<noscript><style>section.unit-section.disabled{display:block;visibility: visible;animation: none;-webkit-animation:none;}</style></noscript>
 </head>
@@ -41,12 +39,10 @@
         <div class="content-margin-wrap">
 		  <p>Site design and development by Alex Jackson.</p>
         </div>
-	</footer> <!-- end page-footer -->
+	</footer><!-- end page-footer -->
 
 	<!--SVGeezy JS https://github.com/benhowdle89/svgeezy-->
-	<script>
-	var svgeezy=function(){return{init:function(a,b){this.avoid=a||!1,this.filetype=b||"png",this.svgSupport=this.supportsSvg(),this.svgSupport||(this.images=document.getElementsByTagName("img"),this.imgL=this.images.length,this.fallbacks())},fallbacks:function(){for(;this.imgL--;)if(!this.hasClass(this.images[this.imgL],this.avoid)||!this.avoid){var a=this.images[this.imgL].getAttribute("src");if(null===a)continue;if("svg"==this.getFileExt(a)){var b=a.replace(".svg","."+this.filetype);this.images[this.imgL].setAttribute("src",b)}}},getFileExt:function(a){var b=a.split(".").pop();return-1!==b.indexOf("?")&&(b=b.split("?")[0]),b},hasClass:function(a,b){return(" "+a.className+" ").indexOf(" "+b+" ")>-1},supportsSvg:function(){return document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")}}}();svgeezy.init(false, 'png');
-	</script>
+	<script>{% asset svgeezy-init %}</script>
 
 	<!--Optimised GA script ripped from HTML5Boilerplate-->
 	<script>
@@ -60,7 +56,7 @@
 
 	<!--Load any additional scripts the page needs (e.g., MathJax)-->
 	{% if page.script %}	
-	<script src="{{ site.baseurl }}scripts/lib/{{ page.script }}.js"></script>
+		{{ page.script | javascript }}
 	{% endif %}
 	{% if page.math %}
 	<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>

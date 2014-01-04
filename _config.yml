@@ -32,3 +32,8 @@ rdiscount:
     - smart
     - autolink
     - generate_toc
+
+assets:
+    css_compressor: sass
+    js_compressor: uglifier
+    gzip: false
