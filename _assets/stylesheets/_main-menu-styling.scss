@@ -44,6 +44,10 @@ section.unit-section {
 
   -webkit-animation: fadeIn 250ms ease;
   animation: fadeIn 250ms ease;
+
+  h1 {
+    text-transform: capitalize;
+  }
 }
 
 section.unit-section.disabled {
