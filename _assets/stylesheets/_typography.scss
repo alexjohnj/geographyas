@@ -34,6 +34,9 @@ header#site-header {
   h1 {
     font-weight: 200;
     margin: 0.1em 0;
+    @media handheld, only screen and (max-width: 320px) {
+      font-size: 1.5em;
+    }
   }
 }
 
@@ -55,6 +58,13 @@ header#article-header {
   h1 {
     font-size: 3em;
     margin: 0.2em 0;
+
+    @media handheld, only screen and (max-width: 560px) {
+      font-size: 2em;
+    }
+    @media handheld, only screen and (max-width: 320px) {
+      font-size: 1.7em;
+    }
   }
 
   h2 {
