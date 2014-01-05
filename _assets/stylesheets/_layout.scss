@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  margin: 0 0 100px;
+  margin: 0 0 110px;
 }
 
 // Default template styles
@@ -73,11 +73,16 @@ footer#site-footer {
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 100px;
+  height: 110px;
   width: 100%;
 
   background-color: #333333;
   color: white;
+
+  p {
+    padding-top: 10px;
+    margin: 0;
+  }
 }
 
 // Home Page
@@ -110,8 +115,8 @@ header#article-header {
 footer#article-footer {
   background-color: #262626;
   color: white;
-  padding: 10px 0;
   overflow: hidden;
+  padding: 10px 0;
 }
 
 div#article-footer-left {
