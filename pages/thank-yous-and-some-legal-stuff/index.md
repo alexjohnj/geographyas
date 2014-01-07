@@ -7,7 +7,7 @@ layout: page
 
 ### People
 
-First and foremost, a huge thank you to my A-Level geography teachers Mrs Beard, Mr Wilson and Miss Rule. They're fantastic teachers and the source of a lot of this content. A further thank you to Mrs Steepe. Although she never taught me, she no doubt played an integral role in organising the Geography A-Level. Finally, I need to say thanks to Mrs Cook---my Yr. 10/11 Geography teacher---because she convinced me to take Geography at A-Level and was fantastic throughout those two years.
+First, a huge thank you to my A-Level geography teachers Mrs Beard, Mr Wilson and Miss Rule. They're fantastic teachers and the source of a lot of this content. A further thank you to Mrs Steepe. Although she never taught me, she no doubt played an integral role in organising the Geography A-Level. Finally, a thanks to Mrs Cook---my Yr. 10/11 Geography teacher---because she convinced me to take Geography at A-Level and was fantastic throughout those two years.
 
 ### Technical
 
@@ -18,7 +18,7 @@ A lot of different tools make this website a hell of a lot easier to make. Here'
 - [Sass](http://sass-lang.com)
 - [CoffeeScript](http://coffeescript.org)
 
-[GitHub](https://pages.github.com) pages hosts this website for free. If it didn't exist, I highly doubt this website would because I developed it as I was playing around with GitHub pages. 
+[GitHub](https://pages.github.com) pages hosts this website for free. If it didn't exist, I highly doubt this website would because I developed it while playing around with GitHub pages. 
 
 ## Legal Stuff
 
@@ -44,12 +44,12 @@ Here's how I'd leave attribution:
 
 > A store is a way of storing water in a drainage basin. There’s a couple of different types of water storage. One is _vegetation storage_. Vegetation lives off of water right? Well, any vegetation in a drainage basin will take up precipitation and store it, simple. The vegetation storage is the total volume of water stored in the vegetation in a basin at one time.
 >
-> --- _[Geography AS Notes](/) -- [Drainage Basins & The Hydrological Cycle](/rivers/drainage-basins-and-the-hydrological-cycle/). By Alex Jackson. Licensed under the [Creative Commons Attribution-NonCommercial 4.0 International][cca-license] license._
+> --- _[Geography AS Notes](/) --- [Drainage Basins & The Hydrological Cycle](/rivers/drainage-basins-and-the-hydrological-cycle/). By Alex Jackson. Licensed under the [Creative Commons Attribution-NonCommercial 4.0 International][cca-license] license._
 >
 
 ### Image Licensing
 
-If you want to use an image from this site, you need to check the license on the image first. If an image has a specific author or license then this is placed in the image's figure caption and you must use this license. Otherwise, all images are licensed under the Creative Commons Attribution-NonCommercial 4.0 International license and their creator is _Alex Jackson_. 
+If you want to use an image from this site, you need to check the license on the image first. If an image has a specific license then this is placed in the image's figure caption and you must respect this license. Otherwise, all images are licensed under the Creative Commons Attribution-NonCommercial 4.0 International license and their creator is _Alex Jackson_. 
 
 When using an image, attribute it like this:
 
