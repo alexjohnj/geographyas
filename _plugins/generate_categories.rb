@@ -1,4 +1,7 @@
 # encoding: utf-8
+
+# Modified to strip '-' from category titles and capitalize them.
+
 #
 # Jekyll category page generator.
 # http://recursive-design.com/projects/jekyll-plugins/
@@ -80,7 +83,8 @@ module Jekyll
         self.data['category']    = category
         # Set the title for this page.
         title_prefix             = site.config['category_title_prefix'] || 'Category: '
-        self.data['title']       = "#{title_prefix}#{category}"
+        category_formatted = category.sub('-', ' ').split(' ').map {|w| w.capitalize}.join(' ')
+        self.data['title']       = "#{title_prefix}#{category_formatted}"
         # Set the meta-description for this page.
         meta_description_prefix  = site.config['category_meta_description_prefix'] || 'Category: '
         self.data['description'] = "#{meta_description_prefix}#{category}"
