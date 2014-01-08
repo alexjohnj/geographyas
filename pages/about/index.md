@@ -8,7 +8,7 @@ _Geography AS Notes_ launched in the tail end of 2011. Originally, the site host
 
 ## About Me
 
-I'm Alex Jackson. I built the website and have maintained it since it launched. I'm also the author of most of the content on the website but I hope that changes in the future. I'm a student at the University of Leeds studying Geophysics--the physics of the earth---having completed my A-Levels in the summer of 2013[^a-levels]. 
+I'm Alex Jackson. I built the website and have maintained it since it launched. I'm also the author of most of the content on the website but I hope that changes in the future. I'm a student at the University of Leeds studying Geophysics---the physics of the earth---having completed my A-Levels in the summer of 2013[^a-levels]. 
 
 I spend too much of my time playing video games[^video-games] but when I'm not playing them, I'm building websites or doing other "computery stuff". I also listen to a bunch of podcasts[^podcasts-rec] when I'm working or playing games.
 
