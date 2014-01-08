@@ -25,4 +25,4 @@ The DTM describes how the population of a country changes over time. It shows ch
 
 - The timescale of the model, especially in several South-East Asian countries such as Hong Kong and Malaysia, is being squashed as they develop at a much faster rate than earlier industrialised countries. The UK stayed in stage 2 for over 100 years as social, economic and technological changes were introduced slowly and death rate fell slowly. In many LEDCs, death rate has fallen more rapidly because changes (i.e. the introduction of western medicine) have taken place much more quickly. The birth rate has stayed high and so the population has increased rapidly. 
 
-- The model does not include the impacts of migration. Countries that grew as a consequence of emigration from Europe (E.g USA, Canada & Australia) did not pass through the earlier stages of the model. 
+- The model does not include the impacts of migration. Countries that grew as a consequence of emigration from Europe (e.g, USA, Canada & Australia) did not pass through the earlier stages of the model. 
