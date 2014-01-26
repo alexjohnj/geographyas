@@ -17,6 +17,10 @@ header#site-header {
   background-color: #333333;
   color: white;
 
+  @media handheld, only screen and (max-width: 800px) {
+    text-align: center;
+  }
+
   .content-margin-wrap {
     padding: 0;
   }
@@ -24,6 +28,9 @@ header#site-header {
   h1 {
     display: block;
     float: left;
+    @media handheld, only screen and (max-width: 800px) {
+      float: none;
+    }
     a, a:visited, a:hover {
       color: white;
       text-decoration: none;
@@ -33,7 +40,13 @@ header#site-header {
 
 nav#site-navigation {
   float: right;
+
+  @media handheld, only screen and (max-width: 800px) {
+    float: none;
+  }
+
   ul {
+    padding: 0;
     list-style: none;
     display: inline-block;
   }
@@ -46,6 +59,7 @@ nav#site-navigation {
 
 form#search {
   display: inline-block;
+  padding-bottom: 10px;
 
   input#search-box {
     padding: 5px;
