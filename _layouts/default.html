@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic|Raleway:200' rel='stylesheet' type='text/css'>
-	{% stylesheet style %}
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='http://fonts.googleapis.com/css?family=Arvo:400,400italic|Raleway:200' rel='stylesheet' type='text/css'>
+  {% stylesheet style %}
 
-	{% if page.description %}
-	<meta name="description" content="{{ page.description }}">
-	{% endif %}
-	{% if page.author %}
-	<meta name="author" content="{{ page.author }}">
-	{% elsif page.author == null %}
-	<meta name="author" content="{{ site.author }}">
-	{% endif %}
-	
-	<!--Load html5shiv for old IE versions. In my (limited) testing, this MUST be loaded before any other script-->
-	<!--[if lt IE 9]>
-		{% javascript vendor/html5shiv %}
-	<![endif]-->
-	<noscript><style>section.unit-section.disabled{display:block;visibility: visible;animation: none;-webkit-animation:none;}</style></noscript>
+  {% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+  {% endif %}
+  {% if page.author %}
+  <meta name="author" content="{{ page.author }}">
+  {% elsif page.author == null %}
+  <meta name="author" content="{{ site.author }}">
+  {% endif %}
+  
+  <!--Load html5shiv for old IE versions. In my (limited) testing, this MUST be loaded before any other script-->
+  <!--[if lt IE 9]>
+    {% javascript vendor/html5shiv %}
+  <![endif]-->
+  <noscript><style>section.unit-section.disabled{display:block;visibility: visible;animation: none;-webkit-animation:none;}</style></noscript>
 </head>
 <body>
-	<header id="site-header">
+  <header id="site-header">
     <div class="content-margin-wrap">
-    	<h1><a href="/">{{ site.title }}</a></h1>
+      <h1><a href="/">{{ site.title }}</a></h1>
         <nav id="site-navigation">
             <ul>
              <li><a href="/pages/about/">About</a></li>
@@ -42,17 +43,17 @@
             </form>
         </nav>
       </div>
-	</header>
-	<div id="content">
+  </header>
+  <div id="content">
         {{ content }}
-	</div><!-- end content -->
-	
-	<footer id="site-footer">
+  </div><!-- end content -->
+  
+  <footer id="site-footer">
       <div class="content-margin-wrap">
-		    <p>Site design and development by Alex Jackson.</p>
+        <p>Site design and development by Alex Jackson.</p>
         <p><a href="/pages/thank-yous-and-some-legal-stuff/">Acknowledgements &amp; Copyright</a></p>
       </div>
-	</footer><!-- end page-footer -->
+  </footer><!-- end page-footer -->
   <!-- Get jQuery if needed-->
   {% if page.needs-jquery %}
   <!--[if lt IE 9]>
@@ -64,17 +65,17 @@
     <script>window.jQuery || document.write('<script src="{% asset_path vendor/jquery-2.0.3.min.js %}"><\/script>')</script>
   <!--<![endif]-->
   {% endif %}
-	<!--SVGeezy JS https://github.com/benhowdle89/svgeezy-->
-	<script>{% asset svgeezy-init %}</script>
+  <!--SVGeezy JS https://github.com/benhowdle89/svgeezy-->
+  <script>{% asset svgeezy-init %}</script>
 
-	<!--Google Analytics-->
-	<script>{% asset ga.js %}</script>
-	<!--Load any additional scripts the page needs (e.g., MathJax)-->
-	{% if page.script %}	
-		{{ page.script | javascript }}
-	{% endif %}
-	{% if page.math %}
-	<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-	{% endif %}
+  <!--Google Analytics-->
+  <script>{% asset ga.js %}</script>
+  <!--Load any additional scripts the page needs (e.g., MathJax)-->
+  {% if page.script %}  
+    {{ page.script | javascript }}
+  {% endif %}
+  {% if page.math %}
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  {% endif %}
 </body>
 </html>
