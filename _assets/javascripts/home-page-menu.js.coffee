@@ -5,15 +5,10 @@
 window.segmentControlClicked = (e) ->
   unitSections = document.querySelectorAll '.unit-section'
   segments = document.querySelectorAll 'li.segment'
-  selectedUnitSection = document.querySelector "##{this.id}-box"
+  selectedSegment = e.target ? e.srcElement # Fallback for IE8
+  selectedUnitSection = document.querySelector "##{selectedSegment.id}-box"
 
-  if e.target?
-    selectedUnitSection = document.querySelector "##{e.target.id}-box"
-  else
-    selectedUnitSection = document.querySelector "##{e.srcElement.id}-box"
-
-  # Remove Styling from Previous Selections
-
+  # Remove styling from previous selection
   for segment in segments
     if buoy.hasClass(segment, 'selected')
       buoy.toggleClass segment, 'selected'
@@ -22,8 +17,8 @@ window.segmentControlClicked = (e) ->
     if buoy.hasClass(unitSection, 'disabled') is false
       buoy.toggleClass unitSection, 'disabled'
 
-  # Apply Styling to new selection
-  buoy.toggleClass this, 'selected'
+  # Apply styling to new selection
+  buoy.toggleClass selectedSegment, 'selected'
   buoy.toggleClass selectedUnitSection, 'disabled'
 
 segmentControls = document.querySelectorAll 'li.segment'
