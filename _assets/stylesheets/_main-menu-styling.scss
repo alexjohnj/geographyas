@@ -10,7 +10,9 @@ li.segment {
   padding: 5px;
   margin: 10px;
   border: 2px solid #f2783c;
-  border-radius: 5px;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
 
   text-transform: capitalize;
   list-style: none;
