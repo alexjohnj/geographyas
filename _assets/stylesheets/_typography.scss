@@ -1,9 +1,13 @@
 body {
-  font-size: 16px;
-  font-family: "Arvo", "Georgia", serif;
-  font-weight: 400;
-  line-height: 1.6;
+  font-size: 100%;
+  font-family: "Lato", "Helvetica Neue", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: 1.5;
   color: #333333;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5;
 }
 
 ::selection {
@@ -23,8 +27,7 @@ a::-moz-selection {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", "Helvetica Neue", "Arial", sans-serif;
-  font-weight: 200;
+  font-weight: bold;
 }
 
 h3 {
@@ -42,12 +45,12 @@ header#site-header {
 }
 
 nav#site-navigation {
-  font-family: "Raleway", "Helvetica Neue", "Arial", sans-serif;
   font-weight: 200;
 }
 
 header#article-header {
   h1 {
+    font-weight: 200;
     font-size: 3em;
     margin: 0.2em 0;
 
@@ -60,6 +63,7 @@ header#article-header {
   }
 
   h2 {
+    font-weight: 200;
     font-size: 1.3em;
     font-style: italic;
     margin: 0;
@@ -85,7 +89,6 @@ table {
   color: white;
 
   th {
-    font-family: "Raleway", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-weight: 200;
     font-size: 1.4em;
   }
@@ -95,7 +98,6 @@ table {
 ol.topic-list {
   margin-left: 0.83em;
   li {
-    font-family: "Raleway", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-size: 1.5em;
     font-weight: 200;
     margin: 0.83em 0;
