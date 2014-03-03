@@ -57,11 +57,11 @@ nav#site-navigation {
   }
 }
 
-form#search {
+form#site-wide-search {
   display: inline-block;
   padding-bottom: 10px;
 
-  input#search-box {
+  input#site-wide-search-box {
     -webkit-appearance: none;
     padding: 5px;
     border: 2px solid #262626;
@@ -70,6 +70,35 @@ form#search {
     -webkit-border-radius: 2px;
     background-color: #262626;
     color: white;
+    outline: none;
+
+    -webkit-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+    -moz-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+    -o-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+    transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+
+    &:focus {
+      border: 2px solid #f2783c;
+    }
+  }
+}
+
+form#error-page-search {
+  margin: 0 auto;
+  width: 95%;
+  
+  input#error-page-search-box {
+    height: 120px;
+    width: 100%;
+
+    font-size: 3em;
+
+    -webkit-appearance: none;
+    padding: 5px;
+    border: 2px solid #262626;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
     outline: none;
 
     -webkit-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
