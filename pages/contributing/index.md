@@ -38,7 +38,7 @@ If you want to undertake writing an entire topic then [email me](mailto:alex@geo
 This site's articles don't follow any established style guide but there are a few guidelines that should be followed:
 
 - Use British English, mostly.
-- The abbreviations of exempli gratia (e.g.) & id est (i.e.) should have periods between each letter. They should be followed by a period and a comma unless terminating a sentence in which case they should be followed by a single period.
+- The abbreviations of exempli gratia (e.g.) and id est (i.e.) should have periods between each letter. They should be followed by a period and a comma unless terminating a sentence in which case they should be followed by a single period.
 - The abbreviation of et cetera (etc.) should have a single period following it. If ending a sentence, omit the sentence's period.
 - Use the Oxford comma only if a sentence is ambiguous without it. For example[^1], _"We invited the clowns, JFK and Stalin"_ vs. _"We invited the clowns, JFK, and Stalin"._ The first sentence implies the clowns are JFK and Stalin. The second doesn't.
 - Don't use metaphors unless you're _very_ good at making them.
