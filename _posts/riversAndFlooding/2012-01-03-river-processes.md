@@ -60,5 +60,5 @@ There’s a few interesting things to note about the Hjusltröm Curve. The first
 
 [^2]: The acidity is caused by carbon dioxide in the atmosphere dissolving into the water. Pure water is neutral (and basically non-existent in nature). 
 
-[river-stages]: /rivers/river-stages/
+[river-stages]: /rivers/long-and-cross-profiles/#Changing.River.Processes
 [hjulstrom-curve]: /Images/rivers/hjulstrom-curve.svg

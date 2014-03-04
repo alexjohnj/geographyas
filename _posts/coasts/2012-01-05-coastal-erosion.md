@@ -64,7 +64,7 @@ Rocks tend to form in layers of different rock types known as _beds_. These beds
 
 Horizontal beds produce steep cliffs with notches where differential erosion has taken place. Near vertical beds (with a dip of ~90˚) also produce steep cliffs but differential erosion is less prevalent[^3] in these structures. Beds that dip seaward produce gentler cliffs but are less stable because loose material can slide down the bedding planes in [mass movements][mass-movement-link]. Landward dipping beds produce stabler & steeper cliffs.
 
-[mass-movement-link]: /coasts/sub-aerial-processes/#mass-movement
+[mass-movement-link]: /coasts/sub-aerial-processes/#Mass.Movement
 
 <figure>
     <img src="/Images/coasts/5coastalErosion/horizontal-bedding-layers.svg" />

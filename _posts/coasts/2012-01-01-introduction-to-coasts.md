@@ -55,7 +55,7 @@ Coasts are considered an example of an open system as they have inputs and outpu
 ### Inputs
 
 - Energy is inputted in the form of waves, wind currents and tides. These will vary spatially and temporally (space and time, no not [*that* space and time](http://en.wikipedia.org/wiki/Space_and_time)).
-- Sediment from other [eroded coastlines](/coasts/sub-aerial-processes/), rivers and [sub-aerial processes](/coasts/coastal-weathering-and-mass-movement/) will be deposited along coasts. 
+- Sediment from other [eroded coastlines](/coasts/coastal-erosion/), rivers and [sub-aerial processes](/coasts/sub-aerial-processes/) will be deposited along coasts. 
 - Human activity will provide inputs for coastal systems. 
 
 ### Processes

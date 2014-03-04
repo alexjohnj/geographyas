@@ -98,7 +98,7 @@ The velocity at different points along a channel's cross-section is shown using 
 
 [rejuvenation-page]: /rivers/rejuvenation/
 [river-processes-page]: /rivers/river-processes/
-[erosion-features-page-meanders]: /rivers/river-landforms/#meanders
+[erosion-features-page-meanders]: /rivers/river-landforms/#Meanders
 
 [river-long-profile]: /Images/rivers/long-profile-diagram.svg
 [river-graded-profile]: /Images/rivers/graded-profile-diagram.svg

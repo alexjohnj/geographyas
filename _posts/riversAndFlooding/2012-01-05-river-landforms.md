@@ -86,7 +86,7 @@ Oxbow lakes are an evolution of meanders that undergo extensive deposition and e
 
 ![][oxbow-lakes-formation-diagram]
 
-[meander-characteristics]: #characteristics
+[meander-characteristics]: #Characteristics
 
 
 ## Braided Channels

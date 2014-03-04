@@ -6,7 +6,7 @@ keywords: 'coastal weathering, coastal erosion, weathering, mass movement, rock 
 published: true
 ---
 
-Sub-aerial processes are land based processes which alter the shape of a coastline. They're a combination of both [weathering](#weathering) and [mass movement](#mass-movement). 
+Sub-aerial processes are land based processes which alter the shape of a coastline. They're a combination of both [weathering](#Weathering) and [mass movement](#Mass.Movement). 
 
 ## Weathering
 

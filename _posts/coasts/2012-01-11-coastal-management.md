@@ -59,7 +59,7 @@ This is where sand and shingle are added to a beach in order to make it wider. T
 
 ### Land Management
 
-Land management is often used to help protect and rebuild dunes. Sand dunes act as a good barrier against coastal flooding and erosion and they can be exploited as a natural defence against the sea. In order to do so though, the dunes must be left relatively undisturbed so boardwalks are constructed and sections of sand dune systems are marked as out of bounds to the general public in order to reduce the erosion of the dunes by humans. This land management is discussed in more detail [here](/coasts/features-of-deposition/#sandDuneProtection).
+Land management is often used to help protect and rebuild dunes. Sand dunes act as a good barrier against coastal flooding and erosion and they can be exploited as a natural defence against the sea. In order to do so though, the dunes must be left relatively undisturbed so boardwalks are constructed and sections of sand dune systems are marked as out of bounds to the general public in order to reduce the erosion of the dunes by humans. This land management is discussed in more detail [here](/coasts/features-of-deposition/#Sand.Dune.Protection).
 
 ### Marshland Creation
 
@@ -98,7 +98,7 @@ In tandem with the sea wall, coastal zoning has taken place along New Brighton i
 
 Thursaston is located on the opposite side of the Wirral and is the exact opposite to New Brighton in terms of development and importance (to some people). Thursaston has very little in terms of human developments. The area is in fact a SSSI (Site of Special Scientific Interest) and is mostly just plants and wildlife with some interesting sandstone landforms. Given that Thursaston lacks human development, little has been done to prevent coastal erosion here. What has been done, though, is all soft engineering. 
 
-The cliffs along Thursaston are very susceptible to erosion despite the fact that the waves washing ashore are relatively weak constructive waves. The reason for their susceptibility is their composition. They're primarily weak sandstone and boulder clay and the [bedding layers](/coasts/coastal-erosion/#dip) of the cliffs dip towards the sea, so they're not particularly stable. The cliffs are also susceptible to sub-aerial weathering and mass movements are frequently take place along them. 
+The cliffs along Thursaston are very susceptible to erosion despite the fact that the waves washing ashore are relatively weak constructive waves. The reason for their susceptibility is their composition. They're primarily weak sandstone and boulder clay and the [bedding layers](/coasts/coastal-erosion/#Cliff.Profiles..amp..Bedding.Layers) of the cliffs dip towards the sea, so they're not particularly stable. The cliffs are also susceptible to sub-aerial weathering and mass movements are frequently take place along them. 
 
 Given the low-value land that lies behind these cliffs, the local council and environmental agency has done little in terms of trying to protect these cliffs and what has been done wasn't particularly effective. 
 
