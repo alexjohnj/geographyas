@@ -21,25 +21,25 @@ Population can be measure according to:
 
 #### Stage 1 Of The [DTM](/population/demographic-transition-model)
 
-![](/Images/population/10/stage1.png)
+![](/images/population/10/stage1.png)
 
 High birth rate, rapid fall in each upward age group due to high death rate resulting in a low life expectancy. 
 
 #### Stage 2 Of The [DTM](/population/demographic-transition-model)
 
-![](/Images/population/10/stage2.png) 
+![](/images/population/10/stage2.png) 
 
 High birth rate, declining death rate, slightly longer life expectancy.
 
 #### Stage 3 Of The [DTM](/population/demographic-transition-model)
 
-![](/Images/population/10/stage3.png)
+![](/images/population/10/stage3.png)
 
 Declining birth rate, low death rate, more old people.
 
 #### Stage 4 Of The [DTM](/population/demographic-transition-model)
 
-![](/Images/population/10/stage4.png)
+![](/images/population/10/stage4.png)
 
 Low birth rate, low death rate, rising dependency ratio. Long life expectancy. 
 

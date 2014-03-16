@@ -84,7 +84,7 @@ New Brighton is at particular risk of coastal flooding and erosion due to its lo
 In order to protect New Brighton, several sea defences have been employed. In order to protect against both coastal erosion and flooding, a large sea wall was constructed in the 1930s, known as the King's Parade Sea Wall. The wall is 4m tall and stretches along 2.3km of coastline. It was constructed using leftover material from the construction of the Queensway tunnel. The wall is specially designed in order to reduce the impact of waves as much as possible and increase its lifespan at the same time. The top of the wall is curved slightly in order to reflect back waves that impact it and dissipate their energy. This helps reduce the rate at which the sea wall is worn down since it is, slowly, being worn away. This is one of the main issues with the wall, it requires a lot of attention and is expensive.
 
 <figcaption>
-	<img src="/Images/coasts/10coastalManagement/kingsParadeSeaWall.jpeg" alt="The King's Parade Sea Wall" />
+	<img src="/images/coasts/10coastalManagement/kingsParadeSeaWall.jpeg" alt="The King's Parade Sea Wall" />
 	<p>The King's Parade Sea Wall</p>
 </figcaption>
 
@@ -107,7 +107,7 @@ Gabions were placed around the bases of the cliffs and can still be found there 
 Another soft engineering technique that was employed was the introduction of drainage pipes into the cliffs. Given that the cliffs are made of boulder clay, if they became saturated with water they'd become lubricated quickly and mass movements would begin to take place. The drainage pipe was supposed to remove water from the cliffs stopping them from becoming saturated but it has proved to be totally ineffective. This is evident from the fact that a severed pipe bound in concrete can be found just lying on the beach. The cliff collapsed and the pipe fell out and was left on the beach. This is a testimony to both the effectiveness of the pipe and how much the council cares about the cliffs.
 
 <figcaption>
-	<img src="/Images/coasts/10coastalManagement/failPipe.jpeg" alt="A drainage pip that has been unsuscesful in preventing cliff collapse."/>
+	<img src="/images/coasts/10coastalManagement/failPipe.jpeg" alt="A drainage pip that has been unsuscesful in preventing cliff collapse."/>
 	<p>The 'Fail Pipe'</p>
 </figcaption>
 

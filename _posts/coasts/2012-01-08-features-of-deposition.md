@@ -17,7 +17,7 @@ Often, spits will form around headlands that are close to river mouths since the
 
  The easiest way to demonstrate the formation of a spit is with a diagram.  
 
-![Diagram showing the formation of a spit.](/Images/coasts/8depositionalFeatures/spitFormationDiagram.png)
+![Diagram showing the formation of a spit.](/images/coasts/8depositionalFeatures/spitFormationDiagram.png)
 
 Spits are not permanent features. They are eroded, albeit slowly, by the sea and if a particularly large storm comes along, entire spits can be wiped out. As spits are created and destroyed, it can appear as if they are migrating and so the location and shape of spits is constantly changing. 
 
@@ -71,7 +71,7 @@ A psammosere is a community of ecological successions on a coastal system. The m
 
 For sand dunes to form, several conditions are necessary. The section of coast must have a large tidal range as this will allow large amounts of sediment (the bed of the ocean of sea) to be exposed to winds. The presence of a prevailing wind is also greatly beneficial since this will provide powerful winds to transport the sand inland. Alternatively, a long fetch will help since this will provide high energy winds to move the sand inland. The wind will transport sediment on the bed of the sea via saltation during low tide. The sediment will move until it meets an obstacle which is normally found at the strand line. This is the maximum extent of the tide and is where lots of rubbish gets deposited. The rubbish will act as an obstacle and cause the sand to build up behind the rubbish forming embryo dunes. From this, a sand dune system begins to form. 
 
-![A diagram of a sand dune succession outlining the different types of sand dunes.](/Images/coasts/8depositionalFeatures/sandDuneSystem.png)
+![A diagram of a sand dune succession outlining the different types of sand dunes.](/images/coasts/8depositionalFeatures/sandDuneSystem.png)
 
 ### The Features of Sand Dune Successions
 
@@ -109,6 +109,6 @@ Educating tourists is a particularly effective way of reducing damage to sand du
 
 In order to stabilise sand dunes, dead fern trees can be planted in the sand to help trap the sand and build up new sand dunes. These trees will also bind the sand very well, making the sand dunes stable for many years. 
 
-![An image showing trees that have been planted at Formby Sand Dunes to help rebuild the dunes](/Images/coasts/8depositionalFeatures/sandDunePineBuildUpFormby.jpg)
+![An image showing trees that have been planted at Formby Sand Dunes to help rebuild the dunes](/images/coasts/8depositionalFeatures/sandDunePineBuildUpFormby.jpg)
 
 The above image, taken at Formby Sand Dunes, shows the amazing result of planting dead trees to help build up sand dunes. The more recent trees can be seen close to the surface but the entire sand dune system visible is the result of soft engineering techniques. The area photographed is also an “out of bounds” area and has a sign stating that unauthorised access is not allowed. 

@@ -9,7 +9,7 @@ keywords: "features of coastlines, features of coasts, coastal features, inputs 
 A coast is a narrow strip of land where the sea meets the land. Coasts are divided into zones depending on what the conditions are like on different sections of a coast. 
 
 <figure>
-<img src="/Images/coasts/1introduction/coastOutlineDiagram.svg" alt="A diagram of the coastal zones">
+<img src="/images/coasts/1introduction/coastOutlineDiagram.svg" alt="A diagram of the coastal zones">
 <figcaption>
 The zones of a coast. 
 </figcaption>
