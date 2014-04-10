@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{{ page.title }}</title>
+  <meta name="google-site-verification" content="XxfnmsboPXnwwKYzxrfBPV-WXLGq8HHqY4ZMfCyM6iw" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
   {% stylesheet style %}
@@ -16,7 +17,7 @@
   {% elsif page.author == null %}
   <meta name="author" content="{{ site.author }}">
   {% endif %}
-  
+
   <!--Load html5shiv for old IE versions. In my (limited) testing, this MUST be loaded before any other script-->
   <!--[if lt IE 9]>
     {% javascript vendor/html5shiv %}
@@ -47,7 +48,7 @@
   <div id="content">
         {{ content }}
   </div><!-- end content -->
-  
+
   <footer id="site-footer">
       <div class="content-margin-wrap">
         <p>Site design and development by Alex Jackson.</p>
@@ -71,7 +72,7 @@
   <!--Google Analytics-->
   <script>{% asset ga.js %}</script>
   <!--Load any additional scripts the page needs (e.g., MathJax)-->
-  {% if page.script %}  
+  {% if page.script %}
     {{ page.script | javascript }}
   {% endif %}
   {% if page.math %}
