@@ -34,6 +34,7 @@ header#site-header {
     a, a:visited, a:hover {
       color: white;
       text-decoration: none;
+      border: none;
     }
   }
 }
@@ -54,6 +55,10 @@ nav#site-navigation {
   li {
     display: inline-block;
     padding-right: 10px;
+  }
+
+  a {
+    color: white;
   }
 }
 
@@ -122,6 +127,10 @@ footer#site-footer {
   background-color: #333333;
   color: white;
 
+  a {
+    color: white;
+  }
+
   p {
     padding-top: 10px;
     margin: 0;
@@ -161,6 +170,10 @@ footer#article-footer {
   color: white;
   overflow: hidden;
   padding: 10px 0;
+
+  a {
+    color: white;
+  }
 }
 
 div#article-footer-left {
@@ -213,6 +226,10 @@ dl {
   border-radius: 5px 5px 5px 5px;
   -moz-border-radius: 5px 5px 5px 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
+
+  a {
+    color: white;
+  }
 
   dt {
     font-style: italic;
