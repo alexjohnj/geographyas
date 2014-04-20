@@ -13,7 +13,7 @@ A spit is a stretch of sand or shingle extending from the mainland out to sea. T
 The deposition of sediment forms a spit but its shape changes as a result of wave refraction. Refraction around the end of a spit curves it into a "hook" forming a _recurved spit_. As the area behind a spit is sheltered from waves and the wind, it provides the perfect environment for salt marshes to develop.
 
 <figure>
-    <img src="/Images/coasts/8depositionalFeatures/spit-formation-diagram.svg" />
+    <img src="/images/coasts/8depositionalFeatures/spit-formation-diagram.svg" />
     <figcaption>The formation of a spit near a river's mouth.</figcaption>
 </figure>
 
