@@ -5,6 +5,11 @@ body {
   line-height: 1.5;
   color: #333333;
   font-size-adjust: 0.5;
+
+  @media print {
+    color: #000000;
+    font-size: 87.5%;
+  }
 }
 
 ::selection {
@@ -132,6 +137,32 @@ a {
   &::moz-selection {
     color:white;
   }
+
+  @media print {
+    color: #000000;
+    border-color: #000000;
+
+    &:after { 
+      content:" [" attr(href) "] ";
+    }
+
+    &[name] {
+      display: none; // Stops RDiscount's TOC links from showing up
+    }
+
+    // Styling for footnote links
+    &[rel] {
+      border-bottom: none; // Removes border on numbers
+    }
+
+    &[rev] {
+      display: none; // Stops the ↵ symbol showing up
+    }
+
+    &[rel]:after, &[rev]:after {
+      content: none; // Stops link content from showing after footnote
+    }
+  }
 }
 
 table {
@@ -141,7 +172,6 @@ table {
     font-weight: 200;
     font-size: 1.4em;
   }
-
 }
 
 ol.topic-list {

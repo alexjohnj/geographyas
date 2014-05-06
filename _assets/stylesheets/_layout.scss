@@ -28,14 +28,26 @@ header#site-header {
   h1 {
     display: block;
     float: left;
-    @media handheld, only screen and (max-width: 800px) {
+    @media print, handheld, only screen and (max-width: 800px) {
       float: none;
     }
     a, a:visited, a:hover {
-      color: white;
+      color: #fff;
       text-decoration: none;
       border: none;
+
+      @media print {
+        color: #000;
+        &:after {
+          content: none;
+        }
+      }
     }
+  }
+
+  @media print {
+    background-color: #fff;
+    text-align: center;
   }
 }
 
@@ -59,6 +71,10 @@ nav#site-navigation {
 
   a {
     color: white;
+  }
+
+  @media print {
+    display: none;
   }
 }
 
@@ -135,6 +151,10 @@ footer#site-footer {
     padding-top: 10px;
     margin: 0;
   }
+
+  @media print {
+    display: none;
+  }
 }
 
 // Home Page
@@ -150,11 +170,18 @@ section.unit-section {
 header#article-header {
   width: 100%;
   background-color: #262626;
-  color: white;
+  color: #fff;
   height: auto;
   text-align: center;
 
   padding: 15px 0;
+
+  @media print {
+    background-color: #fff;
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding-top: 0;
+  }
 }
 
 .content-margin-wrap {
@@ -165,6 +192,15 @@ header#article-header {
   padding-bottom: 10px;
 }
 
+.footnotes {
+  hr {
+    display: none; // RDiscount inserts a <hr> automatically but some browsers remove it when printing. This ensures all browsers remove it and just print the equivalent border-top.
+  }
+  @media print {
+    border-top: 2px solid #000;
+  }
+}
+
 footer#article-footer {
   background-color: #262626;
   color: white;
@@ -173,6 +209,10 @@ footer#article-footer {
 
   a {
     color: white;
+  }
+
+  @media print {
+    display: none;
   }
 }
 
@@ -211,6 +251,10 @@ figcaption {
   font-size: 0.875em;
   text-align: center;
   font-style: italic;
+
+  @media print {
+    color: #000;
+  }
 }
 
 dl {
@@ -245,6 +289,15 @@ dl {
       padding-bottom: 0;
     }
   }
+
+  @media print {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    a {
+      color: #000;
+    }
+  }
 }
 
 blockquote {
@@ -253,6 +306,12 @@ blockquote {
   color: white;
   margin: 1.5em 10px;
   padding: .5em 10px;
+
+  @media print {
+    background-color: #fff;
+    color: #000;
+    border-left: 2px solid #000;
+  }
 }
 
 hr {
