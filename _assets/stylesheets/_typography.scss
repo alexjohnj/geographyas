@@ -4,9 +4,6 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #333333;
-}
-
-body, h1, h2, h3, h4, h5, h6 {
   font-size-adjust: 0.5;
 }
 
@@ -21,14 +18,69 @@ body, h1, h2, h3, h4, h5, h6 {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
+  font-size-adjust: 0.5;
+}
+
+// The typographic scale used here is a slightly modified version of this:
+// http://typecast.com/blog/a-more-modern-scale-for-web-typography
+
+h1 {
+  font-size: 2em;
+  line-height: 1.5;
+
+  @media (min-width: 43.75em) {
+    font-size: 2.5em;
+    line-height: 1.5;
+  }
+
+  @media (min-width: 56.25em) {
+    font-size: 3em;
+    line-height: 1.5;
+  }
+}
+
+h2 {
+  font-size: 1.625em;
+  line-height: 1.15384615; // maths
+
+  @media (min-width: 43.75em) {
+    font-size: 2em;
+    line-height: 1.25;
+  }
+
+  @media (min-width: 56.25em) {
+    font-size: 2.25em;
+    line-height: 1.25;
+  }
 }
 
 h3 {
-  text-transform: uppercase;
+  font-size: 1.375em;
+  line-height: 1.13636364;
+
+  @media (min-width: 43.75em) {
+    font-size: 1.5em;
+    line-height: 1.25;
+  }
+  
+  @media (min-width: 56.25em) {
+    font-size: 1.75em;
+    line-height: 1.25;
+  }
+}
+
+h4 {
+  font-size: 1.125em;
+  line-height: 1.11111111;
+
+  @media (min-width: 43.75em) {
+    line-height: 1.22222222;
+  }
 }
 
 header#site-header {
   h1 {
+    font-size: 2em;
     font-weight: 200;
     margin: 0.1em 0;
     @media handheld, only screen and (max-width: 320px) {
