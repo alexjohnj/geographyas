@@ -1,9 +1,7 @@
 ---
-title: "Sea Level Change"
+title: Sea Level Change
 layout: article
-category: "coasts"
-keywords: "isostatic sea level change, eustatic sea level change, ocean level change, ocean basin change, effects of sea level change, coast of east UK"
-published: true
+category: coasts
 ---
 
 The sea level has and continues to fluctuate greatly throughout time. On a day to day basis, the sea level changes according to the [tide](/coasts/tides/) but the sea level also changes on a much grander time scale too. These changes in sea level are normally caused by ice ages or other major global events.
@@ -12,21 +10,21 @@ The sea level changes for a variety of reasons. These reasons can be put into tw
 
 ## Eustatic Change
 
-Eustatic change is when the sea level changes due to an alteration in the volume of water in the oceans or, alternatively, a change in the shape of an ocean basin and hence a change in the amount of water the sea can hold. Eustatic change is **always** a global effect. 
+Eustatic change is when the sea level changes due to an alteration in the volume of water in the oceans or, alternatively, a change in the shape of an ocean basin and hence a change in the amount of water the sea can hold. Eustatic change is **always** a global effect.
 
-During and after an ice age, eustatic change takes place. At the beginning of an ice age, the temperature falls and water is frozen and stored in glaciers inland, suspending the hydrological cycle. This results in water being taken out of the sea but not being put back in leading to an overall fall in sea level. Conversely, as an ice age ends, the temperature begins to rise and so the water stored in the glaciers will reenter the hydrological cycle and the sea will be replenished, increasing the sea levels. 
+During and after an ice age, eustatic change takes place. At the beginning of an ice age, the temperature falls and water is frozen and stored in glaciers inland, suspending the hydrological cycle. This results in water being taken out of the sea but not being put back in leading to an overall fall in sea level. Conversely, as an ice age ends, the temperature begins to rise and so the water stored in the glaciers will reenter the hydrological cycle and the sea will be replenished, increasing the sea levels.
 
-Increases in temperature outside of an ice age will also effect the sea level since an increasing temperature will cause the ice sheets to melt, putting more water in the sea. 
+Increases in temperature outside of an ice age will also effect the sea level since an increasing temperature will cause the ice sheets to melt, putting more water in the sea.
 
-The shape of the ocean basins can change due to tectonic movement. If the ocean basins become larger, the volume of the oceans becomes larger but the overall sea level will fall since there's the same amount of water in the ocean. Conversely, if the ocean basins get smaller, the volume of the oceans decreases and the sea level rises accordingly. 
+The shape of the ocean basins can change due to tectonic movement. If the ocean basins become larger, the volume of the oceans becomes larger but the overall sea level will fall since there's the same amount of water in the ocean. Conversely, if the ocean basins get smaller, the volume of the oceans decreases and the sea level rises accordingly.
 
 ## Isostatic Change
 
-Isostatic sea level change is the result of an increase or decrease in the height of the land. When the height of the land increases, the sea level falls and when the height of the land decreases the sea level rises. Isostatic change is a local sea level change whereas eustatic change is a global sea level change. 
+Isostatic sea level change is the result of an increase or decrease in the height of the land. When the height of the land increases, the sea level falls and when the height of the land decreases the sea level rises. Isostatic change is a local sea level change whereas eustatic change is a global sea level change.
 
-During an ice age, isostatic change is caused by the build up of ice on the land. As water is stored on the land in glaciers, the weight of the land increases and the land sinks slightly, causing the sea level to rise slightly. This is referred to as *compression*. When the ice melts at the end of an ice age, the land begins to rise up again and the sea level falls. This is referred to *decompression* or isostatic rebound. Isostatic rebound takes place incredibly slowly and to this day, isostatic rebounding is still taking place from the last ice age. 
+During an ice age, isostatic change is caused by the build up of ice on the land. As water is stored on the land in glaciers, the weight of the land increases and the land sinks slightly, causing the sea level to rise slightly. This is referred to as *compression*. When the ice melts at the end of an ice age, the land begins to rise up again and the sea level falls. This is referred to *decompression* or isostatic rebound. Isostatic rebound takes place incredibly slowly and to this day, isostatic rebounding is still taking place from the last ice age.
 
-Isostatic sea level change can also be caused by tectonic uplift or depression. As this only takes place along plate boundaries, this sort of isostatic change only takes place in certain areas of the world. 
+Isostatic sea level change can also be caused by tectonic uplift or depression. As this only takes place along plate boundaries, this sort of isostatic change only takes place in certain areas of the world.
 
 ## Features of Sea Level Change
 
@@ -36,7 +34,7 @@ Sea level change can produce many features along coastlines. Again, we can categ
 
 Emergent landforms begin to appear towards the end of an ice age and they occur when isostatic rebound takes place faster than a eustatic rise in sea level. Put more simply, the land's height rises faster than the sea's. Emergent features are features of coastal erosion that appear to have developed well above the current sea level. Really, they developed when the sea *was* at that level and then the sea level changed during and ice age and now they're above sea level.
 
-One such emergent landform is a *raised beach*. Raised beaches are wave-cut platforms & beaches that are above the current sea level. You can normally find some old cliffs (relic cliffs) too behind these raised beaches with wave-cut notches, arches, stacks etc. along them. 
+One such emergent landform is a *raised beach*. Raised beaches are wave-cut platforms & beaches that are above the current sea level. You can normally find some old cliffs (relic cliffs) too behind these raised beaches with wave-cut notches, arches, stacks etc. along them.
 
 These emergent features no longer experience coastal erosion but they are still weathered, often being weathered biologically, chemically and via freeze-thaw weathering.
 

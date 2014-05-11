@@ -1,7 +1,7 @@
 ---
 title: Flood Management
 layout: article
-category: 'rivers'
+category: rivers
 ---
 
 Rivers, especially big ones, can cause a lot of mayhem. When they flood, they destroy livelihoods, cause economic damage and kill people. It's no surprise then that humans, being the clever creatures that we are, try and stop rivers from flooding using whatever resources we have. Unfortunately, rivers, like most things in nature, are powerful & unpredictable. Stopping rivers from flooding full stop isn't possible but we can do a lot to mitigate and manage the risks that arise from flooding.

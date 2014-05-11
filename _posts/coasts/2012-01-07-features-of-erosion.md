@@ -1,13 +1,11 @@
 ---
-title: "Features of Erosion"
+title: Features of Erosion
 layout: article
-category: 'coasts'
-keywords: "formation of headlands, formation of bays, swanage bay, formation of wave cut notches, wave cut notch formation, wave cut platform formation, stack formation, stump formation, formation of arches, arches on hilbre island, barton on sea cliff management, cliff collapse barton on sea, cliff collapse"
-published: true
+category: coasts
 ---
 ## Headlands & Bays (e.g. Swanage Bay)
 
-Headlands and bays, such as Swanage Bay, form on discordant coastlines, where hard and soft rock run in layers at 90˚ to the water. Alternating layers of hard and soft rock allow the sea to erode the soft rock faster, forming a bay but leaving hard rock sticking out, known as a headland. The altering rate of erosion of hard and soft rock is known as differential erosion. As the bay develops, wave refraction around the headlands begins to occur, increasing erosion of the headlands but reducing the erosion and development of the bay due to a loss of wave energy. Headlands and bays can form on concordant coastlines too, as has happened with Lulworth Cove, but this requires the rock to have already been weakened, possibly during an ice age. Irrespective of whether the coastline is concordant or discordant, as wave refraction takes place around the headlands and erosion of the bay is reduced, sub-aerial weathering such as corrosion and corrasion begins to weather the bay, furthering its development. 
+Headlands and bays, such as Swanage Bay, form on discordant coastlines, where hard and soft rock run in layers at 90˚ to the water. Alternating layers of hard and soft rock allow the sea to erode the soft rock faster, forming a bay but leaving hard rock sticking out, known as a headland. The altering rate of erosion of hard and soft rock is known as differential erosion. As the bay develops, wave refraction around the headlands begins to occur, increasing erosion of the headlands but reducing the erosion and development of the bay due to a loss of wave energy. Headlands and bays can form on concordant coastlines too, as has happened with Lulworth Cove, but this requires the rock to have already been weakened, possibly during an ice age. Irrespective of whether the coastline is concordant or discordant, as wave refraction takes place around the headlands and erosion of the bay is reduced, sub-aerial weathering such as corrosion and corrasion begins to weather the bay, furthering its development.
 
 ![A diagram showing the formation of a bay](/images/coasts/7featuresOfErosion/formationOfBay.png)
 
@@ -38,28 +36,28 @@ A blowhole forms in a cave. As a cave moves inland, the roof above it is weakene
 
 ## Barton-on-Sea
 
-Barton-on-Sea and its cliffs are located in the south of England, just to the west of the Isle of Wight where it forms a coast with the English Channel. The section of the English Channel which it borders experiences strong winds and has a long fetch, resulting in a fairly fast rate of erosion on the cliffs. The rate of erosion is quickened by the geology of the cliffs, which are mainly composed of salt clay (also known as Barton Clay) and Barton sand in two layers. The combination of the long fetch and weak rocks is resulting in the rapid erosion and mass movement of sections of the cliff which is posing a risk to people and buildings along the stretch of coastline at Barton-on-Sea. 
+Barton-on-Sea and its cliffs are located in the south of England, just to the west of the Isle of Wight where it forms a coast with the English Channel. The section of the English Channel which it borders experiences strong winds and has a long fetch, resulting in a fairly fast rate of erosion on the cliffs. The rate of erosion is quickened by the geology of the cliffs, which are mainly composed of salt clay (also known as Barton Clay) and Barton sand in two layers. The combination of the long fetch and weak rocks is resulting in the rapid erosion and mass movement of sections of the cliff which is posing a risk to people and buildings along the stretch of coastline at Barton-on-Sea.
 
-In order to prevent or reduce the risk of a cliff collapse, the local council has carried out several protective measures over the past few decades to try and slow cliff collapse. 
+In order to prevent or reduce the risk of a cliff collapse, the local council has carried out several protective measures over the past few decades to try and slow cliff collapse.
 
 ### December 1993
 
-There was a large cliff slip on the western front of Barton-on-Sea. In response to the collapse, more rock armour was placed by the cliffs to try and reduce the undercutting of them. 
+There was a large cliff slip on the western front of Barton-on-Sea. In response to the collapse, more rock armour was placed by the cliffs to try and reduce the undercutting of them.
 
 ### September 2001
 
-A collection of sea defences collapsed close to Cliff House. The collapse occurred as a rotational land slide in the Barton Clay formed a bulge in the lower section of the cliffs, which destroyed several drainage pipes. 
+A collection of sea defences collapsed close to Cliff House. The collapse occurred as a rotational land slide in the Barton Clay formed a bulge in the lower section of the cliffs, which destroyed several drainage pipes.
 
 ### November 2003
 
-After a period of heavy rainfall, a lot of water had saturated the cliffs and, while no collapse occurred, there was concern that the cliffs could collapse due to the observation of the movement of gravel. 
+After a period of heavy rainfall, a lot of water had saturated the cliffs and, while no collapse occurred, there was concern that the cliffs could collapse due to the observation of the movement of gravel.
 
 ### January 2007
 
-Strong winter storms took place over the winter of 2006-2007, with an especially strong storm on the 18<sup>th</sup> of January. This resulted in the rapid erosion of the beach, where 60% of the sand and shingle was lost. The beaches had acted as a soft engineering technique to protect the cliffs and, as the beaches had been destroyed, a wooden retaining wall (from 1960) had been exposed and damaged which meant that the cliffs were very close to collapse. 
+Strong winter storms took place over the winter of 2006-2007, with an especially strong storm on the 18<sup>th</sup> of January. This resulted in the rapid erosion of the beach, where 60% of the sand and shingle was lost. The beaches had acted as a soft engineering technique to protect the cliffs and, as the beaches had been destroyed, a wooden retaining wall (from 1960) had been exposed and damaged which meant that the cliffs were very close to collapse.
 
 In response to the damage, the council constructed a new stone wall using 600 tonnes of boulders to help protect the cliffs and rebuild the beach.
 
 ### April 2007
 
-After extensive wet weather followed a period of dry weather, concern was again raised regarding the stability of the cliffs. There had been signs of cliff collapse in sections of the cliffs between Cliff House & the Barton-on-Sea shopping area in the form of cracks in the gravel located at the top of the cliff. 
+After extensive wet weather followed a period of dry weather, concern was again raised regarding the stability of the cliffs. There had been signs of cliff collapse in sections of the cliffs between Cliff House & the Barton-on-Sea shopping area in the form of cracks in the gravel located at the top of the cliff.

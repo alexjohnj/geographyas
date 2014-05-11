@@ -1,7 +1,7 @@
 ---
 title: Long & Cross Profiles
-category: 'rivers'
 layout: article
+category: rivers
 math: true
 ---
 

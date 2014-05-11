@@ -1,7 +1,7 @@
 ---
-title: "Features of Deposition"
+title: Features of Deposition
 layout: article
-category: "coasts"
+category: coasts
 ---
 
 In a coastal environment, deposition results in the accumulation of sediment along or near a coastline. This happens when the forces responsible for transporting sediment in a coastal environment weaken and can no longer support the sediment. Depending on how and where the sediment is deposited, a variety of landforms can be produced.
@@ -43,7 +43,7 @@ Sometimes a spit extends far enough out to sea to join a coastal island to the m
 
 A halosere is an ecological succession that develops in a highly saline environment. Guess where you find lots of salt? That's right, the sea. Haloseres are nearly always found along coastlines with the most common type of halosere being a _salt marsh_.
 
-People tend to have a love-hate relationship with salt marshes. Some people---namely scientists and bird watchers---love them because they provide a habitat for many rare and endangered animals. Other people hate them because they're a nuisance to shipping. Regardless of whether or not you like them, they're important coastal landforms that provide an [effective and sustainable method][coastal-defense-page] for defending a coastline from erosion. 
+People tend to have a love-hate relationship with salt marshes. Some people---namely scientists and bird watchers---love them because they provide a habitat for many rare and endangered animals. Other people hate them because they're a nuisance to shipping. Regardless of whether or not you like them, they're important coastal landforms that provide an [effective and sustainable method][coastal-defense-page] for defending a coastline from erosion.
 
 [coastal-defense-page]: /coasts/coastal-management/#Marshland.Creation
 
@@ -59,11 +59,11 @@ Long blades of cordgrass trap sediment that is too fine to settle out of water i
 
 ### The Attack of the Salt Marshes
 
-Salt marshes are great. They produce some lovely scenery, create a habitat suitable for many rare creatures and they're a natural coastal defence. Unfortunately, they do have some problems which have earned them a bit of a bad name. 
+Salt marshes are great. They produce some lovely scenery, create a habitat suitable for many rare creatures and they're a natural coastal defence. Unfortunately, they do have some problems which have earned them a bit of a bad name.
 
-As we've discussed, salt marshes form in places sheltered from the sea. This is the same place where people like to build ports for boats. In case you can't see where this is going, salt marshes like to develop where people like to sail. This is a problem because boats don't play nicely with long plants that get stuck in propellers. 
+As we've discussed, salt marshes form in places sheltered from the sea. This is the same place where people like to build ports for boats. In case you can't see where this is going, salt marshes like to develop where people like to sail. This is a problem because boats don't play nicely with long plants that get stuck in propellers.
 
-In the past, salt marshes have grown uncontrollably and caused major economic changes to the areas in which they've grown. Parkgate---a small village on the Wirral Peninsula---_was_ a major shipping port for the United Kingdom. As the River Dee's Estuary (onto which Parkgate sits) silted up however, shipping became less feasible and the area instead became a somewhat popular seaside resort thanks to the newly forming beaches. This didn't last though. Throughout the nineteenth and early twentieth century grass began to grow on the beaches and a salt marsh developed. The salt marsh's existence was made permanent when the invasive _Spartina anglica_---an Anglo-American hybrid---rapidly grew across the salt marsh and increased silting ten-fold. 
+In the past, salt marshes have grown uncontrollably and caused major economic changes to the areas in which they've grown. Parkgate---a small village on the Wirral Peninsula---_was_ a major shipping port for the United Kingdom. As the River Dee's Estuary (onto which Parkgate sits) silted up however, shipping became less feasible and the area instead became a somewhat popular seaside resort thanks to the newly forming beaches. This didn't last though. Throughout the nineteenth and early twentieth century grass began to grow on the beaches and a salt marsh developed. The salt marsh's existence was made permanent when the invasive _Spartina anglica_---an Anglo-American hybrid---rapidly grew across the salt marsh and increased silting ten-fold.
 
 Nowadays Parkgate is a small tourist area in the Wirral, known for its ice cream. The salt marsh is still around and is protected by the <abbr title="Royal Society for the Protection of Birds">RSPB</abbr> because of the large number of nesting birds living in it. Unfortunately, some <del>scumbags</del> delinquents [set fire to the marsh][parkgate-fire] in April 2013, killing many rare nesting birds.
 
@@ -79,11 +79,11 @@ Aside from humans building on salt marshes, our agricultural activities also thr
 
 ### The Revenge of the Humans Against the Humans Who Are Getting Revenge on the Salt Marshes
 
-Rest assured, there are people out there who want to protect salt marshes. Unfortunately there isn't a lot we can do besides introducing land use laws around salt marshes.  To reduce the risk of eutrophication we can prevent the development of farmland near a salt marsh. This could have a limited effect though as once agricultural waste enters the water system, it's probably going to end up in a salt marsh. 
+Rest assured, there are people out there who want to protect salt marshes. Unfortunately there isn't a lot we can do besides introducing land use laws around salt marshes.  To reduce the risk of eutrophication we can prevent the development of farmland near a salt marsh. This could have a limited effect though as once agricultural waste enters the water system, it's probably going to end up in a salt marsh.
 
-Laws can be introduced to stop people from trying to destroy developing salt marshes but many of the "cleansing sessions" people engage in have the backing of local councils. Similarly, trying to get people to stop building on marshes could be difficult as local governments may actively encourage development to ease land pressure. 
+Laws can be introduced to stop people from trying to destroy developing salt marshes but many of the "cleansing sessions" people engage in have the backing of local councils. Similarly, trying to get people to stop building on marshes could be difficult as local governments may actively encourage development to ease land pressure.
 
-The best we can do is turn the salt marshes into SSSIs (Sites of Special Scientific Interest). This would make it illegal for people to build on or damage salt marshes. Several marshes around the UK---including Parkgate---have been designated SSSIs because of the number of rare birds and plants that live on them. 
+The best we can do is turn the salt marshes into SSSIs (Sites of Special Scientific Interest). This would make it illegal for people to build on or damage salt marshes. Several marshes around the UK---including Parkgate---have been designated SSSIs because of the number of rare birds and plants that live on them.
 
 ## Sand Dunes & Psammoseres
 
@@ -91,11 +91,11 @@ A psammosere is an ecological succession that develops in the sands of a coastal
 
 ### Formation
 
-There are several conditions that need to be met for sand dunes to develop. First, a large supply of sediment is needed. The best place to get this is from a large tidal flat. An area with a large tidal range (a big difference between the high and low tide) will result in a lot of sand being exposed to the wind, ready to be transported. This brings us to our next condition. A (relatively) strong and continuous wind is needed to move sand grains and transport them inland via saltation. The best place to find strong winds that don't change direction is in areas that face the prevailing wind direction. 
+There are several conditions that need to be met for sand dunes to develop. First, a large supply of sediment is needed. The best place to get this is from a large tidal flat. An area with a large tidal range (a big difference between the high and low tide) will result in a lot of sand being exposed to the wind, ready to be transported. This brings us to our next condition. A (relatively) strong and continuous wind is needed to move sand grains and transport them inland via saltation. The best place to find strong winds that don't change direction is in areas that face the prevailing wind direction.
 
-With these conditions met, it's now only a matter of time until a sand dune starts to form. Obstacles such as rocks or human rubbish are deposited at the _strandline_---essentially the high water mark. These objects block the wind causing sand grains that are being transported to be deposited. Over time, the sand grains will build up and encompass the object forming a very small _embryo dune_. 
+With these conditions met, it's now only a matter of time until a sand dune starts to form. Obstacles such as rocks or human rubbish are deposited at the _strandline_---essentially the high water mark. These objects block the wind causing sand grains that are being transported to be deposited. Over time, the sand grains will build up and encompass the object forming a very small _embryo dune_.
 
-Eventually _pioneer species_ of plants will start to grow on the embryo dune. As they do so, they bind the sand together, increasing the stability of the dune. The vegetation itself also traps sand causing the embryo dune to grow even more. As the dune grows it becomes a foredune and a new embryo dune begins to develop in front of it. This is the beginning of a sand dune succession. 
+Eventually _pioneer species_ of plants will start to grow on the embryo dune. As they do so, they bind the sand together, increasing the stability of the dune. The vegetation itself also traps sand causing the embryo dune to grow even more. As the dune grows it becomes a foredune and a new embryo dune begins to develop in front of it. This is the beginning of a sand dune succession.
 
 ### Parts of a Sand Dune Succession
 
@@ -108,7 +108,7 @@ Eventually _pioneer species_ of plants will start to grow on the embryo dune. As
 
 #### Embryo Dunes
 
-As we've already discussed, embryo dunes are the first part of a sand dune succession. They form in the shadow of obstacles at the strandline. As sand is deposited, pioneer species such as prickly saltwort (_Kali Turgida_) colonise the embryo dune and begin to bind the sand together. 
+As we've already discussed, embryo dunes are the first part of a sand dune succession. They form in the shadow of obstacles at the strandline. As sand is deposited, pioneer species such as prickly saltwort (_Kali Turgida_) colonise the embryo dune and begin to bind the sand together.
 
 The conditions on embryo dunes are harsh so plants have to have special adaptations to colonise them. The pH of the soil (which is essentially sand at this point) is very high (~8--8.5). This is because of the large number of marine shells deposited in embryo dunes. The shells are made from the mineral calcite (and sometimes aragonite[^3]) which is also known as calcium carbonate. Calcium Carbonate is an alkaline and so as it is broken down in the soil, it increases its pH.
 
@@ -124,31 +124,31 @@ Marram grass has an interesting adaptation for living on foredunes. As it is qui
 
 #### Grey Dunes
 
-As the plant life on a foredune dies, it forms a layer of _humus_ (not the same thing as hummus). This is an organic layer of soil that is somewhat acidic and helps lower the pH of the soil to ~6--7. The higher organic content of the foredune gives it a grey colour and it is now known as a _grey dune_. As the soil is now more stable, it is also known as a _fixed dune_. 
+As the plant life on a foredune dies, it forms a layer of _humus_ (not the same thing as hummus). This is an organic layer of soil that is somewhat acidic and helps lower the pH of the soil to ~6--7. The higher organic content of the foredune gives it a grey colour and it is now known as a _grey dune_. As the soil is now more stable, it is also known as a _fixed dune_.
 
 The lowered pH allows some new species of plants to develop. Vegetation such as marram grass will still prevail though as grey dunes are still dry and exposed to the wind. The really interesting vegetation grows in _dune slacks_.
 
 #### Dune Slacks
 
-Dune slacks are very large depressions in sand dune successions that are often deep enough to expose the water table. There are two ways they can form. If a foredune grows large enough it can form a _dune ridge_ that prevents any further deposition of sediment inland by blocking the wind. The low point behind the ridge is the dune slack. Since there's little erosion taking place behind the dune ridge, the water table generally isn't exposed in the dune slack. 
+Dune slacks are very large depressions in sand dune successions that are often deep enough to expose the water table. There are two ways they can form. If a foredune grows large enough it can form a _dune ridge_ that prevents any further deposition of sediment inland by blocking the wind. The low point behind the ridge is the dune slack. Since there's little erosion taking place behind the dune ridge, the water table generally isn't exposed in the dune slack.
 
-The more interesting dune slacks form as a result of _blowouts_. Excessive trampling and grazing of plants on a dune will reduce the stability of the dune since there's no roots to bind it together. This makes it easier to erode the dune, producing a deep depression in the succession that often reaches down to the water table. 
+The more interesting dune slacks form as a result of _blowouts_. Excessive trampling and grazing of plants on a dune will reduce the stability of the dune since there's no roots to bind it together. This makes it easier to erode the dune, producing a deep depression in the succession that often reaches down to the water table.
 
 As fresh water is exposed at the surface, new types of vegetation can grow in the dune slack, in particular reeds and rushes. A dune slack that forms behind a grey dune often contains a variety of vegetation because the humus on the grey dune is blown into the dune slack making it even more hospitable.
 
 #### Climax
 
-The climax (or plagioclimax) marks the end of the sand dune succession. Here, soil pH is much more acidic (~4.5--5) thanks to a thick layer of humus developing. This allows vegetation like shrubs and trees to grow. Often forests develop at the climax of a sand dune succession. 
+The climax (or plagioclimax) marks the end of the sand dune succession. Here, soil pH is much more acidic (~4.5--5) thanks to a thick layer of humus developing. This allows vegetation like shrubs and trees to grow. Often forests develop at the climax of a sand dune succession.
 
 Note that if the end of a sand dune succession is bought about due to human activity, the end is known as a _plagioclimax_.
 
 ### Sand Dune Protection
 
-Sand dune successions are fragile systems and are susceptible to damage and interference from humans. We therefore take it upon ourselves to protect sand dune systems and we do so using a variety of methods. Many of the methods used are soft engineering techniques so they are low cost, low technology and work with nature rather than against it. 
+Sand dune successions are fragile systems and are susceptible to damage and interference from humans. We therefore take it upon ourselves to protect sand dune systems and we do so using a variety of methods. Many of the methods used are soft engineering techniques so they are low cost, low technology and work with nature rather than against it.
 
-Sand dunes, more specifically the vegetation that covers sand dunes, are often trampled by humans and grazing animals. This creates the conditions needed for a blowout. In order to limit trampling and prevent blowouts, sand dune management takes place and restricted access is granted to areas of sand dune successions. Footpaths are constructed to limit the trampling of plants to certain areas and these footpaths are fenced off in order to prevent people from wondering off onto sand dunes. Some types of footpaths, known as boardwalks, are made of wooden slats which allow plants to grow underneath the boardwalks and therefore continue to bind the sand in that particular area. 
+Sand dunes, more specifically the vegetation that covers sand dunes, are often trampled by humans and grazing animals. This creates the conditions needed for a blowout. In order to limit trampling and prevent blowouts, sand dune management takes place and restricted access is granted to areas of sand dune successions. Footpaths are constructed to limit the trampling of plants to certain areas and these footpaths are fenced off in order to prevent people from wondering off onto sand dunes. Some types of footpaths, known as boardwalks, are made of wooden slats which allow plants to grow underneath the boardwalks and therefore continue to bind the sand in that particular area.
 
-Educating tourists is a particularly effective way of reducing damage to sand dunes. Information boards will limit the number of tourists who simply ignore the "no access" signs by actually providing them with a reason to obey them. 
+Educating tourists is a particularly effective way of reducing damage to sand dunes. Information boards will limit the number of tourists who simply ignore the "no access" signs by actually providing them with a reason to obey them.
 
 In order to stabilise sand dunes, dead fern trees can be planted in the sand to help trap the sand and build up new sand dunes. These trees can also be used to stabilise existing sand dunes allowing them to grow to great heights.
 

@@ -1,7 +1,7 @@
 ---
 title: Drainage Basins & The Hydrological Cycle
-category: 'rivers'
 layout: article
+category: rivers
 math: true
 ---
 

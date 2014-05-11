@@ -1,7 +1,6 @@
 ---
-title: "Case Studies"
+title: Case Studies
 layout: page
-published: false
 ---
 
 In order to get a decent mark in Geography you _need_ to use case studies and examples in your answers. If you don't include them, you can't get high marks. Even if a question doesn't ask for an example, throw one in your answer, just to be safe. For many landforms, you don't need to name a specific example, just an area where you can find these landforms. For example, naming a specific pothole would be a bit silly, but naming an area where you can find them is quite sensible. 

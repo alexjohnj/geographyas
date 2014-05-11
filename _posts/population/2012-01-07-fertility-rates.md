@@ -1,27 +1,26 @@
 ---
 title: Fertility Rates
-category: 'population'
 layout: article
-keywords: "fertility rate, birth rate, population change, natural increase"
+category: population
 ---
 
 ### Key Terms
 
 - _Crude Birth Rate_ - The total number of births in a single year per 1000 of the population. This doesn't include the age and sex structure of a population.
-- _General Fertility Rate_ - The number of live births per 1000 women aged 15 to 49 in one year. May also be used to derive the general fertility rate for women in particular age bands. 
-- _Fertility rate_ - The average number of children born to a woman in her life time. 
+- _General Fertility Rate_ - The number of live births per 1000 women aged 15 to 49 in one year. May also be used to derive the general fertility rate for women in particular age bands.
+- _Fertility rate_ - The average number of children born to a woman in her life time.
 
 ### World Fertility Levels
 
 - Fertility is still high in most of the least developed countries and although it is expected to decline, it will remain higher than the rest of the world.
 - In the rest of the developing countries, fertility has declined markedly since the late 1960's and is expected to reach below replacement level by 2050 in the majority of these countries.
-- Below replacement fertility prevails in the developed regions and is expected to continue to 2050. 
+- Below replacement fertility prevails in the developed regions and is expected to continue to 2050.
 
 ### Replacement Level Fertility
 
-- Replacement level fertility is the level of fertility at which a population exactly replaces itself from generation to generation. 
-- In developed countries, replacement level fertility can be taken as an average of 2.1 per woman. 
-- In countries with high infant mortality rates, however, the average number of births may need to be much higher. 
+- Replacement level fertility is the level of fertility at which a population exactly replaces itself from generation to generation.
+- In developed countries, replacement level fertility can be taken as an average of 2.1 per woman.
+- In countries with high infant mortality rates, however, the average number of births may need to be much higher.
 
 ---
 
@@ -31,13 +30,13 @@ keywords: "fertility rate, birth rate, population change, natural increase"
 
 #### Level Of Healthcare
 
-- Improvements in health care, sanitation & diet lead to a drop in infant mortality rate e.g. The Demographic Republic of Congo has a total fertility rate of 6.91 and 0.088 doctors per 1000 people. 
+- Improvements in health care, sanitation & diet lead to a drop in infant mortality rate e.g. The Demographic Republic of Congo has a total fertility rate of 6.91 and 0.088 doctors per 1000 people.
 - Availability of contraceptives for couples with knowledge and desire to use it e.g. Rwanda, where 10% of women practice modern methods of family planning and where the total fertility rate is 5.12. In Brazil, 70% of women practice modern methods of family planning and the total fertility rate is 2.21.
 
 #### Level Of Education
 
-- In some countries, access to healthcare and education may be limited e.g. Afghanistan, total fertility rate of 7.7 with 0.17 doctors per 1000 & a female literacy rate of 13%. 
-- Higher female literacy rates lead to improved knowledge of birth control, more opportunities for employment and more choice. This may lead to lower fertility rates. 
+- In some countries, access to healthcare and education may be limited e.g. Afghanistan, total fertility rate of 7.7 with 0.17 doctors per 1000 & a female literacy rate of 13%.
+- Higher female literacy rates lead to improved knowledge of birth control, more opportunities for employment and more choice. This may lead to lower fertility rates.
 
 ---
 
@@ -62,14 +61,14 @@ keywords: "fertility rate, birth rate, population change, natural increase"
 
 #### Employment Opportunities
 
-- With the prospect of a career, women may have less children and marry later. e.g. the average marital age in the UK is 30. 
+- With the prospect of a career, women may have less children and marry later. e.g. the average marital age in the UK is 30.
 
 - Reduced access to formal employment and other income earning opportunities means women are forced to devote most of their time and energy to child bearing.
 
 #### The Cost Of Having Children
 
-- Children are seen as economic assets in LEDCs. They can be used as workers on land or to bring in more income. 
-- The time spent in education and the cost of childcare makes it more expensive to have a child. In the UK (TFR 1.66) the estimated cost of raising a child to 21 is £166,000. 
+- Children are seen as economic assets in LEDCs. They can be used as workers on land or to bring in more income.
+- The time spent in education and the cost of childcare makes it more expensive to have a child. In the UK (TFR 1.66) the estimated cost of raising a child to 21 is £166,000.
 
 ---
 
@@ -77,7 +76,7 @@ keywords: "fertility rate, birth rate, population change, natural increase"
 
 #### Pressure from the Government
 
-- Some governments will try to influence the rate of population growth e.g. The chinese attempting to reduce the birth rate or Japan attempting to increase it. 
+- Some governments will try to influence the rate of population growth e.g. The chinese attempting to reduce the birth rate or Japan attempting to increase it.
 
 ---
 

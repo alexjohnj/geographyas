@@ -1,7 +1,7 @@
 ---
 title: Discharge & Hydrographs
 layout: article
-category: 'rivers'
+category: rivers
 ---
 
 The discharge of a river (or stream) is the volume of water that flows past a point in the river’s course per second. The volume is measured in cubic metres (m<sup>3</sup>) and it’s per second so the units of discharge are cubic metres a second or m<sup>3</sup>s<sup>-1</sup>. Coincidentally, 1m<sup>3</sup>s<sup>-1</sup> is the same as 1 cumec so the discharge of a river is often measured in _cumecs_ because it’s a bit easier to say. Discharge is normally measured at gauging stations that are situated at different points along the river.
