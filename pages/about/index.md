@@ -1,5 +1,6 @@
 ---
 layout: page
+title: About Geography AS Notes
 ---
 
 ## History
