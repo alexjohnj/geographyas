@@ -1,9 +1,7 @@
 ---
 title: Coastal Erosion
 layout: article
-category: 'coasts'
-keywords: "erosion of coasts, destruction of coasts, erosion, hydraulic action on coasts, corrosion of coasts, acidic sea, carbonation of coast"
-published: true
+category: coasts
 ---
 
 Coastal erosion involves the breaking down and removal of material along a coastline by the movement of wind & water. It leads to the formation of many [landforms][features-of-erosion-page] and, combined with deposition, plays an important role in shaping the coastline.
@@ -13,13 +11,13 @@ Coastal erosion involves the breaking down and removal of material along a coast
 ## Methods of Erosion
 
 Hydraulic Action:
-:   When a wave impacts a cliff face, air is forced into cracks under high pressure, widening them. Over long periods of time, the growing cracks destabilise the cliff and fragments of rock break off of it. 
+:   When a wave impacts a cliff face, air is forced into cracks under high pressure, widening them. Over long periods of time, the growing cracks destabilise the cliff and fragments of rock break off of it.
 
 Corrasion/Abrasion:
 :   The repeated action of waves breaking on a cliff is enough to remove material from it over time. If sand & shingle are present in the water, it will act like sandpaper and erosion will take place faster.
 
 Attrition:
-:   Beach material is knocked together in water reducing their size and increasing their roundness & smoothness. 
+:   Beach material is knocked together in water reducing their size and increasing their roundness & smoothness.
 
 Corrosion[^1]:
 :    Carbon dioxide in the atmosphere is dissolved into water turning it into a weak carbonic acid. Several rocks (e.g., Limestone) are vulnerable to this acidic water and will dissolve into it. The rate of dissolution is affected by the concentration of carbonates & other minerals in the water. As it increases, dissolution becomes slower.

@@ -1,8 +1,7 @@
 ---
 title: Population Distribution & Density
-category: 'population'
 layout: article
-keywords: "population distribution, population density, dot maps"
+category: population
 ---
 
 - Population distribution describes the way that people are spread out across the Earth's surface.
@@ -10,13 +9,13 @@ keywords: "population distribution, population density, dot maps"
 
 > Population Density = Number Of People In an Area / Size of Area
 
-- Population distributions are often shown by means of a dot map, were each dot represents a given number of people. 
+- Population distributions are often shown by means of a dot map, were each dot represents a given number of people.
 - They provide a quick overview of the general characteristics of a distribution as well as indications of areas of high or low density e.g. Nile Valley in Egypt (where 99% of the country's population live on 4% of the total land area).
-- Population density can be displayed on a *dot map*. 
+- Population density can be displayed on a *dot map*.
 
 ## Limitations Of Dot Maps
 
-- If many dots are concentrated in one part of the map then they will overlap making it difficult to identify one symbol from another making comparison of densities more difficult. 
+- If many dots are concentrated in one part of the map then they will overlap making it difficult to identify one symbol from another making comparison of densities more difficult.
 - They may suggest (incorrectly) that some areas are totally uninhabited e.g. Areas away from the Nile in Egypt when in fact there are insufficient numbers to warrant a symbol.
 
 ## Distribution Of Africa's Population

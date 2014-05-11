@@ -1,30 +1,28 @@
 ---
 title: Sub-Aerial Processes
 layout: article
-category: 'coasts'
-keywords: 'coastal weathering, coastal erosion, weathering, mass movement, rock falls, landslides, mudflows, rotational slumping'
-published: true
+category: coasts
 ---
 
-Sub-aerial processes are land based processes which alter the shape of a coastline. They're a combination of both [weathering](#Weathering) and [mass movement](#Mass.Movement). 
+Sub-aerial processes are land based processes which alter the shape of a coastline. They're a combination of both [weathering](#Weathering) and [mass movement](#Mass.Movement).
 
 ## Weathering
 
 ### Freeze Thaw
 
-Freeze thaw weathering involves water entering cracks in rocks and freezing. When the water freezes it expands, fracturing the rock. 
+Freeze thaw weathering involves water entering cracks in rocks and freezing. When the water freezes it expands, fracturing the rock.
 
 ### Exfoliation
 
-The repeated action of heating and cooling rocks causing them to “shed” off layers. 
+The repeated action of heating and cooling rocks causing them to “shed” off layers.
 
 ### Biological Weathering
 
-Plant seeds get into cracks in rocks and begin growing. As they grow, they exert pressure on the rocks, causing them to fracture. Seaweed, under the sea, can attach itself to rocks so that, as the sea moves the seaweed, chunks of rock are pulled away. 
+Plant seeds get into cracks in rocks and begin growing. As they grow, they exert pressure on the rocks, causing them to fracture. Seaweed, under the sea, can attach itself to rocks so that, as the sea moves the seaweed, chunks of rock are pulled away.
 
 ### Chemical Weathering
 
-[Corrosion](/coasts/coastal-erosion/#corrosion) is *technically* a form of weathering and not erosion. Processes such as hydrolysis and oxidation can weather away rocks. Hydrolysis involves the splitting of minerals due to their reactivity with water. Oxidation is, basically, rusting. Elements such as iron are susceptible to oxidation and can be found within minerals on coastlines. 
+[Corrosion](/coasts/coastal-erosion/#corrosion) is *technically* a form of weathering and not erosion. Processes such as hydrolysis and oxidation can weather away rocks. Hydrolysis involves the splitting of minerals due to their reactivity with water. Oxidation is, basically, rusting. Elements such as iron are susceptible to oxidation and can be found within minerals on coastlines.
 
 ## Mass Movement
 
@@ -32,20 +30,20 @@ Mass movement can be defined as the large scale movement of weathered material i
 
 ### Rockfalls
 
-Freeze thaw weathering on a cliff breaks the rocks up into smaller pieces which can then free fall. This occurs commonly on cliffs with lots of joints as the joints make it easier to break up the rock. If the cliff is undercut by the sea, it can loose some of its stability, increasing the likelihood that a rockfall will occur. 
+Freeze thaw weathering on a cliff breaks the rocks up into smaller pieces which can then free fall. This occurs commonly on cliffs with lots of joints as the joints make it easier to break up the rock. If the cliff is undercut by the sea, it can loose some of its stability, increasing the likelihood that a rockfall will occur.
 
 ### Soil Creep
 
-Soil creep is an incredibly slow process. It occurs on very gentle slopes and produces an undulated (wavy) surface. Damp soil moves very slowly down hill due to the increase in its mass (since it's wet). 
+Soil creep is an incredibly slow process. It occurs on very gentle slopes and produces an undulated (wavy) surface. Damp soil moves very slowly down hill due to the increase in its mass (since it's wet).
 
 ### Landslides
 
-After being soaked by water, cliffs made from soft rock will begin to slip due to the rock being lubricated. Landslides are very similar to slumps. 
+After being soaked by water, cliffs made from soft rock will begin to slip due to the rock being lubricated. Landslides are very similar to slumps.
 
 ### (Rotational) Slumping
 
-Slumping happens for similar reasons to landslides. Heavy rainfall makes the rock heavier due to it absorbing the water and the water also acts as a lubricant. The difference with slumping is that it happens on a concave surface, which causes the cliff to form a crescent shape. 
+Slumping happens for similar reasons to landslides. Heavy rainfall makes the rock heavier due to it absorbing the water and the water also acts as a lubricant. The difference with slumping is that it happens on a concave surface, which causes the cliff to form a crescent shape.
 
 ### Mudflow
 
-Mudflow is a very dangerous form of mass movement which occurs on steep slopes with saturated soil and little vegetation. The lack of vegetation means that there is nothing to bind the soil together, promoting mass wasting. The saturated soil becomes heavier and is lubricated, leading to the rapid movement of a lot of mud downhill. 
+Mudflow is a very dangerous form of mass movement which occurs on steep slopes with saturated soil and little vegetation. The lack of vegetation means that there is nothing to bind the soil together, promoting mass wasting. The saturated soil becomes heavier and is lubricated, leading to the rapid movement of a lot of mud downhill.
