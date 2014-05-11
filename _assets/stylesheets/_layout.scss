@@ -63,7 +63,7 @@ nav#site-navigation {
     list-style: none;
     display: inline-block;
   }
-  
+
   li {
     display: inline-block;
     padding-right: 10px;
@@ -93,9 +93,9 @@ form#site-wide-search {
     color: white;
     outline: none;
 
-    -webkit-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
-    -moz-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
-    -o-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+    -webkit-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
     transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
 
     &:focus {
@@ -107,7 +107,7 @@ form#site-wide-search {
 form#error-page-search {
   margin: 0 auto;
   width: 95%;
-  
+
   input#error-page-search-box {
     height: 120px;
     width: 100%;
@@ -122,9 +122,9 @@ form#error-page-search {
     -webkit-border-radius: 2px;
     outline: none;
 
-    -webkit-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
-    -moz-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
-    -o-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+    -webkit-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
     transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
 
     &:focus {
@@ -193,11 +193,12 @@ header#article-header {
 }
 
 .footnotes {
-  hr {
-    display: none; // RDiscount inserts a <hr> automatically but some browsers remove it when printing. This ensures all browsers remove it and just print the equivalent border-top.
-  }
   @media print {
     border-top: 2px solid #000;
+
+    hr {
+      display: none; // RDiscount inserts a <hr> automatically but some browsers remove it when printing. Some don't. This makes sure they all do.
+    }
   }
 }
 
