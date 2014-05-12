@@ -1,23 +1,11 @@
-#= require vendor/buoy
-
 # Provides a bunch of helper functions for scrolling to elements on a page
 
-window.easeInOutQuad = (time, start, delta, duration) ->
-  # From https://github.com/jimjeffers/Easie/blob/master/easie.coffee#L209
-  if (time = time/(duration/2)) < 1
-    return delta / 2 * time * time + start
-  else
-    return -delta / 2 * ((time -= 1)*(time-2)-1) + start
-
-window.easeInOutExponential = (time, begin, change, duration) ->
-  if time == 0
-    return begin
-  else if time == duration
-    return begin+change
-  else if (time=time/(duration/2)) < 1
-    return change/2 * Math.pow(2,10*(time-1)) + begin
-  else
-    change/2*(-Math.pow(2,-10*(time-1))+2)+begin;
+window.cubicInOut = (time,begin,change,duration) ->
+    # From https://github.com/jimjeffers/Easie/blob/master/easie.coffee#L209
+    if (time = time/(duration/2)) < 1
+      return change/2 * time*time*time + begin
+    else
+      return change/2 * ((time -= 2)*time*time + 2) + begin
 
 window.scrollTo = (element, to, duration=1250) ->
   # THIS FUCKING FUNCTION
@@ -31,7 +19,7 @@ window.scrollTo = (element, to, duration=1250) ->
 
   animateScroll = ->
     currentTime += increment
-    val = window.easeInOutExponential currentTime, start, change, duration
+    val = window.cubicInOut currentTime, start, change, duration
     window.scroll(0, val)
     setTimeout(animateScroll, increment) if currentTime < duration
 
