@@ -21,7 +21,6 @@ window.footnoteClicked = (e) ->
 
 
 window.footnoteInitialisation = ->
-  console.log("Called")
   footnoteLinks = document.querySelectorAll 'a[rel], a[rev]'
   for element in footnoteLinks
     if element.addEventListener
