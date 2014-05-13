@@ -21,7 +21,7 @@ window.segmentControlClicked = (e) ->
   buoy.toggleClass selectedUnitSection, 'disabled'
 
   topOffSet = segments[0].getBoundingClientRect().top
-  window.scrollTo document.body, topOffSet, 350
+  window.scrollTo document.body, topOffSet, 350, window.quintOut
 
 window.menuInitialisation = ->
   segmentControls = document.querySelectorAll 'li.segment'

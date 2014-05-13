@@ -17,7 +17,7 @@ window.footnoteClicked = (e) ->
     matchedFootnote = document.querySelector selectorQuery
 
   topOffSet = matchedFootnote.getBoundingClientRect().top
-  window.scrollTo document.body, topOffSet, 1000
+  window.scrollTo document.body, topOffSet, 1000, window.expoInOut
 
 
 window.footnoteInitialisation = ->
