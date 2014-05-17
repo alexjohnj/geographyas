@@ -15,7 +15,7 @@ Corrections, diagrams and new articles are all appreciated. To submit new conten
 
 Bug fixes and ideas for new features are all welcome. The minimum target browser for the site is Internet Explorer 8. Older browsers are unsupported and indeed broken with the current site's design. 
 
-The site uses SASS for styling and CoffeeScript for scripting. The source code roughly follows [GitHub's styleguide][github-styleguide]. 
+The site uses SASS for styling and CoffeeScript for scripting. The source code roughly follows [GitHub's style guide][github-styleguide]. 
 
 [github-styleguide]: https://github.com/styleguide
 
