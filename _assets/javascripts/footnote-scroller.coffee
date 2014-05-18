@@ -1,7 +1,11 @@
 #= require cs-scroll
 
 window.footnoteClicked = (e) ->
-  e.preventDefault()
+  if e.preventDefault
+    e.preventDefault()
+  else
+    e.returnValue = false # IE8 lacks the preventDefault method
+
   clickedFootnoteLink = e.target ? e.srcElement
   matchedFootnote = null
 
