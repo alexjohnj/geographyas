@@ -9,12 +9,10 @@ window.segmentControlClicked = (e) ->
 
   # Remove styling from previous selection
   for segment in segments
-    if segment.classList.contains 'selected'
-      segment.classList.toggle 'selected'
+    segment.classList.remove 'selected'
 
   for unitSection in unitSections
-    if (unitSection.classList.contains 'disabled') is false
-      unitSection.classList.toggle 'disabled'
+    unitSection.classList.add 'disabled'
 
   # Apply styling to new selection
   selectedSegment.classList.toggle 'selected'
