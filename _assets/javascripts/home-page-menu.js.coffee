@@ -9,16 +9,16 @@ window.segmentControlClicked = (e) ->
 
   # Remove styling from previous selection
   for segment in segments
-    if buoy.hasClass(segment, 'selected')
-      buoy.toggleClass segment, 'selected'
+    if segment.classList.contains 'selected'
+      segment.classList.toggle 'selected'
 
   for unitSection in unitSections
-    if buoy.hasClass(unitSection, 'disabled') is false
-      buoy.toggleClass unitSection, 'disabled'
+    if (unitSection.classList.contains 'disabled') is false
+      unitSection.classList.toggle 'disabled'
 
   # Apply styling to new selection
-  buoy.toggleClass selectedSegment, 'selected'
-  buoy.toggleClass selectedUnitSection, 'disabled'
+  selectedSegment.classList.toggle 'selected'
+  selectedUnitSection.classList.toggle 'disabled'
 
   topOffSet = segments[0].getBoundingClientRect().top
   window.scrollTo document.body, topOffSet, 350, window.quintOut
