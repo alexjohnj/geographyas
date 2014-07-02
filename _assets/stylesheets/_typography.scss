@@ -86,7 +86,7 @@ h4 {
 header#site-header {
   h1 {
     font-size: 2em;
-    font-weight: 200;
+    font-weight: 300;
     margin: 0.1em 0;
     @media handheld, only screen and (max-width: 320px) {
       font-size: 1.5em;
@@ -95,12 +95,12 @@ header#site-header {
 }
 
 nav#site-navigation {
-  font-weight: 200;
+  font-weight: 300;
 }
 
 header#article-header {
   h1 {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 3em;
     margin: 0.2em 0;
 
@@ -113,7 +113,7 @@ header#article-header {
   }
 
   h2 {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1.3em;
     font-style: italic;
     margin: 0;
@@ -169,7 +169,7 @@ table {
   color: white;
 
   th {
-    font-weight: 200;
+    font-weight: 300;
     font-size: 1.4em;
   }
 }
@@ -178,7 +178,7 @@ ol.topic-list {
   margin-left: 0.83em;
   li {
     font-size: 1.5em;
-    font-weight: 200;
+    font-weight: 300;
     margin: 0.83em 0;
   }
 }
