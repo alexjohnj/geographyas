@@ -22,7 +22,7 @@ script: home-page-menu
 
 	{% for category in site.categories %} 
 	<section id="{{ category[0] }}-segment-box" class="unit-section disabled">
-	    <h1 id="{{ category[0] }}-topic">{{ category[0] | join: "/" | capitalize | replace:"-", " " }} <a href="/{{ category[0] }}">&infin;</a></h1>
+	    <h1 id="{{ category[0] }}-topic">{{ category[0] | join: "/" | capitalize | replace:"-", " " }} <a href="/{{ category[0] }}/">&infin;</a></h1>
 	      {% assign pages_list = category[1] %}  
 	      {% include helpers/pages_list.html %}
 	</section>
