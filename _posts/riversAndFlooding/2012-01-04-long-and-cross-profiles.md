@@ -100,13 +100,15 @@ The velocity at different points along a channel's cross-section is shown using 
 [river-processes-page]: /rivers/river-processes/
 [erosion-features-page-meanders]: /rivers/river-landforms/#Meanders
 
-[river-long-profile]: /images/rivers/long-profile-diagram.svg
-[river-graded-profile]: /images/rivers/graded-profile-diagram.svg
-[upper-course-x-section]: /images/rivers/upper-course-cross-section.svg
-[middle-course-x-section]: /images/rivers/middle-course-cross-section.svg
-[lower-course-x-section]: /images/rivers/lower-course-cross-section.svg
-[channel-efficiency-example-diagram]: /images/rivers/channel-efficiency-example-diagram.svg
-[channel-velocity-cross-section]: /images/rivers/channel-velocity-cross-section.svg
+[river-long-profile]: {{ site.baseurl }}/images/rivers/river-profiles/long-profile-diagram.svg
+[river-graded-profile]: {{ site.baseurl }}/images/rivers/river-profiles/graded-profile-diagram.svg
+
+[upper-course-x-section]: {{ site.baseurl }}/images/rivers/river-profiles/upper-course-cross-section.svg
+[middle-course-x-section]: {{ site.baseurl }}/images/rivers/river-profiles/middle-course-cross-section.svg
+[lower-course-x-section]: {{ site.baseurl }}/images/rivers/river-profiles/lower-course-cross-section.svg
+
+[channel-efficiency-example-diagram]: {{ site.baseurl }}/images/rivers/river-profiles/channel-efficiency-example-diagram.svg
+[channel-velocity-cross-section]: {{ site.baseurl }}/images/rivers/river-profiles/channel-velocity-cross-section.svg
 
 
 
