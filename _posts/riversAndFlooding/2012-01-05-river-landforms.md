@@ -10,20 +10,20 @@ math: true
 Potholes are cylindrical holes drilled into the bed of a river that vary in depth & diameter from a few centimetres to several metres. They're found in the [upper course][river-long-cross-profile-link] of a river where it has enough potential energy to erode vertically and its flow is turbulent. In the upper course of a river, its load is large and mainly transported by traction along the river bed. When flowing water encounters bedload, it is forced over it and downcuts behind the bedload in swirling _eddie currents_. These currents erode the river's bed and create small depressions in it.
 
 <figure>
-<img src="/images/rivers/pothole-eddie-currents.svg" />
-<figcaption>
-  <p>The creation of eddie currents as a result of bedload in a river.</p>
-</figcaption>
+    <img src="{{ site.baseurl }}/images/rivers/river-landforms/pothole-eddie-currents.svg" />
+    <figcaption>
+        <p>The creation of eddie currents as a result of bedload in a river.</p>
+    </figcaption>
 </figure>
 
 As these depressions deepen, pebbles can become trapped in them. As a result of the eddie currents, the pebbles drill into the depressions making them more circular, wider & deeper. Pebbles will only be able to erode a river's bed though if the rock the pebble's made of is stronger than the rock the river bed is made of.
 
 <figure>
-<img src="/images/rivers/river-clyde-pothole-jim-ness.jpg" />
-<figcaption>
-    <p>A pothole that has formed along the River Clyde.</p>
-    <p>Copyright <a href="http://www.geograph.org.uk/profile/11145">Jim Ness</a>. Licensed under the Creative Commons 2.0 license.</p>
-</figcaption>
+    <img src="{{ site.baseurl }}/images/rivers/river-landforms/river-clyde-pothole-jim-ness.jpg" />
+    <figcaption>
+        <p>A pothole that has formed along the River Clyde.</p>
+        <p>Copyright <a href="http://www.geograph.org.uk/profile/11145">Jim Ness</a>. Licensed under the Creative Commons 2.0 license.</p>
+    </figcaption>
 </figure>
 
 ## V-Shaped Valleys
@@ -67,14 +67,14 @@ A cross section of a meander would show that on the outside bend, the channel is
 ![][meander-cross-section]
 
 <figure>
-    <img src="/images/rivers/river-cliff.jpg" alt="A picture of a river cliff"/>
+    <img src="{{ site.baseurl }}/images/rivers/river-landforms/river-cliff.jpg" alt="A picture of a river cliff"/>
     <figcaption>
         A river cliff on a meander that has had rocks placed near it to slow down erosion.
     </figcaption>
 </figure>
 
 <figure>
-    <img src="/images/rivers/slip-off-slope.jpg" alt="A picture of a slip-off slope" />
+    <img src="{{ site.baseurl }}/images/rivers/river-landforms/slip-off-slope.jpg" alt="A picture of a slip-off slope" />
     <figcaption>
         A slip-off slope on a river's meander.
     </figcaption>
@@ -94,7 +94,7 @@ Oxbow lakes are an evolution of meanders that undergo extensive deposition and e
 A braided channel is a type of channel that is divided into smaller sub-channels by small, temporary islands called _eyots_. Braided channels develop in rivers with a lot of sedimentary load, a steep gradient and where the discharge of the river changes regularly. When the volume of load exceeds the river’s capacity or the discharge of the river drops, the river is forced to deposit its load in the channel and islands of sediment (eyots) form.
 
 <figure>
-    <img src="/images/rivers/tagliamento-braided-channel-diego-cruciat.jpg" />
+    <img src="{{ site.baseurl }}/images/rivers/river-landforms/tagliamento-braided-channel-diego-cruciat.jpg" />
     <figcaption>
         <p>A heavily braided section of the Tagliamento's channel in Italy.</p>
         <p>Copyright <a href="http://commons.wikimedia.org/wiki/User:Diego_Cruciat">Diego Cruciat</a>. Licensed under the Creative Commons 3.0 license.</p> 
@@ -143,14 +143,18 @@ Bird’s foot deltas (e.g. The Mississippi Delta) are shaped like (as the name s
 
 [^1]: This is the maximum discharge of the river before it will overflow its banks and flood. 
 
-[waterfall-diagram]: /images/rivers/waterfall-diagram.svg
-[meander-cross-section]: /images/rivers/meander-cross-section.svg
-[riffles-and-pools-diagram]: /images/rivers/riffles-and-pools.svg
-[levee-diagram]: /images/rivers/levee-diagram.svg
-[oxbow-lakes-formation-diagram]: /images/rivers/oxbow-lake-formation-diagram.svg
-[delta-bedding-layers]: /images/rivers/delta-bedding-layers.svg
-[nile-delta-gmaps]: /images/rivers/nile-delta-gmap.png
-[ebro-delta-gmaps]: /images/rivers/ebro-delta-gmap.png
-[mississippi-delta-gmaps]: /images/rivers/mississippi-delta-gmap.png
+[waterfall-diagram]: {{ site.baseurl }}/images/rivers/river-landforms/waterfall-diagram.svg
+
+[meander-cross-section]: {{ site.baseurl }}/images/rivers/river-landforms/meander-cross-section.svg
+[riffles-and-pools-diagram]: {{ site.baseurl }}/images/rivers/river-landforms/riffles-and-pools.svg
+
+[levee-diagram]: {{ site.baseurl }}/images/rivers/river-landforms/levee-diagram.svg
+
+[oxbow-lakes-formation-diagram]: {{ site.baseurl }}/images/rivers/river-landforms/oxbow-lake-formation-diagram.svg
+
+[delta-bedding-layers]: {{ site.baseurl }}/images/rivers/river-landforms/delta-bedding-layers.svg
+[nile-delta-gmaps]: {{ site.baseurl }}/images/rivers/river-landforms/nile-delta-gmap.png
+[ebro-delta-gmaps]: {{ site.baseurl }}/images/rivers/river-landforms/ebro-delta-gmap.png
+[mississippi-delta-gmaps]: {{ site.baseurl }}/images/rivers/river-landforms/mississippi-delta-gmap.png
 
 [river-long-cross-profile-link]: /rivers/long-and-cross-profiles/
