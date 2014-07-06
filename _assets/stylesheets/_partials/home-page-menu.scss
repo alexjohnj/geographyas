@@ -18,7 +18,6 @@ li.segment {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
 
-  text-transform: capitalize;
   list-style: none;
 
   cursor: pointer;
@@ -53,11 +52,7 @@ section.unit-section {
   -moz-animation: fadeIn 250ms ease;
   -ms-animation: fadeIn 250ms ease;
   -o-animation: fadeIn 250ms ease;
-
-  h1 {
-    text-transform: capitalize;
-  }
-
+  
   li {
     padding: 5px 0;
   }

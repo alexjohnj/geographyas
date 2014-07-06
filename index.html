@@ -15,14 +15,14 @@ script: home-page-menu
 	<div id="controls">
 		<ul id="segmented-control">
 			{% for category in site.categories %}
-			<li id="{{ category[0] }}-segment" class="segment">{{ category[0] | join "/" | capitalize | replace: "-", " " }}</li>
+			<li id="{{ category[0] }}-segment" class="segment">{{ category[0] | join "/"  | replace: "-", " " | titlecase }}</li>
 			{% endfor %}
 		</ul>
 	</div>
 
 	{% for category in site.categories %} 
 	<section id="{{ category[0] }}-segment-box" class="unit-section disabled">
-	    <h1 id="{{ category[0] }}-topic">{{ category[0] | join: "/" | capitalize | replace:"-", " " }} <a href="/{{ category[0] }}/">&infin;</a></h1>
+	    <h1 id="{{ category[0] }}-topic">{{ category[0] | join: "/" |  replace:"-", " " | titlecase }} <a href="/{{ category[0] }}/">&infin;</a></h1>
 	      {% assign pages_list = category[1] %}  
 	      {% include helpers/pages_list.html %}
 	</section>
