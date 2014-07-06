@@ -52,5 +52,5 @@ If asked to describe the hydrograph you could quote the lag time, peak discharge
 
 For the River Shui’s hydrograph, we could say that the high peak discharge and the steep rising limb suggests that the drainage basin is circular because if it was, the precipitation will land at points equidistant from one another and reach the river at roughly the same time, producing the high peak discharge.
 
-[example-storm-hydrograph]: /images/rivers/storm-hydrograph.svg
+[example-storm-hydrograph]: {{ site.baseurl }}/images/rivers/discharge-and-hydrographs/storm-hydrograph.svg
 
