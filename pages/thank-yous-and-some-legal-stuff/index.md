@@ -54,7 +54,7 @@ If you want to use an image from this site, you need to check the license on the
 When using an image, attribute it like this:
 
 <figure>
-  <img width="50%" src="/images/legal-image.jpg">
+  <img width="50%" src="{{ site.baseurl }}/images/legal-image.jpg">
   <figcaption>
     <p>By Alex Jackson. From <a href="/">Geography AS Notes</a>. Licensed under the <a href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International</a> license.</p>
   </figcaption>
