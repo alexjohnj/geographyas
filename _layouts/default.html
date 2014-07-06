@@ -28,12 +28,12 @@
 <body>
   <header id="site-header">
     <div class="content-margin-wrap">
-      <h1><a href="/">{{ site.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
         <nav id="site-navigation">
             <ul>
-             <li><a href="/pages/about/">About</a></li>
-             <li><a href="/pages/contributing/">Contributing</a></li>
-             <li><a href="/pages/case-studies/">Case Studies</a></li>
+             <li><a href="{{ site.baseurl }}/pages/about/">About</a></li>
+             <li><a href="{{ site.baseurl }}/pages/contributing/">Contributing</a></li>
+             <li><a href="{{ site.baseurl }}/pages/case-studies/">Case Studies</a></li>
             </ul>
             <form method="get" id="site-wide-search" action="https://duckduckgo.com">
               <input type="hidden" name="sites" value="geographyas.info">
@@ -54,7 +54,7 @@
   <footer id="site-footer">
       <div class="content-margin-wrap">
         <p>Site design and development by Alex Jackson.</p>
-        <p><a href="/pages/thank-yous-and-some-legal-stuff/">Acknowledgements &amp; Copyright</a></p>
+        <p><a href="{{ site.baseurl }}/pages/thank-yous-and-some-legal-stuff/">Acknowledgements &amp; Copyright</a></p>
       </div>
   </footer><!-- end page-footer -->
   <!--SVGeezy JS https://github.com/benhowdle89/svgeezy-->
