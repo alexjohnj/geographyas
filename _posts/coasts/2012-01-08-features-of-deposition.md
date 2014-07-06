@@ -13,7 +13,7 @@ A spit is a stretch of sand or shingle extending from the mainland out to sea. T
 The deposition of sediment forms a spit but its shape changes as a result of wave refraction. Refraction around the end of a spit curves it into a "hook" forming a _recurved spit_. As the area behind a spit is sheltered from waves and the wind, it provides the perfect environment for salt marshes to develop.
 
 <figure>
-    <img src="/images/coasts/8depositionalFeatures/spit-formation-diagram.svg" />
+    <img src="{{ site.baseurl }}/images/coasts/08-depositional-features/spit-formation-diagram.svg" />
     <figcaption>The formation of a spit near a river's mouth.</figcaption>
 </figure>
 
@@ -100,7 +100,7 @@ Eventually _pioneer species_ of plants will start to grow on the embryo dune. As
 ### Parts of a Sand Dune Succession
 
 <figure>
-    <img src="/images/coasts/8depositionalFeatures/sand-dune-succession.svg" />
+    <img src="{{ site.baseurl }}/images/coasts/08-depositional-features/sand-dune-succession.svg" />
     <figcaption>
     <p>A transect across an idealised sand dune succession. Note that it is <strong>not to scale</strong>.</p>
     </figcaption>
@@ -153,7 +153,7 @@ Educating tourists is a particularly effective way of reducing damage to sand du
 In order to stabilise sand dunes, dead fern trees can be planted in the sand to help trap the sand and build up new sand dunes. These trees can also be used to stabilise existing sand dunes allowing them to grow to great heights.
 
 <figure>
-    <img src="/images/coasts/8depositionalFeatures/sandDunePineBuildUpFormby.jpg" alt="An image showing trees that have been planted at Formby Sand Dunes to help rebuild the dunes"/>
+    <img src="{{ site.baseurl }}/images/coasts/08-depositional-features/formby-sand-dune-pines.jpg" alt="An image showing trees that have been planted at Formby Sand Dunes to help rebuild the dunes"/>
     <figcaption>
         <p>Dead pine trees planted at Formby Sand Dunes have increased the sand dunes' stability causing them to grow very big</p>
     </figcaption>
