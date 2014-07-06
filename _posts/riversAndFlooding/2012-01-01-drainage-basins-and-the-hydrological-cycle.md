@@ -11,7 +11,7 @@ When considering the hydrological cycle of a river, normally you look at the hyd
 
 ## Inputs & Outputs
 
-A drainage basin is an open system meaning it has inputs and outputs. The most obvious input (at least here in Britain) is rain but snow, hail & dew all act as inputs too. These inputs (including rain) are grouped under the term _precipitation_, water that falls or condenses on the ground. Basins also have outputs that are, again, pretty obvious. Evaporation is a big one, where water turns into a gas and become part of the atmosphere. Transpiration is similar to evaporation but is the loss of water as a vapour from plant and tree leaves. The combined effect of evaporation and transpiration is called _evapotranspiration_.  The final output, the one that a lot of people forget, is water flowing out of the basin. The technical name for this is _river discharge_.
+A drainage basin is an open system meaning it has inputs and outputs. The most obvious input (at least here in Britain) is rain but snow, hail & dew all act as inputs too. These inputs (including rain) are grouped under the term _precipitation_, water that falls or condenses on the ground. Basins also have outputs that are, again, pretty obvious. Evaporation is a big one, where water turns into a gas and become part of the atmosphere. Transpiration is similar to evaporation but is the loss of water as a vapour from plant and tree leaves. The combined effect of evaporation and transpiration is called _evapotranspiration_. The final output, the one that a lot of people forget, is water flowing out of the basin. The technical name for this is _river discharge_.
 
 ## Stores
 
@@ -60,4 +60,4 @@ You can graph the water budget if you want. If you plot evapotranspiration and p
 [^4]: OK, maybe the UK was a bad example. 
 
 [channel-efficiency]: /rivers/long-and-cross-profiles/#Channel.Efficiency..amp..Velocity
-[water-budget-graph]:/images/rivers/water-balance-graph.svg
+[water-budget-graph]: {{ site.baseurl }}/images/rivers/drainage-basins-and-hydrological-cycle/water-balance-graph.svg
