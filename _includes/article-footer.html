@@ -1,0 +1,28 @@
+<footer id="article-footer">
+  {% for post in site.categories.[page.categories.first] %}
+  {% if post.url == page.url %}
+  {% assign post_index0 = forloop.index0 %}
+  {% assign post_index1 = forloop.index %}
+  {% endif %}
+  {% endfor %}
+  {% for post in site.categories.[page.categories.first] %}
+  {% if post_index0 == forloop.index %}
+  {% assign next_post = post %}
+  {% endif %}
+  {% if post_index1 == forloop.index0 %}
+  {% assign prev_post = post %}
+  {% endif %}
+  {% endfor %}
+  
+  <div class="content-margin-wrap">
+    <div id="article-footer-right">
+      {% if next_post %}<p><a href="{{ site.baseurl }}{{ next_post.url }}">{{ next_post.title }} &raquo;</a></p>{% endif %}
+    </div>
+    <div id="article-footer-left">
+      {% if prev_post %}<p><a href="{{ site.baseurl}}{{ prev_post.url }}">&laquo; {{ prev_post.title }}</a></p>{% endif %}
+    </div>
+    <div id="article-contribution-text">
+      <p>Have an idea for this article? Please <a href="https://github.com/alexjohnj/geographyas/blob/master/{{ page.path }}">contribute it!</a></p>
+    </div>
+  </div>
+</footer>

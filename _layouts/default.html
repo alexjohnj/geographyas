@@ -1,74 +1,27 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>{{ page.title }}</title>
-  <meta name="google-site-verification" content="XxfnmsboPXnwwKYzxrfBPV-WXLGq8HHqY4ZMfCyM6iw" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Lato:300,400,700,400i">
-  
-  {% stylesheet main %}
+  {% include head.html %}
+  <body>
+    {% include site-header.html %}
 
-  {% if page.description %}
-  <meta name="description" content="{{ page.description }}">
-  {% endif %}
-  {% if page.author %}
-  <meta name="author" content="{{ page.author }}">
-  {% elsif page.author == null %}
-  <meta name="author" content="{{ site.author }}">
-  {% endif %}
+    <div id="content">
+          {{ content }}
+    </div><!-- end content -->
 
-  <!--Load html5shiv for old IE versions. In my (limited) testing, this MUST be loaded before any other script-->
-  <!--[if lt IE 9]>
-    {% javascript vendor/html5shiv %}
-  <![endif]-->
-  <noscript><style>section.unit-section.disabled{display:block;visibility: visible;animation: none;-webkit-animation:none;}#controls{display:none;}</style></noscript>
-</head>
-<body>
-  <header id="site-header">
-    <div class="content-margin-wrap">
-      <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-        <nav id="site-navigation">
-            <ul>
-             <li><a href="{{ site.baseurl }}/pages/about/">About</a></li>
-             <li><a href="{{ site.baseurl }}/pages/contributing/">Contributing</a></li>
-             <li><a href="{{ site.baseurl }}/pages/case-studies/">Case Studies</a></li>
-            </ul>
-            <form method="get" id="site-wide-search" action="https://duckduckgo.com">
-              <input type="hidden" name="sites" value="geographyas.info">
-              <input type="hidden" name="ka" value="h">
-              <input type="hidden" name="kj" value="#333333">
-              <input type="hidden" name="kx" value="#f2783c">
-              <input type="hidden" name="k9" value="#f2783c">
-              <input type="hidden" name="kaa" value="#f2783c">
-              <input id="site-wide-search-box" type="search" name="q" maxlength="255" placeholder="Search">
-            </form>
-        </nav>
-      </div>
-  </header>
-  <div id="content">
-        {{ content }}
-  </div><!-- end content -->
+    {% include site-footer.html %}
 
-  <footer id="site-footer">
-      <div class="content-margin-wrap">
-        <p>Site design and development by Alex Jackson.</p>
-        <p><a href="{{ site.baseurl }}/pages/thank-yous-and-some-legal-stuff/">Acknowledgements &amp; Copyright</a></p>
-      </div>
-  </footer><!-- end page-footer -->
-  <!--SVGeezy JS https://github.com/benhowdle89/svgeezy-->
-  <script>{% asset svgeezy-init %}</script>
-  <!--Google Analytics-->
-  <script>{% asset ga.js %}</script>
-  <!--Footnote script-->
-  <script>{% asset footnote-scroller %}</script>
-  <!--Load any additional scripts the page needs (e.g., MathJax)-->
-  {% if page.script %}
-    {{ page.script | javascript }}
-  {% endif %}
-  {% if page.math %}
-  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-  {% endif %}
-</body>
+    <!--SVGeezy JS https://github.com/benhowdle89/svgeezy-->
+    <script>{% asset svgeezy-init %}</script>
+    <!--Google Analytics-->
+    <script>{% asset ga.js %}</script>
+    <!--Footnote script-->
+    <script>{% asset footnote-scroller %}</script>
+    <!--Load any additional scripts the page needs (e.g., MathJax)-->
+    {% if page.script %}
+      {{ page.script | javascript }}
+    {% endif %}
+    {% if page.math %}
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    {% endif %}
+  </body>
 </html>
