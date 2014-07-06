@@ -1,0 +1,79 @@
+// Use this file to style non-base elements of an article
+
+header#article-header {
+  width: 100%;
+  background-color: #262626;
+  color: #ffffff;
+  height: auto;
+  text-align: center;
+
+  padding: 15px 0;
+
+  @media print {
+    background-color: #fff;
+    color: #000;
+    border-bottom: 1px solid #000;
+    padding-top: 0;
+  }
+
+  h1 {
+    font-weight: 300;
+    font-size: 3em;
+    margin: 0.2em 0;
+
+    @media handheld, only screen and (max-width: 560px) {
+      font-size: 2em;
+    }
+    @media handheld, only screen and (max-width: 320px) {
+      font-size: 1.7em;
+    }
+  }
+
+  h2 {
+    font-weight: 300;
+    font-size: 1.3em;
+    font-style: italic;
+    margin: 0;
+  }
+}
+
+.footnotes {
+  @media print {
+    border-top: 2px solid #000;
+
+    hr {
+      display: none; // RDiscount inserts a <hr> automatically but some browsers remove it when printing. Some don't. This makes sure they all do.
+    }
+  }
+}
+
+footer#article-footer {
+  background-color: #262626;
+  color: white;
+  overflow: hidden;
+  padding: 10px 0;
+
+  a {
+    color: white;
+  }
+
+  @media print {
+    display: none;
+  }
+
+  div#article-footer-left {
+    width: 50%;
+    float: left;
+  }
+
+  div#article-footer-right {
+    width: 50%;
+    float: right;
+    text-align: right;
+  }
+
+  div#article-contribution-text {
+    width: 100%;
+    clear: both;
+  }
+}

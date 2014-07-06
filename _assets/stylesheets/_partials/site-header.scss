@@ -1,0 +1,111 @@
+// Use this file to style the site's header bar
+
+header#site-header {
+  position: relative;
+  width: 100%;
+  overflow:hidden;
+
+  background-color: #333333;
+  color: white;
+
+  @media handheld, only screen and (max-width: 800px) {
+    text-align: center;
+  }
+
+  .content-margin-wrap {
+    padding: 0;
+  }
+
+  h1 {
+    display: block;
+    float: left;
+
+    font-size: 2em;
+    font-weight: 300;
+    margin: 0.1em 0;
+
+    @media print, handheld, only screen and (max-width: 800px) {
+      float: none;
+    }
+
+    @media handheld, only screen and (max-width: 320px) {
+      font-size: 1.5em;
+    }
+
+    a, a:visited, a:hover {
+      color: #fff;
+      text-decoration: none;
+      border: none;
+
+      @media print {
+        color: #000;
+        &:after {
+          content: none;
+        }
+      }
+    }
+  }
+
+  @media print {
+    background-color: #fff;
+    text-align: center;
+  }
+}
+
+nav#site-navigation {
+  float: right;
+  font-weight: 300;
+
+  @media handheld, only screen and (max-width: 800px) {
+    float: none;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+  }
+
+  li {
+    display: inline-block;
+    padding-right: 10px;
+  }
+
+  a {
+    color: white;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+form#site-wide-search {
+  display: inline-block;
+  padding-bottom: 10px;
+
+  input#site-wide-search-box {
+    -webkit-appearance: none;
+   
+    padding: 5px;
+
+    border: 2px solid #262626;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+
+    background-color: #262626;
+    background-image: none;
+    color: white;
+    outline: none;
+
+    -webkit-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+
+    &:focus {
+      border: 2px solid #f2783c;
+    }
+  }
+}

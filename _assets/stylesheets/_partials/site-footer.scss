@@ -1,0 +1,25 @@
+// Use this file to style the site's footer
+
+footer#site-footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 110px;
+  width: 100%;
+
+  background-color: #333333;
+  color: white;
+
+  a {
+    color: white;
+  }
+
+  p {
+    padding-top: 10px;
+    margin: 0;
+  }
+
+  @media print {
+    display: none;
+  }
+}

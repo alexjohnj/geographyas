@@ -1,3 +1,6 @@
+// Use this file to style the site's home page menu
+// Don't use it to style the site's home page in general
+
 ul#segmented-control {
   text-align: center;
   padding: 0;
@@ -53,6 +56,10 @@ section.unit-section {
 
   h1 {
     text-transform: capitalize;
+  }
+
+  li {
+    padding: 5px 0;
   }
 }
 

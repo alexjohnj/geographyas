@@ -1,0 +1,30 @@
+form#error-page-search {
+  margin: 0 auto;
+  width: 95%;
+
+  input#error-page-search-box {
+    height: 120px;
+    width: 100%;
+    padding: 5px;
+
+    font-size: 3em;
+
+    -webkit-appearance: none;
+
+    border: 2px solid #262626;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+
+    outline: none;
+
+    -webkit-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -moz-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    -o-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+    transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+
+    &:focus {
+      border: 2px solid #f2783c;
+    }
+  }
+}

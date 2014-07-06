@@ -1,25 +1,5 @@
-body {
-  font-size: 100%;
-  font-family: "Lato", "Helvetica Neue", "Arial", sans-serif;
-  font-weight: normal;
-  line-height: 1.5;
-  color: #333333;
-  font-size-adjust: 0.5;
-
-  @media print {
-    color: #000000;
-    font-size: 87.5%;
-  }
-}
-
-::selection {
-  background-color: #f2783c;
-}
-
-::-moz-selection {
-  background-color: #f2783c;
-}
-
+// Use this file to style any base typographic elements such as <h1> or <a> elements.
+// If the element is a child of another section of the site, style it in that section's file rather than in here.
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
@@ -83,43 +63,6 @@ h4 {
   }
 }
 
-header#site-header {
-  h1 {
-    font-size: 2em;
-    font-weight: 300;
-    margin: 0.1em 0;
-    @media handheld, only screen and (max-width: 320px) {
-      font-size: 1.5em;
-    }
-  }
-}
-
-nav#site-navigation {
-  font-weight: 300;
-}
-
-header#article-header {
-  h1 {
-    font-weight: 300;
-    font-size: 3em;
-    margin: 0.2em 0;
-
-    @media handheld, only screen and (max-width: 560px) {
-      font-size: 2em;
-    }
-    @media handheld, only screen and (max-width: 320px) {
-      font-size: 1.7em;
-    }
-  }
-
-  h2 {
-    font-weight: 300;
-    font-size: 1.3em;
-    font-style: italic;
-    margin: 0;
-  }
-}
-
 a {
   color: #f38955;
   text-decoration: none;
@@ -162,15 +105,6 @@ a {
     &[rel]:after, &[rev]:after {
       content: none; // Stops link content from showing after footnote
     }
-  }
-}
-
-table {
-  color: white;
-
-  th {
-    font-weight: 300;
-    font-size: 1.4em;
   }
 }
 

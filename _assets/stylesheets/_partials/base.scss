@@ -1,0 +1,155 @@
+// Use this file for styling base block elements as well as the <html> and <body> elements
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 110px;
+
+  font-family: "Lato", "Helvetica Neue", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-size-adjust: 0.5;
+  
+  line-height: 1.5;
+
+  color: #333333;
+
+  @media print {
+    color: #000000;
+    font-size: 87.5%;
+  }
+}
+
+.content-margin-wrap {
+  width: 92%;
+  max-width: 1140px;
+  position: relative;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+::selection {
+  background-color: #f2783c;
+}
+
+::-moz-selection {
+  background-color: #f2783c;
+}
+
+// Block Element Styles
+
+img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+
+  &.no-shadow {
+    box-shadow: none;
+  }
+}
+
+figcaption {
+  margin: 10px auto;
+
+  color: #443e3a;
+  font-size: 0.875em;
+  text-align: center;
+  font-style: italic;
+
+  @media print {
+    color: #000;
+  }
+}
+
+dl {
+  &::before {
+    content: "Definitions:";
+    font-weight: 300;
+    font-size: 1.5em;
+  }
+
+  background-color: #262626;
+  color: white;
+  padding: 15px;
+  
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+
+  a {
+    color: white;
+  }
+
+  dt {
+    font-style: italic;
+    &:first-child {
+      padding-top: 10px;
+    }
+  }
+
+  dd {
+    padding-bottom: 10px;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  @media print {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+    a {
+      color: #000;
+    }
+  }
+}
+
+blockquote {
+  border-left: 10px solid #262626;
+  background-color: #333333;
+  color: white;
+  margin: 1.5em 10px;
+  padding: .5em 10px;
+
+  @media print {
+    background-color: #fff;
+    color: #000;
+    border-left: 2px solid #000;
+  }
+}
+
+hr {
+  height: 2px;
+  background-color: #262626;
+  border: none;
+}
+
+table {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+
+  thead {
+    border-bottom: 1px solid #f2783c;
+  }
+
+  th {
+    background-color: #262626;
+    padding: 10px 10px;
+    font-weight: 300;
+    font-size: 1.4em;
+  }
+
+  tbody {
+    background-color: #333333;
+  }
+
+  td {
+    padding: 10px 10px;
+    border-bottom: 1px solid #f2783c;
+  }
+}
