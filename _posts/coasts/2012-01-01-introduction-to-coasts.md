@@ -7,10 +7,10 @@ category: coasts
 A coast is a narrow strip of land where the sea meets the land. Coasts are divided into zones depending on what the conditions are like on different sections of a coast.
 
 <figure>
-<img src="/images/coasts/1introduction/coastOutlineDiagram.svg" alt="A diagram of the coastal zones">
-<figcaption>
-The zones of a coast.
-</figcaption>
+    <img src="{{ site.baseurl }}/images/coasts/01-introduction-to-coasts/coastal-zones-diagram.svg" alt="A diagram of the coastal zones">
+    <figcaption>
+        The zones of a coast.
+    </figcaption>
 </figure>
 
 - *Backshore* - This is the area between the high water mark and the landward limit of marine activity.
