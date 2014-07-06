@@ -41,7 +41,7 @@ If you looked down on a coastline from above and saw the geology of the area, yo
 _Concordant_ coasts have alternating layers of hard and soft rock that run parallel to the coast. The hard rock acts as a protective barrier to the softer rock behind it preventing erosion. If the hard rock is breached though, the softer rock is exposed and a cove can form (e.g., Lulworth Cove).
 
 <figure>
-    <img src="/images/coasts/5coastalErosion/concordant-coast-diaram.svg" />
+    <img src="{{ site.baseurl }}/images/coasts/05-coastal-erosion/concordant-coast-diaram.svg" />
     <figcaption>
         <p>A concordant coastline. The hard rock shields the soft rock from erosion.</p>
     </figcaption>
@@ -50,7 +50,7 @@ _Concordant_ coasts have alternating layers of hard and soft rock that run paral
 On a _discordant_ coastline, alternating layers of hard and soft rock are perpendicular to the coast. Because the soft rock is exposed, it is eroded faster than the hard rock. This differential erosion creates headlands and bays along discordant coastlines.
 
 <figure>
-    <img src="/images/coasts/5coastalErosion/discordant-coast-diagram.svg" />
+    <img src="{{ site.baseurl }}/images/coasts/05-coastal-erosion/discordant-coast-diagram.svg" />
     <figcaption>
         <p>A discordant coastline. The soft rock is less resistant than the hard rock so it is eroded faster.</p>
     </figcaption>
@@ -65,21 +65,21 @@ Horizontal beds produce steep cliffs with notches where differential erosion has
 [mass-movement-link]: /coasts/sub-aerial-processes/#Mass.Movement
 
 <figure>
-    <img src="/images/coasts/5coastalErosion/horizontal-bedding-layers.svg" />
+    <img src="{{ site.baseurl }}/images/coasts/05-coastal-erosion/horizontal-bedding-layers.svg" />
     <figcaption>
         <p>An idealised horizontally bedded cliff. Its profile is steep but the softer (lighter in colour) rock has undergone differential erosion producing several notches.</p>
     </figcaption>
 </figure>
 
 <figure>
-    <img src="/images/coasts/5coastalErosion/seaward-bedding-layers.svg" />
+    <img src="{{ site.baseurl }}/images/coasts/05-coastal-erosion/seaward-bedding-layers.svg" />
     <figcaption>
         <p>A cliff with seaward dipping bedding planes. Loose material can slide down the bedding planes making the cliff unstable & dangerous.</p>
     </figcaption>
 </figure>
 
 <figure>
-    <img src="/images/coasts/5coastalErosion/landward-bedding-layers.svg" />
+    <img src="{{ site.baseurl }}/images/coasts/05-coastal-erosion/landward-bedding-layers.svg" />
     <figcaption>
         <p>A cliff with landward dipping bedding planes. Compared to cliffs with seaward dipping bedding planes, it is relatively steep and stable.</p>
     </figcaption>
