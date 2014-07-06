@@ -10,7 +10,7 @@ permalink:   /:categories/:title/
 
 safe:        false
 port: 4000
-baseurl:    /
+baseurl:    ""
 
 source:      .
 destination: ./_site
