@@ -24,9 +24,9 @@ Basins with steep slopes will have a high peak discharge and a short lag time be
 
 ### Soil & Rock Type
 
-If a river is surrounded by impermeable rocks, it’s going to have a high peak discharge and a short lag time because the rocks won’t let water percolate forcing it to travel via overland flow which is faster than groundflow, interflow and throughflow. In addition, the rocks won’t be able to store any water if they’re impermeable so the peak discharge is increased as more water will be entering the river rather than being stored in the drainage basin. 
+If a river is surrounded by non-porous and impermeable rocks (e.g., mudstone) it's going to have a high peak discharge and a short lag time. Impermeable rocks won't let water percolate through them, forcing the water to travel via overland flow. This is much faster than groundflow, interflow and throughflow so the lag time is reduced. Furthermore, non-porous rocks can't store water so the peak discharge of a river is increased as more water enters the river rather than being stored in the drainage basin.
 
-The ability for the soil to let water infiltrate has a similar effect to the type of rocks in a basin. Fine soil that allows water to infiltrate will reduce a river’s peak discharge and increase the lag time because the water is either stored in the soil or travels slowly as throughflow. Clay soils don’t allow water to infiltrate easily so most of it travels quickly as overland flow which will reduce the lag time.
+The soil's ability to let water infiltrate has a similar effect to the dominant rock type in a drainage basin. Unconsolidated soils allow water to infiltrate and so act as a store in a drainage basin. In addition, water travels slowly through soil via throughflow. This reduces the peak discharge while increasing the lag time of a river. On the other hand, extremely fine clay soils don't allow water to infiltrate. As a result, water travels quickly as overland flow, reducing the lag time of a river.
 
 ### Weather & Climate
 
