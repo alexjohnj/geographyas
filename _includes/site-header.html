@@ -20,7 +20,11 @@
     <nav id="category-navigation">
      <ul>
         {% for category in site.categories %}
-       <a href="{{ site.baseurl }}/{{ category[0] }}/"><li>{{ category[0] | join "/"  | replace: "-", " " | titlecase }}</li></a>
+        {% if page.categories[0] == category[0] %}
+        <a href="{{ site.baseurl }}/{{ category[0] }}/"><li class="selected-category">{{ category[0] | join "/"  | replace: "-", " " | titlecase }}</li></a>
+        {% else %}
+        <a href="{{ site.baseurl }}/{{ category[0] }}/"><li>{{ category[0] | join "/"  | replace: "-", " " | titlecase }}</li></a>
+        {% endif %}
         {% endfor %}
       </ul>
     </nav>
