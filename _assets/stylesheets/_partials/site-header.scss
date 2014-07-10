@@ -151,6 +151,13 @@ nav#category-navigation {
       background-color: #f2783c;
     }
   }
+
+  .content-margin-wrap {
+    @media handheld, only screen and (max-width: 480px) {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
 }
 
 li.selected-category {
