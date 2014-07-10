@@ -109,3 +109,46 @@ form#site-wide-search {
     }
   }
 }
+
+nav#category-navigation {
+  clear: both;
+  width: 100%;
+  color: white;
+  text-align: center;
+
+  & > p {
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  a, a:hover {
+    color: white;
+    border-bottom: none;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    display: inline-block;
+    width: 100%;
+    min-width: 44px;
+    max-width: 220px;
+
+    min-height: 44px;
+    
+    text-align: center;
+
+    padding: 5px 0;
+
+    &:hover {
+      background-color: #f2783c;
+    }
+  }
+}
+
+div.menu-tab.selected {
+}
