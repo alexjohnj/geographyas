@@ -134,15 +134,18 @@ nav#category-navigation {
 
   li {
     display: inline-block;
-    width: 100%;
-    min-width: 44px;
-    max-width: 220px;
+    width: 24.5%;
 
     min-height: 44px;
+    line-height: 44px; // Hack to align text vertically. Here's hoping the text doesn't span more than 2 lines!
     
     text-align: center;
 
     padding: 5px 0;
+
+    @media handheld, only screen and (max-width: 480px) {
+      width: 100%;
+    }
 
     &:hover {
       background-color: #f2783c;
