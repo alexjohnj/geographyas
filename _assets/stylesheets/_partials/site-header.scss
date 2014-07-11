@@ -65,6 +65,7 @@ header#site-header {
 
 // For the most part, this is all taken from Bootstrap
 button#header-toggle {
+  display: none;
   position: relative;
   float: right;
   padding: 0;
@@ -75,8 +76,8 @@ button#header-toggle {
   background-image: none;
   border: none;
 
-  @media handheld, only screen and (min-width: 481px) {
-    display: none;
+  @media handheld, only screen and (max-width: 480px) {
+    display: block;
   }
 
   @media handheld, only screen and (max-width: 320px) {
