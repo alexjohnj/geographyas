@@ -1,42 +1,56 @@
 #= require vendor/buoy
-#= require cs-scroll
 
 # This method determines if an element is in the browser's viewport along the y-axis. 
 # It doesn't determine if the elemen tis in the browser's viewport along the x-axis.
 # It also doesn't work with IE 8
-window.elementIsOnScreen = (element) ->
+elementIsOnScreen = (element) ->
   viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
   correctedElementOffset = element.getBoundingClientRect().top - window.pageYOffset
   return !(correctedElementOffset > viewportHeight || correctedElementOffset < 0)
 
-window.segmentControlClicked = (e) ->
+segmentControlClicked = (e) ->
+  if e.preventDefault
+    e.preventDefault()
+  else
+    e.returnValue = false
+  
   unitSections = document.querySelectorAll '.unit-section'
-  segments = document.querySelectorAll 'li.segment'
+  unitLinkSegments = document.querySelectorAll 'li.unit-segment'
   selectedSegment = e.target ? e.srcElement # Fallback for IE8
   selectedUnitSection = document.querySelector "##{selectedSegment.id}-box"
 
   # Remove styling from previous selection
-  for segment in segments
-    segment.classList.remove 'selected'
+  for segment in unitLinkSegments
+    segment.classList.remove 'selected-category'
 
   for unitSection in unitSections
     unitSection.classList.add 'disabled'
 
   # Apply styling to new selection
-  selectedSegment.classList.toggle 'selected'
+  selectedSegment.classList.toggle 'selected-category'
   selectedUnitSection.classList.toggle 'disabled'
 
-  # Scroll to the new section if its first topic isn't visible
-  if !elementIsOnScreen(selectedUnitSection.querySelector(".topic-list").firstElementChild)
-    topOffSet = segments[0].getBoundingClientRect().top
-    window.scrollTo document.body, topOffSet, 350, window.quintOut
+  # Close the hamburger menu if it's open
+  hamburger = document.querySelector('div.collapsible')
+  if hamburger.classList.contains('expanded')
+    hamburger.classList.toggle('expanded')
+    hamburger.classList.toggle('collapsed')
 
-window.menuInitialisation = ->
-  segmentControls = document.querySelectorAll 'li.segment'
-  for element in segmentControls
+  # Get rid of the menu instructions if they're still around
+  document.getElementById("menu-instructions").style.display = "none"
+
+menuInitialisation = ->
+  unitControls = document.querySelectorAll 'li.unit-segment'
+  for element in unitControls
     if element.addEventListener
-      element.addEventListener 'click', window.segmentControlClicked
+      element.addEventListener 'click', segmentControlClicked
     else
-      element.attachEvent 'onclick', window.segmentControlClicked, false
+      element.attachEvent 'click', segmentControlClicked, false
 
-window.menuInitialisation()
+  # Determine if the hamburger menu is collapsed and if so, expand it
+  hamburger = document.querySelector('div.collapsible')
+  if hamburger.classList.contains('collapsed')
+    hamburger.classList.toggle('collapsed')
+    hamburger.classList.toggle('expanded')
+
+menuInitialisation()

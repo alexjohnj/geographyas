@@ -1,21 +1,32 @@
 <header id="site-header">
   <div class="content-margin-wrap">
     <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
-    <nav id="site-navigation">
-      <ul>
-        <li><a href="{{ site.baseurl }}/pages/about/">About</a></li>
-        <li><a href="{{ site.baseurl }}/pages/contributing/">Contributing</a></li>
-        <li><a href="{{ site.baseurl }}/pages/case-studies/">Case Studies</a></li>
-      </ul>
-      <form method="get" id="site-wide-search" action="https://duckduckgo.com">
-        <input type="hidden" name="sites" value="geographyas.info">
-        <input type="hidden" name="ka" value="h">
-        <input type="hidden" name="kj" value="#333333">
-        <input type="hidden" name="kx" value="#f2783c">
-        <input type="hidden" name="k9" value="#f2783c">
-        <input type="hidden" name="kaa" value="#f2783c">
-        <input id="site-wide-search-box" type="search" name="q" maxlength="255" placeholder="Search">
-      </form>
-    </nav>
+    <button id="header-toggle">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+  <div class="collapsible collapsed">
+    <div class="content-margin-wrap">
+      <nav id="site-navigation">
+        <ul>
+          <li><a href="{{ site.baseurl }}/pages/about/">About</a></li>
+          <li><a href="{{ site.baseurl }}/pages/contributing/">Contributing</a></li>
+          <li><a href="{{ site.baseurl }}/pages/case-studies/">Case Studies</a></li>
+        </ul>
+        <form method="get" id="site-wide-search" action="https://duckduckgo.com">
+          <input type="hidden" name="sites" value="geographyas.info">
+          <input type="hidden" name="ka" value="h">
+          <input type="hidden" name="kj" value="#333333">
+          <input type="hidden" name="kx" value="#f2783c">
+          <input type="hidden" name="k9" value="#f2783c">
+          <input type="hidden" name="kaa" value="#f2783c">
+          <input id="site-wide-search-box" type="search" name="q" maxlength="255" placeholder="Search">
+        </form>
+      </nav>
+    <!--This MUST all be on one line with no spaces to stop extra spacing appearing between categories-->
+    </div>
+    <nav id="category-navigation"><div class="content-margin-wrap"><ul>{% for category in site.categories %}{% if page.categories[0] == category[0] %}<a href="{{ site.baseurl }}/{{ category[0] }}/"><li id="{{ category[0] }}-segment" class="unit-segment selected-category">{{ category[0] | join "/"  | replace: "-", " " | titlecase }}</li></a>{% else %}<a href="{{ site.baseurl }}/{{ category[0] }}/"><li id="{{ category[0] }}-segment" class="unit-segment">{{ category[0] | join "/"  | replace: "-", " " | titlecase }}</li></a>{% endif %}{% endfor %}</ul></div></nav>
   </div>
 </header>

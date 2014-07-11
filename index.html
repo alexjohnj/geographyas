@@ -7,19 +7,14 @@ script: home-page-menu
 	<!--[if lte IE 8]>
 		<p><strong>You're using a very old web browser. Some things might not work on this website as a result. You should update to a newer version of Internet Explorer or use a different browser.</strong></p>
 	<![endif]-->
+	<div id="menu-instructions" style="text-align:center;font-size:1.5em;">
+		<p>&uarr; Select a unit &uarr;</p>
+	</div>
+
 	<div class="warning-box">
 		<noscript>Ack! You haven't got JavasSript enabled. I'd recommend enabling it to get the best experience using this website but I've tried to adapt the site to you anyway. <small>(I'm so kind)</small></noscript>
 	</div>
-
-	<p>Select a unit to see the available topics.</p>
-	<div id="controls">
-		<ul id="segmented-control">
-			{% for category in site.categories %}
-			<li id="{{ category[0] }}-segment" class="segment">{{ category[0] | join "/"  | replace: "-", " " | titlecase }}</li>
-			{% endfor %}
-		</ul>
-	</div>
-
+	
 	{% for category in site.categories %} 
 	<section id="{{ category[0] }}-segment-box" class="unit-section disabled">
 	    <h1 id="{{ category[0] }}-topic">{{ category[0] | join: "/" |  replace:"-", " " | titlecase }} <a href="{{ site.baseurl }}/{{ category[0] }}/">&infin;</a></h1>

@@ -81,6 +81,7 @@ module Jekyll
         # Read the YAML data from the layout page.
         self.read_yaml(template_dir, template)
         self.data['category']    = category
+        self.data['categories'] = [category]
         # Set the title for this page.
         title_prefix             = site.config['category_title_prefix'] || 'Category: '
         category_formatted = category.sub('-', ' ').split(' ').map {|w| w.capitalize}.join(' ')
