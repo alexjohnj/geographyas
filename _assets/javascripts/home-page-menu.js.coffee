@@ -36,6 +36,9 @@ segmentControlClicked = (e) ->
     hamburger.classList.toggle('expanded')
     hamburger.classList.toggle('collapsed')
 
+  # Get rid of the menu instructions if they're still around
+  document.getElementById("menu-instructions").style.display = "none"
+
 menuInitialisation = ->
   unitControls = document.querySelectorAll 'li.unit-segment'
   for element in unitControls
