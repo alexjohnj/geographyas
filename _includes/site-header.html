@@ -7,7 +7,7 @@
       <span class="icon-bar"></span>
     </button>
   </div>
-  <div class="collapsible">
+  <div class="collapsible collapsed">
     <div class="content-margin-wrap">
       <nav id="site-navigation">
         <ul>
@@ -27,6 +27,6 @@
       </nav>
     <!--This MUST all be on one line with no spaces to stop extra spacing appearing between categories-->
     </div>
-    <nav id="category-navigation"><div class="content-margin-wrap"><ul>{% for category in site.categories %}{% if page.categories[0] == category[0] %}<a href="{{ site.baseurl }}/{{ category[0] }}/"><li class="selected-category">{{ category[0] | join "/"  | replace: "-", " " | titlecase }}</li></a>{% else %}<a href="{{ site.baseurl }}/{{ category[0] }}/"><li>{{ category[0] | join "/"  | replace: "-", " " | titlecase }}</li></a>{% endif %}{% endfor %}</ul></div></nav>
+    <nav id="category-navigation"><div class="content-margin-wrap"><ul>{% for category in site.categories %}{% if page.categories[0] == category[0] %}<a href="{{ site.baseurl }}/{{ category[0] }}/"><li id="{{ category[0] }}-segment" class="unit-segment selected-category">{{ category[0] | join "/"  | replace: "-", " " | titlecase }}</li></a>{% else %}<a href="{{ site.baseurl }}/{{ category[0] }}/"><li id="{{ category[0] }}-segment" class="unit-segment">{{ category[0] | join "/"  | replace: "-", " " | titlecase }}</li></a>{% endif %}{% endfor %}</ul></div></nav>
   </div>
 </header>

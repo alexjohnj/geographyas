@@ -1,14 +1,15 @@
-window.hamburgerClicked = -> 
+hamburgerClicked = -> 
   collapsibleSection = document.querySelector("div.collapsible")
+  collapsibleSection.classList.toggle 'expanded'
   collapsibleSection.classList.toggle 'collapsed'
 
 
-window.hamburgerInit = -> 
+hamburgerInit = -> 
   hamburgerButton = document.getElementById("header-toggle")
 
   if hamburgerButton.addEventListener
-    hamburgerButton.addEventListener 'click', window.hamburgerClicked
+    hamburgerButton.addEventListener 'click', hamburgerClicked
   else
-    hamburgerButton.attachEvent 'onclick', window.hamburgerClicked, false
+    hamburgerButton.attachEvent 'onclick', hamburgerClicked, false
 
-window.hamburgerInit()
+hamburgerInit()
