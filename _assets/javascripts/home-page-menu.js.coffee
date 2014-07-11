@@ -1,5 +1,4 @@
 #= require vendor/buoy
-#= require cs-scroll
 
 # This method determines if an element is in the browser's viewport along the y-axis. 
 # It doesn't determine if the elemen tis in the browser's viewport along the x-axis.

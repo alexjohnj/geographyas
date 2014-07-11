@@ -12,10 +12,8 @@
 
     <!--SVGeezy JS https://github.com/benhowdle89/svgeezy-->
     <script>{% asset svgeezy-init %}</script>
-    <!--Footnote script-->
-    <script>{% asset footnote-scroller %}</script>
-    <!--Hamburger Menu Script-->
-    {% javascript hamburger %}
+    <!--Page utility scripts-->
+    {% javascript page-utils %}
     <!--Load any additional scripts the page needs (e.g., MathJax)-->
     {% if page.script %}
       {{ page.script | javascript }}
