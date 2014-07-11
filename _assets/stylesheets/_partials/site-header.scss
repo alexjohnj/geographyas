@@ -4,9 +4,11 @@ header#site-header {
   position: relative;
   width: 100%;
   overflow:hidden;
+  min-height: 50px;
 
   background-color: #333333;
   color: white;
+  z-index: 2;
 
   @media handheld, only screen and (max-width: 800px) {
     text-align: center;
@@ -14,6 +16,10 @@ header#site-header {
 
   .content-margin-wrap {
     padding: 0;
+
+    @media handheld, only screen and (max-width: 480px) {
+      overflow: hidden; // Ensures that the non-collapsed section has an explicit height, preventing overlapping
+    }
   }
 
   h1 {
@@ -23,13 +29,13 @@ header#site-header {
     font-size: 2em;
     font-weight: 300;
     margin: 0.1em 0;
+    z-index: 5;
 
     @media print, handheld, only screen and (max-width: 800px) {
       float: none;
     }
 
     @media handheld, only screen and (max-width: 480px) {
-      display: inline-block;
       float: left;
     }
 
@@ -58,12 +64,12 @@ header#site-header {
 }
 
 // For the most part, this is all taken from Bootstrap
-button.header-toggle {
+button#header-toggle {
   position: relative;
-  display: inline-block;
   float: right;
   padding: 0;
   margin: 24px 0 0 0;
+  z-index: 5;
 
   background-color: transparent;
   background-image: none;
@@ -95,9 +101,21 @@ button.header-toggle {
   }
 }
 
+div.collapsible {
+  @media handheld, only screen and (max-width: 481px) {
+    height: 0;
+  }
+  z-index: 4;
+}
+
+div.collapsible.collapsed {
+  height: auto;
+}
+
 nav#site-navigation {
   float: right;
   font-weight: 300;
+  z-index: 4;
 
   @media handheld, only screen and (max-width: 800px) {
     float: none;
@@ -158,6 +176,7 @@ nav#category-navigation {
   width: 100%;
   color: white;
   text-align: center;
+  z-index: 4;
 
   & > p {
     margin: 0;

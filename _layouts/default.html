@@ -14,6 +14,8 @@
     <script>{% asset svgeezy-init %}</script>
     <!--Footnote script-->
     <script>{% asset footnote-scroller %}</script>
+    <!--Hamburger Menu Script-->
+    {% javascript hamburger %}
     <!--Load any additional scripts the page needs (e.g., MathJax)-->
     {% if page.script %}
       {{ page.script | javascript }}
