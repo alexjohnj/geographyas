@@ -1,50 +1,7 @@
 // Use this file to style the site's home page menu
 // Don't use it to style the site's home page in general
 
-ul#segmented-control {
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
-
-li.segment {
-  display: inline-block;
-  min-width: 130px;
-  padding: 5px;
-  margin: 10px;
-
-  border: 2px solid #f2783c;
-  border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-
-  list-style: none;
-
-  cursor: pointer;
-
-  // Generated from http://matthewlein.com/ceaser/
-  transition: all 150ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
-  -webkit-transition: all 150ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-  -moz-transition: all 150ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-  -o-transition: all 150ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-
-  &:hover {
-    color: white;
-    background-color: #404040;
-  }
-
-  &.selected {
-    background-color: #232323;
-    color: white;
-
-    &:hover {
-      background-color: #232323;
-    }
-  }
-}
-
 section.unit-section {
-  visibility: visible;
   display: block;
 
   animation: fadeIn 250ms ease;
@@ -59,7 +16,6 @@ section.unit-section {
 }
 
 section.unit-section.disabled {
-  visibility: hidden;
   display: none;
   
   animation: fadeOut 250ms ease;
