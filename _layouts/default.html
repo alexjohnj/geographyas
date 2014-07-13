@@ -6,18 +6,18 @@
 
     <div id="content">
           {{ content }}
-    </div><!-- end content -->
+    </div>
 
     {% include site-footer.html %}
 
-    <!--SVGeezy JS https://github.com/benhowdle89/svgeezy-->
-    <script>{% asset svgeezy-init %}</script>
     <!--Page utility scripts-->
     {% javascript page-utils %}
-    <!--Load any additional scripts the page needs (e.g., MathJax)-->
+
     {% if page.script %}
-      {{ page.script | javascript }}
+    <!--Page specific scripts-->
+    {{ page.script | javascript }}
     {% endif %}
+
     {% if page.math %}
     <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     {% endif %}
