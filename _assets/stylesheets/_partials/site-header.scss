@@ -233,6 +233,10 @@ nav#category-navigation {
       width: 100%;
     }
   }
+
+  @media print {
+    display: none;
+  }
 }
 
 li.selected-category {
