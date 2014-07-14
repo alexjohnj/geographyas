@@ -39,6 +39,32 @@ body {
   background-color: #f2783c;
 }
 
+.crappy-browser-warning-box {
+  font-size: 1.2em;
+  background-color: #e49087;
+
+  padding: 10px 20px;
+  border-left: 15px solid #c0392b;
+  border-right: 15px solid #c0392b;
+  margin: 20px 0;
+
+  overflow: auto;
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: #6c52c9;
+    border-color: #6c52c9;
+
+    &:hover {
+      color: #5237b1;
+      border-color: #5237b1;
+    }
+  }
+}
+
 // Block Element Styles
 
 img {
