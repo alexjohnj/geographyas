@@ -1,0 +1,17 @@
+---
+---
+
+/* TEAM */
+
+Author: Alex Jackson
+Website: http://alexj.org
+Twitter: @alexjohnj
+GitHub: alexjohnj
+Location: United Kingdom
+
+/* SITE */
+
+Last updated: {{ site.time }}
+Standards: HTML5, CSS3
+Components: SVGeezy, Normalize.css, classList.js, HTML5Shiv
+Software: Sublime Text, Marked, CoffeeScript, SASS, Jekyll, Sketch, ImageOptim, OS X
