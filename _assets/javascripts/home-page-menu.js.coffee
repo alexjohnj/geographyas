@@ -1,12 +1,15 @@
 #= require vendor/classList
 
-# This method determines if an element is in the browser's viewport along the y-axis. 
-# It doesn't determine if the elemen tis in the browser's viewport along the x-axis.
+# This method determines if an element is in the browser's viewport along the
+# y-axis.
+# It doesn't determine if the element is in the browser's viewport along the
+# x-axis.
 # It also doesn't work with IE 8
 elementIsOnScreen = (element) ->
-  viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
-  correctedElementOffset = element.getBoundingClientRect().top - window.pageYOffset
-  return !(correctedElementOffset > viewportHeight || correctedElementOffset < 0)
+  viewportHeight = Math.max(document.documentElement.clientHeight,
+                            window.innerHeight || 0)
+  correctedOffset = element.getBoundingClientRect().top - window.pageYOffset
+  return !(correctedOffset > viewportHeight || correctedOffset < 0)
 
 segmentControlClicked = (e) ->
   if e.preventDefault
