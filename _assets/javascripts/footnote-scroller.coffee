@@ -1,6 +1,6 @@
 #= require csscroll
 
-window.footnoteClicked = (e) ->
+footnoteClicked = (e) ->
   if e.preventDefault
     e.preventDefault()
   else
@@ -23,12 +23,12 @@ window.footnoteClicked = (e) ->
   topOffSet = matchedFootnote.getBoundingClientRect().top
   CSScroll.scrollElement(document.body, topOffSet, CSScroll.animation.expoInOut, 1000)
 
-window.footnoteInitialisation = ->
+footnoteInit = ->
   footnoteLinks = document.querySelectorAll 'a[rel], a[rev]'
   for element in footnoteLinks
     if element.addEventListener
-      element.addEventListener 'click', window.footnoteClicked
+      element.addEventListener 'click', footnoteClicked
     else
-      element.attachEvent 'onclick', window.footnoteClicked, false
+      element.attachEvent 'onclick', footnoteClicked, false
 
-window.footnoteInitialisation()
+footnoteInit()
