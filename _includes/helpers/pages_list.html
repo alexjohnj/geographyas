@@ -26,9 +26,9 @@ Usage:
   {% assign post_number = forloop.index %}
   
   	{% if page.url == node.url %}
-  	<li><a href="{{node.url}}">{{node.title}}</a></li>
+  	<li><a href="{{node.url}}">{{ node.title | xml_escape}}</a></li>
   	{% else %}
-  	<li><a href="{{node.url}}">{{node.title}}</a></li>
+  	<li><a href="{{node.url}}">{{ node.title | xml_escape }}</a></li>
   	{% endif %}
  
   {% endif %}
