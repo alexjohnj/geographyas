@@ -5,10 +5,10 @@ layout: default
 <section>
 	<div class="content-margin-wrap">
     {% include crappy-browser-warning.html %}
-		<h1>{{ page.title }}</h1>
+		<h1>{{ page.title | xml_escape }}</h1>
 		<ol class="topic-list">
 			{% for post in site.categories[page.category] reversed %}
-			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+			<li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | xml_escape }}</a></li>
 			{% endfor %}
 		</ol>
 	</div>
