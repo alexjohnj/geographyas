@@ -193,6 +193,10 @@ nav#category-navigation {
   }
   
   a, a:hover {
+    display: block;
+    height: 100%;
+    width: 100%;
+
     color: white;
     border-bottom: none;
   }

@@ -19,7 +19,7 @@ segmentControlClicked = (e) ->
   
   unitSections = document.querySelectorAll '.unit-section'
   unitLinkSegments = document.querySelectorAll 'li.unit-segment'
-  selectedSegment = e.target ? e.srcElement # Fallback for IE8
+  selectedSegment = e.target.parentNode ? e.srcElement.parentNode # Fallback for IE8
   selectedUnitSection = document.querySelector "##{selectedSegment.id}-box"
 
   # Remove styling from previous selection
@@ -43,7 +43,7 @@ segmentControlClicked = (e) ->
   document.getElementById("menu-instructions").style.display = "none"
 
 menuInitialisation = ->
-  unitControls = document.querySelectorAll 'li.unit-segment'
+  unitControls = document.querySelectorAll 'li.unit-segment a'
   for element in unitControls
     if element.addEventListener
       element.addEventListener 'click', segmentControlClicked
