@@ -4,6 +4,7 @@ header#site-header {
   position: relative;
   width: 100%;
   min-height: 50px;
+  overflow: hidden;
 
   background-color: #333333;
   color: white;
@@ -11,6 +12,10 @@ header#site-header {
 
   @media handheld, only screen and (max-width: 800px) {
     text-align: center;
+  }
+
+  @media handheld, only screen and (max-width: 480px) {
+    overflow: visible;
   }
 
   .content-margin-wrap {
