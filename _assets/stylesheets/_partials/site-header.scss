@@ -85,6 +85,8 @@ header#site-header {
 
 // For the most part, this is all taken from Bootstrap
 button#header-toggle {
+  width: 44px;
+  height: 44px;
   position: relative;
   display: none;
   float: right;
@@ -110,6 +112,7 @@ button#header-toggle {
     display: block;
     width: 22px;
     height: 2px;
+    margin: auto;
 
     background-color: #f2783c;
     border-radius: 1px;
