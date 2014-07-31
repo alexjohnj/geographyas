@@ -1,4 +1,5 @@
 // Use this file to style the site's header bar
+// TODO: Organise this file, it's a mess
 
 header#site-header {
   position: relative;
@@ -28,6 +29,7 @@ header#site-header {
 
   h1 {
     display: block;
+    position: relative;
     float: left;
 
     font-size: 2em;
@@ -41,9 +43,15 @@ header#site-header {
 
     @media handheld, only screen and (max-width: 480px) {
       float: left;
+      margin: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
     }
 
-    @media handheld, only screen and (max-width: 320px) {
+    @media handheld, only screen and (max-width: 380px) {
       font-size: 1.5em;
     }
 
@@ -67,14 +75,28 @@ header#site-header {
   }
 }
 
+.uncollapsible-header {
+  @extend .content-margin-wrap;
+  
+  @media handheld, only screen and (max-width: 480px) {
+    height: 3.125em; // Explicit height is needed to vertically align the contents of the header
+  }
+}
+
 // For the most part, this is all taken from Bootstrap
 button#header-toggle {
-  display: none;
   position: relative;
+  display: none;
   float: right;
   padding: 0;
-  margin: 24px 0 0 0;
+  margin: 0;
   z-index: 5;
+
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
 
   background-color: transparent;
   background-image: none;
@@ -82,10 +104,6 @@ button#header-toggle {
 
   @media handheld, only screen and (max-width: 480px) {
     display: block;
-  }
-
-  @media handheld, only screen and (max-width: 320px) {
-    margin-top: 13px;
   }
 
   span.icon-bar {
