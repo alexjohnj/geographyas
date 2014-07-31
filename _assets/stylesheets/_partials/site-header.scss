@@ -140,8 +140,12 @@ div.collapsible {
   -o-transition: 300ms cubic-bezier(0.190, 1.000, 0.220, 1.000);; 
   transition: 300ms cubic-bezier(0.190, 1.000, 0.220, 1.000);;  /* in-out-quartic */
 
-  @media handheld, only screen and (max-width: 481px) {
+  @media handheld, only screen and (max-width: 480px) {
     position: absolute;
+
+    box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 2px 1px 1px rgba(0,0,0,0.5);
 
     &.collapsed {
       transform: scaleY(0);
