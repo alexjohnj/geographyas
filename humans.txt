@@ -9,6 +9,10 @@ Twitter: @alexjohnj
 GitHub: alexjohnj
 Location: United Kingdom
 
+/* CONTRIBUTORS */
+
+Proofreader/Site Breaker/Tester: Callum Pryer
+
 /* SITE */
 
 Last updated: {{ site.time }}
