@@ -23,6 +23,11 @@
     {% javascript vendor/html5shiv %}
   <![endif]-->
 
+  <!--Disable the mobile instructions for IE 8-->
+  <!--[if lt IE 9]>
+    <style>#mobile-menu-instructions{display: none;}</style>
+  <![endif]-->
+
   <!--Google Analytics-->
   <script>{% asset ga.js %}</script>
 </head>

@@ -1,6 +1,29 @@
 // Use this file to style the site's home page menu
 // Don't use it to style the site's home page in general
 
+#menu-instructions {
+  font-size: 1.3em;
+  text-align: center;
+
+  @media handheld, only screen and (max-width: 480px) {
+    display: none;
+  }
+}
+
+#mobile-menu-instructions {
+  font-size: 1.2em;
+  background-color: #d05011;
+  padding: 1em 0;
+
+  @media handheld, only screen and (min-width: 480px) {
+    display: none;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
 section.unit-section {
   display: block;
 

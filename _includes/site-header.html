@@ -27,6 +27,11 @@
       </nav>
     <!--This MUST all be on one line with no spaces to stop extra spacing appearing between categories-->
     </div>
+    {% if page.homepage %}
+    <div id="mobile-menu-instructions">
+      <p>&darr; Select a unit &darr;</p>
+    </div>
+    {% endif %}
     <nav id="category-navigation"><div class="content-margin-wrap"><ul>{% for category in site.categories %}{% if page.categories[0] == category[0] %}<li id="{{ category[0] }}-segment" class="unit-segment selected-category"><a href="{{ site.baseurl }}/{{ category[0] }}/">{{ category[0] | join "/"  | replace: "-", " " | titlecase }}</a></li>{% else %}<li id="{{ category[0] }}-segment" class="unit-segment"><a href="{{ site.baseurl }}/{{ category[0] }}/">{{ category[0] | join "/"  | replace: "-", " " | titlecase }}</a></li>{% endif %}{% endfor %}</ul></div></nav>
   </div>
 </header>

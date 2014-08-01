@@ -41,6 +41,7 @@ segmentControlClicked = (e) ->
 
   # Get rid of the menu instructions if they're still around
   document.getElementById("menu-instructions").style.display = "none"
+  document.getElementById("mobile-menu-instructions").style.display = "none"
 
 menuInitialisation = ->
   unitControls = document.querySelectorAll 'li.unit-segment a'
