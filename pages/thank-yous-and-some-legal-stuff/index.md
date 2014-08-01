@@ -1,5 +1,5 @@
 ---
-title: Acknowledgements &amp; Legal Stuff
+title: Acknowledgements & Legal Stuff
 layout: page
 ---
 
