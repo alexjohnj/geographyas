@@ -1,0 +1,30 @@
+// Colours (from now on spelt colors) 
+$very-dark-gray-black: #262626; // Very dark gray (mostly black)
+$very-dark-gray: #333; // Very dark gray
+
+$bright-orange: #f2783c; // Bright Orange
+$dark-orange: #d05011; // Strong orange
+$soft-red: #e49087; // Very soft red
+
+// Site Layout
+$active-site-width: 92%;
+$max-site-width: 1140px;
+
+$site-footer-height: 110px;
+
+// Site Appearance
+$site-bg-color: $very-dark-gray; // Background color for site-wide elements e.g., site header, footer
+$article-bg-color: $very-dark-gray-black; // Background color for article wide elements e.g., article header, footer
+
+$text-highlight-color: $bright-orange;
+
+$warning-box-bg-color: $soft-red;
+
+// Font Appearance
+$font-stack: "Lato", "Helvetica Neue", "Arial", sans-serif;
+
+// Font Colours
+$body-font-color: #333333;
+$link-color: $bright-orange;
+$link-active-color: $dark-orange;
+$dark-bg-font-color: #ffffff;

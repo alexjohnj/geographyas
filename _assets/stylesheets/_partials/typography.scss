@@ -64,14 +64,14 @@ h4 {
 }
 
 a {
-  color: #f38955;
+  color: $link-color;
   text-decoration: none;
-  border-bottom: 2px solid #f38955;
+  border-bottom: 2px solid $link-color;
   padding-bottom: 1px;
 
   &:hover {
-    border-color: #d05011;
-    color: #d05011;
+    border-color: $link-active-color;
+    color: $link-active-color;
   }
 
   &::selection {

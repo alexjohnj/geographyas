@@ -2,17 +2,17 @@
 
 header#article-header {
   width: 100%;
-  background-color: #262626;
-  color: #ffffff;
+  background-color: $article-bg-color;
+  color: white;
   height: auto;
   text-align: center;
 
   padding: 15px 0;
 
   @media print {
-    background-color: #fff;
-    color: #000;
-    border-bottom: 1px solid #000;
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid black;
     padding-top: 0;
   }
 
@@ -48,7 +48,7 @@ header#article-header {
 }
 
 footer#article-footer {
-  background-color: #262626;
+  background-color: $article-bg-color;
   color: white;
   overflow: hidden;
   padding: 10px 0;
