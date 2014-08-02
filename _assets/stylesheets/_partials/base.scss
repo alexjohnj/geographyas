@@ -35,10 +35,6 @@ body {
   background-color: #f2783c;
 }
 
-::-moz-selection {
-  background-color: #f2783c;
-}
-
 .crappy-browser-warning-box {
   font-size: 1.2em;
   background-color: #e49087;
@@ -102,8 +98,6 @@ dl {
   padding: 15px;
   
   border-radius: 5px 5px 5px 5px;
-  -moz-border-radius: 5px 5px 5px 5px;
-  -webkit-border-radius: 5px 5px 5px 5px;
 
   a {
     color: white;

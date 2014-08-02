@@ -13,14 +13,9 @@ form#error-page-search {
 
     border: 2px solid #262626;
     border-radius: 2px;
-    -moz-border-radius: 2px;
-    -webkit-border-radius: 2px;
 
     outline: none;
 
-    -webkit-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
-    -moz-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
-    -o-transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
     transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
 
     &:focus {
