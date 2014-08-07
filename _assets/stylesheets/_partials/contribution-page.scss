@@ -2,26 +2,31 @@
 
 #colour-schemes-container {
   width: 100%;
+
   text-align: center;
 }
 
 .colour-container {
   display: inline-block;
-  text-align: center;
+
   margin: 10px;
+
+  text-align: center;
 
   p {
     margin: 10px 0;
+
     color: lighten($body-font-color, 5%);
   }
 }
 
 .colour-sample {
-  height: 70px;
-  width: 70px;
   margin: 0 auto;
 
   border-radius: 50%;
+
+  width: 70px;
+  height: 70px;
 
   &.earth {
     background-color: #855723;
@@ -32,19 +37,19 @@
   }
 
   &.grass {
-    background-color: #668D3C;
+    background-color: #668d3c;
   }
 
   &.deep-water {
-    background-color: #092B5A;
+    background-color: #092b5a;
   }
 
   &.shallow-water {
-    background-color: #09738A;
+    background-color: #09738a;
   }
 
   &.sand {
-    background-color: #C8A87A;
+    background-color: #c8a87a;
   }
 }
 
