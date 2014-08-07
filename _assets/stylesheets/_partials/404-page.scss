@@ -1,22 +1,22 @@
-form#error-page-search {
+#error-page-search {
   margin: 0 auto;
+
   width: 95%;
 
-  input#error-page-search-box {
-    height: 120px;
-    width: 100%;
-    padding: 5px;
-
-    font-size: 3em;
-
-    -webkit-appearance: none;
+  #error-page-search-box {
+    outline: none;
 
     border: 2px solid $site-bg-color;
     border-radius: 2px;
+    padding: 5px;
 
-    outline: none;
+    height: 120px;
+    width: 100%;
 
-    transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); /* linear */
+    font-size: 3em;
+
+    transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); // Linear
+    -webkit-appearance: none;
 
     &:focus {
       border: 2px solid $bright-orange;
