@@ -2,8 +2,9 @@
 // Don't use it to style the site's home page in general
 
 #menu-instructions {
-  font-size: 1.3em;
   text-align: center;
+
+  font-size: 1.3em;
 
   @media handheld, only screen and (max-width: 480px) {
     display: none;
@@ -11,9 +12,11 @@
 }
 
 #mobile-menu-instructions {
-  font-size: 1.2em;
   background-color: $dark-orange;
   padding: 1em 0;
+
+  font-size: 1.2em;
+
 
   @media handheld, only screen and (min-width: 480px) {
     display: none;
@@ -24,7 +27,7 @@
   }
 }
 
-section.unit-section {
+.unit-section {
   display: block;
 
   animation: fadeIn 250ms ease;
@@ -32,17 +35,18 @@ section.unit-section {
   li {
     padding: 5px 0;
   }
-}
 
-section.unit-section.disabled {
-  display: none;
-  
-  animation: fadeOut 250ms ease;
+  &.unit-section.disabled {
+    display: none;
+    
+    animation: fadeOut 250ms ease;
+  }
+
 }
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 @keyframes fadeOut {
