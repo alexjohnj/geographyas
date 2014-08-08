@@ -155,6 +155,9 @@ hr {
 table {
   margin: 0 auto;
   box-shadow: 0 0 5px $very-dark-gray-black;
+
+  border-collapse: separate; // Needed to make the box-shadow property work with IE >= 9
+
   text-align: center;
 
   @media print {
