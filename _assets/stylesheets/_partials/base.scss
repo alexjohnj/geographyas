@@ -154,27 +154,59 @@ hr {
 
 table {
   margin: 0 auto;
+  box-shadow: 0 0 5px $very-dark-gray-black;
   text-align: center;
-  color: #ffffff;
 
-  thead {
-    border-bottom: 1px solid $bright-orange;
+  @media print {
+    box-shadow: none;
+    border: 1px solid lighten($very-dark-gray, 30%);
   }
 
-  th {
+  thead {
+    box-shadow: 0 2px 2px lighten($very-dark-gray, 20%);
     background-color: $very-dark-gray-black;
-    padding: 10px;
 
-    font-size: 1.4em;
-    font-weight: 300;
+    @media print {
+      background-color: #ffffff;
+      border-bottom: 1px solid lighten($very-dark-gray, 30%);
+    }
+
+    th {
+      padding: 20px;
+
+      color: #ffffff;
+
+      font-size: 1.4em;
+      font-weight: 300;
+
+      @media print {
+        color: #000000;
+
+        font-weight: normal;
+      }
+    }
   }
 
   tbody {
-    background-color: $very-dark-gray;
-  }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
 
-  td {
-    border-bottom: 1px solid $bright-orange;
-    padding: 10px;
+    tr:nth-child(odd) {
+      background-color: #ffffff;
+    }
+
+    td {
+      border-right: 1px solid $bright-orange;
+      padding: 10px;
+
+      &:last-child {
+        border-right: 0;
+      }
+
+      @media print {
+        border-color: lighten($very-dark-gray, 30%);
+      }
+    }
   }
 }
