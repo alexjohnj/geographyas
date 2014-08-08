@@ -1,22 +1,26 @@
 // Use this file to style the site's footer
 
-footer#site-footer {
+#site-footer {
   position: absolute;
-  left: 0;
   bottom: 0;
-  height: $site-footer-height;
-  width: 100%;
+  left: 0;
 
   background-color: $site-bg-color;
-  color: white;
+
+  width: 100%;
+
+  height: $site-footer-height;
+
+  color: #ffffff;
 
   a {
-    color: #fff;
+    color: #ffffff;
   }
 
   p {
-    padding-top: 10px;
     margin: 0;
+
+    padding-top: 10px;
   }
 
   @media print {
