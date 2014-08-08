@@ -1,7 +1,12 @@
 // Use this file to style any base typographic elements such as <h1> or <a> elements.
 // If the element is a child of another section of the site, style it in that section's file rather than in here.
 
-h1, h2, h3, h4, h5, h6 {
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
   font-weight: bold;
   font-size-adjust: 0.5;
 }
@@ -10,53 +15,53 @@ h1, h2, h3, h4, h5, h6 {
 // http://typecast.com/blog/a-more-modern-scale-for-web-typography
 
 h1 {
-  font-size: 2em;
   line-height: 1.5;
+  font-size: 2em;
 
   @media (min-width: 43.75em) {
-    font-size: 2.5em;
     line-height: 1.5;
+    font-size: 2.5em;
   }
 
   @media (min-width: 56.25em) {
-    font-size: 3em;
     line-height: 1.5;
+    font-size: 3em;
   }
 }
 
 h2 {
-  font-size: 1.625em;
   line-height: 1.15384615; // maths
+  font-size: 1.625em;
 
   @media (min-width: 43.75em) {
-    font-size: 2em;
     line-height: 1.25;
+    font-size: 2em;
   }
 
   @media (min-width: 56.25em) {
-    font-size: 2.25em;
     line-height: 1.25;
+    font-size: 2.25em;
   }
 }
 
 h3 {
-  font-size: 1.375em;
   line-height: 1.13636364;
+  font-size: 1.375em;
 
   @media (min-width: 43.75em) {
-    font-size: 1.5em;
     line-height: 1.25;
+    font-size: 1.5em;
   }
   
   @media (min-width: 56.25em) {
-    font-size: 1.75em;
     line-height: 1.25;
+    font-size: 1.75em;
   }
 }
 
 h4 {
-  font-size: 1.125em;
   line-height: 1.11111111;
+  font-size: 1.125em;
 
   @media (min-width: 43.75em) {
     line-height: 1.22222222;
@@ -64,30 +69,27 @@ h4 {
 }
 
 a {
-  color: #f38955;
-  text-decoration: none;
-  border-bottom: 2px solid #f38955;
+  border-bottom: 2px solid $link-color;
   padding-bottom: 1px;
 
+  text-decoration: none;
+  color: $link-color;
+
   &:hover {
-    border-color: #d05011;
-    color: #d05011;
+    border-color: $link-active-color;
+    color: $link-active-color;
   }
 
   &::selection {
-    color: white;
-  }
-
-  &::moz-selection {
-    color:white;
+    color: #ffffff;
   }
 
   @media print {
-    color: #000000;
     border-color: #000000;
+    color: #000000;
 
     &:after { 
-      content:" [" attr(href) "] ";
+      content: " [" attr(href) "] ";
     }
 
     &[name] {
@@ -96,14 +98,15 @@ a {
 
     // Styling for footnote links
     &[rel] {
-      border-bottom: none; // Removes border on numbers
+      border-bottom: 0; // Removes border on numbers
     }
 
     &[rev] {
       display: none; // Stops the ↵ symbol showing up
     }
 
-    &[rel]:after, &[rev]:after {
+    &[rel]:after, 
+    &[rev]:after {
       content: none; // Stops link content from showing after footnote
     }
   }
@@ -111,9 +114,10 @@ a {
 
 ol.topic-list {
   margin-left: 0.83em;
+
   li {
+    margin: 0.83em 0;    
     font-size: 1.5em;
     font-weight: 300;
-    margin: 0.83em 0;
   }
 }

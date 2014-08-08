@@ -6,16 +6,16 @@ html {
 }
 
 body {
-  margin: 0 0 110px;
+  margin: 0 0 $site-footer-height;
 
-  font-family: "Lato", "Helvetica Neue", "Arial", sans-serif;
-  font-weight: normal;
-  font-size: 100%;
-  font-size-adjust: 0.5;
-  
   line-height: 1.5;
 
-  color: #333333;
+  color: $very-dark-gray;
+
+  font-family: "Lato", "Helvetica Neue", "Arial", sans-serif;
+  font-size: 100%;
+  font-weight: normal;
+  font-size-adjust: 0.5;
 
   @media print {
     color: #000000;
@@ -24,53 +24,50 @@ body {
 }
 
 .content-margin-wrap {
-  width: 92%;
-  max-width: 1140px;
   position: relative;
+
   margin: 0 auto;
   padding-bottom: 10px;
+
+  width: 92%;
+  max-width: 1140px;
 }
 
 ::selection {
   background-color: #f2783c;
 }
 
-::-moz-selection {
-  background-color: #f2783c;
-}
-
 .crappy-browser-warning-box {
-  font-size: 1.2em;
-  background-color: #e49087;
-
-  padding: 10px 20px;
-  border-left: 15px solid #c0392b;
-  border-right: 15px solid #c0392b;
   margin: 20px 0;
+  border-right: 15px solid #c0392b;
+  border-left: 15px solid #c0392b;
+  background-color: $soft-red;
+  padding: 10px 20px;
 
   overflow: auto;
+
+  font-size: 1.2em;
 
   p {
     margin: 0;
   }
 
   a {
-    color: #6c52c9;
     border-color: #6c52c9;
+    color: #6c52c9;
 
     &:hover {
-      color: #5237b1;
       border-color: #5237b1;
+      color: #5237b1;
     }
   }
 }
 
 // Block Element Styles
-
 img {
-  max-width: 100%;
   display: block;
   margin: 0 auto;
+  max-width: 100%;
 
   &.no-shadow {
     box-shadow: none;
@@ -80,37 +77,32 @@ img {
 figcaption {
   margin: 10px auto;
 
+  text-align: center;
   color: #443e3a;
   font-size: 0.875em;
-  text-align: center;
   font-style: italic;
 
   @media print {
-    color: #000;
+    color: #000000;
   }
 }
 
 dl {
-  &::before {
-    content: "Definitions:";
-    font-weight: 300;
-    font-size: 1.5em;
-  }
-
-  background-color: #262626;
-  color: white;
+  border-radius: 5px;
+  background-color: $very-dark-gray-black;
   padding: 15px;
-  
-  border-radius: 5px 5px 5px 5px;
-  -moz-border-radius: 5px 5px 5px 5px;
-  -webkit-border-radius: 5px 5px 5px 5px;
 
-  a {
-    color: white;
+  color: #ffffff;
+
+  &::before {
+    font-size: 1.5em;
+    font-weight: 300;
+    content: "Definitions:";
   }
 
   dt {
     font-style: italic;
+
     &:first-child {
       padding-top: 10px;
     }
@@ -124,58 +116,65 @@ dl {
     }
   }
 
+  a {
+    color: #ffffff;
+  }
+
   @media print {
-    background-color: #fff;
-    color: #000;
-    border: 2px solid #000;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
+
     a {
-      color: #000;
+      color: #000000;
     }
   }
 }
 
 blockquote {
-  border-left: 10px solid #262626;
-  background-color: #333333;
-  color: white;
-  margin: 1.5em 10px;
-  padding: .5em 10px;
+  margin: 1.5em 0.625em;
+  border-left: 10px solid $very-dark-gray-black;
+  background-color: $very-dark-gray;
+  padding: 0.5em 0.625em;
+
+  color: #ffffff;
 
   @media print {
-    background-color: #fff;
-    color: #000;
-    border-left: 2px solid #000;
+    border-left: 2px solid #000000;
+    background-color: #ffffff;
+    color: #000000;
   }
 }
 
 hr {
+  border: 0;
+  background-color: $very-dark-gray-black;
   height: 2px;
-  background-color: #262626;
-  border: none;
 }
 
 table {
   margin: 0 auto;
   text-align: center;
-  color: white;
+  color: #ffffff;
 
   thead {
-    border-bottom: 1px solid #f2783c;
+    border-bottom: 1px solid $bright-orange;
   }
 
   th {
-    background-color: #262626;
-    padding: 10px 10px;
-    font-weight: 300;
+    background-color: $very-dark-gray-black;
+    padding: 10px;
+
     font-size: 1.4em;
+    font-weight: 300;
   }
 
   tbody {
-    background-color: #333333;
+    background-color: $very-dark-gray;
   }
 
   td {
-    padding: 10px 10px;
-    border-bottom: 1px solid #f2783c;
+    border-bottom: 1px solid $bright-orange;
+    padding: 10px;
   }
 }
