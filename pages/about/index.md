@@ -17,7 +17,7 @@ I spend too much of my time playing video games[^video-games] but when I'm not p
 
 If you want to get in touch and say hi, [email me](mailto:alex@geographyas.info). I'm also on [Twitter](https://twitter.com/alexjohnj/) but I'm not very active on it. If you want to contribute something, check out the [contributing page][contributing-link] for the relevant details. 
 
-[contributing-link]: {{ site.baseurl }}pages/contributing/
+[contributing-link]: {{ site.baseurl }}/pages/contributing/
 
 ## Geography A2
 
