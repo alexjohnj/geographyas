@@ -1,3 +1,5 @@
+# Modified to match basic shell globs in the sitemap's excluded files
+#
 # Sitemap.xml Generator is a Jekyll plugin that generates a sitemap.xml file by 
 # traversing all of the available posts and pages.
 # 
@@ -120,7 +122,7 @@ module Jekyll
     def fill_posts(site, urlset)
       last_modified_date = nil
       site.posts.each do |post|
-        if !excluded?(site, post.name)
+        if !excluded?(site, post.path_to_source)
           url = fill_url(site, post)
           urlset.add_element(url)
         end
@@ -261,8 +263,15 @@ module Jekyll
     # Is the page or post listed as something we want to exclude?
     #
     # Returns boolean
+    #
+    # I've modified this to match some basic shell globs as well.
     def excluded?(site, name)
-      @config['exclude'].include? name
+      @config['exclude'].each do |glob|
+        if File.fnmatch(glob, name)
+          return true
+        end
+      end
+      return false
     end
 
     def posts_included?(site, name)
