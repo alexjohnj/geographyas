@@ -3,16 +3,19 @@ layout: default
 ---
 
 <div class="content-margin-wrap">
-	<h1>Something's Broken :(</h1>
-	<h2>Sorry about that. Try searching for what you're looking for:</h2>
-
-	<form id="error-page-search" method="get" id="search" action="https://duckduckgo.com">
-		<input type="hidden" name="sites" value="geographyas.info">
-		<input type="hidden" name="ka" value="h">
-		<input type="hidden" name="kj" value="#333333">
-		<input type="hidden" name="kx" value="#f2783c">
-		<input type="hidden" name="k9" value="#f2783c">
-		<input type="hidden" name="kaa" value="#f2783c">
-		<input id="error-page-search-box" type="search" name="q" maxlength="255" placeholder="Search" autofocus="autofocus">
-	</form>
+	<section id="content-404">
+		<header>
+			<h1>Page Not Found (404)</h1>
+			<h2>Try a Search:</h2>
+		</header>	
+		<form method="get" id="search" action="https://duckduckgo.com">
+			<input type="hidden" name="sites" value="geographyas.info">
+			<input type="hidden" name="ka" value="h">
+			<input type="hidden" name="kj" value="#333333">
+			<input type="hidden" name="kx" value="#f2783c">
+			<input type="hidden" name="k9" value="#f2783c">
+			<input type="hidden" name="kaa" value="#f2783c">
+			<input id="error-page-search-box" type="search" name="q" maxlength="255" placeholder="Search" autofocus="autofocus">
+		</form>
+	</section>
 </div>

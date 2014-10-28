@@ -1,25 +1,40 @@
-#error-page-search {
-  margin: 0 auto;
+#content-404 {
+  text-align: center;
 
-  width: 95%;
+  > header {
+    padding-bottom: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
 
-  #error-page-search-box {
-    outline: none;
+  h2 {
+    margin: 0;
+  }
+}
 
-    border: 2px solid $site-bg-color;
-    border-radius: 2px;
-    padding: 5px;
+#error-page-search-box {
+  transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); // Linear
 
-    height: 120px;
-    width: 100%;
+  outline: none;
+  border: 0;
+  border-bottom: 2px solid $site-bg-color;
+  border-radius: 0; // Explicit radius needed for iOS.
 
+  padding: 0;
+
+  width: 100%;
+
+  font-size: 2.5em;
+  -webkit-appearance: none;
+
+  @media (min-width: 56.25em) {
+    line-height: 1.5;
     font-size: 3em;
+  }
 
-    transition: all 200ms cubic-bezier(0.250, 0.250, 0.750, 0.750); // Linear
-    -webkit-appearance: none;
-
-    &:focus {
-      border: 2px solid $bright-orange;
-    }
+  &:focus {
+    border-bottom: 2px solid $bright-orange;
   }
 }
