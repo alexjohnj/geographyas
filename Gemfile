@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '~>2.4.0'
+gem 'jekyll', '~>2.5.0'
 gem 'sass', '~>3.3.14'
 gem 'coffee-script', '~>2.3.0'
 gem 'rdiscount', '~>2.1.7'
