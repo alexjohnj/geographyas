@@ -8,8 +8,13 @@ It's necessary to look at the differences in healthcare [globally](/health-issue
 
 A quick bit of background information. [The Wirral][googleMapsWirral] is located in the north west of England. It's a peninsula and is separated from the city of Liverpool by the River Mersey and from Wales by the River Dee (or, more specifically, their estuaries). To the north of the Wirral is the Irish Sea. The Wirral itself has several large(ish) towns including Caldy, Hoylake & West Kirby in the west and Wallasey & Birkenhead in the north and east respectively.
 
-<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=The+Wirral&amp;aq=&amp;sll=53.426351,-3.066695&amp;sspn=0.000839,0.001864&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Wirral,+United+Kingdom&amp;ll=53.367762,-3.045959&amp;spn=0.286794,0.583649&amp;z=10&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=The+Wirral&amp;aq=&amp;sll=53.426351,-3.066695&amp;sspn=0.000839,0.001864&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=Wirral,+United+Kingdom&amp;ll=53.367762,-3.045959&amp;spn=0.286794,0.583649&amp;z=10" style="text-align:left">The Wirral</a></small>
-<noscript>No JavaScript? That's a shame, there would be a map of the Wirral here if you had it enabled.</noscript>
+<figure class="float-right-fig">
+    <img src="{{ site.baseurl }}/images/health-issues/regional-differences-in-health-care/wirral-locator-map.svg" alt="Locator map of the Wirral.">
+    <figcaption>
+        <p>The location of the Wirral within the UK.</p>
+        <p>Map by <a href="http://commons.wikimedia.org/wiki/User:Nilfanion">Nilfanion</a>. Licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license. Contains Ordnance Survey data &copy; Crown copyright and database right. </p>
+    </figcaption>
+</figure>
 
 ## Healthcare in The Wirral
 
