@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem 'jekyll', '~>2.5.0'
-gem 'sass', '~>3.3.14'
+gem 'sass', '~>3.4.0'
 gem 'coffee-script', '~>2.3.0'
 gem 'rdiscount', '~>2.1.7'
 gem 'jekyll-assets', '~>0.9.0'
