@@ -84,3 +84,28 @@
     width: 100%;
   }
 }
+
+%float-fig {
+  margin: 1em 0;
+  width: 40%;
+
+  @media handheld, only screen and (max-width: 768px) {
+    float: none;
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.float-left-fig {
+  @extend %float-fig;
+
+  float: left;
+  margin-right: 1.5em;
+}
+
+.float-right-fig {
+  @extend %float-fig;
+
+  float: right;
+  margin-left: 1.5em;
+}
