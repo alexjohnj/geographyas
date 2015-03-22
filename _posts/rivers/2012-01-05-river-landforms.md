@@ -54,7 +54,7 @@ A sinuosity of 1 means that the channel is perfectly straight. A sinuosity great
 
 Meanders develop when alternating riffles & pools form along a river channel. A riffle is a a shallow section of a channel while a pool is a deep section. These riffles and pools develop at equal points along the river channel with each pool being about 5× the length of the channel. 
 
-In a pool, the channel is more efficient while at a riffle, the channel is less efficient. This causes the flow of the river to become irregular and the maximum flow is concentrated on one side of the river. This increases erosion on one side of the river and increases deposition on the other causing the river’s channel to appear to bend. Erosion is greatest on the outside bend and deposition is greatest on the inside bend.
+In a pool, the channel is more efficient, while at a riffle, the channel is less efficient. This causes the flow of the river to become irregular and the maximum flow is concentrated on one side of the river. This increases erosion on one side of the river and increases deposition on the other causing the river’s channel to appear to bend. Erosion is greatest on the outside bend and deposition is greatest on the inside bend.
 
 ![][riffles-and-pools-diagram]
 
