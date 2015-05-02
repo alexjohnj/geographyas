@@ -12,7 +12,7 @@ A quick bit of background information. [The Wirral][googleMapsWirral] is located
     <img src="{{ site.baseurl }}/images/health-issues/regional-differences-in-health-care/wirral-locator-map.svg" alt="Locator map of the Wirral.">
     <figcaption>
         <p>The location of the Wirral within the UK.</p>
-        <p>Map by <a href="http://commons.wikimedia.org/wiki/User:Nilfanion">Nilfanion</a>. Licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license. Contains Ordnance Survey data &copy; Crown copyright and database right. </p>
+        <p>Map adapted from <a href="http://commons.wikimedia.org/wiki/User:Nilfanion">Nilfanion</a>. Licensed under the Creative Commons Attribution-Share Alike 3.0 Unported license. Contains Ordnance Survey data &copy; Crown copyright and database right. </p>
     </figcaption>
 </figure>
 
