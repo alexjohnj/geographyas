@@ -33,6 +33,6 @@
     </div>
     {% endif %}
     {% assign sorted_site_categories = site.categories | sort %}
-    <nav id="category-navigation"><div class="content-margin-wrap"><ul>{% for category in sorted_site_categories %}{% if page.categories[0] == category[0] %}<li id="{{ category[0] }}-segment" class="unit-segment selected-category"><a href="{{ site.baseurl }}/{{ category[0] }}/">{{ category[0] | join "/"  | replace: "-", " " | titlecase }}</a></li>{% else %}<li id="{{ category[0] }}-segment" class="unit-segment"><a href="{{ site.baseurl }}/{{ category[0] }}/">{{ category[0] | join "/"  | replace: "-", " " | titlecase }}</a></li>{% endif %}{% endfor %}</ul></div></nav>
+    <nav id="category-navigation"><div class="content-margin-wrap"><ul>{% for category in sorted_site_categories %}{% if page.categories[0] == category[0] %}<li id="{{ category[0] }}-segment" class="unit-segment selected-category"><a href="{{ site.baseurl }}/#{{ category[0] }}-topic">{{ category[0] | join "/"  | replace: "-", " " | titlecase }}</a></li>{% else %}<li id="{{ category[0] }}-segment" class="unit-segment"><a href="{{ site.baseurl }}/#{{ category[0] }}-topic">{{ category[0] | join "/"  | replace: "-", " " | titlecase }}</a></li>{% endif %}{% endfor %}</ul></div></nav>
   </div>
 </header>

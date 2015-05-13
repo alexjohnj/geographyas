@@ -11,6 +11,14 @@ homepage: true
 
 	{% include crappy-browser-warning.html %}
 
+  <noscript>
+  <style>
+    .unit-section.unit-section.disabled {
+      display: block; 
+    }
+  </style>
+  </noscript>
+
 	{% for category in site.categories %} 
 	<section id="{{ category[0] }}-segment-box" class="unit-section disabled">
 	    <h1 id="{{ category[0] }}-topic">{{ category[0] | join: "/" |  replace:"-", " " | titlecase }} <a href="{{ site.baseurl }}/{{ category[0] }}/">&infin;</a></h1>

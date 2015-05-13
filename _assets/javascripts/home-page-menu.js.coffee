@@ -43,6 +43,13 @@ segmentControlClicked = (e) ->
   document.getElementById("menu-instructions").style.display = "none"
   document.getElementById("mobile-menu-instructions").style.display = "none"
 
+  # Append the unit identifier to the URL
+  unitIdentifier = "#" + selectedUnitSection.id.split('-segment-box', 1)[0]
+  if (history.pushState)
+    history.pushState(null, null, unitIdentifier)
+  else
+    location.hash = unitIdentifier
+  
 menuInitialisation = ->
   unitControls = document.querySelectorAll 'li.unit-segment a'
   for element in unitControls
@@ -51,10 +58,18 @@ menuInitialisation = ->
     else
       element.attachEvent 'click', segmentControlClicked, false
 
-  # Determine if the hamburger menu is collapsed and if so, expand it
-  hamburger = document.querySelector('div.collapsible')
-  if hamburger.classList.contains('collapsed')
-    hamburger.classList.toggle('collapsed')
-    hamburger.classList.toggle('expanded')
+  if location.hash
+    # Open the menu on the desired unit in the most hackish way possible.
+    location.hash = location.hash.split('-topic', 1)[0]
+    fakeSelectedSegmentID = location.hash + "-segment"
+    fakeTargetElement = document.querySelector(fakeSelectedSegmentID).firstChild
+    e = {target: fakeTargetElement} # Forgive me
+    segmentControlClicked(e)
+  else
+    # Determine if the hamburger menu is collapsed and if so, expand it
+    hamburger = document.querySelector('div.collapsible')
+    if hamburger.classList.contains('collapsed')
+      hamburger.classList.toggle('collapsed')
+      hamburger.classList.toggle('expanded')
 
 menuInitialisation()
