@@ -1,75 +1,57 @@
 #= require vendor/classList
 
-# This method determines if an element is in the browser's viewport along the
-# y-axis.
-# It doesn't determine if the element is in the browser's viewport along the
-# x-axis.
-# It also doesn't work with IE 8
-elementIsOnScreen = (element) ->
-  viewportHeight = Math.max(document.documentElement.clientHeight,
-                            window.innerHeight || 0)
-  correctedOffset = element.getBoundingClientRect().top - window.pageYOffset
-  return !(correctedOffset > viewportHeight || correctedOffset < 0)
+class MenuController
+  constructor: (unitSections, unitLinkSegments) ->
+    @unitSections = unitSections
+    @unitLinkSegments = unitLinkSegments
+    element.addEventListener("click", @segmentControlClicked, false) for element in @unitLinkSegments
+    if location.hash # Handle incoming links with a topic specified
+      location.hash = location.hash.replace("-topic", '')
+      @hashDidChange()
+    else # Enable menu visibility etc.
+      hamburger = document.querySelector('div.collapsible')
+      if hamburger.classList.contains('collapsed')
+        hamburger.classList.toggle('collapsed')
+        hamburger.classList.toggle('expanded')
+      @storedHash = location.hash
+    window.onhashchange = @hashDidChange
 
-segmentControlClicked = (e) ->
-  if e.preventDefault
-    e.preventDefault()
-  else
-    e.returnValue = false
-  
-  unitSections = document.querySelectorAll '.unit-section'
-  unitLinkSegments = document.querySelectorAll 'li.unit-segment'
-  selectedSegment = e.target.parentNode ? e.srcElement.parentNode # Fallback for IE8
-  selectedUnitSection = document.querySelector "##{selectedSegment.id}-box"
+  segmentControlClicked: (e) =>
+   e.preventDefault()
+   topicIdentifier = e.currentTarget.id.replace("-segment", '')
+   @storedHash = '#' + topicIdentifier
+   location.hash = @storedHash
+   @updateInterface(topicIdentifier)
 
-  # Remove styling from previous selection
-  for segment in unitLinkSegments
-    segment.classList.remove 'selected-category'
+  hashDidChange: =>
+    return if location.hash == @storedHash
+   
+    @storedHash = location.hash
+    topicIdentifier = @storedHash.replace('#', '')
+    @updateInterface(topicIdentifier)
 
-  for unitSection in unitSections
-    unitSection.classList.add 'disabled'
+  updateInterface: (topicIdentifier) =>
+    # Find the segment and section for the selected topic 
+    selectedSegment = null
+    selectedSection = null
 
-  # Apply styling to new selection
-  selectedSegment.classList.toggle 'selected-category'
-  selectedUnitSection.classList.toggle 'disabled'
+    for segment in @unitLinkSegments
+      segment.classList.remove("selected-category")
+      selectedSegment = segment if segment.id == "#{topicIdentifier}-segment"
+    for section in @unitSections
+      section.classList.add("disabled")
+      selectedSection = section if section.id == "#{topicIdentifier}-segment-box"
 
-  # Close the hamburger menu if it's open
-  hamburger = document.querySelector('div.collapsible')
-  if hamburger.classList.contains('expanded')
-    hamburger.classList.toggle('expanded')
-    hamburger.classList.toggle('collapsed')
+    selectedSegment.classList.toggle("selected-category")
+    selectedSection.classList.toggle("disabled")
 
-  # Get rid of the menu instructions if they're still around
-  document.getElementById("menu-instructions").style.display = "none"
-  document.getElementById("mobile-menu-instructions").style.display = "none"
-
-  # Append the unit identifier to the URL
-  unitIdentifier = "#" + selectedUnitSection.id.split('-segment-box', 1)[0]
-  if (history.pushState)
-    history.pushState(null, null, unitIdentifier)
-  else
-    location.hash = unitIdentifier
-  
-menuInitialisation = ->
-  unitControls = document.querySelectorAll 'li.unit-segment a'
-  for element in unitControls
-    if element.addEventListener
-      element.addEventListener 'click', segmentControlClicked
-    else
-      element.attachEvent 'click', segmentControlClicked, false
-
-  if location.hash
-    # Open the menu on the desired unit in the most hackish way possible.
-    location.hash = location.hash.split('-topic', 1)[0]
-    fakeSelectedSegmentID = location.hash + "-segment"
-    fakeTargetElement = document.querySelector(fakeSelectedSegmentID).firstChild
-    e = {target: fakeTargetElement} # Forgive me
-    segmentControlClicked(e)
-  else
-    # Determine if the hamburger menu is collapsed and if so, expand it
+    # Close the hamburger menu if open
     hamburger = document.querySelector('div.collapsible')
-    if hamburger.classList.contains('collapsed')
-      hamburger.classList.toggle('collapsed')
+    if hamburger.classList.contains('expanded')
       hamburger.classList.toggle('expanded')
+      hamburger.classList.toggle('collapsed')
 
-menuInitialisation()
+    document.getElementById("menu-instructions").style.display = "none"
+    document.getElementById("mobile-menu-instructions").style.display = "none"
+
+this.menuController = new MenuController(document.querySelectorAll('.unit-section'), document.querySelectorAll('li.unit-segment'))
