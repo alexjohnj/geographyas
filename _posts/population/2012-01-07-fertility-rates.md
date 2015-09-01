@@ -44,7 +44,7 @@ category: population
 
 #### Religion
 
-- Islam and the Roman Catholic church oppose the use of birth control although this influence may lesson with economic development.
+- Islam and the Roman Catholic church oppose the use of birth control although this influence may lessen with economic development.
 - In many parts of the world religion/tradition demands high rates of reproduction.
 
 #### The Status of Women
@@ -84,7 +84,7 @@ category: population
 
 #### Infant Mortality Rates
 
-- High birth rates to compensate a high infant mortality rate e.g. Nigeria with a birth rate of 51.6.
+- High birth rates to compensate a high infant mortality rate e.g. Nigeria with a birth rate of 5.16.
 - Reduced infant mortality rate reduces the need for lots of children for security. e.g. Japan's birth rate of 7.64 with an infant mortality rate of 2.79.
 
 #### Age Structures
