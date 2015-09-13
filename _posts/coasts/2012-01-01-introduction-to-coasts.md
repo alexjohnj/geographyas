@@ -1,5 +1,5 @@
 ---
-title: An Introduction To Coasts
+title: An Introduction to Coasts
 layout: article
 category: coasts
 ---

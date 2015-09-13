@@ -1,5 +1,5 @@
 ---
-title: France, A Pro Natalist Country
+title: France, a Pro Natalist Country
 layout: article
 category: population
 ---

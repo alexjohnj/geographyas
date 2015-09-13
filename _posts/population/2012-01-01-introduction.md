@@ -1,5 +1,5 @@
 ---
-title: Introduction To Population
+title: Introduction to Population
 layout: article
 category: population
 ---

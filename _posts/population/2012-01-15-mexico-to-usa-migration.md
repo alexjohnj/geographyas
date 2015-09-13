@@ -1,5 +1,5 @@
 ---
-title: Mexico To USA Migration
+title: Mexico to USA Migration
 layout: article
 category: population
 ---

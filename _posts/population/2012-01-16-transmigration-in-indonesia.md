@@ -1,5 +1,5 @@
 ---
-title: Transmigration In Indonesia
+title: Transmigration in Indonesia
 layout: article
 category: population
 ---

@@ -1,5 +1,5 @@
 ---
-title: Factors Which Effect The World's Population
+title: Factors Which Effect the World's Population
 layout: article
 category: population
 ---

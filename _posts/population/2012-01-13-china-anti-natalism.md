@@ -1,5 +1,5 @@
 ---
-title: China, An Anti Natalist Country
+title: China, an Anti Natalist Country 
 layout: article
 category: population
 ---

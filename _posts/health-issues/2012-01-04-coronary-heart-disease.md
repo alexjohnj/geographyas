@@ -1,5 +1,5 @@
 ---
-title: "A Disease Of Affluence: Coronary Heart Disease"
+title: "A Disease of Affluence: Coronary Heart Disease"
 layout: article
 category: health-issues
 ---
