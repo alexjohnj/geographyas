@@ -112,6 +112,14 @@ a {
   }
 }
 
+// Disable borders on footnote links
+sup > a {
+  border: 0;
+  margin-left: 0.125em;
+
+  text-decoration: underline;
+}
+
 ol.topic-list {
   margin-left: 0.83em;
 
