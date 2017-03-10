@@ -1,9 +1,15 @@
-source "https://rubygems.org"
+source "https://rubygems.org" do
 
-gem 'jekyll', '~>3.4.0'
-gem 'sass', '~>3.4.0'
-gem 'coffee-script', '~>2.4.0'
-gem 'rdiscount', '~>2.2.0.1'
-gem 'jekyll-assets', '~>2.2.8'
-gem 'uglifier', '~>3.1.6'
-gem 'autoprefixer-rails', '~>6.7.6'
+  # Jekyll and plugins
+  gem 'jekyll', '~>3.4.0'
+  gem 'jekyll-assets', '~>2.2.8'
+
+  # Asset pipleline
+  gem 'autoprefixer-rails', '~>6.7.6'
+  gem 'uglifier', '~>3.1.6'
+
+  # Language stuff
+  gem 'coffee-script', '~>2.4.0'
+  gem 'rdiscount', '~>2.2.0.1'
+  gem 'sass', '~>3.4.0'
+end
