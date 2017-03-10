@@ -27,6 +27,10 @@ markdown: rdiscount
 category_dir: /
 category_title_prefix: ""
 
+gems:
+  - jekyll-sitemap
+  - jekyll-last-modified-at
+
 rdiscount:
   extensions:
     - footnotes
