@@ -2,12 +2,12 @@
 #
 # Version 2.0, Usage:
 # _deploy.sh $arg
-# $arg can be blank or `remote` which deploys the site 
+# $arg can be blank or `remote` which deploys the site
 # MIT License
 
 function build_site
   bundle exec jekyll build
-  
+
   htmlcompressor -r -o _site _site
 
   find _site -type f -name '*.html' -exec gzip -9k '{}' \;
@@ -17,6 +17,9 @@ function build_site
 
   chmod -R 755 _site/
 end
+
+# Set for jekyll-assets plugin
+set -x JEKYLL_ENV "production"
 
 switch (echo $argv[1])
   case "local"

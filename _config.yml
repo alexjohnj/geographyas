@@ -30,6 +30,7 @@ category_title_prefix: ""
 gems:
   - jekyll-sitemap
   - jekyll-last-modified-at
+  - jekyll-assets
 
 rdiscount:
   extensions:
@@ -38,12 +39,12 @@ rdiscount:
     - autolink
     - generate_toc
 
-
 assets:
-    css_compressor: sass
-    js_compressor: uglifier
     gzip: false
-
+    autoprefixer:
+      browsers:
+        - "last 2 versions"
+        - "IE > 9"
 
 sitemap:
   exclude:
