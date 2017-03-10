@@ -7,22 +7,22 @@ author: Alex Jackson
 twitter: alexjohnj
 github: alexjohnj
 
-permalink:   /:categories/:title/
+permalink: /:categories/:title/
 
-safe:        false
+safe: false
 port: 4000
-baseurl:    ""
+baseurl: ""
 
-source:      .
+source: .
 destination: ./_site
-plugins:     ./_plugins
+plugins_dir: ./_plugins
 
 exclude: [sass]
 
-future:      true
-lsi:         false
-highlighter:    null
-markdown:    rdiscount
+future: true
+lsi: false
+highlighter: null
+markdown: rdiscount
 
 category_dir: /
 category_title_prefix: ""
@@ -34,10 +34,12 @@ rdiscount:
     - autolink
     - generate_toc
 
+
 assets:
     css_compressor: sass
     js_compressor: uglifier
     gzip: false
+
 
 sitemap:
   exclude:
