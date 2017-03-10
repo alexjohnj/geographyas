@@ -2,31 +2,31 @@
 #
 # Version 2.0, Usage:
 # _deploy.sh $arg
-# $arg can be blank or `remote` which deploys the site
+# $arg can be `local` or `remote` which deploys the site
 # MIT License
 
-function build_site
-  bundle exec jekyll build
-
-  htmlcompressor -r -o _site _site
-
-  find _site -type f -name '*.html' -exec gzip -9k '{}' \;
-  find _site -type f -name '*.css' -exec gzip -9k '{}' \;
-  find _site -type f -name '*.js' -exec gzip -9k '{}' \;
-  find _site -type f -name '*.svg' -exec gzip -9k '{}' \;
-
-  chmod -R 755 _site/
+if not test $argv[1] = "local" -o $argv[1] = "remote"
+  printf "USAGE: _deploy.sh [LOCAL/REMOTE]\n"
+  exit 1
 end
 
-# Set for jekyll-assets plugin
+# Production environment flag for jekyll-assets
 set -x JEKYLL_ENV "production"
 
-switch (echo $argv[1])
-  case "local"
-    build_site
-  case "remote"
-    build_site
-    rsync -avz --delete-after _site/ alex@archer:/usr/local/www/geographyas.info/
-  case '*'
-    printf "\033[31mUnknown argument. Use either `local` or `remote`.\033[0m\n"
+printf "Building site...\n"
+bundle exec jekyll build --quiet
+
+# Compress build directory
+printf "Minimising HTML files...\n"
+htmlcompressor -r -o "./_site" "./_site"
+printf "Compressing HTML and SVG files...\n"
+find "./_site" -type f -name '*.html' -o -name '*.svg' -exec gzip -9k '{}' \;
+
+# Update site permissions
+printf "Fixing site permissions...\n"
+chmod -R 755 "_site/"
+
+if test $argv[1] = "remote"
+  printf "Pushing to server...\n"
+  rsync -avzq --delete-after "./_site/" alex@archer:"/usr/local/www/geographyas.info/"
 end
