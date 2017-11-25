@@ -1,8 +1,5 @@
 <header id="article-header">
   <h1>{{ page.title | xml_escape }}</h1>
-  {% if page.author %}
-  <h2>By {{ page.author }}</h2>
-  {% else %}
-  <h2>By {{ site.author }}</h2>
-  {% endif %}
+  <p>By {{ if page.author }} {{ page.author }} {{ else }} {{ site.author }} {{ endif }}</p>
+  <p>Last updated on <time datetime="{{ page.last_modified_at | date_to_xmlschema }}">{{ page.last_modified_at | date: "%B %e, %Y" }}</time></p>
 </header>
