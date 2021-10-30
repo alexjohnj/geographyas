@@ -27,6 +27,10 @@ markdown: rdiscount
 category_dir: /
 category_title_prefix: ""
 
+hidden_categories:
+  - health-issues
+  - population
+
 plugins:
   - jekyll-sitemap
   - jekyll-last-modified-at

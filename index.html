@@ -5,25 +5,27 @@ script: home-page-menu
 homepage: true
 ---
 <div class="content-margin-wrap">
-	<div id="menu-instructions">
-		<p>&uarr; Select a unit &uarr;</p>
-	</div>
+  <div id="menu-instructions">
+    <p>&uarr; Select a unit &uarr;</p>
+  </div>
 
-	{% include crappy-browser-warning.html %}
+  {% include crappy-browser-warning.html %}
 
   <noscript>
-  <style>
-    .unit-section.unit-section.disabled {
-      display: block; 
-    }
-  </style>
+    <style>
+     .unit-section.unit-section.disabled {
+       display: block;
+     }
+    </style>
   </noscript>
 
-	{% for category in site.categories %} 
-	<section id="{{ category[0] }}-segment-box" class="unit-section disabled">
-	    <h1 id="{{ category[0] }}-topic">{{ category[0] | join: "/" |  replace:"-", " " | titlecase }}</h1>
-	      {% assign pages_list = category[1] %}  
-	      {% include helpers/pages_list.html %}
-	</section>
-	{% endfor %}
+  {% for category in site.categories %}
+  {% unless site.hidden_categories contains category[0] %}
+  <section id="{{ category[0] }}-segment-box" class="unit-section disabled">
+    <h1 id="{{ category[0] }}-topic">{{ category[0] | join: "/" |  replace:"-", " " | titlecase }}</h1>
+    {% assign pages_list = category[1] %}
+    {% include helpers/pages_list.html %}
+  </section>
+  {% endunless %}
+  {% endfor %}
 </div>
