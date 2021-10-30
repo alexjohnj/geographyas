@@ -6,7 +6,19 @@ layout: default
 	{% include article-header.html %}
 	<div class="content-margin-wrap">
     {% include crappy-browser-warning.html %}
-		{{ content }}
+      {% if site.hidden_categories contains page.categories.first %}
+      <div class="crappy-browser-warning-box">
+        <p style="text-align: center; font-size: 2em;">
+          ⚠️ ⚠️ ⚠️
+        </p>
+        <p>The content on this page is <i>extremely</i> old. Much has changed in
+          the world since this article was written. While many of the concepts
+          will still be relevant, figures and case studies are likely to be
+          outdated at this point.</p>
+      </div>
+      {% endif %}
+
+	  {{ content }}
 	</div>
 
 	{% include article-footer.html %}
