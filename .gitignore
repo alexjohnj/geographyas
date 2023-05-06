@@ -87,3 +87,5 @@ Temporary Items
 *.css.map
 
 # End of https://www.gitignore.io/api/osx,emacs,jekyll,sass
+
+node_modules/
