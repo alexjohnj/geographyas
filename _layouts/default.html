@@ -1,25 +1,27 @@
+<!----*- engine:liquid -*--->
+
 <!DOCTYPE html>
-<html>
-  {% include head.html %}
-  <body>
-    {% include site-header.html %}
+<html lang="en">
+    {% include head.html %}
+    <body>
+        {% include site-header.html %}
 
-    <div id="content">
-          {{ content }}
-    </div>
+        <div id="content">
+            {{ content }}
+        </div>
 
-    {% include site-footer.html %}
+        {% include site-footer.html %}
 
-    <!--Page utility scripts-->
-    {% javascript page-utils %}
+        <!--Page utility scripts-->
+        {% javascript page-utils %}
 
-    {% if page.script %}
-    <!--Page specific scripts-->
-    {{ page.script | javascript }}
-    {% endif %}
+        {% if page.script %}
+            <!--Page specific scripts-->
+            {{ page.script | javascript }}
+        {% endif %}
 
-    {% if page.math %}
-    <script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    {% endif %}
-  </body>
+        {% if page.math %}
+            <script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        {% endif %}
+    </body>
 </html>
