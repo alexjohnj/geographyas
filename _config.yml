@@ -17,7 +17,15 @@ source: .
 destination: ./_site
 plugins_dir: ./_plugins
 
-exclude: [sass]
+exclude:
+  - sass
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - Makefile
+  - README.md
 
 future: true
 lsi: false
