@@ -1,30 +1,31 @@
+<!----*- engine:liquid -*--->
 <head>
-  <title>{{ page.title | xml_escape }}</title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="google-site-verification" content="_I9Hdwipe9pFPZoaTvzh0ZimUbBNXUyMmG4NeaOJTbY" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  {% if page.author %}
-  <meta name="author" content="{{ page.author }}">
-  {% else %}
-  <meta name="author" content="{{ site.author }}">
-  {% endif %}
+    <title>{{ page.title | xml_escape }}</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="google-site-verification" content="_I9Hdwipe9pFPZoaTvzh0ZimUbBNXUyMmG4NeaOJTbY" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if page.author %}
+        <meta name="author" content="{{ page.author }}">
+    {% else %}
+        <meta name="author" content="{{ site.author }}">
+    {% endif %}
 
-  {% if page.description %}
-  <meta name="description" content="{{ page.description }}">
-  {% endif %}
+    {% if page.description %}
+        <meta name="description" content="{{ page.description }}">
+    {% endif %}
 
-  {% stylesheet main %}
-  <link href='//fonts.googleapis.com/css?family=Lato:300,400,700,400italic' rel='stylesheet' type='text/css'>
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.production_url }}">
+    {% stylesheet main %}
 
-  <!--Load html5shiv for old IE versions. In my (limited) testing, this MUST be loaded before any other script-->
-  <!--[if lt IE 9]>
-    {% javascript vendor/html5shiv %}
-  <![endif]-->
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.production_url }}">
 
-  <!--Disable the mobile instructions for IE 8-->
-  <!--[if lt IE 9]>
-    <style>#mobile-menu-instructions{display: none;}</style>
-  <![endif]-->
+    <!--Load html5shiv for old IE versions. In my (limited) testing, this MUST be loaded before any other script-->
+    <!--[if lt IE 9]>
+        {% javascript vendor/html5shiv %}
+    <![endif]-->
+
+    <!--Disable the mobile instructions for IE 8-->
+    <!--[if lt IE 9]>
+        <style>#mobile-menu-instructions{display: none;}</style>
+    <![endif]-->
 </head>
