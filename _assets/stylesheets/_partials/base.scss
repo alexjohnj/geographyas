@@ -12,10 +12,10 @@ body {
 
   color: $very-dark-gray;
 
-  font-family: "Lato", "Helvetica Neue", "Arial", sans-serif;
+  font-family: $font-stack;
   font-size: 100%;
   font-weight: normal;
-  font-size-adjust: 0.5;
+  text-rendering: optimizeLegibility;
 
   @media print {
     color: #000000;

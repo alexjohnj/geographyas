@@ -1,4 +1,4 @@
-// Colours (from now on spelt colors) 
+// Colours (from now on spelt colors)
 $very-dark-gray-black: #262626; // Very dark gray (mostly black)
 $very-dark-gray: #333333; // Very dark gray
 
@@ -21,7 +21,15 @@ $text-highlight-color: $bright-orange;
 $warning-box-bg-color: $soft-red;
 
 // Font Appearance
-$font-stack: "Lato", "Helvetica Neue", "Arial", sans-serif;
+$font-stack: -apple-system,
+             BlinkMacSystemFont,
+             "Segoe UI",
+             "Noto Sans",
+             Helvetica,
+             Arial,
+             sans-serif,
+             "Apple Color Emoji",
+             "Segoe UI Emoji";
 
 // Font Colours
 $body-font-color: #333333;

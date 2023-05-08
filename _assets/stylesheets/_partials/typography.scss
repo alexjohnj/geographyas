@@ -1,14 +1,13 @@
 // Use this file to style any base typographic elements such as <h1> or <a> elements.
 // If the element is a child of another section of the site, style it in that section's file rather than in here.
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
   font-weight: bold;
-  font-size-adjust: 0.5;
 }
 
 // The typographic scale used here is a slightly modified version of this:
@@ -52,7 +51,7 @@ h3 {
     line-height: 1.25;
     font-size: 1.5em;
   }
-  
+
   @media (min-width: 56.25em) {
     line-height: 1.25;
     font-size: 1.75em;
@@ -88,7 +87,7 @@ a {
     border-color: #000000;
     color: #000000;
 
-    &:after { 
+    &:after {
       content: " [" attr(href) "] ";
     }
 
@@ -105,7 +104,7 @@ a {
       display: none; // Stops the ↵ symbol showing up
     }
 
-    &[rel]:after, 
+    &[rel]:after,
     &[rev]:after {
       content: none; // Stops link content from showing after footnote
     }
@@ -124,7 +123,7 @@ ol.topic-list {
   margin-left: 0.83em;
 
   li {
-    margin: 0.83em 0;    
+    margin: 0.83em 0;
     font-size: 1.5em;
     font-weight: 300;
   }
